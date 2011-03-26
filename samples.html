@@ -1,6 +1,6 @@
  <html>
  <head>
-    <title>Fantom Samples</title>
+    <title>Fantom5 Samples</title>
   
     <link href="samples.js" type="application/json" rel="exhibit/data" />
   
@@ -8,25 +8,110 @@
             type="text/javascript"></script>
 
     <style>
+       body {
+           margin: 1in;
+       }
+       table.sample {
+           border:     1px solid #ddd;
+           padding:    0.5em;
+       }
+       .description {
+           font-style: italic;
+           font-size:   80%;
+           color:  #AAA;
+       }
+       .label {
+           font-weight: bold;
+       }
+       .sample {
+           font-weight:  bold;
+       }
+       .type {
+           font-weight:  normal;
+           color:  #00F;
+       }
+       .organ {
+           font-style:  italic;
+           font-weight:  bold;
+           color:  #F00;
+       }
+       .system {
+           font-style:  italic;
+           font-weight:  normal;
+           color:  #080;
+       }
+       .species {
+           color:  #888;
+       }
+       .stage {
+           color:  #888;
+           font-weight:  normal;
+       }
     </style>
  </head> 
- <body>
-    <h1>Fantom Samples</h1>
+  <body>
+    <h1>Fantom5 Samples</h1>
     <table width="100%">
-        <tr valign="top">
-            <td ex:role="viewPanel">
-                <div ex:role="view"></div>
-            </td>
-            <td width="25%">
-              <div ex:role="facet" ex:facetClass="TextSearch"></div>
-                <div ex:role="facet" ex:expression=".type" ex:facetLabel="Cell Type"></div> 
-                <div ex:role="facet" ex:expression=".species" ex:facetLabel="Species"></div>
-                <!-- <div ex:role="facet" ex:expression=".cell_type" ex:facetLabel="Cell Type"></div> -->
-                <div ex:role="facet" ex:expression=".sample_type" ex:facetLabel="Sample Type"></div> 
-                <div ex:role="facet" ex:expression=".system" ex:facetLabel="System"></div>
-                <div ex:role="facet" ex:expression=".organ" ex:facetLabel="Organ"></div>
-            </td>
-        </tr>
+      <tr valign="top">
+        <td ex:role="viewPanel">
+          <div ex:role="view"></div>
+          <table ex:role="lens" class="sample">
+            <tr>
+              <td>
+                <span ex:content=".label" class="label"></span>
+              </td>
+              <td colspan="2">
+                <span ex:content=".description" class="description"></span>
+              </td>
+            </tr>
+            <tr>
+              <!-- <td><img ex:src-content=".imageURL" /></td> -->
+              <td>
+                <!-- <div ex:content=".label" class="name"></div> -->
+                <div ex:if-exists=".sample_type">
+                  <span ex:content=".sample_type" class="sample"></span>
+                </div>
+                <div ex:if-exists=".type">
+                  <span ex:content=".type" class="type"></span>
+                </div>
+              </td>
+              <td>
+                <div>
+                  <span ex:content=".system" class="system"></span> 
+                </div>
+                <div>
+                  <span ex:content=".organ" class="organ"></span>
+                </div>
+              </td>
+              <td>
+                <div>
+                  <span ex:content=".species" class="species"></span>
+                </div>
+                <div>
+                  <span ex:content=".stage" class="stage"></span>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <div ex:role="exhibit-view"
+            ex:viewClass="Exhibit.TabularView"
+            ex:columns=".label, .description, .type, .sample_type, .system, .organ, .species, .stage"
+            ex:columnLabels="label, description, type, sample type, system, organ, species, stage"
+            ex:columnFormats="list, list, list, list, list, list, list, list"
+            ex:sortColumn="1"
+            ex:sortAscending="false">
+          </div>
+        </td>
+        <td width="25%">
+          <div ex:role="facet" ex:facetClass="TextSearch"></div>
+          <div ex:role="facet" ex:expression=".type" ex:facetLabel="Cell Type"></div> 
+          <div ex:role="facet" ex:expression=".species" ex:facetLabel="Species"></div>
+          <div ex:role="facet" ex:expression=".stage" ex:facetLabel="Stage"></div>
+          <div ex:role="facet" ex:expression=".sample_type" ex:facetLabel="Sample Type"></div> 
+          <div ex:role="facet" ex:expression=".system" ex:facetLabel="System"></div>
+          <div ex:role="facet" ex:expression=".organ" ex:facetLabel="Organ"></div>
+        </td>
+      </tr>
     </table>
- </body>
+  </body>
  </html>

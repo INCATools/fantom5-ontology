@@ -49,7 +49,8 @@ allowed_path(S,C) :-        parentT(S,part_of,C).
 
 sample(S) :-
         class(S),
-        id_idspace(S,'FF').
+        id_idspace(S,'FF'),
+        \+ subclass(_,S).
 
 sample_type(S,C) :-
         sample(S),
@@ -65,11 +66,16 @@ catlist(L) :- findall(X,category(X),L).
 
 catsub('sample_type', X, subclass(X,'FF:0000102')).
 catsub('species',X, subclass(X,'FF:0000101')).
+catsub('stage',X, (X='FF:0000999';X='FF:0000998')).
 catsub('type',X, subclass(X,'CL:0000548')).
 catsub('system',X, subclass(X,'UBERON:0000467')).
 catsub('organ',X, entity_partition(X,major_organ)).
 
 catsub(C,S) :- catsub(C,S,G),G.
+
+sample_desc(S,D) :-
+        solutions(N,(subclass(S,P),entity_label(P,N)),Ns),
+        concat_atom(Ns,' & ',D).
 
 
 grid_row('','',L2) :- catlist(L),maplist(entity_label,L,L2).
@@ -93,11 +99,12 @@ grid_row2(ID,N,L) :- grid_row(c,ID,N,L).
 grid_row2(ID,N,L) :- grid_row(h,ID,N,L).
 
 
-grid_row2(h,'','',L2) :- topcatlist(L2).
-grid_row2(c,ID,N,VL) :-
+grid_row2(h,'ID','Name','Desc',L2) :- topcatlist(L2).
+grid_row2(c,ID,N,D,VL) :-
         topcatlist(CL),
         sample(ID),
         entity_label(ID,N),
+        sample_desc(ID,D),
         findall(V,(member(Cat,CL),
                    (   solutions(T,(sample_type(ID,T),catsub(Cat,T)),Ts),
                        debug(sample,'full set(~w)[~w] = ~w',[ID,Cat,Ts]),
@@ -111,9 +118,10 @@ sample_json(json([items=Items])) :-
         findall(Item,sample_json_item(Item),Items).
 
 sample_json_item(json([id=ID,
-                       label=Name
+                       label=Name,
+                       description=Desc
                       |TagVals])) :-
-        grid_row2(c,ID,Name,VL),
+        grid_row2(c,ID,Name,Desc,VL),
         topcatlist(CL),
         findall(C=Vs2,(nth1(Ix,CL,C),
                        nth1(Ix,VL,Vs),
