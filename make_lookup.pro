@@ -1,9 +1,11 @@
 :- use_module(bio(index_util)).
 :- use_module(bio(ontol_db)).
+:- use_module(bio(tabling)).
 
 
 ix :-
         %materialize_index_to_file(allowed_path(1,1),'cache.pro').
+        table_pred(nr/2),
         materialize_index(allowed_path(1,1)).
 
 
@@ -51,8 +53,7 @@ sample(S) :-
 
 sample_type(S,C) :-
         sample(S),
-        allowed_path(S,C),
-        \+ id_idspace(C,'FF').
+        allowed_path(S,C).
 
 category(X) :- subclass(X,'FF:0000102').
 category(X) :- subclass(X,'FF:0000101').
@@ -62,11 +63,14 @@ category(X) :- entity_partition(X,major_organ).
 
 catlist(L) :- findall(X,category(X),L).
 
-catsub('sample type', X) :- subclass(X,'FF:0000102').
-catsub('species',X) :- subclass(X,'FF:0000101').
-catsub('cell type',X) :- subclass(X,'CL:0000548').
-catsub('system',X) :- subclass(X,'UBERON:0000467').
-catsub('organ',X) :- entity_partition(X,major_organ).
+catsub('sample type', X, subclass(X,'FF:0000102')).
+catsub('species',X, subclass(X,'FF:0000101')).
+catsub('cell type',X, subclass(X,'CL:0000548')).
+catsub('system',X, subclass(X,'UBERON:0000467')).
+catsub('organ',X, entity_partition(X,major_organ)).
+
+catsub(C,S) :- catsub(C,S,G),G.
+
 
 grid_row('','',L2) :- catlist(L),maplist(entity_label,L,L2).
 grid_row(ID,N,VL) :-
@@ -81,8 +85,8 @@ grid_row(ID,N,VL) :-
                 VL).
 grid_row('','',L2) :- catlist(L),maplist(entity_label,L,L2).
 
-%topcatlist(L) :- setof(C,S^catsub(C,S),L).
-%topcatlist(L) :- findall(C,S^catsub(C,S),L).
+topcatlist(L) :- findall(C,catsub(C,_,_),L).
+
 
 
 grid_row2('','',L2) :- topcatlist(L2).
@@ -90,22 +94,24 @@ grid_row2(ID,N,VL) :-
         topcatlist(CL),
         sample(ID),
         entity_label(ID,N),
-         findall(V,(member(Cat,CL),
-                    (   solutions(T,(sample_type(ID,T),catsub(Cat,T)),Ts),
-                        nr(Ts,Ts2),
-                        maplist(ql,Ts2,Ts3),
-                        concat_atom(Ts3,' ',V))),
-                 VL).
+        findall(V,(member(Cat,CL),
+                   (   solutions(T,(sample_type(ID,T),catsub(Cat,T)),Ts),
+                       debug(sample,'full set(~w)[~w] = ~w',[ID,Cat,Ts]),
+                       nr(Ts,Ts2),
+                       maplist(ql,Ts2,Ts3),
+                       concat_atom(Ts3,' ',V))),
+                VL).
 grid_row2('','',L2) :- topcatlist(L2).
 
 ql(X,N2) :- entity_label(X,N),!,concat_atom(['"',N,'"'],N2).
 
+nr([],[]) :- !.
 nr(As,Bs) :-
-        setof(B,member(B,As),Bs).
+        setof(B,nr_member(As,B),Bs).
 nr_member(As,A) :-
         select(A,As,T),
         \+ ((member(A2,T),
-             parentT(A2,A))).
+             parent(A2,A))).
 
 
 /*
