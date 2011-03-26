@@ -20,6 +20,11 @@
            font-size:   80%;
            color:  #AAA;
        }
+       .direct_type {
+           font-style: italic;
+           font-size:   80%;
+           color:  #AAA;
+       }
        .label {
            font-weight: bold;
        }
@@ -61,7 +66,7 @@
                 <span ex:content=".label" class="label"></span>
               </td>
               <td colspan="2">
-                <span ex:content=".description" class="description"></span>
+                <span ex:content=".direct_type" class="direct_type"></span>
               </td>
             </tr>
             <tr>
@@ -104,12 +109,13 @@
         </td>
         <td width="25%">
           <div ex:role="facet" ex:facetClass="TextSearch"></div>
-          <div ex:role="facet" ex:expression=".type" ex:facetLabel="Cell Type"></div> 
+          <div ex:role="facet" ex:expression=".type" ex:facetLabel="Cell Category"></div> 
           <div ex:role="facet" ex:expression=".species" ex:facetLabel="Species"></div>
           <div ex:role="facet" ex:expression=".stage" ex:facetLabel="Stage"></div>
           <div ex:role="facet" ex:expression=".sample_type" ex:facetLabel="Sample Type"></div> 
           <div ex:role="facet" ex:expression=".system" ex:facetLabel="System"></div>
           <div ex:role="facet" ex:expression=".organ" ex:facetLabel="Organ"></div>
+          <div ex:role="facet" ex:expression=".direct_type" ex:facetLabel="Cell Type"></div> 
         </td>
       </tr>
     </table>

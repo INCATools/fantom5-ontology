@@ -93,40 +93,44 @@ grid_row('','',L2) :- catlist(L),maplist(entity_label,L,L2).
 
 topcatlist(L) :- findall(C,catsub(C,_,_),L).
 
-
 grid_row2(ID,N,L) :- grid_row(h,ID,N,L).
 grid_row2(ID,N,L) :- grid_row(c,ID,N,L).
 grid_row2(ID,N,L) :- grid_row(h,ID,N,L).
 
 
-grid_row2(h,'ID','Name','Desc',L2) :- topcatlist(L2).
-grid_row2(c,ID,N,D,VL) :-
+grid_row2(h,'ID','Name',L2) :- topcatlist(L2).
+grid_row2(c,ID,N,VL) :-
         topcatlist(CL),
         sample(ID),
         entity_label(ID,N),
-        sample_desc(ID,D),
         findall(V,(member(Cat,CL),
                    (   solutions(T,(sample_type(ID,T),catsub(Cat,T)),Ts),
                        debug(sample,'full set(~w)[~w] = ~w',[ID,Cat,Ts]),
                        nr(Ts,Ts2),
                        V=Ts2)),
-                %maplist(ql,Ts2,Ts3),
-                 %      concat_atom(Ts3,' ',V))),
                 VL).
+
 
 sample_json(json([items=Items])) :-
         findall(Item,sample_json_item(Item),Items).
 
 sample_json_item(json([id=ID,
                        label=Name,
-                       description=Desc
+                       direct_type=DTs
                       |TagVals])) :-
-        grid_row2(c,ID,Name,Desc,VL),
+        grid_row2(c,ID,Name,VL),
         topcatlist(CL),
         findall(C=Vs2,(nth1(Ix,CL,C),
                        nth1(Ix,VL,Vs),
                        maplist(entity_label,Vs,Vs2)),
-                TagVals).
+                TagVals),
+        findall(DTN,((subclass(ID,DT),
+                      entity_label(DT,DTN),
+                     \+catsub('sample_type',DT),
+                     \+catsub('species',DT),
+                     \+catsub('stage',DT))),
+                DTs).
+                
 
 write_json :-
         ensure_loaded(library(http/json)),
