@@ -116,6 +116,7 @@ sample_json(json([items=Items])) :-
 
 sample_json_item(json([id=ID,
                        label=Name,
+                       transitive_type=TTs,
                        direct_type=DTs
                       |TagVals])) :-
         grid_row2(c,ID,Name,VL),
@@ -129,7 +130,13 @@ sample_json_item(json([id=ID,
                      \+catsub('sample_type',DT),
                      \+catsub('species',DT),
                      \+catsub('stage',DT))),
-                DTs).
+                DTs),
+        findall(DTN,((sample_type(ID,DT),
+                      entity_label(DT,DTN),
+                     \+catsub('sample_type',DT),
+                     \+catsub('species',DT),
+                     \+catsub('stage',DT))),
+                TTs).
                 
 
 write_json :-
