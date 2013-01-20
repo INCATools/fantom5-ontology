@@ -8,14 +8,30 @@ BASE=FANTOM5v1
 %_nu.obo: %_m_u.obo
 	blip -i $*_no_u.obo -i $< io-convert -to obo > $@
 
+# ----------------------------------------
+# NLP ANNOTATION
+# ----------------------------------------
+
+R_ONT = -r uberonp -r cell -r disease
+
+%_labels.pro: %.obo
+	blip-findall -i $< "entity_label(A,B),id_idspace(A,'FF')" -select "s(A,B)" -write_prolog > $@
+
+%-ann.pro: %_labels.pro
+	obol -debug sim -ff pro^$< -u annotator $(R_ONT) -u ontol_db -u metadata_db -goal initialize_annotator findall "s(C,N),sentence_annotate(N,A)" -select "a(C,N,A)" -write_prolog > $@
+
+%-newlink.txt: %-ann.pro
+	blip-findall -debug foo -ff pro^$< -i $*.obo $(R_ONT) "a(X,N,L),member(m(ML,MN,_),L),member(C,ML),debug(foo,'tetsing ~w',[X-C]),\+parentRT(X,subclass,C)" -select "a(X,N,C,MN)" > $@
+
+# ----------------------------------------
+# REPORTS
+# ----------------------------------------
 %-grid.txt: %_nu.obo
 	blip-findall -i $< -consult make_lookup.pro grid_row/3 -grid -no_pred > $@
 
 %-grid2.txt: %_nu.obo
 	blip-findall  -i $< -consult make_lookup.pro -goal ix grid_row2/3  -grid -label -noid -use_tabs -no_pred > $@
 
-sample.js: $(BASE)_nu.obo
-	blip  -i $< -consult make_lookup.pro -goal ix,write_json,halt > $@
 
 %-mapping.txt: %_nu.obo
 	blip-findall -i $< -consult make_lookup.pro sample_type/2 -label -use_tabs -labels -no_pred > $@
@@ -25,6 +41,11 @@ sample.js: $(BASE)_nu.obo
 
 %-mapping-transposed.gmt: %_nu.obo
 	blip-findall -i $< -consult make_lookup.pro "setof(X,sample_type(X,Y),Xs)" -select Y-Xs -label -grid -no_pred > $@
+
+# for simile - use solr instead now..
+sample.js: $(BASE)_nu.obo
+	blip  -i $< -consult make_lookup.pro -goal ix,write_json,halt > $@
+
 
 OUT = $(BASE)*.gmt $(BASE)*.txt README
 dist:

@@ -111,7 +111,7 @@ grid_row2(c,ID,N,VL) :-
                 VL).
 
 
-sample_json(json([items=Items])) :-
+sample_jsons(json([items=Items])) :-
         findall(Item,sample_json_item(Item),Items).
 
 sample_json_item(json([id=ID,
