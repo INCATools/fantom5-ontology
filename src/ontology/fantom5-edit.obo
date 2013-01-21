@@ -24993,7 +24993,7 @@ is_a: FF:0200030 ! neurons - spiral ganglion
 [Term]
 id: FF:11960-126C7
 name: Smooth muscle cells - airway, asthmatic, donor1
-is_a: EFO:0000270 ! asthma
+is_a: DOID:2841 ! asthma
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000210 ! human sample
 is_a: UBERON:0004225 ! respiratory system smooth muscle
@@ -25001,7 +25001,7 @@ is_a: UBERON:0004225 ! respiratory system smooth muscle
 [Term]
 id: FF:11961-126C8
 name: Smooth muscle cells - airway, asthmatic, donor2
-is_a: EFO:0000270 ! asthma
+is_a: DOID:2841 ! asthma
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000210 ! human sample
 is_a: UBERON:0004225 ! respiratory system smooth muscle
@@ -25009,7 +25009,7 @@ is_a: UBERON:0004225 ! respiratory system smooth muscle
 [Term]
 id: FF:11962-126C9
 name: Smooth muscle cells - airway, asthmatic, donor3
-is_a: EFO:0000270 ! asthma
+is_a: DOID:2841 ! asthma
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000210 ! human sample
 is_a: UBERON:0004225 ! respiratory system smooth muscle
@@ -25017,7 +25017,7 @@ is_a: UBERON:0004225 ! respiratory system smooth muscle
 [Term]
 id: FF:11963-126D1
 name: Smooth muscle cells - airway, asthmatic, donor4
-is_a: EFO:0000270 ! asthma
+is_a: DOID:2841 ! asthma
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000210 ! human sample
 is_a: UBERON:0004225 ! respiratory system smooth muscle
@@ -25025,7 +25025,7 @@ is_a: UBERON:0004225 ! respiratory system smooth muscle
 [Term]
 id: FF:11964-126D2
 name: Smooth muscle cells - airway, asthmatic, donor5
-is_a: EFO:0000270 ! asthma
+is_a: DOID:2841 ! asthma
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000210 ! human sample
 is_a: UBERON:0004225 ! respiratory system smooth muscle
@@ -25033,7 +25033,7 @@ is_a: UBERON:0004225 ! respiratory system smooth muscle
 [Term]
 id: FF:11965-126D3
 name: Smooth muscle cells - airway, asthmatic, donor6
-is_a: EFO:0000270 ! asthma
+is_a: DOID:2841 ! asthma
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000210 ! human sample
 is_a: UBERON:0004225 ! respiratory system smooth muscle
