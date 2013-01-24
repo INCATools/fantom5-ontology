@@ -11114,7 +11114,7 @@ synonym: "hepatocarcinoma cell line" RELATED []
 synonym: "hepatocellular carcinoma cell line" RELATED []
 xref: BTO:0000578
 is_a: CL:0000182 ! hepatocyte
-is_a: DOID:7 ! disease of anatomical entity
+is_a: DOID:684 ! hepatocellular carcinoma
 is_a: FF:0100224 ! liver cell line
 is_a: FF:0100297 ! carcinoma cell line
 
@@ -13518,7 +13518,6 @@ is_a: EFO:0001746 ! development or differentiation design
 id: FF:0300102
 name: macrophage, TB infection, stimulated BMDM+IFNg(caMph), with Mtb
 is_a: FF:0200001 ! macrophage, TB infection
-
 !!!!
 
 [Term]
@@ -33164,7 +33163,6 @@ id: FF:13423-144D3
 name: iPS differentiation to neuron, control donor C11-CRL2429, day12, rep1
 is_a: FF:0000210 ! human sample
 is_a: FF:0200003 ! iPS differentiation to neuron, control
-is_a: PR:000003499
 
 [Term]
 id: FF:13424-144D4
@@ -33200,21 +33198,18 @@ id: FF:13429-144D9
 name: iPS differentiation to neuron, control donor C11-CRL2429, day00, rep3
 is_a: FF:0000210 ! human sample
 is_a: FF:0200003 ! iPS differentiation to neuron, control
-is_a: PR:000003499
 
 [Term]
 id: FF:13430-144E1
 name: iPS differentiation to neuron, control donor C11-CRL2429, day06, rep3
 is_a: FF:0000210 ! human sample
 is_a: FF:0200003 ! iPS differentiation to neuron, control
-is_a: PR:000003499
 
 [Term]
 id: FF:13431-144E2
 name: iPS differentiation to neuron, control donor C11-CRL2429, day12, rep3
 is_a: FF:0000210 ! human sample
 is_a: FF:0200003 ! iPS differentiation to neuron, control
-is_a: PR:000003499
 
 [Term]
 id: FF:13432-144E3
@@ -33353,28 +33348,24 @@ id: FF:13453-144G6
 name: iPS differentiation to neuron, down-syndrome donor C11-CCL54, day00, rep3
 is_a: FF:0000210 ! human sample
 is_a: FF:0200004 ! iPS differentiation to neuron, down-syndrome donor
-is_a: PR:000003499
 
 [Term]
 id: FF:13454-144G7
 name: iPS differentiation to neuron, down-syndrome donor C11-CCL54, day06, rep3
 is_a: FF:0000210 ! human sample
 is_a: FF:0200004 ! iPS differentiation to neuron, down-syndrome donor
-is_a: PR:000003499
 
 [Term]
 id: FF:13455-144G8
 name: iPS differentiation to neuron, down-syndrome donor C11-CCL54, day12, rep3
 is_a: FF:0000210 ! human sample
 is_a: FF:0200004 ! iPS differentiation to neuron, down-syndrome donor
-is_a: PR:000003499
 
 [Term]
 id: FF:13456-144G9
 name: iPS differentiation to neuron, down-syndrome donor C11-CCL54, day18, rep3
 is_a: FF:0000210 ! human sample
 is_a: FF:0200004 ! iPS differentiation to neuron, down-syndrome donor
-is_a: PR:000003499
 
 [Term]
 id: FF:13457-144H1
@@ -38061,5 +38052,3 @@ xref: MSH:D012301
 xref: SNOMEDCT_2010_1_31:40440002
 xref: UMLS_CUI:C0035637
 is_a: DOID:0050117 ! disease by infectious agent
-
-
