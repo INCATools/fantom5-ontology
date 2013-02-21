@@ -2723,7 +2723,7 @@ creation_date: 2011-03-14T01:18:22Z
 id: FF:0000268
 name: cancer related muscle derived stem cell (Mouse) sample
 namespace: FANTOM5
-relationship: is_model_for DOID::4045 ! muscle cancer
+relationship: is_model_for DOID:4045 ! muscle cancer
 is_a: FF:0000267 ! mouse muscle derived stem cell
 created_by: tmeehan
 creation_date: 2011-03-14T01:25:45Z
@@ -2763,7 +2763,7 @@ id: FF:0000272
 name: ovarian cancer mesenchymal precursor cell sample
 namespace: FANTOM5
 relationship: derives_from CL:0000134 ! mesenchymal cell
-relationship: is_model_for DOID::2394 ! ovarian cancer
+relationship: is_model_for DOID:2394 ! ovarian cancer
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000210 ! human sample
 created_by: tmeehan
@@ -8114,7 +8114,7 @@ is_a: FF:0000210 ! human sample
 id: FF:0011131
 name: CD41-positive megakaryocyte cancer sample
 relationship: derives_from CL:0002027 ! CD9-positive, CD41-positive megakaryocyte cell
-relationship: is_model_for DOID::162 ! cancer
+relationship: is_model_for DOID:162 ! cancer
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000103 ! mouse sample
 
@@ -10909,7 +10909,7 @@ namespace: FANTOM5
 def: "Lymphoma means any neoplastic disorder of the lymphoid tissue." [Dorlands Medical Dictionary:MerckSource]
 synonym: "lymphadenoma cell line" RELATED []
 xref: BTO:0000104 ! lymphoma cell line
-relationship: is_model_for DOID::0060058 ! lymphoma
+relationship: is_model_for DOID:0060058 ! lymphoma
 is_a: FF:0000003 ! cell line sample
 
 [Term]
@@ -10926,7 +10926,7 @@ id: FF:0100167
 name: adenocarcinoma cell line sample
 namespace: FANTOM5
 xref: BTO:0000167 ! adenocarcinoma cell line
-relationship: is_model_for DOID::299 ! adenocarcinoma
+relationship: is_model_for DOID:299 ! adenocarcinoma
 is_a: FF:0100297 ! carcinoma cell line
 
 [Term]
@@ -10948,7 +10948,7 @@ synonym: "SCLC cell" RELATED []
 synonym: "small cell carcinoma cell" RELATED []
 synonym: "small cell lung carcinoma cell" RELATED []
 xref: BTO:0000189 ! small cell lung cancer cell
-relationship: is_model_for DOID::5409 ! lung small cell carcinoma
+relationship: is_model_for DOID:5409 ! lung small cell carcinoma
 is_a: FF:0102061 ! bronchogenic carcinoma cell
 
 [Term]
@@ -10966,7 +10966,7 @@ name: carcinosarcoma cell sample
 namespace: FANTOM5
 def: "A cell of a malignant tumor that is a mixture of carcinoma (cancer of epithelial tissue, which is skin and tissue that lines or covers the internal organs) and sarcoma (cancer of connective tissue, such as bone, cartilage, and fat)." [Hyperdictionary:http://www.hyperdictionary.com/medical/carcinosarcoma]
 xref: BTO:0000197 ! carcinosarcoma cell
-relationship: is_model_for DOID::4236 ! carcinosarcoma
+relationship: is_model_for DOID:4236 ! carcinosarcoma
 is_a: FF:0100297 ! carcinoma cell line
 is_a: FF:0100400 ! sarcoma cell line
 
@@ -10992,7 +10992,7 @@ name: carcinoma cell line sample
 namespace: FANTOM5
 def: "A cell line derived from malignant new growth made up of epithelial cells tending to infiltrate the surrounding tissues and give rise to metastases." [GOC:tfm]
 xref: BTO:0000297 ! carcinoma cell line
-relationship: is_model_for DOID::305 ! carcinoma
+relationship: is_model_for DOID:305 ! carcinoma
 is_a: FF:0101120 ! epithelial cell line
 
 [Term]
@@ -11010,7 +11010,7 @@ id: FF:0100306
 name: teratocarcinoma cell line sample
 namespace: FANTOM5
 xref: BTO:0000306 ! teratocarcinoma cell line
-relationship: is_model_for DOID::3095 ! germ cell and embryonal cancer
+relationship: is_model_for DOID:3095 ! germ cell and embryonal cancer
 is_a: FF:0100297 ! carcinoma cell line
 
 [Term]
@@ -11026,8 +11026,8 @@ id: FF:0100356
 name: breast cancer cell line sample
 namespace: FANTOM5
 xref: BTO:0000356 ! breast cancer cell line
-relationship: is_model_for DOID::1612 ! breast cancer
-relationship: is_model_for DOID::7 ! disease of anatomical entity
+relationship: is_model_for DOID:1612 ! breast cancer
+relationship: is_model_for DOID:7 ! disease of anatomical entity
 is_a: FF:0100816 ! breast cell line
 
 [Term]
@@ -11037,7 +11037,7 @@ namespace: FANTOM5
 def: "Cancer cell of the skeleton. Cancers that begin in bone are rare but it is not unusual for cancers to spread (metastasize) to bone from other parts of the body. This is not called bone cancer, but is named for the organ or tissue in which the cancer begins." [Online Medical Dictionary:http://cancerweb.ncl.ac.uk/]
 xref: BTO:0000372 ! bone cancer cell
 relationship: derives_from CL:0000137 ! osteocyte
-relationship: is_model_for DOID::7 ! disease of anatomical entity
+relationship: is_model_for DOID:7 ! disease of anatomical entity
 relationship: derives_from UBERON:0001474 ! bone
 
 [Term]
@@ -11066,7 +11066,7 @@ id: FF:0100400
 name: sarcoma cell line sample
 namespace: FANTOM5
 xref: BTO:0000400 ! sarcoma cell line
-relationship: is_model_for DOID::1115 ! sarcoma
+relationship: is_model_for DOID:1115 ! sarcoma
 is_a: FF:0000003 ! cell line sample
 relationship: derives_from UBERON:0002384 ! connective tissue
 
@@ -11114,7 +11114,7 @@ synonym: "hepatocarcinoma cell line" RELATED []
 synonym: "hepatocellular carcinoma cell line" RELATED []
 xref: BTO:0000578 ! hepatoma cell line
 relationship: derives_from CL:0000182 ! hepatocyte
-relationship: is_model_for DOID::684 ! hepatocellular carcinoma
+relationship: is_model_for DOID:684 ! hepatocellular carcinoma
 is_a: FF:0100224 ! liver cell line
 is_a: FF:0100297 ! carcinoma cell line
 
@@ -11124,7 +11124,7 @@ name: bone marrow cancer cell sample
 namespace: FANTOM5
 xref: BTO:0000583 ! bone marrow cancer cell
 relationship: derives_from CL:0002092 ! bone marrow cell
-relationship: is_model_for DOID::2531 ! hematologic cancer
+relationship: is_model_for DOID:2531 ! hematologic cancer
 is_a: FF:0000003 ! cell line sample
 relationship: derives_from UBERON:0002371 ! bone marrow
 
@@ -11210,7 +11210,7 @@ name: brain cancer cell line sample
 namespace: FANTOM5
 synonym: "brain tumor cell line" RELATED []
 xref: BTO:0000690 ! brain cancer cell line
-relationship: is_model_for DOID::3093 ! nervous system cancer
+relationship: is_model_for DOID:3093 ! nervous system cancer
 is_a: FF:0100255 ! brain cell line
 
 [Term]
@@ -11253,7 +11253,7 @@ id: FF:0100737
 name: leukemia cell line sample
 namespace: FANTOM5
 xref: BTO:0000737 ! leukemia cell line
-relationship: is_model_for DOID::1240 ! leukemia
+relationship: is_model_for DOID:1240 ! leukemia
 is_a: FF:0101035 ! hematopoietic cell line
 
 [Term]
@@ -11275,7 +11275,7 @@ synonym: "myelocytic leukemia cell line" RELATED []
 synonym: "myelogenous leukemia cell line" RELATED []
 xref: BTO:0000740 ! myeloid leukemia cell line
 relationship: derives_from CL:0000763 ! myeloid cell
-relationship: is_model_for DOID::8692 ! myeloid leukemia
+relationship: is_model_for DOID:8692 ! myeloid leukemia
 is_a: FF:0100737 ! leukemia cell line
 
 [Term]
@@ -11298,7 +11298,7 @@ synonym: "lung carcinoma cell line" RELATED []
 xref: BTO:0000551 ! lung cancer cell
 xref: BTO:0000762 ! lung cancer cell line
 relationship: derives_from CL:0000082 ! epithelial cell of lung
-relationship: is_model_for DOID::1324 ! lung cancer
+relationship: is_model_for DOID:1324 ! lung cancer
 is_a: FF:0100297 ! carcinoma cell line
 is_a: FF:0100353 ! lung cell line
 
@@ -11325,7 +11325,7 @@ id: FF:0100787
 name: gastric cancer cell line sample
 namespace: FANTOM5
 xref: BTO:0000787 ! gastric cancer cell line
-relationship: is_model_for DOID::3119 ! gastrointestinal system cancer
+relationship: is_model_for DOID:3119 ! gastrointestinal system cancer
 is_a: FF:0000003 ! cell line sample
 relationship: derives_from UBERON:0000945 ! stomach
 
@@ -11336,7 +11336,7 @@ namespace: FANTOM5
 synonym: "pharynx carcinoma cell line" RELATED []
 xref: BTO:0000790 ! pharyngeal cancer cell line
 relationship: derives_from CL:0002251 ! epithelial cell of alimentary canal
-relationship: is_model_for DOID::7 ! disease of anatomical entity
+relationship: is_model_for DOID:7 ! disease of anatomical entity
 is_a: FF:0100297 ! carcinoma cell line
 is_a: FF:0100819 ! pharyngeal cell line
 
@@ -11354,7 +11354,7 @@ id: FF:0100794
 name: pancreatic cancer cell line sample
 namespace: FANTOM5
 xref: BTO:0000794 ! pancreatic cancer cell line
-relationship: is_model_for DOID::1793 ! pancreatic cancer
+relationship: is_model_for DOID:1793 ! pancreatic cancer
 is_a: FF:0000003 ! cell line sample
 relationship: derives_from UBERON:0001264 ! pancreas
 
@@ -11367,7 +11367,7 @@ synonym: "colon carcinoma cell line" RELATED []
 synonym: "colonic carcinoma cell line" RELATED []
 xref: BTO:0000797 ! colonic cancer cell line
 relationship: derives_from CL:0002253 ! epithelial cell of large intestine
-relationship: is_model_for DOID::3119 ! gastrointestinal system cancer
+relationship: is_model_for DOID:3119 ! gastrointestinal system cancer
 is_a: FF:0100297 ! carcinoma cell line
 relationship: derives_from UBERON:0001155 ! colon
 
@@ -11419,7 +11419,7 @@ id: FF:0100849
 name: melanoma cell line sample
 namespace: FANTOM5
 xref: BTO:0000849 ! melanoma cell line
-relationship: is_model_for DOID::1909 ! melanoma
+relationship: is_model_for DOID:1909 ! melanoma
 is_a: FF:0000003 ! cell line sample
 relationship: derives_from UBERON:0001003 ! epidermis
 
@@ -11438,7 +11438,7 @@ name: myeloma cell sample
 namespace: FANTOM5
 def: "A primary tumor cell of the bone marrow." [From Merriam-Webster's Online Dictionary at www.Merriam-Webster.com:http://www.m-w.com/cgi-bin/dictionary?book=Dictionary&va=myeloma]
 xref: BTO:0000898 ! myeloma cell
-relationship: is_model_for DOID::0070004 ! myeloma
+relationship: is_model_for DOID:0070004 ! myeloma
 is_a: FF:0100583 ! bone marrow cancer cell
 
 [Term]
@@ -11465,7 +11465,7 @@ namespace: FANTOM5
 synonym: "NBL cell line" RELATED []
 xref: BTO:0000932 ! neuroblastoma cell line
 relationship: derives_from CL:0000333 ! neural crest cell
-relationship: is_model_for DOID::169 ! neuroendocrine tumor
+relationship: is_model_for DOID:169 ! neuroendocrine tumor
 is_a: FF:0000003 ! cell line sample
 relationship: derives_from UBERON:0000013 ! sympathetic nervous system
 
@@ -11488,7 +11488,7 @@ synonym: "giant cell tumor cell" RELATED []
 synonym: "giant cell tumor cell of bone" RELATED []
 xref: BTO:0000969 ! osteoclastoma cell
 relationship: derives_from CL:0000092 ! osteoclast
-relationship: is_model_for DOID::4305 ! bone giant cell tumor
+relationship: is_model_for DOID:4305 ! bone giant cell tumor
 is_a: FF:0100372 ! bone cancer cell
 is_a: FF:0100583 ! bone marrow cancer cell
 
@@ -11558,7 +11558,7 @@ synonym: "PCa cell line" RELATED []
 synonym: "prostate carcinoma cell line" RELATED []
 synonym: "prostate gland cancer cell line" RELATED []
 xref: BTO:0001033 ! prostate cancer cell line
-relationship: is_model_for DOID::7 ! disease of anatomical entity
+relationship: is_model_for DOID:7 ! disease of anatomical entity
 is_a: FF:0100297 ! carcinoma cell line
 is_a: FF:0101019 ! prostate gland cell line
 
@@ -11681,7 +11681,7 @@ name: thymic carcinoma cell sample
 namespace: FANTOM5
 def: "Thymic carcinoma is a disease in which cancer (malignant) cells are found in the tissues of the thymus. Thymic carcinoma is difficult to treat and generally spreads to other parts of the body. People with thymoma often have other diseases of the immune system, most commonly myasthenia gravis, a disease in which the muscles become weak." [Cancer.gov Dictionary:http://www.nci.nih.gov/dictionary]
 xref: BTO:0001455 ! thymic carcinoma cell
-relationship: is_model_for DOID::3284 ! thymic carcinoma
+relationship: is_model_for DOID:3284 ! thymic carcinoma
 is_a: FF:0100297 ! carcinoma cell line
 relationship: derives_from UBERON:0002370 ! thymus
 
@@ -11742,7 +11742,7 @@ name: rectal cancer cell line sample
 namespace: FANTOM5
 synonym: "rectal tumor cell line" RELATED []
 xref: BTO:0001532 ! rectal cancer cell line
-relationship: is_model_for DOID::3119 ! gastrointestinal system cancer
+relationship: is_model_for DOID:3119 ! gastrointestinal system cancer
 is_a: FF:0000003 ! cell line sample
 relationship: derives_from UBERON:0001052 ! rectum
 
@@ -11751,7 +11751,7 @@ id: FF:0101533
 name: gastrointestinal cancer cell sample
 namespace: FANTOM5
 xref: BTO:0001533 ! gastrointestinal cancer cell
-relationship: is_model_for DOID::3119 ! gastrointestinal system cancer
+relationship: is_model_for DOID:3119 ! gastrointestinal system cancer
 is_a: FF:0000003 ! cell line sample
 
 [Term]
@@ -11769,7 +11769,7 @@ namespace: FANTOM5
 synonym: "endometrial carcinoma cell line" RELATED []
 xref: BTO:0001555 ! endometrial cancer cell line
 relationship: derives_from CL:0002255 ! stromal cell of endometrium
-relationship: is_model_for DOID::3001 ! female reproductive endometrioid cancer
+relationship: is_model_for DOID:3001 ! female reproductive endometrioid cancer
 is_a: FF:0000003 ! cell line sample
 relationship: derives_from UBERON:0003134 ! female reproductive organ
 
@@ -11778,7 +11778,7 @@ id: FF:0101560
 name: testicular cancer cell line sample
 namespace: FANTOM5
 xref: BTO:0001560 ! testicular cancer cell line
-relationship: is_model_for DOID::193 ! reproductive organ cancer
+relationship: is_model_for DOID:193 ! reproductive organ cancer
 is_a: FF:0000003 ! cell line sample
 relationship: derives_from UBERON:0000473 ! testis
 
@@ -11796,7 +11796,7 @@ name: chondrosarcoma cell line sample
 namespace: FANTOM5
 xref: BTO:0001574 ! chondrosarcoma cell line
 relationship: derives_from CL:0000138 ! chondrocyte
-relationship: is_model_for DOID::1115 ! sarcoma
+relationship: is_model_for DOID:1115 ! sarcoma
 is_a: FF:0100385 ! bone cancer cell line
 relationship: derives_from UBERON:0002418 ! cartilage tissue
 
@@ -11806,7 +11806,7 @@ name: choriocarcinoma cell line sample
 namespace: FANTOM5
 xref: BTO:0001575 ! choriocarcinoma cell line
 relationship: derives_from CL:0000586 ! germ cell
-relationship: is_model_for DOID::3095 ! germ cell and embryonal cancer
+relationship: is_model_for DOID:3095 ! germ cell and embryonal cancer
 is_a: FF:0000003 ! cell line sample
 
 [Term]
@@ -12010,7 +12010,7 @@ name: cervical cancer cell line sample
 namespace: FANTOM5
 synonym: "cervical carcinoma cell line" RELATED []
 xref: BTO:0001967 ! cervical cancer cell line
-relationship: is_model_for DOID::4362 ! cervical cancer
+relationship: is_model_for DOID:4362 ! cervical cancer
 is_a: FF:0000003 ! cell line sample
 relationship: derives_from UBERON:0000002 ! uterine cervix
 
@@ -12032,7 +12032,7 @@ def: "Carcinoma developed from squamous epithelium, having cuboid cells and char
 synonym: "SCC cell line" RELATED []
 xref: BTO:0002024 ! squamous cell carcinoma cell line
 relationship: derives_from CL:0000076 ! squamous epithelial cell
-relationship: is_model_for DOID::1749 ! squamous cell carcinoma
+relationship: is_model_for DOID:1749 ! squamous cell carcinoma
 is_a: FF:0100297 ! carcinoma cell line
 
 [Term]
@@ -12056,7 +12056,7 @@ id: FF:0102027
 name: oral cancer cell line sample
 namespace: FANTOM5
 xref: BTO:0002027 ! oral cancer cell line
-relationship: is_model_for DOID::7 ! disease of anatomical entity
+relationship: is_model_for DOID:7 ! disease of anatomical entity
 is_a: FF:0000003 ! cell line sample
 relationship: derives_from UBERON:0003343 ! mucosa of oral region
 
@@ -12075,7 +12075,7 @@ namespace: FANTOM5
 def: "A type of bronchogenic carcinoma made up of cuboidal or columnar cells in a discrete mass, usually at the periphery of the lungs. Most such tumors form glandular structures containing mucin, although a minority are solid and without mucin. Growth is slow, but there may be early invasion of blood and lymph vessels, giving rise to metastases while the primary lesion is still asymptomatic." [Dorlands Medical Dictionary:MerckSource]
 synonym: "pulmonary adenocarcinoma cell" RELATED []
 xref: BTO:0002057 ! lung adenocarcinoma cell
-relationship: is_model_for DOID::3910 ! lung adenocarcinoma
+relationship: is_model_for DOID:3910 ! lung adenocarcinoma
 is_a: FF:0102058 ! non-small cell lung cancer cell
 
 [Term]
@@ -12087,7 +12087,7 @@ synonym: "non-small cell carcinoma cell" RELATED []
 synonym: "non-small cell lung carcinoma cell" RELATED []
 synonym: "NSCLC cell" RELATED []
 xref: BTO:0002058 ! non-small cell lung cancer cell
-relationship: is_model_for DOID::3908 ! non-small cell lung carcinoma
+relationship: is_model_for DOID:3908 ! non-small cell lung carcinoma
 is_a: FF:0102061 ! bronchogenic carcinoma cell
 
 [Term]
@@ -12118,7 +12118,7 @@ namespace: FANTOM5
 def: "Any of a large group of carcinomas of the lung, so called because they arise from the epithelium of the bronchial tree. Four primary subtypes are distinguished: adenocarcinoma of the lung, large cell carcinoma, small cell carcinoma, and squamous cell carcinoma." [Dorlands Medical Dictionary:MerckSource]
 comment: check DOID - add subtypes?
 xref: BTO:0002061 ! bronchogenic carcinoma cell
-relationship: is_model_for DOID::3904 ! bronchogenic carcinoma
+relationship: is_model_for DOID:3904 ! bronchogenic carcinoma
 is_a: FF:0100762 ! lung cancer cell line
 
 [Term]
@@ -12152,7 +12152,7 @@ name: large cell lung cancer cell line sample
 namespace: FANTOM5
 synonym: "large cell carcinoma cell line" RELATED []
 xref: BTO:0002205 ! large cell lung cancer cell line
-relationship: is_model_for DOID::4556 ! lung large cell carcinoma
+relationship: is_model_for DOID:4556 ! lung large cell carcinoma
 is_a: FF:0100762 ! lung cancer cell line
 
 [Term]
@@ -12193,7 +12193,7 @@ synonym: "adrenocortical tumor cell" RELATED []
 synonym: "carcinoma of adrenal cortex" RELATED []
 xref: BTO:0002219 ! adrenocortical carcinoma cell
 relationship: derives_from CL:0002097 ! cortical cell of adrenal gland
-relationship: is_model_for DOID::170 ! endocrine gland cancer
+relationship: is_model_for DOID:170 ! endocrine gland cancer
 is_a: FF:0100297 ! carcinoma cell line
 
 [Term]
@@ -12211,7 +12211,7 @@ namespace: FANTOM5
 synonym: "primary granulosa cell line" RELATED []
 xref: BTO:0002285 ! granulosa cell line
 relationship: derives_from CL:0000501 ! granulosa cell
-relationship: is_model_for DOID::193 ! reproductive organ cancer
+relationship: is_model_for DOID:193 ! reproductive organ cancer
 is_a: FF:0000003 ! cell line sample
 
 [Term]
@@ -12280,7 +12280,7 @@ name: mesothelioma cell line sample
 namespace: FANTOM5
 xref: BTO:0002424 ! mesothelioma cell line
 relationship: derives_from CL:0000077 ! mesothelial cell
-relationship: is_model_for DOID::162 ! cancer
+relationship: is_model_for DOID:162 ! cancer
 is_a: FF:0000003 ! cell line sample
 
 [Term]
@@ -12321,7 +12321,7 @@ name: diffuse large B-cell lymphoma cell sample
 namespace: FANTOM5
 def: "Diffuse large B-cell lymphoma is a common type of non-Hodgkin lymphoma (NHL) accounting for about 2 in 5 of all cases. It is a cancer of the B-lymphocytes. Diffuse B-cell lymphoma can occur at any time between adolescence and old age. It is slightly more common in men than in women." [Cancerbackup.org:http://www.cancerbackup.org.uk/Cancertype/Lymphomanon-Hodgkin/TypesofNHL/DiffuselargeB-cell]
 xref: BTO:0002521 ! diffuse large B-cell lymphoma cell
-relationship: is_model_for DOID::8675 ! lymphosarcoma
+relationship: is_model_for DOID:8675 ! lymphosarcoma
 is_a: FF:0101518 ! B-lymphoma cell line
 
 [Term]
@@ -12338,7 +12338,7 @@ id: FF:0102580
 name: chronic myeloid leukemia cell line sample
 namespace: FANTOM5
 xref: BTO:0002580 ! chronic myeloid leukemia cell line
-relationship: is_model_for DOID::1036 ! chronic leukemia
+relationship: is_model_for DOID:1036 ! chronic leukemia
 is_a: FF:0100740 ! myeloid leukemia cell line
 
 [Term]
@@ -12383,7 +12383,7 @@ synonym: "fibroid cell" RELATED []
 synonym: "fibroid tumor cell" RELATED []
 xref: BTO:0002694 ! leiomyoma cell
 relationship: derives_from CL:0000000 ! cell
-relationship: is_model_for DOID::127 ! leiomyoma
+relationship: is_model_for DOID:127 ! leiomyoma
 is_a: FF:0000003 ! cell line sample
 relationship: derives_from UBERON:0000995 ! uterus
 
@@ -12395,7 +12395,7 @@ def: "Head and neck squamous cell carcinoma." [PMID:16543918]
 synonym: "HNSCC cell" RELATED []
 synonym: "neck squamous cell carcinoma cell line" RELATED []
 xref: BTO:0002709 ! head and neck squamous cell carcinoma cell line
-relationship: is_model_for DOID::7 ! disease of anatomical entity
+relationship: is_model_for DOID:7 ! disease of anatomical entity
 is_a: FF:0102024 ! squamous cell carcinoma cell line
 relationship: derives_from UBERON:0000033 ! head
 relationship: derives_from UBERON:0000974 ! neck
@@ -12416,8 +12416,8 @@ def: "A rare malignant tumor of the female genital tract, resembling a renal cel
 synonym: "clear cell carcinoma cell" RELATED []
 synonym: "mesonephroma cell" RELATED []
 xref: BTO:0002787 ! clear cell adenocarcinoma cell
-relationship: is_model_for DOID::120 ! female reproductve organ cancer
-relationship: is_model_for DOID::4468 ! clear cell adenocarcinoma
+relationship: is_model_for DOID:120 ! female reproductve organ cancer
+relationship: is_model_for DOID:4468 ! clear cell adenocarcinoma
 is_a: FF:0100167 ! adenocarcinoma cell line
 
 [Term]
@@ -12434,7 +12434,7 @@ synonym: "mucous cancer cell" RELATED []
 synonym: "mucous carcinoma cell" RELATED []
 xref: BTO:0002788 ! mucinous adenocarcinoma cell
 relationship: derives_from CL:0000319 ! mucus secreting cell
-relationship: is_model_for DOID::3030 ! mucinous adenocarcinoma
+relationship: is_model_for DOID:3030 ! mucinous adenocarcinoma
 is_a: FF:0100167 ! adenocarcinoma cell line
 
 [Term]
@@ -12442,7 +12442,7 @@ id: FF:0102817
 name: esophageal cancer cell line sample
 namespace: FANTOM5
 xref: BTO:0002817 ! esophageal cancer cell line
-relationship: is_model_for DOID::7 ! disease of anatomical entity
+relationship: is_model_for DOID:7 ! disease of anatomical entity
 is_a: FF:0000003 ! cell line sample
 relationship: derives_from UBERON:0001043 ! esophagus
 
@@ -12517,7 +12517,7 @@ id: FF:0102912
 name: neuroepithelioma cell line sample
 namespace: FANTOM5
 xref: BTO:0002912 ! neuroepithelioma cell line
-relationship: is_model_for DOID::3093 ! nervous system cancer
+relationship: is_model_for DOID:3093 ! nervous system cancer
 is_a: FF:0000003 ! cell line sample
 relationship: derives_from UBERON:0003714 ! neural tissue
 
@@ -12628,7 +12628,7 @@ namespace: FANTOM5
 def: "A usually benign tumor of peripheral nerves caused by abnormal proliferation of Schwann cells." [Dorlands Medical Dictionary:MerckSource]
 synonym: "fibroneuroma cell" RELATED []
 xref: BTO:0003046 ! neurofibroma cell
-relationship: is_model_for DOID::962 ! neurofibroma
+relationship: is_model_for DOID:962 ! neurofibroma
 is_a: FF:0103225 ! neurilemoma cell line
 
 [Term]
@@ -12648,7 +12648,7 @@ id: FF:0103073
 name: medullary thyroid carcinoma cell line sample
 namespace: FANTOM5
 xref: BTO:0003073 ! medullary thyroid carcinoma cell line
-relationship: is_model_for DOID::7 ! disease of anatomical entity
+relationship: is_model_for DOID:7 ! disease of anatomical entity
 is_a: FF:0100297 ! carcinoma cell line
 is_a: FF:0101610 ! thyroid cancer cell line
 
@@ -12701,7 +12701,7 @@ name: renal cancer cell line sample
 namespace: FANTOM5
 synonym: "kidney cancer cell line" RELATED []
 xref: BTO:0003192 ! renal cancer cell line
-relationship: is_model_for DOID::7 ! disease of anatomical entity
+relationship: is_model_for DOID:7 ! disease of anatomical entity
 is_a: FF:0100067 ! kidney cell line
 
 [Term]
@@ -12710,7 +12710,7 @@ name: anaplastic thyroid cancer cell line sample
 namespace: FANTOM5
 def: "Cells to a more primitive or undifferentiated form of thyroid cancer." [From Merriam-Websters Online Dictionary at www.Merriam-Webster.com:http://www.merriam-webster.com/dictionary/anaplasia]
 xref: BTO:0003209 ! anaplastic thyroid cancer cell line
-relationship: is_model_for DOID::7 ! disease of anatomical entity
+relationship: is_model_for DOID:7 ! disease of anatomical entity
 is_a: FF:0100297 ! carcinoma cell line
 is_a: FF:0101610 ! thyroid cancer cell line
 
@@ -12730,7 +12730,7 @@ namespace: FANTOM5
 synonym: "schwannoma cell line" RELATED []
 xref: BTO:0003225 ! neurilemoma cell line
 relationship: derives_from CL:0002573 ! Schwann cell
-relationship: is_model_for DOID::14566 ! disease of cellular proliferation
+relationship: is_model_for DOID:14566 ! disease of cellular proliferation
 is_a: FF:0000003 ! cell line sample
 
 [Term]
@@ -12794,7 +12794,7 @@ synonym: "T-LGL cell" RELATED []
 synonym: "Tgamma lymphoproliferative disorder cell" RELATED []
 xref: BTO:0003505 ! T-cell chronic lymphocytic leukemia cell
 relationship: derives_from CL:0000084 ! T cell
-relationship: is_model_for DOID::1036 ! chronic leukemia
+relationship: is_model_for DOID:1036 ! chronic leukemia
 is_a: FF:0100737 ! leukemia cell line
 
 [Term]
@@ -12875,7 +12875,7 @@ namespace: FANTOM5
 def: "Human renal cell carcinoma (RCC) cell line." [PMID:15604581]
 synonym: "RCC10RGB cell" RELATED []
 xref: BTO:0003731 ! RCC-10RGB cell
-relationship: is_model_for DOID::4450 ! renal cell carcinoma
+relationship: is_model_for DOID:4450 ! renal cell carcinoma
 is_a: FF:0100383 ! renal cell carcinoma cell line
 
 [Term]
@@ -12929,7 +12929,7 @@ namespace: FANTOM5
 synonym: "fibrous histiocytoma cell line" RELATED []
 synonym: "sclerosing hemangioma2 cell line" RELATED []
 xref: BTO:0003765 ! dermatofibroma cell line
-relationship: is_model_for DOID::4418 ! cutaneous fibrous histiocytoma
+relationship: is_model_for DOID:4418 ! cutaneous fibrous histiocytoma
 is_a: FF:0000003 ! cell line sample
 relationship: derives_from UBERON:0000014 ! zone of skin
 
@@ -12958,7 +12958,7 @@ namespace: FANTOM5
 def: "A type of cancer that contains two types of cells: squamous cells (thin, flat cells that line certain organs) and gland-like cells." [NCI Dictionary of Cancer Terms:http://www.nci.nih.gov/]
 synonym: "adenosquamous cell carcinoma cell" RELATED []
 xref: BTO:0003849 ! adenosquamous carcinoma cell
-relationship: is_model_for DOID::4830 ! adenosquamous carcinoma
+relationship: is_model_for DOID:4830 ! adenosquamous carcinoma
 is_a: FF:0100167 ! adenocarcinoma cell line
 is_a: FF:0102024 ! squamous cell carcinoma cell line
 
@@ -12984,7 +12984,7 @@ name: bile duct cancer cell line sample
 namespace: FANTOM5
 synonym: "biliary duct cancer cell line" RELATED []
 xref: BTO:0003910 ! stellate reticulum
-relationship: is_model_for DOID::7 ! disease of anatomical entity
+relationship: is_model_for DOID:7 ! disease of anatomical entity
 is_a: FF:0000003 ! cell line sample
 relationship: derives_from UBERON:0002394 ! bile duct
 
@@ -13126,7 +13126,7 @@ id: FF:0104398
 name: meningioma cell line sample
 namespace: FANTOM5
 xref: BTO:0004398 ! meningioma cell line
-relationship: is_model_for DOID::3565 ! meningioma
+relationship: is_model_for DOID:3565 ! meningioma
 is_a: FF:0000003 ! cell line sample
 
 [Term]
@@ -13143,7 +13143,7 @@ namespace: FANTOM5
 def: "Cystadenocarcinomas develop frequently in the ovaries, where pseudomucinous and serous types are recognised." [Biology-Online Dictionary:http://www.biology-online.org/dictionary/]
 xref: BTO:0004511 ! serous cystadenocarcinoma cell
 relationship: derives_from CL:0000313 ! serous secreting cell
-relationship: is_model_for DOID::2152 ! ovary epithelial cancer
+relationship: is_model_for DOID:2152 ! ovary epithelial cancer
 is_a: FF:0104883 ! cystadenocarcinoma cell line
 relationship: derives_from UBERON:0004911 ! epithelium of female gonad
 
@@ -13326,7 +13326,7 @@ is_a: FF:0200005 ! iPS differentiation to neuron
 [Term]
 id: FF:0200004
 name: iPS differentiation to neuron, down-syndrome donor sample
-relationship: is_model_for DOID::14250 ! Down syndrome
+relationship: is_model_for DOID:14250 ! Down syndrome
 is_a: FF:0200005 ! iPS differentiation to neuron
 
 [Term]
@@ -13880,14 +13880,14 @@ id: FF:10050-101G5
 name: heart, adult, diseased post-infarction, donor1
 namespace: FANTOM5
 comment: Previously: heart, adult, donor1, rep1 (9070074A)
-relationship: is_model_for DOID::5844 ! myocardial infarction
+relationship: is_model_for DOID:5844 ! myocardial infarction
 is_a: FF:0010016 ! heart - adult
 
 [Term]
 id: FF:10051-101G6
 name: heart, adult, diseased, donor1
 namespace: FANTOM5
-relationship: is_model_for DOID::114 ! heart disease
+relationship: is_model_for DOID:114 ! heart disease
 is_a: FF:0010016 ! heart - adult
 
 [Term]
@@ -13972,7 +13972,7 @@ id: FF:10063-101H9
 name: temporal lobe, fetal, donor1, rep1
 namespace: FANTOM5
 is_a: EFO:0002091 ! biological replicate
-is_a: FF:0010063 ! duodenum - fetal
+is_a: FF:0010071 ! temporal lobe - fetal
 
 [Term]
 id: FF:10064-101I1
@@ -16107,7 +16107,7 @@ is_a: FF:0100732 ! KU-812 cell
 id: FF:10410-106B5
 name: extraskeletal myxoid chondrosarcoma cell line:H-EMC-SS, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::6496 ! extraskeletal myxoid chondrosarcoma
+relationship: is_model_for DOID:6496 ! extraskeletal myxoid chondrosarcoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0101574 ! chondrosarcoma cell line
@@ -16140,7 +16140,7 @@ is_a: FF:0100711 ! glioma cell line
 id: FF:10414-106B9
 name: maxillary sinus tumor cell line:HSQ-89, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::1357 ! maxillary sinus cancer
+relationship: is_model_for DOID:1357 ! maxillary sinus cancer
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000003 ! cell line sample
 is_a: FF:0000210 ! human sample
@@ -16167,8 +16167,8 @@ is_a: FF:0103505 ! T-cell chronic lymphocytic leukemia cell
 id: FF:10417-106C3
 name: papillotubular adenocarcinoma cell line:TGBC18TKB, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::3119 ! gastrointestinal system cancer
-relationship: is_model_for DOID::4929 ! tubular adenocarcinoma
+relationship: is_model_for DOID:3119 ! gastrointestinal system cancer
+relationship: is_model_for DOID:4929 ! tubular adenocarcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100167 ! adenocarcinoma cell line
@@ -16327,7 +16327,7 @@ is_a: FF:0104973 ! Hodgkin lymphoma cell line
 id: FF:10436-106E4
 name: signet ring carcinoma cell line:Kato III, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::3493 ! signet ring cell adenocarcinoma
+relationship: is_model_for DOID:3493 ! signet ring cell adenocarcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0101092 ! KATO-III cell
@@ -16336,7 +16336,7 @@ is_a: FF:0101092 ! KATO-III cell
 id: FF:10437-106E5
 name: papillary adenocarcinoma cell line:8505C, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::3112 ! papillary adenocarcinoma
+relationship: is_model_for DOID:3112 ! papillary adenocarcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0104965 ! 8505C cell
@@ -16346,7 +16346,7 @@ id: FF:10438-106E6
 name: ductal cell carcinoma cell line:KLM-1, rep1
 namespace: FANTOM5
 relationship: derives_from CL:0000083 ! exocrine pancreas cell
-relationship: is_model_for DOID::3498 ! pancreatic ductal adenocarcinoma
+relationship: is_model_for DOID:3498 ! pancreatic ductal adenocarcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100297 ! carcinoma cell line
@@ -16363,7 +16363,7 @@ is_a: FF:0101061 ! PC-3 cell
 id: FF:10440-106E8
 name: retinoblastoma cell line:WERI-Rb-1
 namespace: FANTOM5
-relationship: is_model_for DOID::768 ! retinoblastoma
+relationship: is_model_for DOID:768 ! retinoblastoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000003 ! cell line sample
 is_a: FF:0000210 ! human sample
@@ -16390,7 +16390,7 @@ is_a: FF:0103225 ! neurilemoma cell line
 id: FF:10443-106F2
 name: epithelioid sarcoma cell line:HS-ES-1, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::6193 ! epithelioid sarcoma
+relationship: is_model_for DOID:6193 ! epithelioid sarcoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000003 ! cell line sample
 is_a: FF:0000210 ! human sample
@@ -16495,7 +16495,7 @@ is_a: FF:0100664 ! K-562 cell
 id: FF:10455-106G5
 name: acute lymphoblastic leukemia (B-ALL) cell line:BALL-1, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::12603 ! acute leukemia
+relationship: is_model_for DOID:12603 ! acute leukemia
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0102144 ! acute lymphoblastic leukemia cell line
@@ -16504,7 +16504,7 @@ is_a: FF:0102144 ! acute lymphoblastic leukemia cell line
 id: FF:10456-106G6
 name: glioma cell line:KG-1-C
 namespace: FANTOM5
-relationship: is_model_for DOID::3070 ! malignant glioma
+relationship: is_model_for DOID:3070 ! malignant glioma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100711 ! glioma cell line
@@ -16539,7 +16539,7 @@ id: FF:10460-106H1
 name: neuroblastoma cell line:KP-N-NS
 namespace: FANTOM5
 relationship: derives_from CL:0002280 ! type N enteroendocrine cell
-relationship: is_model_for DOID::769 ! neuroblastoma
+relationship: is_model_for DOID:769 ! neuroblastoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100932 ! neuroblastoma cell line
@@ -16727,7 +16727,7 @@ is_a: FF:0100093 ! MCF-7 cell
 id: FF:10483-107A6
 name: signet ring carcinoma cell line:NUGC-4, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::3493 ! signet ring cell adenocarcinoma
+relationship: is_model_for DOID:3493 ! signet ring cell adenocarcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100297 ! carcinoma cell line
@@ -16769,7 +16769,7 @@ id: FF:10488-107B2
 name: ductal cell carcinoma cell line:MIA Paca2, rep1
 namespace: FANTOM5
 relationship: derives_from CL:0000083 ! exocrine pancreas cell
-relationship: is_model_for DOID::3498 ! pancreatic ductal adenocarcinoma
+relationship: is_model_for DOID:3498 ! pancreatic ductal adenocarcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100297 ! carcinoma cell line
@@ -16778,7 +16778,7 @@ is_a: FF:0100297 ! carcinoma cell line
 id: FF:10489-107B3
 name: ductal cell carcinoma cell line:PANC-1
 namespace: FANTOM5
-relationship: is_model_for DOID::3498 ! pancreatic ductal adenocarcinoma
+relationship: is_model_for DOID:3498 ! pancreatic ductal adenocarcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100304 ! PANC-1 cell
@@ -16828,7 +16828,7 @@ is_a: FF:0102424 ! mesothelioma cell line
 id: FF:10495-107B9
 name: epithelioid sarcoma cell line:HS-ES-2R
 namespace: FANTOM5
-relationship: is_model_for DOID::6193 ! epithelioid sarcoma
+relationship: is_model_for DOID:6193 ! epithelioid sarcoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000003 ! cell line sample
 is_a: FF:0000210 ! human sample
@@ -16957,7 +16957,7 @@ is_a: FF:0102205 ! large cell lung cancer cell line
 id: FF:10510-107D6
 name: osteosarcoma cell line:143B/TK^(-)neo^(R), rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::3347 ! osteosarcoma
+relationship: is_model_for DOID:3347 ! osteosarcoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100407 ! osteosarcoma cell line
@@ -16998,7 +16998,7 @@ is_a: FF:0100849 ! melanoma cell line
 id: FF:10515-107E2
 name: ductal cell carcinoma cell line:KP4
 namespace: FANTOM5
-relationship: is_model_for DOID::3498 ! pancreatic ductal adenocarcinoma
+relationship: is_model_for DOID:3498 ! pancreatic ductal adenocarcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100297 ! carcinoma cell line
@@ -17048,7 +17048,7 @@ is_a: FF:0100787 ! gastric cancer cell line
 id: FF:10521-107E8
 name: Prader Willi syndrome fibroblast cell line:PWS-Yamaguchi
 namespace: FANTOM5
-relationship: is_model_for DOID::11983 ! Prader-Willi syndrome
+relationship: is_model_for DOID:11983 ! Prader-Willi syndrome
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100453 ! fibroblast cell line
@@ -17134,7 +17134,7 @@ id: FF:10531-107F9
 name: ductal cell carcinoma cell line:PK-59
 namespace: FANTOM5
 relationship: derives_from CL:0000083 ! exocrine pancreas cell
-relationship: is_model_for DOID::3498 ! pancreatic ductal adenocarcinoma
+relationship: is_model_for DOID:3498 ! pancreatic ductal adenocarcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100297 ! carcinoma cell line
@@ -17226,7 +17226,7 @@ is_a: FF:0102206 ! small cell lung cancer cell line
 id: FF:10542-107H2
 name: ductal cell carcinoma cell line:PK-1
 namespace: FANTOM5
-relationship: is_model_for DOID::3498 ! pancreatic ductal adenocarcinoma
+relationship: is_model_for DOID:3498 ! pancreatic ductal adenocarcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0104854 ! PK-1 cell
@@ -17236,7 +17236,7 @@ id: FF:10543-107H3
 name: ductal cell carcinoma cell line:PK-45H
 namespace: FANTOM5
 relationship: derives_from CL:0000083 ! exocrine pancreas cell
-relationship: is_model_for DOID::3498 ! pancreatic ductal adenocarcinoma
+relationship: is_model_for DOID:3498 ! pancreatic ductal adenocarcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100297 ! carcinoma cell line
@@ -17365,7 +17365,7 @@ is_a: FF:0100407 ! osteosarcoma cell line
 id: FF:10559-108A1
 name: schwannoma cell line:HS-Sch-2
 namespace: FANTOM5
-relationship: is_model_for DOID::496 ! spindle cell hemangioma
+relationship: is_model_for DOID:496 ! spindle cell hemangioma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0103225 ! neurilemoma cell line
@@ -17399,7 +17399,7 @@ is_a: FF:0102206 ! small cell lung cancer cell line
 id: FF:10563-108A5
 name: xeroderma pigentosum b cell line:XPL 17, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::0050427 ! xeroderma pigmentosum
+relationship: is_model_for DOID:0050427 ! xeroderma pigmentosum
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0101522 ! B-lymphocyte cell line
@@ -17408,7 +17408,7 @@ is_a: FF:0101522 ! B-lymphocyte cell line
 id: FF:10564-108A6
 name: xeroderma pigentosum b cell line:XPL 20
 namespace: FANTOM5
-relationship: is_model_for DOID::0050427 ! xeroderma pigmentosum
+relationship: is_model_for DOID:0050427 ! xeroderma pigmentosum
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0101522 ! B-lymphocyte cell line
@@ -17425,7 +17425,7 @@ is_a: FF:0101345 ! T-24 cell
 id: FF:10566-108A8
 name: xeroderma pigentosum b cell line:XPL 24
 namespace: FANTOM5
-relationship: is_model_for DOID::0050427 ! xeroderma pigmentosum
+relationship: is_model_for DOID:0050427 ! xeroderma pigmentosum
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0101522 ! B-lymphocyte cell line
@@ -17499,7 +17499,7 @@ is_a: FF:0100899 ! myeloma cell line
 id: FF:10575-108B8
 name: congenital lactic acidosis fibroblast cell line:CLA1RGB
 namespace: FANTOM5
-relationship: is_model_for DOID::3650 ! lactic acidosis
+relationship: is_model_for DOID:3650 ! lactic acidosis
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100453 ! fibroblast cell line
@@ -17508,7 +17508,7 @@ is_a: FF:0100453 ! fibroblast cell line
 id: FF:10576-108B9
 name: Ehlers-Danlos syndrome fibroblast cell line:NCU-F1
 namespace: FANTOM5
-relationship: is_model_for DOID::13359 ! Ehlers-Danlos syndrome
+relationship: is_model_for DOID:13359 ! Ehlers-Danlos syndrome
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100453 ! fibroblast cell line
@@ -17517,7 +17517,7 @@ is_a: FF:0100453 ! fibroblast cell line
 id: FF:10577-108C1
 name: Morquio syndrome fibroblast cell line:NCU-F2
 namespace: FANTOM5
-relationship: is_model_for DOID::3211 ! lysosomal storage metabolic disease
+relationship: is_model_for DOID:3211 ! lysosomal storage metabolic disease
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100453 ! fibroblast cell line
@@ -17526,7 +17526,7 @@ is_a: FF:0100453 ! fibroblast cell line
 id: FF:10578-108C2
 name: Wilson's disease fibroblast cell line:NCU-F3
 namespace: FANTOM5
-relationship: is_model_for DOID::893 ! Wilson disease
+relationship: is_model_for DOID:893 ! Wilson disease
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100453 ! fibroblast cell line
@@ -17535,7 +17535,7 @@ is_a: FF:0100453 ! fibroblast cell line
 id: FF:10579-108C3
 name: Wilson's disease fibroblast cell line:NCU-F4
 namespace: FANTOM5
-relationship: is_model_for DOID::893 ! Wilson disease
+relationship: is_model_for DOID:893 ! Wilson disease
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100453 ! fibroblast cell line
@@ -17560,7 +17560,7 @@ is_a: FF:0100453 ! fibroblast cell line
 id: FF:10582-108C6
 name: Wilson's disease fibroblast cell line:NCU-F8
 namespace: FANTOM5
-relationship: is_model_for DOID::893 ! Wilson disease
+relationship: is_model_for DOID:893 ! Wilson disease
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100453 ! fibroblast cell line
@@ -17569,7 +17569,7 @@ is_a: FF:0100453 ! fibroblast cell line
 id: FF:10583-108C7
 name: Cockayne's syndrome fibroblast cell line:NCU-F10
 namespace: FANTOM5
-relationship: is_model_for DOID::2962 ! Cockayne syndrome
+relationship: is_model_for DOID:2962 ! Cockayne syndrome
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100453 ! fibroblast cell line
@@ -17578,7 +17578,7 @@ is_a: FF:0100453 ! fibroblast cell line
 id: FF:10584-108C8
 name: Werner's syndrome fibroblast cell line:WS1TKB
 namespace: FANTOM5
-relationship: is_model_for DOID::5688 ! Werner syndrome
+relationship: is_model_for DOID:5688 ! Werner syndrome
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100453 ! fibroblast cell line
@@ -17587,7 +17587,7 @@ is_a: FF:0100453 ! fibroblast cell line
 id: FF:10585-108C9
 name: neuroblastoma cell line:SK-N-SH
 namespace: FANTOM5
-relationship: is_model_for DOID::769 ! neuroblastoma
+relationship: is_model_for DOID:769 ! neuroblastoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0101620 ! SK-N-SH cell
@@ -17631,7 +17631,7 @@ id: FF:10590-108D5
 name: testicular germ cell embryonal carcinoma cell line:NEC8, rep1
 namespace: FANTOM5
 relationship: derives_from CL:0000586 ! germ cell
-relationship: is_model_for DOID::3095 ! germ cell and embryonal cancer
+relationship: is_model_for DOID:3095 ! germ cell and embryonal cancer
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100297 ! carcinoma cell line
@@ -17643,7 +17643,7 @@ id: FF:10591-108D6
 name: testicular germ cell embryonal carcinoma cell line:NEC14, rep1
 namespace: FANTOM5
 relationship: derives_from CL:0000586 ! germ cell
-relationship: is_model_for DOID::3095 ! germ cell and embryonal cancer
+relationship: is_model_for DOID:3095 ! germ cell and embryonal cancer
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100297 ! carcinoma cell line
@@ -17663,7 +17663,7 @@ id: FF:10593-108D8
 name: testicular germ cell embryonal carcinoma cell line:NEC15, rep1
 namespace: FANTOM5
 relationship: derives_from CL:0000586 ! germ cell
-relationship: is_model_for DOID::3095 ! germ cell and embryonal cancer
+relationship: is_model_for DOID:3095 ! germ cell and embryonal cancer
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100297 ! carcinoma cell line
@@ -17674,7 +17674,7 @@ relationship: derives_from UBERON:0000922 ! embryo
 id: FF:10594-108D9
 name: acute lymphoblastic leukemia (B-ALL) cell line:HAL-01
 namespace: FANTOM5
-relationship: is_model_for DOID::12603 ! acute leukemia
+relationship: is_model_for DOID:12603 ! acute leukemia
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0102144 ! acute lymphoblastic leukemia cell line
@@ -17715,7 +17715,7 @@ is_a: FF:0101967 ! cervical cancer cell line
 id: FF:10599-108E5
 name: Tay-sachs' disease fibroblast cell line:GM2-1TKB
 namespace: FANTOM5
-relationship: is_model_for DOID::3320 ! Tay-Sachs disease
+relationship: is_model_for DOID:3320 ! Tay-Sachs disease
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100453 ! fibroblast cell line
@@ -17725,7 +17725,7 @@ id: FF:10600-108E6
 name: myxofibrosarcoma cell line:MFH-ino, rep1
 namespace: FANTOM5
 relationship: derives_from CL:0002620 ! skin fibroblast
-relationship: is_model_for DOID::1907 ! malignant fibroxanthoma
+relationship: is_model_for DOID:1907 ! malignant fibroxanthoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100460 ! fibrosarcoma cell line
@@ -17960,8 +17960,8 @@ is_a: FF:0103910 ! bile duct cancer cell line
 id: FF:10628-108H7
 name: papillotubular adenocarcinoma cell line:TGBC50TKB
 namespace: FANTOM5
-relationship: is_model_for DOID::3119 ! gastrointestinal system cancer
-relationship: is_model_for DOID::4929 ! tubular adenocarcinoma
+relationship: is_model_for DOID:3119 ! gastrointestinal system cancer
+relationship: is_model_for DOID:4929 ! tubular adenocarcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100167 ! adenocarcinoma cell line
@@ -18021,7 +18021,7 @@ is_a: FF:0101670 ! HuH-6 cell
 id: FF:10634-108I4
 name: cystic fibrosis fibroblast cell line:CF1TKB
 namespace: FANTOM5
-relationship: is_model_for DOID::1485 ! cystic fibrosis
+relationship: is_model_for DOID:1485 ! cystic fibrosis
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100453 ! fibroblast cell line
@@ -18046,7 +18046,7 @@ is_a: FF:0102787 ! clear cell adenocarcinoma cell
 id: FF:10637-108I7
 name: neuroectodermal tumor cell line:FU-RPNT-1, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::171 ! neuroectodermal tumor
+relationship: is_model_for DOID:171 ! neuroectodermal tumor
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000003 ! cell line sample
 is_a: FF:0000210 ! human sample
@@ -18261,7 +18261,7 @@ is_a: FF:0102024 ! squamous cell carcinoma cell line
 id: FF:10663-109C6
 name: neuroectodermal tumor cell line:FU-RPNT-2, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::171 ! neuroectodermal tumor
+relationship: is_model_for DOID:171 ! neuroectodermal tumor
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000003 ! cell line sample
 is_a: FF:0000210 ! human sample
@@ -18434,7 +18434,7 @@ id: FF:10684-109E9
 name: myxofibrosarcoma cell line:NMFH-1, rep1
 namespace: FANTOM5
 relationship: derives_from CL:0002620 ! skin fibroblast
-relationship: is_model_for DOID::1907 ! malignant fibroxanthoma
+relationship: is_model_for DOID:1907 ! malignant fibroxanthoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100460 ! fibrosarcoma cell line
@@ -18459,7 +18459,7 @@ is_a: FF:0103296 ! bone marrow stromal cell line
 id: FF:10687-109F3
 name: Krukenberg tumor cell line:HSKTC, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::9597 ! Krukenberg carcinoma
+relationship: is_model_for DOID:9597 ! Krukenberg carcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000003 ! cell line sample
 is_a: FF:0000210 ! human sample
@@ -18476,7 +18476,7 @@ is_a: FF:0100297 ! carcinoma cell line
 id: FF:10689-109F5
 name: mixed mullerian tumor cell line:HTMMT, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::4236 ! carcinosarcoma
+relationship: is_model_for DOID:4236 ! carcinosarcoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000003 ! cell line sample
 is_a: FF:0000210 ! human sample
@@ -18520,7 +18520,7 @@ is_a: FF:0104511 ! serous cystadenocarcinoma cell
 id: FF:10694-109G1
 name: tridermal teratoma cell line:HGRT, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::3307 ! teratoma
+relationship: is_model_for DOID:3307 ! teratoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000003 ! cell line sample
 is_a: FF:0000210 ! human sample
@@ -18529,7 +18529,7 @@ is_a: FF:0000210 ! human sample
 id: FF:10695-109G2
 name: sacrococcigeal teratoma cell line:HTST, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::3307 ! teratoma
+relationship: is_model_for DOID:3307 ! teratoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000003 ! cell line sample
 is_a: FF:0000210 ! human sample
@@ -18547,7 +18547,7 @@ is_a: FF:0000210 ! human sample
 id: FF:10697-109G4
 name: peripheral neuroectodermal tumor cell line:KU-SN, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::171 ! neuroectodermal tumor
+relationship: is_model_for DOID:171 ! neuroectodermal tumor
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000003 ! cell line sample
 is_a: FF:0000210 ! human sample
@@ -18557,7 +18557,7 @@ relationship: derives_from UBERON:0002346 ! neurectoderm
 id: FF:10698-109G5
 name: pancreatic carcinoma cell line:NOR-P1, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::1798 ! pancreatic endocrine carcinoma
+relationship: is_model_for DOID:1798 ! pancreatic endocrine carcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0103533 ! NOR-P1 cell
@@ -18566,7 +18566,7 @@ is_a: FF:0103533 ! NOR-P1 cell
 id: FF:10699-109G6
 name: acute myeloid leukemia (FAB M7) cell line:M-MOK, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::9119 ! acute myeloid leukemia
+relationship: is_model_for DOID:9119 ! acute myeloid leukemia
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0101883 ! acute myeloid leukemia cell line
@@ -18591,7 +18591,7 @@ is_a: FF:0101359 ! medulloblastoma cell line
 id: FF:10702-109G9
 name: basal cell carcinoma cell line:TE 354.T, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::2513 ! basal cell carcinoma
+relationship: is_model_for DOID:2513 ! basal cell carcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100297 ! carcinoma cell line
@@ -18618,7 +18618,7 @@ is_a: FF:0100969 ! osteoclastoma cell
 id: FF:10705-109H3
 name: Ewing's sarcoma cell line:Hs 863.T, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::3369 ! peripheral primitive neuroectodermal tumor
+relationship: is_model_for DOID:3369 ! peripheral primitive neuroectodermal tumor
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0104201 ! Ewing's sarcoma cell line
@@ -18627,7 +18627,7 @@ is_a: FF:0104201 ! Ewing's sarcoma cell line
 id: FF:10706-109H4
 name: pleomorphic hepatocellular carcinoma cell line:SNU-387, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::5662 ! pleomorphic carcinoma
+relationship: is_model_for DOID:5662 ! pleomorphic carcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0103191 ! SNU-387 cell
@@ -18636,7 +18636,7 @@ is_a: FF:0103191 ! SNU-387 cell
 id: FF:10707-109H5
 name: transitional cell carcinoma cell line:Hs 769.T, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::2671 ! transitional cell carcinoma
+relationship: is_model_for DOID:2671 ! transitional cell carcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0102869 ! transitional cell carcinoma cell line
@@ -18688,7 +18688,7 @@ is_a: FF:0101014 ! Mo-T cell
 id: FF:10713-109I2
 name: keratoacanthoma  cell line:Hs 892.T
 namespace: FANTOM5
-relationship: is_model_for DOID::3149 ! keratoacanthoma
+relationship: is_model_for DOID:3149 ! keratoacanthoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000003 ! cell line sample
 is_a: FF:0000210 ! human sample
@@ -18750,7 +18750,7 @@ is_a: FF:0100729 ! carcinoid cell
 id: FF:10720-109I9
 name: chondrosarcoma cell line:Hs 819.T
 namespace: FANTOM5
-relationship: is_model_for DOID::3371 ! chondrosarcoma
+relationship: is_model_for DOID:3371 ! chondrosarcoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0101574 ! chondrosarcoma cell line
@@ -18767,7 +18767,7 @@ is_a: FF:0100678 ! G-402 cell
 id: FF:10722-110A2
 name: leiomyosarcoma  cell line:Hs 5.T, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::1967 ! leiomyosarcoma
+relationship: is_model_for DOID:1967 ! leiomyosarcoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0102595 ! leiomyosarcoma cell line
@@ -18784,7 +18784,7 @@ is_a: FF:0100834 ! Detroit 562 cell
 id: FF:10724-110A4
 name: pharyngeal papilloma cell line:Hs 840.T
 namespace: FANTOM5
-relationship: is_model_for DOID::2615 ! papilloma
+relationship: is_model_for DOID:2615 ! papilloma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100819 ! pharyngeal cell line
@@ -18794,7 +18794,7 @@ id: FF:10725-110A5
 name: hairy cell leukemia cell line:Mo-B
 namespace: FANTOM5
 relationship: derives_from CL:0000945 ! lymphocyte of B lineage
-relationship: is_model_for DOID::285 ! hairy cell leukemia
+relationship: is_model_for DOID:285 ! hairy cell leukemia
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0103681 ! hairy cell leukemia cell line
@@ -18811,7 +18811,7 @@ is_a: FF:0103743 ! SW-872 cell
 id: FF:10727-110A7
 name: lymphangiectasia cell line:DS-1, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::4 ! disease
+relationship: is_model_for DOID:4 ! disease
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000003 ! cell line sample
 is_a: FF:0000210 ! human sample
@@ -18821,7 +18821,7 @@ relationship: derives_from UBERON:0000055 ! vessel
 id: FF:10728-110A8
 name: neuroepithelioma cell line:SK-N-MC, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::962 ! neurofibroma
+relationship: is_model_for DOID:962 ! neurofibroma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0102914 ! SK-N-MC cell
@@ -18872,7 +18872,7 @@ is_a: FF:0103233 ! FaDu cell
 id: FF:10734-110B5
 name: rhabdomyosarcoma cell line:Hs 926.T
 namespace: FANTOM5
-relationship: is_model_for DOID::3247 ! rhabdomyosarcoma
+relationship: is_model_for DOID:3247 ! rhabdomyosarcoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0102267 ! rhabdomyosarcoma cell line
@@ -18890,7 +18890,7 @@ is_a: FF:0103764 ! NCI cell
 id: FF:10736-110B7
 name: leiomyosarcoma  cell line:SK-UT-1B
 namespace: FANTOM5
-relationship: is_model_for DOID::1967 ! leiomyosarcoma
+relationship: is_model_for DOID:1967 ! leiomyosarcoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0102595 ! leiomyosarcoma cell line
@@ -18899,7 +18899,7 @@ is_a: FF:0102595 ! leiomyosarcoma cell line
 id: FF:10737-110B8
 name: spindle cell sarcoma cell line:Hs 132.T, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::4235 ! spindle cell sarcoma
+relationship: is_model_for DOID:4235 ! spindle cell sarcoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000003 ! cell line sample
 is_a: FF:0000210 ! human sample
@@ -18908,7 +18908,7 @@ is_a: FF:0000210 ! human sample
 id: FF:10738-110B9
 name: squamous papilloma cell line:Hs 416.T
 namespace: FANTOM5
-relationship: is_model_for DOID::139 ! squamous cell papilloma
+relationship: is_model_for DOID:139 ! squamous cell papilloma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000003 ! cell line sample
 is_a: FF:0000210 ! human sample
@@ -18957,7 +18957,7 @@ is_a: FF:0104328 ! DAOY cell
 id: FF:10744-110C6
 name: mycosis fungoides, T cell lymphoma cell line:HuT 102 TIB-162, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::8691 ! mycosis fungoides
+relationship: is_model_for DOID:8691 ! mycosis fungoides
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0103212 ! T-lymphoma cell line
@@ -18974,7 +18974,7 @@ is_a: FF:0100899 ! myeloma cell line
 id: FF:10746-110C8
 name: pleomorphic hepatocellular carcinoma cell line:SNU-423
 namespace: FANTOM5
-relationship: is_model_for DOID::5662 ! pleomorphic carcinoma
+relationship: is_model_for DOID:5662 ! pleomorphic carcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0103187 ! SNU-423 cell
@@ -18983,7 +18983,7 @@ is_a: FF:0103187 ! SNU-423 cell
 id: FF:10747-110C9
 name: rhabdoid tumor cell line:G-401
 namespace: FANTOM5
-relationship: is_model_for DOID::3672 ! rhabdoid cancer
+relationship: is_model_for DOID:3672 ! rhabdoid cancer
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0102586 ! G-401 cell
@@ -19016,7 +19016,7 @@ is_a: FF:0103074 ! TT cell
 id: FF:10751-110D4
 name: transitional cell papilloma cell line:RT4
 namespace: FANTOM5
-relationship: is_model_for DOID::2670 ! transitional papilloma
+relationship: is_model_for DOID:2670 ! transitional papilloma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0102870 ! RT-4 cell
@@ -19065,7 +19065,7 @@ is_a: FF:0102595 ! leiomyosarcoma cell line
 id: FF:10757-110E1
 name: mucinous cystadenocarcinoma  cell line:RMUG-S
 namespace: FANTOM5
-relationship: is_model_for DOID::3603 ! mucinous cystadenocarcinoma
+relationship: is_model_for DOID:3603 ! mucinous cystadenocarcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0104883 ! cystadenocarcinoma cell line
@@ -19139,7 +19139,7 @@ is_a: FF:0101883 ! acute myeloid leukemia cell line
 id: FF:10766-110F1
 name: chronic myelogenous leukemia (CML) cell line:MEG-A2, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::8552 ! chronic myeloid leukemia
+relationship: is_model_for DOID:8552 ! chronic myeloid leukemia
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100740 ! myeloid leukemia cell line
@@ -19165,7 +19165,7 @@ is_a: FF:0102504 ! T-lymphoblastic leukemia cell line
 id: FF:10769-110F4
 name: chronic myelogenous leukemia (CML) cell line:NC02
 namespace: FANTOM5
-relationship: is_model_for DOID::8552 ! chronic myeloid leukemia
+relationship: is_model_for DOID:8552 ! chronic myeloid leukemia
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100740 ! myeloid leukemia cell line
@@ -19190,8 +19190,8 @@ is_a: FF:0104201 ! Ewing's sarcoma cell line
 id: FF:10772-110F7
 name: myelodysplastic syndrome cell line:SKM-1, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::225 ! syndrome
-relationship: is_model_for DOID::74 ! hematopoietic system disease
+relationship: is_model_for DOID:225 ! syndrome
+relationship: is_model_for DOID:74 ! hematopoietic system disease
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000003 ! cell line sample
 is_a: FF:0000210 ! human sample
@@ -19208,7 +19208,7 @@ is_a: FF:0100899 ! myeloma cell line
 id: FF:10774-110F9
 name: neuroectodermal tumor  cell line:TASK1, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::171 ! neuroectodermal tumor
+relationship: is_model_for DOID:171 ! neuroectodermal tumor
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000003 ! cell line sample
 is_a: FF:0000210 ! human sample
@@ -19226,7 +19226,7 @@ is_a: FF:0101518 ! B-lymphoma cell line
 id: FF:10776-110G2
 name: thyroid carcinoma cell line:KHM-5M
 namespace: FANTOM5
-relationship: is_model_for DOID::3963 ! thyroid carcinoma
+relationship: is_model_for DOID:3963 ! thyroid carcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0101610 ! thyroid cancer cell line
@@ -19244,8 +19244,8 @@ is_a: FF:0102504 ! T-lymphoblastic leukemia cell line
 id: FF:10778-110G4
 name: hepatic mesenchymal tumor cell line:LI90, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::3350 ! mesenchymal cell neoplasm
-relationship: is_model_for DOID::3571 ! liver cancer
+relationship: is_model_for DOID:3350 ! mesenchymal cell neoplasm
+relationship: is_model_for DOID:3571 ! liver cancer
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0103519 ! LI90 cell
@@ -19273,7 +19273,7 @@ id: FF:10781-110G7
 name: somatostatinoma cell line:QGP-1, rep1
 namespace: FANTOM5
 relationship: derives_from CL:0000173 ! pancreatic D cell
-relationship: is_model_for DOID::4430 ! somatostatinoma
+relationship: is_model_for DOID:4430 ! somatostatinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000003 ! cell line sample
 is_a: FF:0000210 ! human sample
@@ -19298,7 +19298,7 @@ is_a: FF:0101610 ! thyroid cancer cell line
 id: FF:10784-110H1
 name: mucinous cystadenocarcinoma  cell line:MCAS, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::3603 ! mucinous cystadenocarcinoma
+relationship: is_model_for DOID:3603 ! mucinous cystadenocarcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0104883 ! cystadenocarcinoma cell line
@@ -19317,7 +19317,7 @@ id: FF:10786-110H3
 name: testicular germ cell embryonal carcinoma cell line:ITO-II, rep1
 namespace: FANTOM5
 relationship: derives_from CL:0000586 ! germ cell
-relationship: is_model_for DOID::3095 ! germ cell and embryonal cancer
+relationship: is_model_for DOID:3095 ! germ cell and embryonal cancer
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100297 ! carcinoma cell line
@@ -19360,7 +19360,7 @@ is_a: FF:0100306 ! teratocarcinoma cell line
 id: FF:10791-110H8
 name: keratoacanthoma cell line:HKA-1, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::3149 ! keratoacanthoma
+relationship: is_model_for DOID:3149 ! keratoacanthoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000003 ! cell line sample
 is_a: FF:0000210 ! human sample
@@ -19412,7 +19412,7 @@ id: FF:10797-110I5
 name: tubular adenocarcinoma cell line:SUIT-2, rep1
 namespace: FANTOM5
 relationship: derives_from CL:0000083 ! exocrine pancreas cell
-relationship: is_model_for DOID::4929 ! tubular adenocarcinoma
+relationship: is_model_for DOID:4929 ! tubular adenocarcinoma
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100167 ! adenocarcinoma cell line
@@ -19470,7 +19470,7 @@ is_a: FF:0101455 ! thymic carcinoma cell
 id: FF:10804-111A3
 name: Down's syndrome fibroblast cell line:Detroit 539
 namespace: FANTOM5
-relationship: is_model_for DOID::14250 ! Down syndrome
+relationship: is_model_for DOID:14250 ! Down syndrome
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100453 ! fibroblast cell line
@@ -19487,7 +19487,7 @@ is_a: FF:0104205 ! RPMI-2650 cell
 id: FF:10806-111A5
 name: Down's syndrome fibroblast cell line:Detroit 532
 namespace: FANTOM5
-relationship: is_model_for DOID::14250 ! Down syndrome
+relationship: is_model_for DOID:14250 ! Down syndrome
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100453 ! fibroblast cell line
@@ -19505,7 +19505,7 @@ is_a: FF:0101591 ! PA-1 cell
 id: FF:10808-111A7
 name: hereditary spherocytic anemia cell line:WIL2-NS, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::2355 ! anemia
+relationship: is_model_for DOID:2355 ! anemia
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0101524 ! WIL2-NS cell
@@ -19522,7 +19522,7 @@ is_a: FF:0102586 ! G-401 cell
 id: FF:10810-111A9
 name: adrenal cortex adenocarcinoma cell line:SW-13, rep1
 namespace: FANTOM5
-relationship: is_model_for DOID::7 ! disease of anatomical entity
+relationship: is_model_for DOID:7 ! disease of anatomical entity
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100167 ! adenocarcinoma cell line
@@ -19559,7 +19559,7 @@ relationship: derives_from UBERON:0005705 ! primary palate mesenchyme
 id: FF:10814-111B4
 name: Turner's syndrome fibroblast cell line:Detroit 525
 namespace: FANTOM5
-relationship: is_model_for DOID::3491 ! Turner's syndrome
+relationship: is_model_for DOID:3491 ! Turner's syndrome
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100453 ! fibroblast cell line
@@ -24757,7 +24757,7 @@ is_a: FF:0000210 ! human sample
 [Term]
 id: FF:11921-125H4
 name: Fibroblast - Gingival , donor6 - aggressive periodontis
-relationship: is_model_for DOID::9893 ! periodontosis
+relationship: is_model_for DOID:9893 ! periodontosis
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000063 ! fibroblast of gingiva
 
@@ -24770,7 +24770,7 @@ is_a: FF:0000063 ! fibroblast of gingiva
 [Term]
 id: FF:11923-125H6
 name: Fibroblast - Gingival , donor7 - aggressive periodontis
-relationship: is_model_for DOID::9893 ! periodontosis
+relationship: is_model_for DOID:9893 ! periodontosis
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000063 ! fibroblast of gingiva
 
@@ -24783,7 +24783,7 @@ is_a: FF:0000063 ! fibroblast of gingiva
 [Term]
 id: FF:11925-125H8
 name: Fibroblast - Gingival , donor8 - chronic periodontis
-relationship: is_model_for DOID::9893 ! periodontosis
+relationship: is_model_for DOID:9893 ! periodontosis
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000063 ! fibroblast of gingiva
 
@@ -24802,7 +24802,7 @@ is_a: FF:0000063 ! fibroblast of gingiva
 [Term]
 id: FF:11928-125I2
 name: Fibroblast - Gingival , donor10 - periodontitis
-relationship: is_model_for DOID::9893 ! periodontosis
+relationship: is_model_for DOID:9893 ! periodontosis
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000063 ! fibroblast of gingiva
 
@@ -24992,7 +24992,7 @@ is_a: FF:0200030 ! neurons - spiral ganglion
 [Term]
 id: FF:11960-126C7
 name: Smooth muscle cells - airway, asthmatic, donor1
-relationship: is_model_for DOID::2841 ! asthma
+relationship: is_model_for DOID:2841 ! asthma
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0004225 ! respiratory system smooth muscle
@@ -25000,7 +25000,7 @@ relationship: derives_from UBERON:0004225 ! respiratory system smooth muscle
 [Term]
 id: FF:11961-126C8
 name: Smooth muscle cells - airway, asthmatic, donor2
-relationship: is_model_for DOID::2841 ! asthma
+relationship: is_model_for DOID:2841 ! asthma
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0004225 ! respiratory system smooth muscle
@@ -25008,7 +25008,7 @@ relationship: derives_from UBERON:0004225 ! respiratory system smooth muscle
 [Term]
 id: FF:11962-126C9
 name: Smooth muscle cells - airway, asthmatic, donor3
-relationship: is_model_for DOID::2841 ! asthma
+relationship: is_model_for DOID:2841 ! asthma
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0004225 ! respiratory system smooth muscle
@@ -25016,7 +25016,7 @@ relationship: derives_from UBERON:0004225 ! respiratory system smooth muscle
 [Term]
 id: FF:11963-126D1
 name: Smooth muscle cells - airway, asthmatic, donor4
-relationship: is_model_for DOID::2841 ! asthma
+relationship: is_model_for DOID:2841 ! asthma
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0004225 ! respiratory system smooth muscle
@@ -25024,7 +25024,7 @@ relationship: derives_from UBERON:0004225 ! respiratory system smooth muscle
 [Term]
 id: FF:11964-126D2
 name: Smooth muscle cells - airway, asthmatic, donor5
-relationship: is_model_for DOID::2841 ! asthma
+relationship: is_model_for DOID:2841 ! asthma
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0004225 ! respiratory system smooth muscle
@@ -25032,7 +25032,7 @@ relationship: derives_from UBERON:0004225 ! respiratory system smooth muscle
 [Term]
 id: FF:11965-126D3
 name: Smooth muscle cells - airway, asthmatic, donor6
-relationship: is_model_for DOID::2841 ! asthma
+relationship: is_model_for DOID:2841 ! asthma
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0004225 ! respiratory system smooth muscle
@@ -38051,21 +38051,33 @@ synonym: "steppe murrain" EXACT []
 xref: MSH:D012301
 xref: SNOMEDCT_2010_1_31:40440002
 xref: UMLS:C0035637
-relationship: is_model_for DOID::0050117 ! disease by infectious agent
+relationship: is_model_for DOID:0050117 ! disease by infectious agent
+
+[Typedef]
+id: part_of
+name: part_of
+xref: BFO:0000050
 
 [Typedef]
 id: develops_from
 name: develops_from
 xref: RO:0002202
-is_a: derives_from
+is_a: transitively_derives_from
 is_transitive: true
 transitive_over: part_of
-holds_over_chain: develops_from derives_from
 
 [Typedef]
 id: derives_from
 name: derives_from
 xref: RO:0001000
+is_a: transitively_derives_from
+transitive_over: part_of
+
+[Typedef]
+id: transitively_derives_from
+name: transitively_derives_from
+is_transitive: true
+transitive_over: part_of
 
 [Typedef]
 id: is_model_for
