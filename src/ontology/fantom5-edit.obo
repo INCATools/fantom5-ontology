@@ -46,6 +46,7 @@ subsetdef: upper_ontology_conflict ""
 subsetdef: value_slim ""
 subsetdef: vertebrate_core ""
 subsetdef: zoonotic_infectious_disease "zoonotic infectious disease"
+subsetdef: encode "Initial set used by ENCODE"
 synonymtypedef: ATTRIBUTION_REQUIRED ""
 synonymtypedef: BRAND_NAME ""
 synonymtypedef: DEVELOPMENTAL "developmental term"
@@ -130,7 +131,7 @@ name: tissue sample
 namespace: FANTOM5
 def: "A sample consisting of tissue material." [GOC:tfm]
 is_a: FF:0000102 ! sample by type
-relationship: part_of UBERON:0000479 ! tissue
+relationship: derives_from UBERON:0000479 ! tissue
 created_by: tmeehan
 creation_date: 2011-02-28T10:41:12Z
 
@@ -173,8 +174,8 @@ namespace: FANTOM5
 relationship: derives_from CL:0000336 ! adrenal medulla chromaffin cell
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000210 ! human sample
-relationship: part_of UBERON:0001236 ! adrenal medulla
-relationship: part_of UBERON:0002369 ! adrenal gland
+relationship: derives_from UBERON:0001236 ! adrenal medulla
+relationship: derives_from UBERON:0002369 ! adrenal gland
 created_by: tmeehan
 creation_date: 2011-02-28T12:22:19Z
 
@@ -194,7 +195,7 @@ name: amniotic membrane cell- Amnion sample
 namespace: FANTOM5
 def: "From the company Amnion." [GOC:tfm]
 is_a: FF:0000092 ! amniotic membrane cell
-relationship: part_of UBERON:0000305 ! amnion
+relationship: derives_from UBERON:0000305 ! amnion
 created_by: tmeehan
 creation_date: 2011-03-14T01:52:13Z
 
@@ -476,8 +477,8 @@ namespace: FANTOM5
 relationship: derives_from CL:0002541 ! chorionic membrane mesenchymal stem cell
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000210 ! human sample
-relationship: part_of UBERON:0000920 ! egg chorion
-relationship: part_of UBERON:0003124 ! chorion
+relationship: derives_from UBERON:0000920 ! egg chorion
+relationship: derives_from UBERON:0003124 ! chorion
 created_by: tmeehan
 creation_date: 2011-02-28T03:09:25Z
 
@@ -576,7 +577,7 @@ name: endothelial cell of the aorta sample
 namespace: FANTOM5
 relationship: derives_from CL:0002544 ! aortic endothelial cell
 is_a: FF:0000047 ! endothelial cell of the artery
-relationship: part_of UBERON:0000947 ! aorta
+relationship: derives_from UBERON:0000947 ! aorta
 created_by: tmeehan
 creation_date: 2011-02-28T03:33:35Z
 
@@ -848,7 +849,7 @@ name: hepatic sinusoidal endothelial cell sample
 namespace: FANTOM5
 relationship: derives_from CL:1000398 ! endothelial cell of hepatic sinusoid
 is_a: FF:0000002 ! in vivo cell sample
-relationship: part_of UBERON:0001281 ! hepatic sinusoid
+relationship: derives_from UBERON:0001281 ! hepatic sinusoid
 created_by: tmeehan
 creation_date: 2011-03-01T04:51:50Z
 
@@ -919,7 +920,7 @@ relationship: derives_from CL:0002170 ! keratinized cell of the oral mucosa
 relationship: derives_from CL:0002251 ! epithelial cell of alimentary canal
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000210 ! human sample
-relationship: part_of UBERON:0003729 ! mouth mucosa
+relationship: derives_from UBERON:0003729 ! mouth mucosa
 created_by: tmeehan
 creation_date: 2011-03-01T05:37:39Z
 
@@ -1231,7 +1232,7 @@ namespace: FANTOM5
 relationship: derives_from CL:0000637 ! chromophil cell of anterior pituitary gland
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000103 ! mouse sample
-relationship: part_of UBERON:0000007 ! pituitary gland
+relationship: derives_from UBERON:0000007 ! pituitary gland
 created_by: tmeehan
 creation_date: 2011-03-02T01:14:15Z
 
@@ -1309,7 +1310,7 @@ namespace: FANTOM5
 relationship: derives_from CL:0000117 ! CNS neuron (sensu Vertebrata)
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000210 ! human sample
-relationship: part_of UBERON:0001017 ! central nervous system
+relationship: derives_from UBERON:0001017 ! central nervous system
 created_by: tmeehan
 creation_date: 2011-03-02T02:04:50Z
 
@@ -1452,7 +1453,7 @@ relationship: derives_from CL:0000080 ! circulating cell
 relationship: derives_from CL:0000842 ! mononuclear cell
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000210 ! human sample
-relationship: part_of UBERON:0000178 ! blood
+relationship: derives_from UBERON:0000178 ! blood
 created_by: tmeehan
 
 [Term]
@@ -1871,7 +1872,7 @@ namespace: FANTOM5
 relationship: derives_from CL:0002588 ! smooth muscle cell of the umbilical vein
 is_a: FF:0000167 ! smooth muscle cell sample
 is_a: FF:0000210 ! human sample
-relationship: part_of UBERON:0002066 ! umbilical vein
+relationship: derives_from UBERON:0002066 ! umbilical vein
 created_by: tmeehan
 creation_date: 2011-03-06T05:39:38Z
 
@@ -1911,8 +1912,8 @@ name: smooth muscle of colon sample
 namespace: FANTOM5
 relationship: derives_from CL:1000280 ! smooth muscle cell of colon
 is_a: FF:0000180 ! smooth muscle cell of intestine
-relationship: part_of UBERON:0001135 ! smooth muscle tissue
-relationship: part_of UBERON:0001155 ! colon
+relationship: derives_from UBERON:0001135 ! smooth muscle tissue
+relationship: derives_from UBERON:0001155 ! colon
 created_by: tmeehan
 creation_date: 2011-03-06T06:02:00Z
 
@@ -1962,7 +1963,7 @@ name: sympathetic ganglia sample
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
-relationship: part_of UBERON:0000045 ! ganglion
+relationship: derives_from UBERON:0000045 ! ganglion
 created_by: tmeehan
 creation_date: 2011-03-06T06:13:44Z
 
@@ -2004,7 +2005,7 @@ namespace: FANTOM5
 relationship: derives_from CL:0000351 ! trophoblast cell
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000210 ! human sample
-relationship: part_of UBERON:0000088 ! trophoblast
+relationship: derives_from UBERON:0000088 ! trophoblast
 created_by: tmeehan
 creation_date: 2011-03-06T06:25:17Z
 
@@ -2064,7 +2065,7 @@ name: mouse astrocyte of cerebellum sample
 namespace: FANTOM5
 relationship: derives_from CL:0002603 ! astrocyte of the cerebellum
 is_a: FF:0000105 ! mouse astrocyte
-relationship: part_of UBERON:0002037 ! cerebellum
+relationship: derives_from UBERON:0002037 ! cerebellum
 created_by: tmeehan
 creation_date: 2011-03-06T07:06:59Z
 
@@ -2074,8 +2075,8 @@ name: mouse astrocyte of hippocampus sample
 namespace: FANTOM5
 relationship: derives_from CL:0002604 ! astrocyte of the hippocampus
 is_a: FF:0000105 ! mouse astrocyte
-relationship: part_of UBERON:0001954 ! Ammon's horn
-relationship: part_of UBERON:0002421 ! hippocampal formation
+relationship: derives_from UBERON:0001954 ! Ammon's horn
+relationship: derives_from UBERON:0002421 ! hippocampal formation
 created_by: tmeehan
 creation_date: 2011-03-06T07:07:02Z
 
@@ -2086,7 +2087,7 @@ namespace: FANTOM5
 relationship: derives_from CL:0002606 ! astrocyte of the spinal cord
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000210 ! human sample
-relationship: part_of UBERON:0002240 ! spinal cord
+relationship: derives_from UBERON:0002240 ! spinal cord
 created_by: tmeehan
 creation_date: 2011-03-06T07:13:25Z
 
@@ -2252,7 +2253,7 @@ id: FF:0000216
 name: chicken extraembryonic sample
 namespace: FANTOM5
 is_a: FF:0000242 ! chicken developmental series
-relationship: part_of UBERON:0005292 ! extraembryonic tissue
+relationship: derives_from UBERON:0005292 ! extraembryonic tissue
 created_by: tmeehan
 creation_date: 2011-03-14T10:49:18Z
 
@@ -2262,7 +2263,7 @@ name: chicken whole embryo sample
 namespace: FANTOM5
 is_a: FF:0000242 ! chicken developmental series
 relationship: derives_from UBERON:0000468 ! multi-cellular organism
-relationship: part_of UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0000922 ! embryo
 created_by: tmeehan
 creation_date: 2011-03-14T10:49:49Z
 
@@ -2271,9 +2272,9 @@ id: FF:0000218
 name: chicken embryo extraembryonic tissue day7 HH32 sample
 namespace: FANTOM5
 is_a: FF:0000216 ! chicken extraembryonic
-relationship: part_of UBERON:0000478 ! extraembryonic structure
-relationship: part_of UBERON:0000922 ! embryo
-relationship: part_of UBERON:0005292 ! extraembryonic tissue
+relationship: derives_from UBERON:0000478 ! extraembryonic structure
+relationship: derives_from UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0005292 ! extraembryonic tissue
 created_by: tmeehan
 creation_date: 2011-03-14T10:52:07Z
 
@@ -2282,9 +2283,9 @@ id: FF:0000219
 name: chicken embryo extraembryonic tissue day15 HH41 sample
 namespace: FANTOM5
 is_a: FF:0000216 ! chicken extraembryonic
-relationship: part_of UBERON:0000478 ! extraembryonic structure
-relationship: part_of UBERON:0000922 ! embryo
-relationship: part_of UBERON:0005292 ! extraembryonic tissue
+relationship: derives_from UBERON:0000478 ! extraembryonic structure
+relationship: derives_from UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0005292 ! extraembryonic tissue
 created_by: tmeehan
 creation_date: 2011-03-14T10:52:09Z
 
@@ -2293,7 +2294,7 @@ id: FF:0000220
 name: chicken embryo whole body 1.5 hours HH1 sample
 namespace: FANTOM5
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0000922 ! embryo
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2302,7 +2303,7 @@ id: FF:0000221
 name: chicken embryo whole body 14 hours HH3 sample
 namespace: FANTOM5
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0000922 ! embryo
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2311,7 +2312,7 @@ id: FF:0000222
 name: chicken embryo whole body 18 hours HH4 sample
 namespace: FANTOM5
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0000922 ! embryo
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2320,7 +2321,7 @@ id: FF:0000223
 name: chicken embryo whole body 22 hours HH5-6 sample
 namespace: FANTOM5
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0000922 ! embryo
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2329,7 +2330,7 @@ id: FF:0000224
 name: chicken embryo whole body 5.5 hours HH1 sample
 namespace: FANTOM5
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0000922 ! embryo
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2338,7 +2339,7 @@ id: FF:0000225
 name: chicken embryo whole body 6 hours HH1-2 sample
 namespace: FANTOM5
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0000922 ! embryo
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2347,8 +2348,8 @@ id: FF:0000226
 name: chicken embryo whole body day1 HH7 1-3 somites sample
 namespace: FANTOM5
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
-relationship: part_of UBERON:0002329 ! somite
+relationship: derives_from UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0002329 ! somite
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2357,8 +2358,8 @@ id: FF:0000227
 name: chicken embryo whole body day1 HH7 2-3 somites sample
 namespace: FANTOM5
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
-relationship: part_of UBERON:0002329 ! somite
+relationship: derives_from UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0002329 ! somite
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2367,7 +2368,7 @@ id: FF:0000228
 name: chicken embryo whole body day1.5 HH10 sample
 namespace: FANTOM5
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0000922 ! embryo
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2378,7 +2379,7 @@ namespace: FANTOM5
 alt_id: FF:0000229
 synonym: "chicken embryo whole body day1.5 HH11-12" EXACT []
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0000922 ! embryo
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2387,7 +2388,7 @@ id: FF:0000231
 name: chicken embryo whole body day 15 HH11-12 sample
 namespace: FANTOM5
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0000922 ! embryo
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2396,7 +2397,7 @@ id: FF:0000232
 name: chicken embryo whole body day2 HH13 sample
 namespace: FANTOM5
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0000922 ! embryo
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2405,7 +2406,7 @@ id: FF:0000233
 name: chicken embryo whole body day2 HH14 sample
 namespace: FANTOM5
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0000922 ! embryo
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2414,7 +2415,7 @@ id: FF:0000234
 name: chicken embryo whole body day2.5 HH17 sample
 namespace: FANTOM5
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0000922 ! embryo
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2423,7 +2424,7 @@ id: FF:0000235
 name: chicken embryo whole body day20 HH45 sample
 namespace: FANTOM5
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0000922 ! embryo
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2432,7 +2433,7 @@ id: FF:0000236
 name: chicken embryo whole body day3 HH19 sample
 namespace: FANTOM5
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0000922 ! embryo
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2441,7 +2442,7 @@ id: FF:0000237
 name: chicken embryo whole body day3 HH20 sample
 namespace: FANTOM5
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0000922 ! embryo
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2450,7 +2451,7 @@ id: FF:0000238
 name: chicken embryo whole body day4 HH23 sample
 namespace: FANTOM5
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0000922 ! embryo
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2459,7 +2460,7 @@ id: FF:0000239
 name: chicken embryo whole body day5 HH25-27 sample
 namespace: FANTOM5
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0000922 ! embryo
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2468,7 +2469,7 @@ id: FF:0000240
 name: chicken embryo whole body day5 HH26-27 sample
 namespace: FANTOM5
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0000922 ! embryo
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2477,7 +2478,7 @@ id: FF:0000241
 name: chicken embryo whole body day7 HH32 sample
 namespace: FANTOM5
 is_a: FF:0000217 ! chicken whole embryo
-relationship: part_of UBERON:0000922 ! embryo
+relationship: derives_from UBERON:0000922 ! embryo
 created_by: tmeehan
 creation_date: 2011-03-14T10:55:03Z
 
@@ -2494,10 +2495,10 @@ id: FF:0000243
 name: chicken wing bud day 3 HH20 sample
 namespace: FANTOM5
 is_a: FF:0000242 ! chicken developmental series
-relationship: part_of UBERON:0000023 ! wing
-relationship: part_of UBERON:0000024 ! forelimb wing
-relationship: part_of UBERON:0000984 ! imaginal disc-derived wing
-relationship: part_of UBERON:0001048 ! primordium
+relationship: derives_from UBERON:0000023 ! wing
+relationship: derives_from UBERON:0000024 ! forelimb wing
+relationship: derives_from UBERON:0000984 ! imaginal disc-derived wing
+relationship: derives_from UBERON:0001048 ! primordium
 created_by: tmeehan
 creation_date: 2011-03-14T11:21:29Z
 
@@ -2507,7 +2508,7 @@ name: chicken leg bud day3 HH20 sample
 namespace: FANTOM5
 is_a: FF:0000242 ! chicken developmental series
 relationship: derives_from UBERON:0005418 ! hindlimb bud
-relationship: part_of UBERON:0005418 ! hindlimb bud
+relationship: derives_from UBERON:0005418 ! hindlimb bud
 created_by: tmeehan
 creation_date: 2011-03-14T11:22:57Z
 
@@ -2616,7 +2617,7 @@ id: FF:0000256
 name: Inner ear stem cell (1st generation stem cell) sample
 namespace: FANTOM5
 is_a: FF:0000255 ! inner hair stem cell
-relationship: part_of UBERON:0001846 ! internal ear
+relationship: derives_from UBERON:0001846 ! internal ear
 created_by: tmeehan
 creation_date: 2011-03-14T12:53:49Z
 
@@ -2625,7 +2626,7 @@ id: FF:0000257
 name: Inner ear stem cells (4th generation stem cells) sample
 namespace: FANTOM5
 is_a: FF:0000255 ! inner hair stem cell
-relationship: part_of UBERON:0001846 ! internal ear
+relationship: derives_from UBERON:0001846 ! internal ear
 created_by: tmeehan
 creation_date: 2011-03-14T12:53:52Z
 
@@ -2634,7 +2635,7 @@ id: FF:0000258
 name: Inner ear stem cell (10 days differentiation) sample
 namespace: FANTOM5
 is_a: FF:0000255 ! inner hair stem cell
-relationship: part_of UBERON:0001846 ! internal ear
+relationship: derives_from UBERON:0001846 ! internal ear
 created_by: tmeehan
 creation_date: 2011-03-14T12:53:54Z
 
@@ -2643,7 +2644,7 @@ id: FF:0000259
 name: Inner ear stem cell (3 days differentiation) sample
 namespace: FANTOM5
 is_a: FF:0000255 ! inner hair stem cell
-relationship: part_of UBERON:0001846 ! internal ear
+relationship: derives_from UBERON:0001846 ! internal ear
 created_by: tmeehan
 creation_date: 2011-03-14T12:53:56Z
 
@@ -2774,7 +2775,7 @@ id: FF:0000273
 name: mesenchymal precursor cell- ovarian cancer-left ovary sample
 namespace: FANTOM5
 is_a: FF:0000272 ! ovarian cancer mesenchymal precursor cell
-relationship: part_of UBERON:0002119 ! left ovary
+relationship: derives_from UBERON:0002119 ! left ovary
 created_by: tmeehan
 creation_date: 2011-03-14T01:36:05Z
 
@@ -2791,7 +2792,7 @@ id: FF:0000275
 name: mesenchymal precursor cell- ovarian cancer-right ovary sample
 namespace: FANTOM5
 is_a: FF:0000272 ! ovarian cancer mesenchymal precursor cell
-relationship: part_of UBERON:0002118 ! right ovary
+relationship: derives_from UBERON:0002118 ! right ovary
 created_by: tmeehan
 creation_date: 2011-03-14T01:36:12Z
 
@@ -3182,7 +3183,7 @@ name: mouse pregnant tissue sample
 namespace: FANTOM5
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
-relationship: part_of UBERON:0000479 ! tissue
+relationship: derives_from UBERON:0000479 ! tissue
 created_by: tmeehan
 creation_date: 2011-04-22T02:13:00Z
 
@@ -3260,7 +3261,7 @@ namespace: FANTOM5
 alt_id: FF:0011299
 synonym: "lung - fetal week 6" EXACT []
 is_a: FF:0010068 ! lung - fetal
-relationship: part_of UBERON:0000170 ! pair of lungs
+relationship: derives_from UBERON:0000170 ! pair of lungs
 created_by: tmeehan
 creation_date: 2011-04-22T03:11:25Z
 
@@ -3799,6 +3800,8 @@ name: K562 erythroblastic leukemia cell line sample
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
 is_a: FF:0000401 ! erythroblastic leukemia cell line
+xref: BTO:0000664 ! K-562 cell
+subset: encode
 created_by: tmeehan
 creation_date: 2011-04-29T11:06:52Z
 
@@ -7049,7 +7052,7 @@ name: adult tissue sample
 namespace: FANTOM5
 is_a: FF:0000004 ! tissue sample
 relationship: derives_from UBERON:0007023 ! adult organism
-relationship: part_of UBERON:0000479 ! tissue
+relationship: derives_from UBERON:0000479 ! tissue
 
 [Term]
 id: FF:0000999
@@ -7057,7 +7060,7 @@ name: fetal tissue sample
 namespace: FANTOM5
 is_a: FF:0000004 ! tissue sample
 relationship: derives_from UBERON:0000922 ! embryo
-relationship: part_of UBERON:0000479 ! tissue
+relationship: derives_from UBERON:0000479 ! tissue
 
 [Term]
 id: FF:0010000
@@ -7145,7 +7148,7 @@ namespace: FANTOM5
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
 relationship: derives_from UBERON:0002048 ! lung
-relationship: part_of UBERON:0000170 ! pair of lungs
+relationship: derives_from UBERON:0000170 ! pair of lungs
 
 [Term]
 id: FF:0010020
@@ -7275,7 +7278,7 @@ namespace: FANTOM5
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
 relationship: derives_from UBERON:0000200 ! gyrus
-relationship: part_of UBERON:0007190 ! paracentral gyrus
+relationship: derives_from UBERON:0007190 ! paracentral gyrus
 
 [Term]
 id: FF:0010036
@@ -7411,7 +7414,7 @@ name: eye - fetal sample
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
 is_a: FF:0000999 ! fetal tissue sample
-relationship: part_of UBERON:0000970 ! eye
+relationship: derives_from UBERON:0000970 ! eye
 
 [Term]
 id: FF:0010055
@@ -7452,7 +7455,7 @@ name: tongue - fetal sample
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
 is_a: FF:0000999 ! fetal tissue sample
-relationship: part_of UBERON:0001723 ! tongue
+relationship: derives_from UBERON:0001723 ! tongue
 
 [Term]
 id: FF:0010060
@@ -7479,12 +7482,12 @@ is_a: FF:0000999 ! fetal tissue sample
 relationship: derives_from UBERON:0000945 ! stomach
 
 [Term]
-id: FF:0010063
+id: FF:0010063 ! duodenum - fetal sample
 name: duodenum - fetal sample
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
 is_a: FF:0000999 ! fetal tissue sample
-relationship: part_of UBERON:0002114 ! duodenum
+relationship: derives_from UBERON:0002114 ! duodenum
 
 [Term]
 id: FF:0010064
@@ -7492,7 +7495,7 @@ name: small intestine - fetal sample
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
 is_a: FF:0000999 ! fetal tissue sample
-relationship: part_of UBERON:0002108 ! small intestine
+relationship: derives_from UBERON:0002108 ! small intestine
 
 [Term]
 id: FF:0010065
@@ -7520,7 +7523,7 @@ name: rectum - fetal sample
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
 is_a: FF:0000999 ! fetal tissue sample
-relationship: part_of UBERON:0001052 ! rectum
+relationship: derives_from UBERON:0001052 ! rectum
 
 [Term]
 id: FF:0010068
@@ -7529,7 +7532,7 @@ namespace: FANTOM5
 is_a: FF:0000210 ! human sample
 is_a: FF:0000999 ! fetal tissue sample
 relationship: derives_from UBERON:0002048 ! lung
-relationship: part_of UBERON:0000170 ! pair of lungs
+relationship: derives_from UBERON:0000170 ! pair of lungs
 
 [Term]
 id: FF:0010069
@@ -7537,7 +7540,7 @@ name: diaphragm - fetal sample
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
 is_a: FF:0000999 ! fetal tissue sample
-relationship: part_of UBERON:0001103 ! diaphragm
+relationship: derives_from UBERON:0001103 ! diaphragm
 
 [Term]
 id: FF:0010070
@@ -7545,7 +7548,7 @@ name: colon - fetal sample
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
 is_a: FF:0000999 ! fetal tissue sample
-relationship: part_of UBERON:0001155 ! colon
+relationship: derives_from UBERON:0001155 ! colon
 
 [Term]
 id: FF:0010071
@@ -7553,7 +7556,7 @@ name: temporal lobe - fetal sample
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
 is_a: FF:0000999 ! fetal tissue sample
-relationship: part_of UBERON:0001871 ! temporal lobe
+relationship: derives_from UBERON:0001871 ! temporal lobe
 
 [Term]
 id: FF:0010072
@@ -7561,7 +7564,7 @@ name: parietal lobe - fetal sample
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
 is_a: FF:0000999 ! fetal tissue sample
-relationship: part_of UBERON:0001872 ! parietal lobe
+relationship: derives_from UBERON:0001872 ! parietal lobe
 
 [Term]
 id: FF:0010073
@@ -7569,7 +7572,7 @@ name: occipital lobe - fetal sample
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
 is_a: FF:0000999 ! fetal tissue sample
-relationship: part_of UBERON:0002021 ! occipital lobe
+relationship: derives_from UBERON:0002021 ! occipital lobe
 
 [Term]
 id: FF:0010074
@@ -7701,8 +7704,8 @@ id: FF:0010153
 name: hippocampus - adult sample
 namespace: FANTOM5
 is_a: FF:0000998 ! adult tissue sample
-relationship: part_of UBERON:0001954 ! Ammon's horn
-relationship: part_of UBERON:0002421 ! hippocampal formation
+relationship: derives_from UBERON:0001954 ! Ammon's horn
+relationship: derives_from UBERON:0002421 ! hippocampal formation
 
 [Term]
 id: FF:0010154
@@ -7718,7 +7721,7 @@ name: medial temporal gyrus donor sample
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
-relationship: part_of UBERON:0002771 ! middle temporal gyrus
+relationship: derives_from UBERON:0002771 ! middle temporal gyrus
 
 [Term]
 id: FF:0010158
@@ -7750,7 +7753,7 @@ name: globus pallidus - adult donor sample
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
-relationship: part_of UBERON:0001875 ! globus pallidus
+relationship: derives_from UBERON:0001875 ! globus pallidus
 
 [Term]
 id: FF:0010162
@@ -8211,7 +8214,7 @@ relationship: derives_from CL:0000107 ! autonomic neuron
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000350 ! experimentally modified sample
-relationship: part_of UBERON:0002005 ! enteric nervous system
+relationship: derives_from UBERON:0002005 ! enteric nervous system
 
 [Term]
 id: FF:0011143
@@ -8220,7 +8223,7 @@ relationship: derives_from CL:0000107 ! autonomic neuron
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000350 ! experimentally modified sample
-relationship: part_of UBERON:0000011 ! parasympathetic nervous system
+relationship: derives_from UBERON:0000011 ! parasympathetic nervous system
 
 [Term]
 id: FF:0011144
@@ -8229,7 +8232,7 @@ relationship: derives_from CL:0000107 ! autonomic neuron
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000350 ! experimentally modified sample
-relationship: part_of UBERON:0000013 ! sympathetic nervous system
+relationship: derives_from UBERON:0000013 ! sympathetic nervous system
 
 [Term]
 id: FF:0011147
@@ -9452,7 +9455,7 @@ id: FF:0011319
 name: lung- embryo E12 sample
 is_a: FF:0000295 ! embryonic day 12
 relationship: derives_from UBERON:0002048 ! lung
-relationship: part_of UBERON:0000310 ! breast
+relationship: derives_from UBERON:0000310 ! breast
 
 [Term]
 id: FF:0011320
@@ -9568,7 +9571,7 @@ id: FF:0011338
 name: lung- embryo E14 sample
 is_a: FF:0000296 ! embryonic day 14
 relationship: derives_from UBERON:0002048 ! lung
-relationship: part_of UBERON:0000310 ! breast
+relationship: derives_from UBERON:0000310 ! breast
 
 [Term]
 id: FF:0011339
@@ -9628,7 +9631,7 @@ id: FF:0011348
 name: lung- embryo E15 sample
 is_a: FF:0000298 ! embryonic day 15
 relationship: derives_from UBERON:0002048 ! lung
-relationship: part_of UBERON:0000310 ! breast
+relationship: derives_from UBERON:0000310 ! breast
 
 [Term]
 id: FF:0011349
@@ -9682,7 +9685,7 @@ id: FF:0011357
 name: lung- embryo E16 sample
 is_a: FF:0000299 ! embryonic day 16
 relationship: derives_from UBERON:0002048 ! lung
-relationship: part_of UBERON:0000310 ! breast
+relationship: derives_from UBERON:0000310 ! breast
 
 [Term]
 id: FF:0011358
@@ -9749,7 +9752,7 @@ id: FF:0011368
 name: lung- embryo E17 sample
 is_a: FF:0000300 ! embryonic day 17
 relationship: derives_from UBERON:0002048 ! lung
-relationship: part_of UBERON:0000310 ! breast
+relationship: derives_from UBERON:0000310 ! breast
 
 [Term]
 id: FF:0011369
@@ -9822,7 +9825,7 @@ name: vesicular gland- adult sample
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
 relationship: derives_from UBERON:0007194 ! vesicular gland
-relationship: part_of UBERON:0000998 ! seminal vesicle
+relationship: derives_from UBERON:0000998 ! seminal vesicle
 
 [Term]
 id: FF:0011381
@@ -9880,7 +9883,6 @@ id: FF:0011391
 name: hippocampus- neonate N00 sample
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0001954 ! Ammon's horn
-relationship: part_of UBERON:0002421 ! hippocampal formation
 
 [Term]
 id: FF:0011392
@@ -9900,7 +9902,7 @@ id: FF:0011394
 name: lung- neonate N00 sample
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0002048 ! lung
-relationship: part_of UBERON:0000170 ! pair of lungs
+relationship: derives_from UBERON:0000170 ! pair of lungs
 
 [Term]
 id: FF:0011395
@@ -9957,7 +9959,7 @@ id: FF:0011402
 name: lung- neonate N06 sample
 is_a: FF:0000312 ! neonate N6
 relationship: derives_from UBERON:0002048 ! lung
-relationship: part_of UBERON:0000170 ! pair of lungs
+relationship: derives_from UBERON:0000170 ! pair of lungs
 
 [Term]
 id: FF:0011403
@@ -9998,7 +10000,7 @@ id: FF:0011408
 name: lung- neonate N07 sample
 is_a: FF:0000313 ! neonate N7
 relationship: derives_from UBERON:0002048 ! lung
-relationship: part_of UBERON:0000170 ! pair of lungs
+relationship: derives_from UBERON:0000170 ! pair of lungs
 
 [Term]
 id: FF:0011409
@@ -10041,7 +10043,7 @@ id: FF:0011415
 name: lung- neonate N10 sample
 is_a: FF:0000305 ! neonate N10
 relationship: derives_from UBERON:0002048 ! lung
-relationship: part_of UBERON:0000170 ! pair of lungs
+relationship: derives_from UBERON:0000170 ! pair of lungs
 
 [Term]
 id: FF:0011416
@@ -10573,14 +10575,14 @@ id: FF:0011488
 name: lung- neonate N25 sample
 is_a: FF:0000309 ! neonate N25
 relationship: derives_from UBERON:0002048 ! lung
-relationship: part_of UBERON:0000170 ! pair of lungs
+relationship: derives_from UBERON:0000170 ! pair of lungs
 
 [Term]
 id: FF:0011489
 name: lung- neonate N30 sample
 is_a: FF:0000310 ! neonate N30
 relationship: derives_from UBERON:0002048 ! lung
-relationship: part_of UBERON:0000170 ! pair of lungs
+relationship: derives_from UBERON:0000170 ! pair of lungs
 
 [Term]
 id: FF:0011490
@@ -10742,7 +10744,7 @@ id: FF:0011513
 name: lung- embryo E18 sample
 is_a: FF:0000302 ! embryonic day 18
 relationship: derives_from UBERON:0002048 ! lung
-relationship: part_of UBERON:0000170 ! pair of lungs
+relationship: derives_from UBERON:0000170 ! pair of lungs
 
 [Term]
 id: FF:0011514
@@ -13034,7 +13036,7 @@ relationship: derives_from CL:0000080 ! circulating cell
 is_a: FF:0101035 ! hematopoietic cell line
 relationship: derives_from UBERON:0000178 ! blood
 relationship: derives_from UBERON:0000922 ! embryo
-relationship: part_of UBERON:0002331 ! umbilical cord
+relationship: derives_from UBERON:0002331 ! umbilical cord
 
 [Term]
 id: FF:0104078
@@ -14028,7 +14030,7 @@ id: FF:10071-101I8
 name: duodenum, fetal, donor1,rep1
 namespace: FANTOM5
 is_a: EFO:0002091 ! biological replicate
-is_a: FF:0010071 ! temporal lobe - fetal
+is_a: FF:0010063 ! duodenum - fetal sample
 
 [Term]
 id: FF:10072-101I9
@@ -19608,6 +19610,12 @@ namespace: FANTOM5
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000210 ! human sample
 is_a: FF:0100599 ! Hep-G2 cell
+
+[Term]
+id: FF:0300103
+name: B lymphoblastoid cell line: GM12878 ENCODE
+namespace: FANTOM5
+is_a: FF:0102062 ! B-lymphoblastoid cell line sample
 
 [Term]
 id: FF:10821-111C2
@@ -35516,7 +35524,7 @@ name: lung, adult, rep1
 namespace: FANTOM5
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0011307 ! lung- adult
-relationship: part_of UBERON:0000310 ! breast
+relationship: derives_from UBERON:0000310 ! breast
 
 [Term]
 id: FF:2855-61A4
