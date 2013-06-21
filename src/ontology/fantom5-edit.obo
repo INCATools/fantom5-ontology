@@ -13966,7 +13966,7 @@ is_a: EFO:0002091 ! biological replicate
 is_a: FF:0010062 ! stomach - fetal
 
 [Term]
-id: FF:10063-101H9
+id: FF:0010071-101H9
 name: temporal lobe, fetal, donor1, rep1
 namespace: FANTOM5
 is_a: EFO:0002091 ! biological replicate
