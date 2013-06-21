@@ -7148,7 +7148,6 @@ namespace: FANTOM5
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
 relationship: derives_from UBERON:0002048 ! lung
-relationship: derives_from UBERON:0000170 ! pair of lungs
 
 [Term]
 id: FF:0010020
@@ -9371,10 +9370,11 @@ relationship: derives_from UBERON:0002106 ! spleen
 
 [Term]
 id: FF:0011307
-name: lung- adult sample
+name: lung, adult sample (mouse)
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
 relationship: derives_from UBERON:0002048 ! lung
+is_a: FF:0010019 ! lung - adult
 
 [Term]
 id: FF:0011308
@@ -9382,10 +9382,6 @@ name: skin- adult sample
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
 relationship: derives_from UBERON:0000014 ! zone of skin
-relationship: derives_from UBERON:0001003 ! epidermis
-relationship: derives_from UBERON:0002097 ! skin of body
-relationship: derives_from UBERON:0002199 ! integument
-relationship: derives_from UBERON:0007029 ! surface
 
 [Term]
 id: FF:0011309
@@ -35524,7 +35520,7 @@ name: lung, adult, rep1
 namespace: FANTOM5
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0011307 ! lung- adult
-relationship: derives_from UBERON:0000310 ! breast
+relationship: derives_from UBERON:0002048 ! lung
 
 [Term]
 id: FF:2855-61A4
