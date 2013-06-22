@@ -593,9 +593,9 @@ id: FF:0000045
 name: human plasmacytoid dendritic cell sample
 namespace: FANTOM5
 synonym: "plasmacytoid dendritic cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000784 ! plasmacytoid dendritic cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000784 ! plasmacytoid dendritic cell
 created_by: tmeehan
 creation_date: 2011-02-28T03:28:47Z
 
@@ -604,9 +604,9 @@ id: FF:0000046
 name: human endothelial cell sample
 namespace: FANTOM5
 synonym: "endothelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000115 ! endothelial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000115 ! endothelial cell
 created_by: tmeehan
 creation_date: 2011-02-28T03:33:08Z
 
@@ -615,8 +615,8 @@ id: FF:0000047
 name: human endothelial cell of the artery sample
 namespace: FANTOM5
 synonym: "endothelial cell of the artery" EXACT []
-is_a: FF:0000046 ! human endothelial cell sample
-relationship: derives_from CL:1000413 ! endothelial cell of artery
+intersection_of: FF:0000046 ! human endothelial cell sample
+intersection_of: derives_from CL:1000413 ! endothelial cell of artery
 created_by: tmeehan
 creation_date: 2011-02-28T03:33:34Z
 
@@ -625,9 +625,8 @@ id: FF:0000048
 name: human endothelial cell of the aorta sample
 namespace: FANTOM5
 synonym: "endothelial cell of the aorta" EXACT []
-is_a: FF:0000047 ! human endothelial cell of the artery sample
-relationship: derives_from CL:0002544 ! aortic endothelial cell
-relationship: derives_from UBERON:0000947 ! aorta
+intersection_of: FF:0000047 ! human endothelial cell of the artery sample
+intersection_of: derives_from CL:0002544 ! aortic endothelial cell
 created_by: tmeehan
 creation_date: 2011-02-28T03:33:35Z
 
@@ -636,8 +635,8 @@ id: FF:0000049
 name: human lymphatic endothelial cell sample
 namespace: FANTOM5
 synonym: "lymphatic endothelial cell" EXACT []
-is_a: FF:0000046 ! human endothelial cell sample
-relationship: derives_from CL:0002138 ! endothelial cell of lymphatic vessel
+intersection_of: FF:0000046 ! human endothelial cell sample
+intersection_of: derives_from CL:0002138 ! endothelial cell of lymphatic vessel
 created_by: tmeehan
 creation_date: 2011-02-28T04:08:46Z
 
@@ -646,8 +645,8 @@ id: FF:0000050
 name: human microvascular endothelial cell sample
 namespace: FANTOM5
 synonym: "microvascular endothelial cell" EXACT []
-is_a: FF:0000046 ! human endothelial cell sample
-relationship: derives_from CL:0002144 ! capillary endothelial cell
+intersection_of: FF:0000046 ! human endothelial cell sample
+intersection_of: derives_from CL:0002144 ! capillary endothelial cell
 created_by: tmeehan
 creation_date: 2011-02-28T04:11:48Z
 
@@ -656,8 +655,8 @@ id: FF:0000051
 name: human thoracic endothelial cell sample
 namespace: FANTOM5
 synonym: "thoracic endothelial cell" EXACT []
-is_a: FF:0000048 ! human endothelial cell of the aorta sample
-relationship: derives_from CL:0002545 ! thoracic aorta endothelial cell
+intersection_of: FF:0000048 ! human endothelial cell of the aorta sample
+intersection_of: derives_from CL:0002545 ! thoracic aorta endothelial cell
 created_by: tmeehan
 creation_date: 2011-02-28T04:13:50Z
 
@@ -666,8 +665,8 @@ id: FF:0000052
 name: human endothelial cell of the vein sample
 namespace: FANTOM5
 synonym: "endothelial cell of the vein" EXACT []
-is_a: FF:0000046 ! human endothelial cell sample
-relationship: derives_from CL:0002543 ! vein endothelial cell
+intersection_of: FF:0000046 ! human endothelial cell sample
+intersection_of: derives_from CL:0002543 ! vein endothelial cell
 created_by: tmeehan
 creation_date: 2011-02-28T04:16:43Z
 
@@ -676,9 +675,9 @@ id: FF:0000053
 name: human blood vessel endothelial progenitor cell sample
 namespace: FANTOM5
 synonym: "blood vessel endothelial progenitor cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002619 ! adult endothelial progenitor cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002619 ! adult endothelial progenitor cell
 created_by: tmeehan
 creation_date: 2011-02-28T04:25:02Z
 
@@ -687,9 +686,9 @@ id: FF:0000054
 name: human eosinophil sample
 namespace: FANTOM5
 synonym: "eosinophil" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000771 ! eosinophil
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000771 ! eosinophil
 created_by: tmeehan
 creation_date: 2011-02-28T04:31:51Z
 
@@ -698,9 +697,9 @@ id: FF:0000055
 name: human erythroid progenitor cell sample
 namespace: FANTOM5
 synonym: "erythroid progenitor cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000038 ! erythroid progenitor cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000038 ! erythroid progenitor cell
 created_by: tmeehan
 creation_date: 2011-02-28T04:34:18Z
 
@@ -709,9 +708,9 @@ id: FF:0000056
 name: human epithelial cell of esophagus sample
 namespace: FANTOM5
 synonym: "epithelial cell of esophagus" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002252 ! epithelial cell of esophagus
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002252 ! epithelial cell of esophagus
 created_by: tmeehan
 creation_date: 2011-02-28T04:37:52Z
 
@@ -720,8 +719,8 @@ id: FF:0000057
 name: fibroblast sample
 namespace: FANTOM5
 synonym: "fibroblast" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-relationship: derives_from CL:0000057 ! fibroblast
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: derives_from CL:0000057 ! fibroblast
 created_by: tmeehan
 creation_date: 2011-02-28T03:52:53Z
 
@@ -730,9 +729,9 @@ id: FF:0000058
 name: human fibroblast of the aortic adventitia sample
 namespace: FANTOM5
 synonym: "fibroblast of the aortic adventitia" EXACT []
-is_a: FF:0000057 ! fibroblast sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002547 ! fibroblast of the aortic adventitia
+intersection_of: FF:0000057 ! fibroblast sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002547 ! fibroblast of the aortic adventitia
 created_by: tmeehan
 creation_date: 2011-02-28T04:08:40Z
 
@@ -743,9 +742,9 @@ namespace: FANTOM5
 alt_id: FF:0104974
 def: "A fibroblast from cardiac tissue." [GOC:tfm]
 synonym: "cardiac fibroblast" EXACT []
-is_a: FF:0000057 ! fibroblast sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002548 ! cardiac fibroblast
+intersection_of: FF:0000057 ! fibroblast sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002548 ! cardiac fibroblast
 created_by: tmeehan
 creation_date: 2011-02-28T04:10:10Z
 
@@ -754,9 +753,9 @@ id: FF:0000060
 name: human fibroblast of choroid plexus sample
 namespace: FANTOM5
 synonym: "fibroblast of choroid plexus" EXACT []
-is_a: FF:0000057 ! fibroblast sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002549 ! fibroblast of choroid plexus
+intersection_of: FF:0000057 ! fibroblast sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002549 ! fibroblast of choroid plexus
 created_by: tmeehan
 creation_date: 2011-02-28T04:12:16Z
 
@@ -765,9 +764,9 @@ id: FF:0000061
 name: human fibroblast of conjuctivia sample
 namespace: FANTOM5
 synonym: "fibroblast of conjuctivia" EXACT []
-is_a: FF:0000057 ! fibroblast sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002550 ! fibroblast of the conjuctiva
+intersection_of: FF:0000057 ! fibroblast sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002550 ! fibroblast of the conjuctiva
 created_by: tmeehan
 creation_date: 2011-02-28T04:13:20Z
 
@@ -776,8 +775,8 @@ id: FF:0000062
 name: human dermal fibroblast sample
 namespace: FANTOM5
 synonym: "dermal fibroblast" EXACT []
-is_a: FF:0000250 ! human fibroblast of skin sample
-relationship: derives_from CL:0002551 ! fibroblast of dermis
+intersection_of: FF:0000250 ! human fibroblast of skin sample
+intersection_of: derives_from CL:0002551 ! fibroblast of dermis
 created_by: tmeehan
 creation_date: 2011-02-28T04:22:51Z
 
@@ -786,9 +785,9 @@ id: FF:0000063
 name: human fibroblast of gingiva sample
 namespace: FANTOM5
 synonym: "fibroblast of gingiva" EXACT []
-is_a: FF:0000057 ! fibroblast sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002552 ! fibroblast of gingiva
+intersection_of: FF:0000057 ! fibroblast sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002552 ! fibroblast of gingiva
 created_by: tmeehan
 creation_date: 2011-02-28T04:24:53Z
 
@@ -797,9 +796,9 @@ id: FF:0000064
 name: human fibroblast of lung sample
 namespace: FANTOM5
 synonym: "fibroblast of lung" EXACT []
-is_a: FF:0000057 ! fibroblast sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002553 ! fibroblast of lung
+intersection_of: FF:0000057 ! fibroblast sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002553 ! fibroblast of lung
 created_by: tmeehan
 creation_date: 2011-02-28T04:26:10Z
 
@@ -808,9 +807,9 @@ id: FF:0000065
 name: human fibroblast of lymphatic vessel sample
 namespace: FANTOM5
 synonym: "fibroblast of lymphatic vessel" EXACT []
-is_a: FF:0000057 ! fibroblast sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002554 ! fibroblast of lymphatic vessel
+intersection_of: FF:0000057 ! fibroblast sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002554 ! fibroblast of lymphatic vessel
 created_by: tmeehan
 creation_date: 2011-02-28T04:26:48Z
 
@@ -819,9 +818,9 @@ id: FF:0000066
 name: human fibroblast of mammary gland sample
 namespace: FANTOM5
 synonym: "fibroblast of mammary gland" EXACT []
-is_a: FF:0000057 ! fibroblast sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002555 ! fibroblast of mammary gland
+intersection_of: FF:0000057 ! fibroblast sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002555 ! fibroblast of mammary gland
 created_by: tmeehan
 creation_date: 2011-02-28T04:29:06Z
 
@@ -830,9 +829,9 @@ id: FF:0000067
 name: human fibroblast of periodontium sample
 namespace: FANTOM5
 synonym: "fibroblast of periodontium" EXACT []
-is_a: FF:0000057 ! fibroblast sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002556 ! fibroblast of periodontium
+intersection_of: FF:0000057 ! fibroblast sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002556 ! fibroblast of periodontium
 created_by: tmeehan
 creation_date: 2011-02-28T04:30:33Z
 
@@ -841,9 +840,9 @@ id: FF:0000068
 name: human fibroblast of pulmonary artery sample
 namespace: FANTOM5
 synonym: "fibroblast of pulmonary artery" EXACT []
-is_a: FF:0000057 ! fibroblast sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002557 ! fibroblast of pulmonary artery
+intersection_of: FF:0000057 ! fibroblast sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002557 ! fibroblast of pulmonary artery
 created_by: tmeehan
 creation_date: 2011-02-28T04:32:36Z
 
@@ -852,9 +851,9 @@ id: FF:0000069
 name: human fibroblast of villous mesenchyme sample
 namespace: FANTOM5
 synonym: "fibroblast of villous mesenchyme" EXACT []
-is_a: FF:0000057 ! fibroblast sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002558 ! fibroblast of villous mesenchymal
+intersection_of: FF:0000057 ! fibroblast sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002558 ! fibroblast of villous mesenchymal
 created_by: tmeehan
 creation_date: 2011-02-28T04:33:45Z
 
@@ -863,8 +862,8 @@ id: FF:0000070
 name: granulocyte macrophage progenitor cell sample
 namespace: FANTOM5
 synonym: "granulocyte macrophage progenitor cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-relationship: derives_from CL:0000557 ! granulocyte monocyte progenitor cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: derives_from CL:0000557 ! granulocyte monocyte progenitor cell
 created_by: tmeehan
 creation_date: 2011-03-01T03:58:45Z
 
@@ -873,8 +872,8 @@ id: FF:0000071
 name: human hair follicle dermal papilla cell sample
 namespace: FANTOM5
 synonym: "hair follicle dermal papilla cell" EXACT []
-is_a: FF:0000072 ! human hair follicle cell sample
-relationship: derives_from CL:0000346 ! hair follicle dermal papilla cell
+intersection_of: FF:0000072 ! human hair follicle cell sample
+intersection_of: derives_from CL:0000346 ! hair follicle dermal papilla cell
 relationship: derives_from CL:1000428 ! stem cell of epidermis
 created_by: tmeehan
 creation_date: 2011-03-01T04:39:49Z
@@ -884,9 +883,9 @@ id: FF:0000072
 name: human hair follicle cell sample
 namespace: FANTOM5
 synonym: "hair follicle cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002559 ! hair follicle cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002559 ! hair follicle cell
 created_by: tmeehan
 creation_date: 2011-03-01T04:38:44Z
 
@@ -895,8 +894,8 @@ id: FF:0000073
 name: human hair follicle germinal matrix cell sample
 namespace: FANTOM5
 synonym: "hair follicle germinal matrix cell" EXACT []
-is_a: FF:0000072 ! human hair follicle cell sample
-relationship: derives_from CL:0002562 ! hair germinal matrix cell
+intersection_of: FF:0000072 ! human hair follicle cell sample
+intersection_of: derives_from CL:0002562 ! hair germinal matrix cell
 created_by: tmeehan
 creation_date: 2011-03-01T04:41:30Z
 
@@ -905,8 +904,8 @@ id: FF:0000074
 name: human inner root sheat cell sample
 namespace: FANTOM5
 synonym: "inner root sheat cell" EXACT []
-is_a: FF:0000072 ! human hair follicle cell sample
-relationship: derives_from CL:0002560 ! inner root sheath cell
+intersection_of: FF:0000072 ! human hair follicle cell sample
+intersection_of: derives_from CL:0002560 ! inner root sheath cell
 created_by: tmeehan
 creation_date: 2011-03-01T04:42:32Z
 
@@ -915,8 +914,8 @@ id: FF:0000075
 name: human outer root sheath cell sample
 namespace: FANTOM5
 synonym: "outer root sheath cell" EXACT []
-is_a: FF:0000072 ! human hair follicle cell sample
-relationship: derives_from CL:0002561 ! outer root sheath cell
+intersection_of: FF:0000072 ! human hair follicle cell sample
+intersection_of: derives_from CL:0002561 ! outer root sheath cell
 created_by: tmeehan
 creation_date: 2011-03-01T04:43:00Z
 
@@ -925,9 +924,9 @@ id: FF:0000076
 name: hepatic sinusoidal endothelial cell sample
 namespace: FANTOM5
 synonym: "hepatic sinusoidal endothelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-relationship: derives_from CL:1000398 ! endothelial cell of hepatic sinusoid
-relationship: derives_from UBERON:0001281 ! hepatic sinusoid
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: derives_from CL:1000398 ! endothelial cell of hepatic sinusoid
+intersection_of: derives_from UBERON:0001281 ! hepatic sinusoid
 created_by: tmeehan
 creation_date: 2011-03-01T04:51:50Z
 
