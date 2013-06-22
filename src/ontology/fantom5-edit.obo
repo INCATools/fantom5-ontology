@@ -145,9 +145,9 @@ name: human primary cell line sample
 namespace: FANTOM5
 def: "A sample consisting of primary cell line material." [GOC:tfm]
 synonym: "primary cell line" EXACT []
-is_a: FF:0000003 ! cell line sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000001 ! primary cell culture cell
+intersection_of: FF:0000003 ! cell line sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000001 ! primary cell culture cell
 created_by: tmeehan
 creation_date: 2011-02-28T10:41:57Z
 
@@ -157,9 +157,9 @@ name: human permanent cell line sample
 namespace: FANTOM5
 def: "A sample consisting of permanent cell line material." [GOC:tfm]
 synonym: "permanent cell line" EXACT []
-is_a: FF:0000003 ! cell line sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000002 ! permanent cell line cell
+intersection_of: FF:0000003 ! cell line sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000002 ! permanent cell line cell
 created_by: tmeehan
 creation_date: 2011-02-28T10:43:08Z
 
@@ -168,9 +168,9 @@ id: FF:0000007
 name: human adrenal cortex cell sample
 namespace: FANTOM5
 synonym: "adrenal cortex cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002097 ! cortical cell of adrenal gland
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002097 ! cortical cell of adrenal gland
 created_by: tmeehan
 creation_date: 2011-02-28T12:10:29Z
 
@@ -179,11 +179,10 @@ id: FF:0000008
 name: human adrenal chromaffin cell sample
 namespace: FANTOM5
 synonym: "adrenal chromaffin cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000336 ! adrenal medulla chromaffin cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000336 ! adrenal medulla chromaffin cell
 relationship: derives_from UBERON:0001236 ! adrenal medulla
-relationship: derives_from UBERON:0002369 ! adrenal gland
 created_by: tmeehan
 creation_date: 2011-02-28T12:22:19Z
 
@@ -192,9 +191,9 @@ id: FF:0000009
 name: human amniotic epithelial cell sample
 namespace: FANTOM5
 synonym: "amniotic epithelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002536 ! amniotic epithelial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002536 ! amniotic epithelial cell
 created_by: tmeehan
 creation_date: 2011-02-28T12:29:16Z
 
@@ -214,9 +213,9 @@ id: FF:0000011
 name: human subcutaneous adipocyte sample
 namespace: FANTOM5
 synonym: "subcutaneous adipocyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002521 ! subcutaneous fat cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002521 ! subcutaneous fat cell
 created_by: tmeehan
 creation_date: 2011-02-28T12:51:29Z
 
@@ -225,9 +224,9 @@ id: FF:0000012
 name: human alveolar epithelial cell sample
 namespace: FANTOM5
 synonym: "alveolar epithelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000322 ! pneumocyte
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000322 ! pneumocyte
 created_by: tmeehan
 creation_date: 2011-02-28T12:54:31Z
 
@@ -236,9 +235,9 @@ id: FF:0000013
 name: human basophil sample
 namespace: FANTOM5
 synonym: "basophil" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000767 ! basophil
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000767 ! basophil
 created_by: tmeehan
 creation_date: 2011-02-28T12:58:36Z
 
@@ -248,9 +247,9 @@ name: human intrahepatic biliary epithelial cell sample
 namespace: FANTOM5
 def: "An epithelial cell of the intrahepatic portion of the biliary tree." [GC:tfm]
 synonym: "intrahepatic biliary epithelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002538 ! intrahepatic bile duct epithelial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002538 ! intrahepatic bile duct epithelial cell
 created_by: tmeehan
 creation_date: 2011-02-28T01:27:43Z
 
@@ -259,9 +258,9 @@ id: FF:0000015
 name: human bronchial epithelial cell sample
 namespace: FANTOM5
 synonym: "bronchial epithelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002328 ! bronchial epithelial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002328 ! bronchial epithelial cell
 created_by: tmeehan
 creation_date: 2011-02-28T01:30:54Z
 
@@ -286,9 +285,9 @@ id: FF:0000017
 name: canine aortic smooth muscle cell sample
 namespace: FANTOM5
 synonym: "canine aortic smooth muscle cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000016 ! canine sample
-relationship: derives_from CL:0002539 ! aortic smooth muscle cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000016 ! canine sample
+intersection_of: derives_from CL:0002539 ! aortic smooth muscle cell
 created_by: tmeehan
 creation_date: 2011-02-28T01:35:29Z
 
@@ -297,9 +296,9 @@ id: FF:0000018
 name: canine hepatocyte sample
 namespace: FANTOM5
 synonym: "canine hepatocyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000016 ! canine sample
-relationship: derives_from CL:0000182 ! hepatocyte
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000016 ! canine sample
+intersection_of: derives_from CL:0000182 ! hepatocyte
 created_by: tmeehan
 creation_date: 2011-02-28T01:36:07Z
 
@@ -308,9 +307,9 @@ id: FF:0000019
 name: canine mesenchymal stem cell sample
 namespace: FANTOM5
 synonym: "canine mesenchymal stem cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000016 ! canine sample
-relationship: derives_from CL:0002540 ! mesenchymal stem cell of the bone marrow
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000016 ! canine sample
+intersection_of: derives_from CL:0002540 ! mesenchymal stem cell of the bone marrow
 created_by: tmeehan
 creation_date: 2011-02-28T01:36:12Z
 
@@ -319,19 +318,19 @@ id: FF:0000020
 name: human CD133-positive progenitor cell- bone marrow derived sample
 namespace: FANTOM5
 synonym: "CD133-positive progenitor cell- bone marrow derived" EXACT []
-is_a: FF:0000027 ! human CD133-positive hematopoeitic stem cell sample
-relationship: derives_from CL:0002092 ! bone marrow cell
+intersection_of: FF:0000027 ! human CD133-positive hematopoeitic stem cell sample
+intersection_of: derives_from CL:0002092 ! bone marrow cell
 created_by: tmeehan
 creation_date: 2011-03-14T03:40:54Z
 
 [Term]
 id: FF:0000021
-name: hematopoeitic stem cell sample
+name: hematopoietic stem cell sample
 namespace: FANTOM5
 def: "A FANTOM5 class to represent all hematpoeitic stem cell samples." [GOC:tfm]
-synonym: "hematopoeitic stem cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-relationship: derives_from CL:0000034 ! stem cell
+synonym: "hematopoietic stem cell" EXACT []
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: derives_from CL:0000037 ! hematopoietic stem cell
 created_by: tmeehan
 creation_date: 2011-02-28T01:58:10Z
 
@@ -340,7 +339,8 @@ id: FF:0000022
 name: human CD133-positive stem cell - cord blood derived sample
 namespace: FANTOM5
 synonym: "CD133-positive stem cell - cord blood derived" EXACT []
-is_a: FF:0000027 ! human CD133-positive hematopoeitic stem cell sample
+intersection_of: FF:0000027 ! human CD133-positive hematopoeitic stem cell sample
+intersection_of: derives_from  UBERON:0012168 ! umbilical cord blood
 created_by: tmeehan
 creation_date: 2011-03-14T03:42:36Z
 
@@ -359,9 +359,9 @@ id: FF:0000024
 name: human CD14-positive monocyte sample
 namespace: FANTOM5
 synonym: "CD14-positive monocyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002397 ! CD14-positive, CD16-positive monocyte
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002397 ! CD14-positive, CD16-positive monocyte
 created_by: tmeehan
 creation_date: 2011-02-28T02:08:08Z
 
@@ -372,6 +372,7 @@ namespace: FANTOM5
 synonym: "CD19-positive B cell" EXACT []
 is_a: FF:0000002 ! in vivo cell sample
 relationship: derives_from CL:0000236 ! B cell
+relationship: has_plasma_membrane_part PR:000001002 ! CD19 molecule
 created_by: tmeehan
 creation_date: 2011-02-28T02:09:59Z
 
@@ -382,6 +383,7 @@ namespace: FANTOM5
 synonym: "CD34-positive hematopoietic stem cell" EXACT []
 is_a: FF:0000021 ! hematopoeitic stem cell sample
 is_a: FF:0000210 ! human sample
+relationship: has_plasma_membrane_part PR:000001003 ! CD34 molecule
 created_by: tmeehan
 creation_date: 2011-02-28T02:13:42Z
 
@@ -390,9 +392,9 @@ id: FF:0000027
 name: human CD133-positive hematopoeitic stem cell sample
 namespace: FANTOM5
 synonym: "CD133-positive hematopoeitic stem cell" EXACT []
-is_a: FF:0000021 ! hematopoeitic stem cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0001024 ! CD34-positive, CD38-negative hematopoietic stem cell
+intersection_of: FF:0000021 ! hematopoeitic stem cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0001024 ! CD34-positive, CD38-negative hematopoietic stem cell
 created_by: tmeehan
 creation_date: 2011-02-28T02:13:47Z
 
@@ -423,8 +425,8 @@ id: FF:0000030
 name: CD8-positive T cell sample
 namespace: FANTOM5
 synonym: "CD8-positive T cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-relationship: derives_from CL:0000625 ! CD8-positive, alpha-beta T cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: derives_from CL:0000625 ! CD8-positive, alpha-beta T cell
 created_by: tmeehan
 creation_date: 2011-02-28T02:22:57Z
 
@@ -433,8 +435,8 @@ id: FF:0000031
 name: CD4-positive T cell sample
 namespace: FANTOM5
 synonym: "CD4-positive T cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-relationship: derives_from CL:0000624 ! CD4-positive, alpha-beta T cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: derives_from CL:0000624 ! CD4-positive, alpha-beta T cell
 created_by: tmeehan
 creation_date: 2011-02-28T02:23:02Z
 
@@ -457,9 +459,9 @@ id: FF:0000033
 name: chicken aortic smooth muscle cell sample
 namespace: FANTOM5
 synonym: "chicken aortic smooth muscle cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000032 ! chicken sample
-relationship: derives_from CL:0002539 ! aortic smooth muscle cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000032 ! chicken sample
+intersection_of: derives_from CL:0002539 ! aortic smooth muscle cell
 created_by: tmeehan
 creation_date: 2011-02-28T02:29:06Z
 
@@ -468,9 +470,9 @@ id: FF:0000034
 name: chicken hepatocyte sample
 namespace: FANTOM5
 synonym: "chicken hepatocyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000032 ! chicken sample
-relationship: derives_from CL:0000182 ! hepatocyte
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000032 ! chicken sample
+intersection_of: derives_from CL:0000182 ! hepatocyte
 created_by: tmeehan
 creation_date: 2011-02-28T02:29:10Z
 
@@ -479,9 +481,9 @@ id: FF:0000035
 name: chicken mesenchymal stem cell sample
 namespace: FANTOM5
 synonym: "chicken mesenchymal stem cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000032 ! chicken sample
-relationship: derives_from CL:0002540 ! mesenchymal stem cell of the bone marrow
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000032 ! chicken sample
+intersection_of: derives_from CL:0002540 ! mesenchymal stem cell of the bone marrow
 created_by: tmeehan
 creation_date: 2011-02-28T02:29:14Z
 
@@ -490,9 +492,9 @@ id: FF:0000036
 name: human chondroblast sample
 namespace: FANTOM5
 synonym: "chondroblast" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000058 ! chondroblast
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000058 ! chondroblast
 created_by: tmeehan
 creation_date: 2011-02-28T02:34:11Z
 
@@ -501,9 +503,9 @@ id: FF:0000037
 name: human chondrocyte sample
 namespace: FANTOM5
 synonym: "chondrocyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000138 ! chondrocyte
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000138 ! chondrocyte
 created_by: tmeehan
 creation_date: 2011-02-28T02:36:07Z
 
@@ -512,11 +514,10 @@ id: FF:0000038
 name: human chorionic membrane stem cell sample
 namespace: FANTOM5
 synonym: "chorionic membrane stem cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002541 ! chorionic membrane mesenchymal stem cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002541 ! chorionic membrane mesenchymal stem cell
 relationship: derives_from UBERON:0000920 ! egg chorion
-relationship: derives_from UBERON:0003124 ! chorion
 created_by: tmeehan
 creation_date: 2011-02-28T03:09:25Z
 
@@ -525,9 +526,9 @@ id: FF:0000039
 name: human adipocyte of omentum tissue sample
 namespace: FANTOM5
 synonym: "adipocyte of omentum tissue" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002615 ! adipocyte of omentum tissue
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002615 ! adipocyte of omentum tissue
 created_by: tmeehan
 creation_date: 2011-03-14T10:22:47Z
 
@@ -536,9 +537,10 @@ id: FF:0000040
 name: human ciliary epithelial cell sample
 namespace: FANTOM5
 synonym: "ciliary epithelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002304 ! non-pigmented ciliary epithelial cell
+synonym: "non-pigmented ciliary epithelial cell sample" EXACT []
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002304 ! non-pigmented ciliary epithelial cell
 created_by: tmeehan
 creation_date: 2011-02-28T03:16:36Z
 
@@ -547,8 +549,8 @@ id: FF:0000041
 name: common myeloid progenitor sample
 namespace: FANTOM5
 synonym: "common myeloid progenitor" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-relationship: derives_from CL:0000049 ! common myeloid progenitor
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: derives_from CL:0000049 ! common myeloid progenitor
 created_by: tmeehan
 creation_date: 2011-02-28T03:19:57Z
 
@@ -557,9 +559,9 @@ id: FF:0000042
 name: human pancreatic stromal cell sample
 namespace: FANTOM5
 synonym: "pancreatic stromal cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002574 ! stromal cell of pancreas
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002574 ! stromal cell of pancreas
 created_by: tmeehan
 creation_date: 2011-03-02T02:43:26Z
 
@@ -568,9 +570,9 @@ id: FF:0000043
 name: human corneal epithelial cell sample
 namespace: FANTOM5
 synonym: "corneal epithelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000575 ! corneal epithelial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000575 ! corneal epithelial cell
 created_by: tmeehan
 creation_date: 2011-02-28T03:24:18Z
 
@@ -579,10 +581,10 @@ id: FF:0000044
 name: human monocyte immature derived dendritic cell sample
 namespace: FANTOM5
 synonym: "monocyte immature derived dendritic cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000840 ! immature conventional dendritic cell
-relationship: derives_from CL:0000576 ! monocyte
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000840 ! immature conventional dendritic cell
+intersection_of: derives_from CL:0000576 ! monocyte
 created_by: tmeehan
 creation_date: 2011-02-28T03:26:51Z
 
