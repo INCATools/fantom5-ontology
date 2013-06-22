@@ -1,968 +1,285 @@
-[Term]
-id: FF:13587-146D5
-name: hepatocytes, partial hepatectomy, 30hr, biol_rep2
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13587-146D5
-name: hepatocytes, partial hepatectomy, 30hr, biol_rep2
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13587-146D5
-name: hepatocytes, partial hepatectomy, 30hr, biol_rep2
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13588-146D6
-name: hepatocytes, partial hepatectomy, 30hr, biol_rep3
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13588-146D6
-name: hepatocytes, partial hepatectomy, 30hr, biol_rep3
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13589-146D7
-name: hepatocytes, partial hepatectomy, 48hr, biol_rep1
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13588-146D6
-name: hepatocytes, partial hepatectomy, 30hr, biol_rep3
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13589-146D7
-name: hepatocytes, partial hepatectomy, 48hr, biol_rep1
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13589-146D7
-name: hepatocytes, partial hepatectomy, 48hr, biol_rep1
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13590-146D8
-name: hepatocytes, partial hepatectomy, 48hr, biol_rep2
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13590-146D8
-name: hepatocytes, partial hepatectomy, 48hr, biol_rep2
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13590-146D8
-name: hepatocytes, partial hepatectomy, 48hr, biol_rep2
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13591-146D9
-name: hepatocytes, partial hepatectomy, 48hr, biol_rep3
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13591-146D9
-name: hepatocytes, partial hepatectomy, 48hr, biol_rep3
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13591-146D9
-name: hepatocytes, partial hepatectomy, 48hr, biol_rep3
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13592-146E1
-name: hepatocytes, partial hepatectomy, week01, biol_rep1
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13587-146D5
-name: hepatocytes, partial hepatectomy, 30hr, biol_rep2
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13592-146E1
-name: hepatocytes, partial hepatectomy, week01, biol_rep1
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13592-146E1
-name: hepatocytes, partial hepatectomy, week01, biol_rep1
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13593-146E2
-name: hepatocytes, partial hepatectomy, week01, biol_rep2
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13593-146E2
-name: hepatocytes, partial hepatectomy, week01, biol_rep2
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13588-146D6
-name: hepatocytes, partial hepatectomy, 30hr, biol_rep3
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13593-146E2
-name: hepatocytes, partial hepatectomy, week01, biol_rep2
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13594-146E3
-name: hepatocytes, partial hepatectomy, week01, biol_rep3
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13589-146D7
-name: hepatocytes, partial hepatectomy, 48hr, biol_rep1
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13594-146E3
-name: hepatocytes, partial hepatectomy, week01, biol_rep3
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13594-146E3
-name: hepatocytes, partial hepatectomy, week01, biol_rep3
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13590-146D8
-name: hepatocytes, partial hepatectomy, 48hr, biol_rep2
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13591-146D9
-name: hepatocytes, partial hepatectomy, 48hr, biol_rep3
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13592-146E1
-name: hepatocytes, partial hepatectomy, week01, biol_rep1
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13594-146E3
-name: hepatocytes, partial hepatectomy, week01, biol_rep3
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13593-146E2
-name: hepatocytes, partial hepatectomy, week01, biol_rep2
-is_a: FF:0000103 ! mouse sample
-
-[Term]
-id: FF:13625-146H7
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13625-146H7
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13625-146H7
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13626-146H8
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13626-146H8
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13626-146H8
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13627-146H9
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr00min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13627-146H9
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr00min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13627-146H9
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr00min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13628-146I1
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr15min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13628-146I1
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr15min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13628-146I1
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr15min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13629-146I2
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr15min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13629-146I2
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr15min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13629-146I2
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr15min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13630-146I3
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr15min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13630-146I3
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr15min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13630-146I3
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr15min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13631-146I4
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr30min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13631-146I4
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr30min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13631-146I4
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr30min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13632-146I5
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr30min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13632-146I5
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr30min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13632-146I5
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr30min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13633-146I6
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr30min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13633-146I6
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr30min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13633-146I6
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr30min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13634-146I7
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr45min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13634-146I7
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr45min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13634-146I7
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr45min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13635-146I8
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr45min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13635-146I8
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr45min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13635-146I8
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr45min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13636-146I9
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr45min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13636-146I9
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr45min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13636-146I9
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr45min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13637-147A1
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13637-147A1
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13637-147A1
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13638-147A2
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13638-147A2
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13638-147A2
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13639-147A3
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr00min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13639-147A3
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr00min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13639-147A3
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr00min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13640-147A4
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr20min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13640-147A4
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr20min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13640-147A4
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr20min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13641-147A5
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr20min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13641-147A5
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr20min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13641-147A5
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr20min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13642-147A6
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr20min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13642-147A6
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr20min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13642-147A6
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr20min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13643-147A7
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr40min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13643-147A7
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr40min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13643-147A7
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr40min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13644-147A8
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr40min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13644-147A8
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr40min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13644-147A8
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr40min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13645-147A9
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr40min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13645-147A9
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr40min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13645-147A9
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr40min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13646-147B1
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13646-147B1
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13646-147B1
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13647-147B2
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13647-147B2
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13647-147B2
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13648-147B3
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr00min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13648-147B3
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr00min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13648-147B3
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr00min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13649-147B4
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr30min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13649-147B4
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr30min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13649-147B4
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr30min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13650-147B5
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr30min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13650-147B5
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr30min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13650-147B5
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr30min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13651-147B6
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr30min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13651-147B6
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr30min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13651-147B6
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr30min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13652-147B7
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13652-147B7
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13652-147B7
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13653-147B8
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13653-147B8
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13653-147B8
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13654-147B9
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr00min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13654-147B9
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr00min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13654-147B9
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr00min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13655-147C1
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr30min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13655-147C1
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr30min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13655-147C1
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr30min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13656-147C2
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr30min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13656-147C2
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr30min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13656-147C2
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr30min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13657-147C3
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr30min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13657-147C3
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr30min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13657-147C3
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr30min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13658-147C4
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 04hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13658-147C4
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 04hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13658-147C4
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 04hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13659-147C5
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 04hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13659-147C5
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 04hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13659-147C5
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 04hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13660-147C6
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 04hr00min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13660-147C6
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 04hr00min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13660-147C6
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 04hr00min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13661-147C7
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 05hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13661-147C7
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 05hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13661-147C7
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 05hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13662-147C8
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 05hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13662-147C8
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 05hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13662-147C8
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 05hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13625-146H7
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13626-146H8
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13627-146H9
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr00min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13628-146I1
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr15min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13629-146I2
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr15min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13630-146I3
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr15min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13631-146I4
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr30min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13632-146I5
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr30min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13633-146I6
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr30min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13634-146I7
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr45min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13635-146I8
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr45min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13636-146I9
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr45min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13637-147A1
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13638-147A2
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13639-147A3
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr00min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13640-147A4
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr20min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13641-147A5
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr20min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13642-147A6
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr20min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13643-147A7
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr40min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13644-147A8
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr40min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13645-147A9
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr40min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13646-147B1
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13647-147B2
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13648-147B3
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr00min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13649-147B4
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr30min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13650-147B5
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr30min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13651-147B6
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr30min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13652-147B7
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13653-147B8
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13654-147B9
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr00min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13655-147C1
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr30min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13656-147C2
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr30min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13657-147C3
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr30min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13658-147C4
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 04hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13659-147C5
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 04hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13660-147C6
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 04hr00min, biol_rep3
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13661-147C7
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 05hr00min, biol_rep1
-is_a: FF:0000210 ! human sample
-
-[Term]
-id: FF:13662-147C8
-name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 05hr00min, biol_rep2
-is_a: FF:0000210 ! human sample
+!!! new 022
 
 [Term]
 id: FF:10063-101H9
 name: temporal lobe, fetal, donor1, tech_rep2
 is_a: FF:0000210 ! human sample
 is_a: FF:0000004 ! tissue sample
+is_a: FF:0010071 ! temporal lobe - fetal
 
 [Term]
-id: FF:10063-101H9
-name: temporal lobe, fetal, donor1, tech_rep2
-is_a: FF:0000210 ! human sample
-is_a: FF:0000004 ! tissue sample
+id: FF:13587-146D5
+name: hepatocytes, partial hepatectomy, 30hr, biol_rep2
+is_a: FF:0000103 ! mouse sample
+is_a: FF:0200013 ! partial hepatectomy
 
 [Term]
-id: FF:10063-101H9
-name: temporal lobe, fetal, donor1, tech_rep1
-is_a: FF:0000210 ! human sample
-is_a: FF:0000004 ! tissue sample
+id: FF:13588-146D6
+name: hepatocytes, partial hepatectomy, 30hr, biol_rep3
+is_a: FF:0000103 ! mouse sample
+is_a: FF:0200013 ! partial hepatectomy
 
 [Term]
-id: FF:10063-101H9
-name: temporal lobe, fetal, donor1, tech_rep1
-is_a: FF:0000210 ! human sample
-is_a: FF:0000004 ! tissue sample
+id: FF:13589-146D7
+name: hepatocytes, partial hepatectomy, 48hr, biol_rep1
+is_a: FF:0000103 ! mouse sample
+is_a: FF:0200013 ! partial hepatectomy
 
 [Term]
-id: FF:10063-101H9
-name: temporal lobe, fetal, donor1, tech_rep2
-is_a: FF:0000210 ! human sample
-is_a: FF:0000004 ! tissue sample
+id: FF:13590-146D8
+name: hepatocytes, partial hepatectomy, 48hr, biol_rep2
+is_a: FF:0000103 ! mouse sample
+is_a: FF:0200013 ! partial hepatectomy
 
 [Term]
-id: FF:10063-101H9
-name: temporal lobe, fetal, donor1, tech_rep1
-is_a: FF:0000210 ! human sample
-is_a: FF:0000004 ! tissue sample
+id: FF:13591-146D9
+name: hepatocytes, partial hepatectomy, 48hr, biol_rep3
+is_a: FF:0000103 ! mouse sample
+is_a: FF:0200013 ! partial hepatectomy
 
 [Term]
-id: FF:10063-101H9
-name: temporal lobe, fetal, donor1, tech_rep1
-is_a: FF:0000210 ! human sample
-is_a: FF:0000004 ! tissue sample
+id: FF:13592-146E1
+name: hepatocytes, partial hepatectomy, week01, biol_rep1
+is_a: FF:0000103 ! mouse sample
+is_a: FF:0200013 ! partial hepatectomy
 
 [Term]
-id: FF:10063-101H9
-name: temporal lobe, fetal, donor1, tech_rep2
+id: FF:13593-146E2
+name: hepatocytes, partial hepatectomy, week01, biol_rep2
+is_a: FF:0000103 ! mouse sample
+is_a: FF:0200013 ! partial hepatectomy
+
+[Term]
+id: FF:13594-146E3
+name: hepatocytes, partial hepatectomy, week01, biol_rep3
+is_a: FF:0000103 ! mouse sample
+is_a: FF:0200013 ! partial hepatectomy
+
+[Term]
+id: FF:13625-146H7
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr00min, biol_rep1
 is_a: FF:0000210 ! human sample
-is_a: FF:0000004 ! tissue sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13626-146H8
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr00min, biol_rep2
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13627-146H9
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr00min, biol_rep3
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13628-146I1
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr15min, biol_rep1
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13629-146I2
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr15min, biol_rep2
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13630-146I3
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr15min, biol_rep3
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13631-146I4
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr30min, biol_rep1
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13632-146I5
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr30min, biol_rep2
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13633-146I6
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr30min, biol_rep3
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13634-146I7
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr45min, biol_rep1
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13635-146I8
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr45min, biol_rep2
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13636-146I9
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr45min, biol_rep3
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13637-147A1
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr00min, biol_rep1
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13638-147A2
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr00min, biol_rep2
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13639-147A3
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr00min, biol_rep3
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13640-147A4
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr20min, biol_rep1
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13641-147A5
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr20min, biol_rep2
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13642-147A6
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr20min, biol_rep3
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13643-147A7
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr40min, biol_rep1
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13644-147A8
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr40min, biol_rep2
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13645-147A9
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 01hr40min, biol_rep3
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13646-147B1
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr00min, biol_rep1
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13647-147B2
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr00min, biol_rep2
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13648-147B3
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr00min, biol_rep3
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13649-147B4
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr30min, biol_rep1
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13650-147B5
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr30min, biol_rep2
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13651-147B6
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 02hr30min, biol_rep3
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13652-147B7
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr00min, biol_rep1
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13653-147B8
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr00min, biol_rep2
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13654-147B9
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr00min, biol_rep3
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13655-147C1
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr30min, biol_rep1
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13656-147C2
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr30min, biol_rep2
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13657-147C3
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 03hr30min, biol_rep3
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13658-147C4
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 04hr00min, biol_rep1
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13659-147C5
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 04hr00min, biol_rep2
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13660-147C6
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 04hr00min, biol_rep3
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13661-147C7
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 05hr00min, biol_rep1
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
+
+[Term]
+id: FF:13662-147C8
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 05hr00min, biol_rep2
+is_a: FF:0000210 ! human sample
+is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
 
