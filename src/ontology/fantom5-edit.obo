@@ -2408,6 +2408,7 @@ def: "A sample consisting of material from a human." [GOC:tfm]
 synonym: "homo sapiens" RELATED []
 synonym: "human" RELATED []
 is_a: FF:0000101 ! sample by species
+disjoint_from: FF:0000103 ! mouse sample
 created_by: tmeehan
 creation_date: 2011-03-07T06:08:50Z
 
@@ -10375,7 +10376,6 @@ synonym: "lung, adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
 relationship: derives_from UBERON:0002048 ! lung
-is_a: FF:0010019 ! lung - adult
 
 [Term]
 id: FF:0011308
@@ -37025,6 +37025,7 @@ id: FF:28-22B1
 name: lung, adult, rep1
 namespace: FANTOM5
 is_a: EFO:0002091 ! biological replicate
+is_a: FF:0000103 ! mouse sample
 is_a: FF:0011307 ! lung- adult
 relationship: derives_from UBERON:0002048 ! lung
 
