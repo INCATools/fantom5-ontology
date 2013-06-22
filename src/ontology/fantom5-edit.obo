@@ -141,7 +141,7 @@ creation_date: 2011-02-28T10:41:12Z
 
 [Term]
 id: FF:0000005
-name: primary cell line sample
+name: human primary cell line sample
 synonym: "primary cell line" EXACT []
 namespace: FANTOM5
 def: "A sample consisting of primary cell line material." [GOC:tfm]
@@ -153,7 +153,7 @@ creation_date: 2011-02-28T10:41:57Z
 
 [Term]
 id: FF:0000006
-name: permanent cell line sample
+name: human permanent cell line sample
 synonym: "permanent cell line" EXACT []
 namespace: FANTOM5
 def: "A sample consisting of permanent cell line material." [GOC:tfm]
@@ -165,7 +165,7 @@ creation_date: 2011-02-28T10:43:08Z
 
 [Term]
 id: FF:0000007
-name: adrenal cortex cell sample
+name: human adrenal cortex cell sample
 synonym: "adrenal cortex cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002097 ! cortical cell of adrenal gland
@@ -176,7 +176,7 @@ creation_date: 2011-02-28T12:10:29Z
 
 [Term]
 id: FF:0000008
-name: adrenal chromaffin cell sample
+name: human adrenal chromaffin cell sample
 synonym: "adrenal chromaffin cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000336 ! adrenal medulla chromaffin cell
@@ -189,7 +189,7 @@ creation_date: 2011-02-28T12:22:19Z
 
 [Term]
 id: FF:0000009
-name: amniotic epithelial cell sample
+name: human amniotic epithelial cell sample
 synonym: "amniotic epithelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002536 ! amniotic epithelial cell
@@ -200,7 +200,7 @@ creation_date: 2011-02-28T12:29:16Z
 
 [Term]
 id: FF:0000010
-name: amniotic membrane cell- Amnion sample
+name: human amniotic membrane cell- Amnion sample
 synonym: "amniotic membrane cell- Amnion" EXACT []
 namespace: FANTOM5
 def: "From the company Amnion." [GOC:tfm]
@@ -211,7 +211,7 @@ creation_date: 2011-03-14T01:52:13Z
 
 [Term]
 id: FF:0000011
-name: subcutaneous adipocyte sample
+name: human subcutaneous adipocyte sample
 synonym: "subcutaneous adipocyte" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002521 ! subcutaneous fat cell
@@ -222,7 +222,7 @@ creation_date: 2011-02-28T12:51:29Z
 
 [Term]
 id: FF:0000012
-name: alveolar epithelial cell sample
+name: human alveolar epithelial cell sample
 synonym: "alveolar epithelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000322 ! pneumocyte
@@ -233,7 +233,7 @@ creation_date: 2011-02-28T12:54:31Z
 
 [Term]
 id: FF:0000013
-name: basophil sample
+name: human basophil sample
 synonym: "basophil" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000767 ! basophil
@@ -244,7 +244,7 @@ creation_date: 2011-02-28T12:58:36Z
 
 [Term]
 id: FF:0000014
-name: intrahepatic biliary epithelial cell sample
+name: human intrahepatic biliary epithelial cell sample
 synonym: "intrahepatic biliary epithelial cell" EXACT []
 namespace: FANTOM5
 def: "An epithelial cell of the intrahepatic portion of the biliary tree." [GC:tfm]
@@ -256,7 +256,7 @@ creation_date: 2011-02-28T01:27:43Z
 
 [Term]
 id: FF:0000015
-name: bronchial epithelial cell sample
+name: human bronchial epithelial cell sample
 synonym: "bronchial epithelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002328 ! bronchial epithelial cell
@@ -316,7 +316,7 @@ creation_date: 2011-02-28T01:36:12Z
 
 [Term]
 id: FF:0000020
-name: CD133-positive progenitor cell- bone marrow derived sample
+name: human CD133-positive progenitor cell- bone marrow derived sample
 synonym: "CD133-positive progenitor cell- bone marrow derived" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002092 ! bone marrow cell
@@ -337,7 +337,7 @@ creation_date: 2011-02-28T01:58:10Z
 
 [Term]
 id: FF:0000022
-name: CD133-positive stem cell - cord blood derived sample
+name: human CD133-positive stem cell - cord blood derived sample
 synonym: "CD133-positive stem cell - cord blood derived" EXACT []
 namespace: FANTOM5
 is_a: FF:0000027 ! CD133-positive hematopoeitic stem cell
@@ -346,7 +346,7 @@ creation_date: 2011-03-14T03:42:36Z
 
 [Term]
 id: FF:0000023
-name: CD133-positive hematopoietic stem cell-3HBiomedical sample
+name: human CD133-positive hematopoietic stem cell-3HBiomedical sample
 synonym: "CD133-positive hematopoietic stem cell-3HBiomedical" EXACT []
 namespace: FANTOM5
 def: "A CD133+ hematopoietic stem cell provided by 3HBiomedical (3H100-710-10)." [GOC:tfm]
@@ -356,7 +356,7 @@ creation_date: 2011-02-28T02:00:53Z
 
 [Term]
 id: FF:0000024
-name: CD14-positive monocyte sample
+name: human CD14-positive monocyte sample
 synonym: "CD14-positive monocyte" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002397 ! CD14-positive, CD16-positive monocyte
@@ -377,7 +377,7 @@ creation_date: 2011-02-28T02:09:59Z
 
 [Term]
 id: FF:0000026
-name: CD34-positive hematopoietic stem cell sample
+name: human CD34-positive hematopoietic stem cell sample
 synonym: "CD34-positive hematopoietic stem cell" EXACT []
 namespace: FANTOM5
 is_a: FF:0000021 ! hematopoeitic stem cell
@@ -387,7 +387,7 @@ creation_date: 2011-02-28T02:13:42Z
 
 [Term]
 id: FF:0000027
-name: CD133-positive hematopoeitic stem cell sample
+name: human CD133-positive hematopoeitic stem cell sample
 synonym: "CD133-positive hematopoeitic stem cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0001024 ! CD34-positive, CD38-negative hematopoietic stem cell
@@ -398,7 +398,7 @@ creation_date: 2011-02-28T02:13:47Z
 
 [Term]
 id: FF:0000028
-name: CD34-positive hematopoietic stem cell-CET sample
+name: human CD34-positive hematopoietic stem cell-CET sample
 synonym: "CD34-positive hematopoietic stem cell-CET" EXACT []
 namespace: FANTOM5
 def: "A CD34-positive hematopoietic stem cell provided by CET (Thermoscientific HMpC-500)." [GOC:tfm]
@@ -409,7 +409,7 @@ creation_date: 2011-02-28T02:16:07Z
 
 [Term]
 id: FF:0000029
-name: CD34-positive hematopoietic stem cell-3HBiomedical sample
+name: human CD34-positive hematopoietic stem cell-3HBiomedical sample
 synonym: "CD34-positive hematopoietic stem cell-3HBiomedical" EXACT []
 namespace: FANTOM5
 def: "A CD34-positive hematopoietic stem cell provided by 3HBiomedical (3H100-60-5)." [GOC:tfm]
@@ -487,7 +487,7 @@ creation_date: 2011-02-28T02:29:14Z
 
 [Term]
 id: FF:0000036
-name: chondroblast sample
+name: human chondroblast sample
 synonym: "chondroblast" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000058 ! chondroblast
@@ -498,7 +498,7 @@ creation_date: 2011-02-28T02:34:11Z
 
 [Term]
 id: FF:0000037
-name: chondrocyte sample
+name: human chondrocyte sample
 synonym: "chondrocyte" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000138 ! chondrocyte
@@ -509,7 +509,7 @@ creation_date: 2011-02-28T02:36:07Z
 
 [Term]
 id: FF:0000038
-name: chorionic membrane stem cell sample
+name: human chorionic membrane stem cell sample
 synonym: "chorionic membrane stem cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002541 ! chorionic membrane mesenchymal stem cell
@@ -522,7 +522,7 @@ creation_date: 2011-02-28T03:09:25Z
 
 [Term]
 id: FF:0000039
-name: adipocyte of omentum tissue sample
+name: human adipocyte of omentum tissue sample
 synonym: "adipocyte of omentum tissue" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002615 ! adipocyte of omentum tissue
@@ -533,7 +533,7 @@ creation_date: 2011-03-14T10:22:47Z
 
 [Term]
 id: FF:0000040
-name: ciliary epithelial cell sample
+name: human ciliary epithelial cell sample
 synonym: "ciliary epithelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002304 ! non-pigmented ciliary epithelial cell
@@ -554,7 +554,7 @@ creation_date: 2011-02-28T03:19:57Z
 
 [Term]
 id: FF:0000042
-name: pancreatic stromal cell sample
+name: human pancreatic stromal cell sample
 synonym: "pancreatic stromal cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002574 ! stromal cell of pancreas
@@ -565,7 +565,7 @@ creation_date: 2011-03-02T02:43:26Z
 
 [Term]
 id: FF:0000043
-name: corneal epithelial cell sample
+name: human corneal epithelial cell sample
 synonym: "corneal epithelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000575 ! corneal epithelial cell
@@ -576,7 +576,7 @@ creation_date: 2011-02-28T03:24:18Z
 
 [Term]
 id: FF:0000044
-name: monocyte immature derived dendritic cell sample
+name: human monocyte immature derived dendritic cell sample
 synonym: "monocyte immature derived dendritic cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000840 ! immature conventional dendritic cell
@@ -588,7 +588,7 @@ creation_date: 2011-02-28T03:26:51Z
 
 [Term]
 id: FF:0000045
-name: plasmacytoid dendritic cell sample
+name: human plasmacytoid dendritic cell sample
 synonym: "plasmacytoid dendritic cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000784 ! plasmacytoid dendritic cell
@@ -599,7 +599,7 @@ creation_date: 2011-02-28T03:28:47Z
 
 [Term]
 id: FF:0000046
-name: endothelial cell sample
+name: human endothelial cell sample
 synonym: "endothelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000115 ! endothelial cell
@@ -610,7 +610,7 @@ creation_date: 2011-02-28T03:33:08Z
 
 [Term]
 id: FF:0000047
-name: endothelial cell of the artery sample
+name: human endothelial cell of the artery sample
 synonym: "endothelial cell of the artery" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:1000413 ! endothelial cell of artery
@@ -620,7 +620,7 @@ creation_date: 2011-02-28T03:33:34Z
 
 [Term]
 id: FF:0000048
-name: endothelial cell of the aorta sample
+name: human endothelial cell of the aorta sample
 synonym: "endothelial cell of the aorta" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002544 ! aortic endothelial cell
@@ -631,7 +631,7 @@ creation_date: 2011-02-28T03:33:35Z
 
 [Term]
 id: FF:0000049
-name: lymphatic endothelial cell sample
+name: human lymphatic endothelial cell sample
 synonym: "lymphatic endothelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002138 ! endothelial cell of lymphatic vessel
@@ -641,7 +641,7 @@ creation_date: 2011-02-28T04:08:46Z
 
 [Term]
 id: FF:0000050
-name: microvascular endothelial cell sample
+name: human microvascular endothelial cell sample
 synonym: "microvascular endothelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002144 ! capillary endothelial cell
@@ -651,7 +651,7 @@ creation_date: 2011-02-28T04:11:48Z
 
 [Term]
 id: FF:0000051
-name: thoracic endothelial cell sample
+name: human thoracic endothelial cell sample
 synonym: "thoracic endothelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002545 ! thoracic aorta endothelial cell
@@ -661,7 +661,7 @@ creation_date: 2011-02-28T04:13:50Z
 
 [Term]
 id: FF:0000052
-name: endothelial cell of the vein sample
+name: human endothelial cell of the vein sample
 synonym: "endothelial cell of the vein" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002543 ! vein endothelial cell
@@ -671,7 +671,7 @@ creation_date: 2011-02-28T04:16:43Z
 
 [Term]
 id: FF:0000053
-name: blood vessel endothelial progenitor cell sample
+name: human blood vessel endothelial progenitor cell sample
 synonym: "blood vessel endothelial progenitor cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002619 ! adult endothelial progenitor cell
@@ -682,7 +682,7 @@ creation_date: 2011-02-28T04:25:02Z
 
 [Term]
 id: FF:0000054
-name: eosinophil sample
+name: human eosinophil sample
 synonym: "eosinophil" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000771 ! eosinophil
@@ -693,7 +693,7 @@ creation_date: 2011-02-28T04:31:51Z
 
 [Term]
 id: FF:0000055
-name: erythroid progenitor cell sample
+name: human erythroid progenitor cell sample
 synonym: "erythroid progenitor cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000038 ! erythroid progenitor cell
@@ -704,7 +704,7 @@ creation_date: 2011-02-28T04:34:18Z
 
 [Term]
 id: FF:0000056
-name: epithelial cell of esophagus sample
+name: human epithelial cell of esophagus sample
 synonym: "epithelial cell of esophagus" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002252 ! epithelial cell of esophagus
@@ -725,7 +725,7 @@ creation_date: 2011-02-28T03:52:53Z
 
 [Term]
 id: FF:0000058
-name: fibroblast of the aortic adventitia sample
+name: human fibroblast of the aortic adventitia sample
 synonym: "fibroblast of the aortic adventitia" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002547 ! fibroblast of the aortic adventitia
@@ -736,7 +736,7 @@ creation_date: 2011-02-28T04:08:40Z
 
 [Term]
 id: FF:0000059
-name: cardiac fibroblast sample
+name: human cardiac fibroblast sample
 synonym: "cardiac fibroblast" EXACT []
 namespace: FANTOM5
 alt_id: FF:0104974
@@ -749,7 +749,7 @@ creation_date: 2011-02-28T04:10:10Z
 
 [Term]
 id: FF:0000060
-name: fibroblast of choroid plexus sample
+name: human fibroblast of choroid plexus sample
 synonym: "fibroblast of choroid plexus" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002549 ! fibroblast of choroid plexus
@@ -760,7 +760,7 @@ creation_date: 2011-02-28T04:12:16Z
 
 [Term]
 id: FF:0000061
-name: fibroblast of conjuctivia sample
+name: human fibroblast of conjuctivia sample
 synonym: "fibroblast of conjuctivia" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002550 ! fibroblast of the conjuctiva
@@ -771,7 +771,7 @@ creation_date: 2011-02-28T04:13:20Z
 
 [Term]
 id: FF:0000062
-name: dermal fibroblast sample
+name: human dermal fibroblast sample
 synonym: "dermal fibroblast" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002551 ! fibroblast of dermis
@@ -781,7 +781,7 @@ creation_date: 2011-02-28T04:22:51Z
 
 [Term]
 id: FF:0000063
-name: fibroblast of gingiva sample
+name: human fibroblast of gingiva sample
 synonym: "fibroblast of gingiva" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002552 ! fibroblast of gingiva
@@ -792,7 +792,7 @@ creation_date: 2011-02-28T04:24:53Z
 
 [Term]
 id: FF:0000064
-name: fibroblast of lung sample
+name: human fibroblast of lung sample
 synonym: "fibroblast of lung" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002553 ! fibroblast of lung
@@ -803,7 +803,7 @@ creation_date: 2011-02-28T04:26:10Z
 
 [Term]
 id: FF:0000065
-name: fibroblast of lymphatic vessel sample
+name: human fibroblast of lymphatic vessel sample
 synonym: "fibroblast of lymphatic vessel" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002554 ! fibroblast of lymphatic vessel
@@ -814,7 +814,7 @@ creation_date: 2011-02-28T04:26:48Z
 
 [Term]
 id: FF:0000066
-name: fibroblast of mammary gland sample
+name: human fibroblast of mammary gland sample
 synonym: "fibroblast of mammary gland" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002555 ! fibroblast of mammary gland
@@ -825,7 +825,7 @@ creation_date: 2011-02-28T04:29:06Z
 
 [Term]
 id: FF:0000067
-name: fibroblast of periodontium sample
+name: human fibroblast of periodontium sample
 synonym: "fibroblast of periodontium" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002556 ! fibroblast of periodontium
@@ -836,7 +836,7 @@ creation_date: 2011-02-28T04:30:33Z
 
 [Term]
 id: FF:0000068
-name: fibroblast of pulmonary artery sample
+name: human fibroblast of pulmonary artery sample
 synonym: "fibroblast of pulmonary artery" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002557 ! fibroblast of pulmonary artery
@@ -847,7 +847,7 @@ creation_date: 2011-02-28T04:32:36Z
 
 [Term]
 id: FF:0000069
-name: fibroblast of villous mesenchyme sample
+name: human fibroblast of villous mesenchyme sample
 synonym: "fibroblast of villous mesenchyme" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002558 ! fibroblast of villous mesenchymal
@@ -868,7 +868,7 @@ creation_date: 2011-03-01T03:58:45Z
 
 [Term]
 id: FF:0000071
-name: hair follicle dermal papilla cell sample
+name: human hair follicle dermal papilla cell sample
 synonym: "hair follicle dermal papilla cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000346 ! hair follicle dermal papilla cell
@@ -879,7 +879,7 @@ creation_date: 2011-03-01T04:39:49Z
 
 [Term]
 id: FF:0000072
-name: hair follicle cell sample
+name: human hair follicle cell sample
 synonym: "hair follicle cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002559 ! hair follicle cell
@@ -890,7 +890,7 @@ creation_date: 2011-03-01T04:38:44Z
 
 [Term]
 id: FF:0000073
-name: hair follicle germinal matrix cell sample
+name: human hair follicle germinal matrix cell sample
 synonym: "hair follicle germinal matrix cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002562 ! hair germinal matrix cell
@@ -900,7 +900,7 @@ creation_date: 2011-03-01T04:41:30Z
 
 [Term]
 id: FF:0000074
-name: inner root sheat cell sample
+name: human inner root sheat cell sample
 synonym: "inner root sheat cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002560 ! inner root sheath cell
@@ -910,7 +910,7 @@ creation_date: 2011-03-01T04:42:32Z
 
 [Term]
 id: FF:0000075
-name: outer root sheath cell sample
+name: human outer root sheath cell sample
 synonym: "outer root sheath cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002561 ! outer root sheath cell
@@ -963,7 +963,7 @@ creation_date: 2011-03-01T05:24:32Z
 
 [Term]
 id: FF:0000080
-name: intestinal epithelial cell sample
+name: human intestinal epithelial cell sample
 synonym: "intestinal epithelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002563 ! intestinal epithelial cell
@@ -974,7 +974,7 @@ creation_date: 2011-03-01T05:10:11Z
 
 [Term]
 id: FF:0000081
-name: iris pigment epithelial cell sample
+name: human iris pigment epithelial cell sample
 synonym: "iris pigment epithelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002565 ! iris pigment epithelial cell
@@ -985,7 +985,7 @@ creation_date: 2011-03-01T05:32:21Z
 
 [Term]
 id: FF:0000082
-name: epidermal keratinocyte sample
+name: human epidermal keratinocyte sample
 synonym: "epidermal keratinocyte" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000312 ! keratinocyte
@@ -996,7 +996,7 @@ creation_date: 2011-03-01T05:34:30Z
 
 [Term]
 id: FF:0000083
-name: oral mucosa keratinocyte sample
+name: human oral mucosa keratinocyte sample
 synonym: "oral mucosa keratinocyte" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002170 ! keratinized cell of the oral mucosa
@@ -1009,7 +1009,7 @@ creation_date: 2011-03-01T05:37:39Z
 
 [Term]
 id: FF:0000084
-name: keratocyte sample
+name: human keratocyte sample
 synonym: "keratocyte" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002363 ! keratocyte
@@ -1020,7 +1020,7 @@ creation_date: 2011-03-01T05:43:39Z
 
 [Term]
 id: FF:0000085
-name: lens epithelial cell sample
+name: human lens epithelial cell sample
 synonym: "lens epithelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002224 ! lens epithelial cell
@@ -1031,7 +1031,7 @@ creation_date: 2011-03-01T05:47:39Z
 
 [Term]
 id: FF:0000086
-name: macrophage sample
+name: human macrophage sample
 synonym: "macrophage" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000235 ! macrophage
@@ -1042,7 +1042,7 @@ creation_date: 2011-03-01T05:49:14Z
 
 [Term]
 id: FF:0000087
-name: Malassez derived epithelial cell sample
+name: human Malassez derived epithelial cell sample
 synonym: "Malassez derived epithelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002166 ! epithelial cell of Malassez
@@ -1053,7 +1053,7 @@ creation_date: 2011-03-01T05:52:32Z
 
 [Term]
 id: FF:0000088
-name: mammary epithelial cell sample
+name: human mammary epithelial cell sample
 synonym: "mammary epithelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002327 ! mammary epithelial cell
@@ -1064,7 +1064,7 @@ creation_date: 2011-03-01T05:54:55Z
 
 [Term]
 id: FF:0000089
-name: dark melanocyte sample
+name: human dark melanocyte sample
 synonym: "dark melanocyte" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002566 ! dark melanocyte
@@ -1075,7 +1075,7 @@ creation_date: 2011-03-01T06:01:45Z
 
 [Term]
 id: FF:0000090
-name: light melanocyte sample
+name: human light melanocyte sample
 synonym: "light melanocyte" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002567 ! light melanocyte
@@ -1086,7 +1086,7 @@ creation_date: 2011-03-01T06:02:18Z
 
 [Term]
 id: FF:0000091
-name: leptomeningeal cell sample
+name: human leptomeningeal cell sample
 synonym: "leptomeningeal cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000708 ! leptomeningeal cell
@@ -1097,7 +1097,7 @@ creation_date: 2011-03-01T09:48:52Z
 
 [Term]
 id: FF:0000092
-name: amniotic membrane cell sample
+name: human amniotic membrane cell sample
 synonym: "amniotic membrane cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002537 ! amnion mesenchymal stem cell
@@ -1108,7 +1108,7 @@ creation_date: 2011-03-01T10:38:52Z
 
 [Term]
 id: FF:0000093
-name: vertebral mesenchymal stem cell sample
+name: human vertebral mesenchymal stem cell sample
 synonym: "vertebral mesenchymal stem cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002572 ! vertebral mesenchymal stem cell
@@ -1119,7 +1119,7 @@ creation_date: 2011-03-01T10:39:51Z
 
 [Term]
 id: FF:0000094
-name: mesenchymal stem cell of umbilical cord-Sciencell sample
+name: human mesenchymal stem cell of umbilical cord-Sciencell sample
 synonym: "mesenchymal stem cell of umbilical cord-Sciencell" EXACT []
 namespace: FANTOM5
 def: "A mesenchymal stem cell of umibilical cord provided by Sciencell(7535)." [GOC:tfm]
@@ -1131,7 +1131,7 @@ creation_date: 2011-03-01T10:44:08Z
 
 [Term]
 id: FF:0000095
-name: mesenchymal stem cell of Wharton's jelly sample
+name: human mesenchymal stem cell of Wharton's jelly sample
 synonym: "mesenchymal stem cell of Wharton's jelly" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002568 ! mesenchymal stem cell of Wharton's jelly
@@ -1141,7 +1141,7 @@ creation_date: 2011-03-01T10:45:21Z
 
 [Term]
 id: FF:0000096
-name: mesenchymal stem cell of adipose sample
+name: human mesenchymal stem cell of adipose sample
 synonym: "mesenchymal stem cell of adipose" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002570 ! mesenchymal stem cell of adipose
@@ -1162,7 +1162,7 @@ created_by: tmeehan
 
 [Term]
 id: FF:0000098
-name: hepatic mesenchymal stem cell sample
+name: human hepatic mesenchymal stem cell sample
 synonym: "hepatic mesenchymal stem cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002571 ! hepatic mesenchymal stem cell
@@ -1173,7 +1173,7 @@ creation_date: 2011-03-01T10:48:42Z
 
 [Term]
 id: FF:0000099
-name: mesothelial cell sample
+name: human mesothelial cell sample
 synonym: "mesothelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000077 ! mesothelial cell
@@ -1184,7 +1184,7 @@ creation_date: 2011-03-01T10:53:55Z
 
 [Term]
 id: FF:0000100
-name: microglial cell sample
+name: human microglial cell sample
 synonym: "microglial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000129 ! microglial cell
@@ -1374,7 +1374,7 @@ creation_date: 2011-03-02T01:28:43Z
 
 [Term]
 id: FF:0000117
-name: mesenchymal stem cell of umbilical cord blood sample
+name: human mesenchymal stem cell of umbilical cord blood sample
 synonym: "mesenchymal stem cell of umbilical cord blood" EXACT []
 namespace: FANTOM5
 def: "A mesenchymal stem cell of umibilical cord blood provided by CET(Thermoscientific HMpC-500)." [GOC:tfm]
@@ -1388,7 +1388,7 @@ creation_date: 2011-03-02T01:43:28Z
 
 [Term]
 id: FF:0000118
-name: cardiac myocyte sample
+name: human cardiac myocyte sample
 synonym: "cardiac myocyte" EXACT []
 namespace: FANTOM5
 def: "Cardiac myocyte sample provided by Sciencell(6205)." [GOC:tfm]
@@ -1400,7 +1400,7 @@ creation_date: 2011-03-02T01:47:35Z
 
 [Term]
 id: FF:0000119
-name: natural killer cell sample
+name: human natural killer cell sample
 synonym: "natural killer cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000623 ! natural killer cell
@@ -1411,7 +1411,7 @@ creation_date: 2011-03-02T02:00:55Z
 
 [Term]
 id: FF:0000120
-name: neural stem cell sample
+name: human neural stem cell sample
 synonym: "neural stem cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000047 ! neuronal stem cell
@@ -1423,7 +1423,7 @@ creation_date: 2011-03-02T02:02:49Z
 
 [Term]
 id: FF:0000121
-name: central nervous system neuron sample
+name: human central nervous system neuron sample
 synonym: "central nervous system neuron" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000117 ! CNS neuron (sensu Vertebrata)
@@ -1435,7 +1435,7 @@ creation_date: 2011-03-02T02:04:50Z
 
 [Term]
 id: FF:0000122
-name: neutrophil sample
+name: human neutrophil sample
 synonym: "neutrophil" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000775 ! neutrophil
@@ -1446,7 +1446,7 @@ creation_date: 2011-03-02T02:05:59Z
 
 [Term]
 id: FF:0000123
-name: nucleus pulposus cell of intervertebral disc sample
+name: human nucleus pulposus cell of intervertebral disc sample
 synonym: "nucleus pulposus cell of intervertebral disc" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002564 ! nucleus pulposus cell of intervertebral disc
@@ -1457,7 +1457,7 @@ creation_date: 2011-03-02T02:10:21Z
 
 [Term]
 id: FF:0000124
-name: oligodendrocyte sample
+name: human oligodendrocyte sample
 synonym: "oligodendrocyte" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000128 ! oligodendrocyte
@@ -1468,7 +1468,7 @@ creation_date: 2011-03-02T02:19:33Z
 
 [Term]
 id: FF:0000125
-name: oligodendrocyte precursor sample
+name: human oligodendrocyte precursor sample
 synonym: "oligodendrocyte precursor" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000128 ! oligodendrocyte
@@ -1480,7 +1480,7 @@ creation_date: 2011-03-02T02:20:52Z
 
 [Term]
 id: FF:0000126
-name: oligospheres sample
+name: human oligospheres sample
 synonym: "oligospheres" EXACT []
 namespace: FANTOM5
 def: "A experimentally derived form of oligodendrocyte precursors." [GOC:tfm]
@@ -1491,7 +1491,7 @@ created_by: tmeehan
 
 [Term]
 id: FF:0000127
-name: osteoblast-Sciencell sample
+name: human osteoblast-Sciencell sample
 synonym: "osteoblast-Sciencell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000062 ! osteoblast
@@ -1502,7 +1502,7 @@ creation_date: 2011-03-02T02:27:17Z
 
 [Term]
 id: FF:0000128
-name: osteoblast-Cell applications sample
+name: human osteoblast-Cell applications sample
 synonym: "osteoblast-Cell applications" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000062 ! osteoblast
@@ -1513,7 +1513,7 @@ creation_date: 2011-03-02T02:32:12Z
 
 [Term]
 id: FF:0000129
-name: pancreatic beta cell sample
+name: human pancreatic beta cell sample
 synonym: "pancreatic beta cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000169 ! type B pancreatic cell
@@ -1524,7 +1524,7 @@ creation_date: 2011-03-02T02:34:47Z
 
 [Term]
 id: FF:0000130
-name: pancreatic epithelial cell sample
+name: human pancreatic epithelial cell sample
 synonym: "pancreatic epithelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000083 ! exocrine pancreas cell
@@ -1535,7 +1535,7 @@ creation_date: 2011-03-02T02:36:36Z
 
 [Term]
 id: FF:0000131
-name: paneth cell sample
+name: human paneth cell sample
 synonym: "paneth cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:1000343 ! paneth cell of epithelium of small intestine
@@ -1546,7 +1546,7 @@ creation_date: 2011-03-02T02:46:14Z
 
 [Term]
 id: FF:0000132
-name: parasympathetic ganglia sample
+name: human parasympathetic ganglia sample
 synonym: "parasympathetic ganglia" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -1557,7 +1557,7 @@ creation_date: 2011-03-02T02:49:16Z
 
 [Term]
 id: FF:0000133
-name: pericyte sample
+name: human pericyte sample
 synonym: "pericyte" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002575 ! central nervous system pericyte
@@ -1568,7 +1568,7 @@ creation_date: 2011-03-02T02:56:30Z
 
 [Term]
 id: FF:0000134
-name: perineural cell sample
+name: human perineural cell sample
 synonym: "perineural cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002576 ! perineural cell
@@ -1579,7 +1579,7 @@ creation_date: 2011-03-02T03:09:21Z
 
 [Term]
 id: FF:0000135
-name: peripheral blood mononuclear cell sample
+name: human peripheral blood mononuclear cell sample
 synonym: "peripheral blood mononuclear cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000080 ! circulating cell
@@ -1591,7 +1591,7 @@ created_by: tmeehan
 
 [Term]
 id: FF:0000136
-name: placental epithelial cell sample
+name: human placental epithelial cell sample
 synonym: "placental epithelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002577 ! placental epithelial cell
@@ -1602,7 +1602,7 @@ creation_date: 2011-03-02T03:27:18Z
 
 [Term]
 id: FF:0000137
-name: preadipocyte sample
+name: human preadipocyte sample
 synonym: "preadipocyte" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002334 ! preadipocyte
@@ -1613,7 +1613,7 @@ creation_date: 2011-03-03T04:43:36Z
 
 [Term]
 id: FF:0000138
-name: mesenteric preadipocyte sample
+name: human mesenteric preadipocyte sample
 synonym: "mesenteric preadipocyte" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002578 ! mesenteric preadipocyte
@@ -1623,7 +1623,7 @@ creation_date: 2011-03-03T04:44:24Z
 
 [Term]
 id: FF:0000139
-name: preadipocyte of the breast sample
+name: human preadipocyte of the breast sample
 synonym: "preadipocyte of the breast" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002580 ! preadipocyte of the breast
@@ -1633,7 +1633,7 @@ creation_date: 2011-03-03T04:45:07Z
 
 [Term]
 id: FF:0000140
-name: omentum preadipocyte sample
+name: human omentum preadipocyte sample
 synonym: "omentum preadipocyte" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002579 ! omentum preadipocyte
@@ -1643,7 +1643,7 @@ creation_date: 2011-03-03T04:48:08Z
 
 [Term]
 id: FF:0000141
-name: perirenal preadipocyte sample
+name: human perirenal preadipocyte sample
 synonym: "perirenal preadipocyte" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002581 ! perirenal preadipocyte
@@ -1653,7 +1653,7 @@ creation_date: 2011-03-03T04:49:22Z
 
 [Term]
 id: FF:0000142
-name: subcutaneous preadipocyte sample
+name: human subcutaneous preadipocyte sample
 synonym: "subcutaneous preadipocyte" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002583 ! subcutaneous preadipocyte
@@ -1663,7 +1663,7 @@ creation_date: 2011-03-03T04:51:51Z
 
 [Term]
 id: FF:0000143
-name: visceral preadipocyte sample
+name: human visceral preadipocyte sample
 synonym: "visceral preadipocyte" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002582 ! visceral preadipocyte
@@ -1673,7 +1673,7 @@ creation_date: 2011-03-03T04:52:44Z
 
 [Term]
 id: FF:0000144
-name: promyelocyte/myelocyte sample
+name: human promyelocyte/myelocyte sample
 synonym: "promyelocyte/myelocyte" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000836 ! promyelocyte
@@ -1685,7 +1685,7 @@ creation_date: 2011-03-03T04:54:49Z
 
 [Term]
 id: FF:0000145
-name: prostate epithelial cell sample
+name: human prostate epithelial cell sample
 synonym: "prostate epithelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002231 ! epithelial cell of prostate
@@ -1696,7 +1696,7 @@ creation_date: 2011-03-03T04:57:13Z
 
 [Term]
 id: FF:0000146
-name: stromal cell of pancreas sample
+name: human stromal cell of pancreas sample
 synonym: "stromal cell of pancreas" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002574 ! stromal cell of pancreas
@@ -1752,7 +1752,7 @@ creation_date: 2011-03-03T05:04:35Z
 
 [Term]
 id: FF:0000151
-name: renal epithelial cell sample
+name: human renal epithelial cell sample
 synonym: "renal epithelial cell" EXACT []
 namespace: FANTOM5
 comment: renal tubule epithelial cell.
@@ -1764,7 +1764,7 @@ creation_date: 2011-03-06T01:55:02Z
 
 [Term]
 id: FF:0000152
-name: renal cortical epithelial cell sample
+name: human renal cortical epithelial cell sample
 synonym: "renal cortical epithelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002584 ! renal cortical epithelial cell
@@ -1774,7 +1774,7 @@ creation_date: 2011-03-06T01:55:12Z
 
 [Term]
 id: FF:0000153
-name: renal glomerular endothelial cell sample
+name: human renal glomerular endothelial cell sample
 synonym: "renal glomerular endothelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002188 ! glomerular endothelial cell
@@ -1785,7 +1785,7 @@ creation_date: 2011-03-06T02:01:14Z
 
 [Term]
 id: FF:0000154
-name: renal mesangial cell sample
+name: human renal mesangial cell sample
 synonym: "renal mesangial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002173 ! extraglomerular mesangial cell
@@ -1798,7 +1798,7 @@ creation_date: 2011-03-06T02:03:33Z
 
 [Term]
 id: FF:0000155
-name: renal proximal tubular epithelial cell sample
+name: human renal proximal tubular epithelial cell sample
 synonym: "renal proximal tubular epithelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002306 ! epithelial cell of proximal tubule
@@ -1808,7 +1808,7 @@ creation_date: 2011-03-06T02:05:33Z
 
 [Term]
 id: FF:0000156
-name: adipocyte of breast sample
+name: human adipocyte of breast sample
 synonym: "adipocyte of breast" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002617 ! adipocyte of breast
@@ -1819,7 +1819,7 @@ creation_date: 2011-03-14T10:22:52Z
 
 [Term]
 id: FF:0000157
-name: retinal endothelial cell sample
+name: human retinal endothelial cell sample
 synonym: "retinal endothelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002585 ! retinal blood vessel endothelial cell
@@ -1830,7 +1830,7 @@ creation_date: 2011-03-06T03:30:28Z
 
 [Term]
 id: FF:0000158
-name: retinal pigment epithelial cell sample
+name: human retinal pigment epithelial cell sample
 synonym: "retinal pigment epithelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002586 ! retinal pigment epithelial cell
@@ -1841,7 +1841,7 @@ creation_date: 2011-03-06T03:41:18Z
 
 [Term]
 id: FF:0000159
-name: Schwann cell sample
+name: human Schwann cell sample
 synonym: "Schwann cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000218 ! myelinating Schwann cell
@@ -1854,7 +1854,7 @@ creation_date: 2011-03-06T03:43:07Z
 
 [Term]
 id: FF:0000160
-name: sebocyte sample
+name: human sebocyte sample
 synonym: "sebocyte" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002140 ! acinar cell of sebaceous gland
@@ -1865,7 +1865,7 @@ creation_date: 2011-03-06T03:49:21Z
 
 [Term]
 id: FF:0000161
-name: sertoli cell sample
+name: human sertoli cell sample
 synonym: "sertoli cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000216 ! Sertoli cell
@@ -1876,7 +1876,7 @@ creation_date: 2011-03-06T03:55:43Z
 
 [Term]
 id: FF:0000162
-name: skeletal muscle cell sample
+name: human skeletal muscle cell sample
 synonym: "skeletal muscle cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000188 ! skeletal muscle cell
@@ -1887,7 +1887,7 @@ creation_date: 2011-03-06T03:57:22Z
 
 [Term]
 id: FF:0000163
-name: myotubule derived from skeletal muscle cells sample
+name: human myotubule derived from skeletal muscle cells sample
 synonym: "myotubule derived from skeletal muscle cells" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002372 ! myotube
@@ -1898,7 +1898,7 @@ creation_date: 2011-03-06T03:58:36Z
 
 [Term]
 id: FF:0000164
-name: skeletal muscle myoblast sample
+name: human skeletal muscle myoblast sample
 synonym: "skeletal muscle myoblast" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000515 ! skeletal muscle myoblast
@@ -1909,7 +1909,7 @@ creation_date: 2011-03-06T04:00:14Z
 
 [Term]
 id: FF:0000165
-name: skeletal muscle satellite cell sample
+name: human skeletal muscle satellite cell sample
 synonym: "skeletal muscle satellite cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000594 ! skeletal muscle satellite cell
@@ -1920,7 +1920,7 @@ creation_date: 2011-03-06T04:01:43Z
 
 [Term]
 id: FF:0000166
-name: small airway epithelial cell sample
+name: human small airway epithelial cell sample
 synonym: "small airway epithelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002368 ! respiratory epithelial cell
@@ -1953,7 +1953,7 @@ creation_date: 2011-03-06T05:28:23Z
 
 [Term]
 id: FF:0000169
-name: smooth muscle cell of the brachiocephalic vasculature sample
+name: human smooth muscle cell of the brachiocephalic vasculature sample
 synonym: "smooth muscle cell of the brachiocephalic vasculature" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002589 ! smooth muscle cell of the brachiocephalic vasculature
@@ -1964,7 +1964,7 @@ creation_date: 2011-03-06T05:30:24Z
 
 [Term]
 id: FF:0000170
-name: smooth muscle cell of the brain vasculature sample
+name: human smooth muscle cell of the brain vasculature sample
 synonym: "smooth muscle cell of the brain vasculature" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002590 ! smooth muscle cell of the brain vasculature
@@ -1975,7 +1975,7 @@ creation_date: 2011-03-06T05:31:31Z
 
 [Term]
 id: FF:0000171
-name: smooth muscle cell of the carotid artery sample
+name: human smooth muscle cell of the carotid artery sample
 synonym: "smooth muscle cell of the carotid artery" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002596 ! smooth muscle cell of the carotid artery
@@ -1986,7 +1986,7 @@ creation_date: 2011-03-06T05:32:25Z
 
 [Term]
 id: FF:0000172
-name: smooth muscle cell of coronary artery sample
+name: human smooth muscle cell of coronary artery sample
 synonym: "smooth muscle cell of coronary artery" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002592 ! smooth muscle cell of the coronary artery
@@ -1997,7 +1997,7 @@ creation_date: 2011-03-06T05:33:55Z
 
 [Term]
 id: FF:0000173
-name: smooth muscle cell of the internal thoracic artery sample
+name: human smooth muscle cell of the internal thoracic artery sample
 synonym: "smooth muscle cell of the internal thoracic artery" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002593 ! smooth muscle cell of the internal thoracic artery
@@ -2008,7 +2008,7 @@ creation_date: 2011-03-06T05:35:23Z
 
 [Term]
 id: FF:0000174
-name: smooth muscle cell of pulmonary artery sample
+name: human smooth muscle cell of pulmonary artery sample
 synonym: "smooth muscle cell of pulmonary artery" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002591 ! smooth muscle cell of the pulmonary artery
@@ -2019,7 +2019,7 @@ creation_date: 2011-03-06T05:36:34Z
 
 [Term]
 id: FF:0000175
-name: smooth muscle cell of subclavian artery sample
+name: human smooth muscle cell of subclavian artery sample
 synonym: "smooth muscle cell of subclavian artery" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002595 ! smooth muscle cell of the subclavian artery
@@ -2030,7 +2030,7 @@ creation_date: 2011-03-06T05:37:22Z
 
 [Term]
 id: FF:0000176
-name: smooth muscle cell of umbilical artery sample
+name: human smooth muscle cell of umbilical artery sample
 synonym: "smooth muscle cell of umbilical artery" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002594 ! smooth muscle cell of the umbilical artery
@@ -2041,7 +2041,7 @@ creation_date: 2011-03-06T05:38:46Z
 
 [Term]
 id: FF:0000177
-name: smooth muscle cell of umbilical vein sample
+name: human smooth muscle cell of umbilical vein sample
 synonym: "smooth muscle cell of umbilical vein" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002588 ! smooth muscle cell of the umbilical vein
@@ -2053,7 +2053,7 @@ creation_date: 2011-03-06T05:39:38Z
 
 [Term]
 id: FF:0000178
-name: smooth muscle cell of bladder sample
+name: human smooth muscle cell of bladder sample
 synonym: "smooth muscle cell of bladder" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002597 ! smooth muscle cell of bladder
@@ -2064,7 +2064,7 @@ creation_date: 2011-03-06T05:55:33Z
 
 [Term]
 id: FF:0000179
-name: bronchial smooth muscle cell sample
+name: human bronchial smooth muscle cell sample
 synonym: "bronchial smooth muscle cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002598 ! bronchial smooth muscle cell
@@ -2075,7 +2075,7 @@ creation_date: 2011-03-06T05:56:49Z
 
 [Term]
 id: FF:0000180
-name: smooth muscle cell of intestine sample
+name: human smooth muscle cell of intestine sample
 synonym: "smooth muscle cell of intestine" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002504 ! enteric smooth muscle cell
@@ -2086,7 +2086,7 @@ creation_date: 2011-03-06T06:00:43Z
 
 [Term]
 id: FF:0000181
-name: smooth muscle of colon sample
+name: human smooth muscle of colon sample
 synonym: "smooth muscle of colon" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:1000280 ! smooth muscle cell of colon
@@ -2098,7 +2098,7 @@ creation_date: 2011-03-06T06:02:00Z
 
 [Term]
 id: FF:0000182
-name: esophageal smooth muscle cell sample
+name: human esophageal smooth muscle cell sample
 synonym: "esophageal smooth muscle cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002599 ! smooth muscle cell of the esophagus
@@ -2109,7 +2109,7 @@ creation_date: 2011-03-06T06:03:48Z
 
 [Term]
 id: FF:0000183
-name: smooth muscle cell of prostate sample
+name: human smooth muscle cell of prostate sample
 synonym: "smooth muscle cell of prostate" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:1000487 ! smooth muscle cell of prostate
@@ -2120,7 +2120,7 @@ creation_date: 2011-03-06T06:05:23Z
 
 [Term]
 id: FF:0000184
-name: smooth muscle cell of trachea sample
+name: human smooth muscle cell of trachea sample
 synonym: "smooth muscle cell of trachea" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002600 ! smooth muscle cell of trachea
@@ -2131,7 +2131,7 @@ creation_date: 2011-03-06T06:08:14Z
 
 [Term]
 id: FF:0000185
-name: uterine smooth muscle cell sample
+name: human uterine smooth muscle cell sample
 synonym: "uterine smooth muscle cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002601 ! uterine smooth muscle cell
@@ -2142,7 +2142,7 @@ creation_date: 2011-03-06T06:09:28Z
 
 [Term]
 id: FF:0000186
-name: sympathetic ganglia sample
+name: human sympathetic ganglia sample
 synonym: "sympathetic ganglia" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -2153,7 +2153,7 @@ creation_date: 2011-03-06T06:13:44Z
 
 [Term]
 id: FF:0000187
-name: synovial cell sample
+name: human synovial cell sample
 synonym: "synovial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000214 ! synovial cell
@@ -2164,7 +2164,7 @@ creation_date: 2011-03-06T06:16:08Z
 
 [Term]
 id: FF:0000188
-name: trabecular meshwork cell sample
+name: human trabecular meshwork cell sample
 synonym: "trabecular meshwork cell" EXACT []
 namespace: FANTOM5
 def: "A cell of the trabecular meshwork." [GOC:tfm]
@@ -2176,7 +2176,7 @@ creation_date: 2011-03-06T06:20:41Z
 
 [Term]
 id: FF:0000189
-name: tracheal epithelial cell sample
+name: human tracheal epithelial cell sample
 synonym: "tracheal epithelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000307 ! tracheal epithelial cell
@@ -2187,7 +2187,7 @@ creation_date: 2011-03-06T06:22:52Z
 
 [Term]
 id: FF:0000190
-name: trophoblast sample
+name: human trophoblast sample
 synonym: "trophoblast" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000351 ! trophoblast cell
@@ -2199,7 +2199,7 @@ creation_date: 2011-03-06T06:25:17Z
 
 [Term]
 id: FF:0000191
-name: urothelial cell sample
+name: human urothelial cell sample
 synonym: "urothelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000731 ! urothelial cell
@@ -2210,7 +2210,7 @@ creation_date: 2011-03-06T06:33:38Z
 
 [Term]
 id: FF:0000192
-name: anulus pulposus cell sample
+name: human anulus pulposus cell sample
 synonym: "anulus pulposus cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002602 ! annulus pulposus cell
@@ -2221,7 +2221,7 @@ creation_date: 2011-03-06T06:54:21Z
 
 [Term]
 id: FF:0000193
-name: astrocyte of the hippocampus sample
+name: human astrocyte of the hippocampus sample
 synonym: "astrocyte of the hippocampus" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002604 ! astrocyte of the hippocampus
@@ -2232,7 +2232,7 @@ creation_date: 2011-03-06T07:02:51Z
 
 [Term]
 id: FF:0000194
-name: astrocyte of the cerebral cortex sample
+name: human astrocyte of the cerebral cortex sample
 synonym: "astrocyte of the cerebral cortex" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002605 ! astrocyte of the cerebral cortex
@@ -2243,7 +2243,7 @@ creation_date: 2011-03-06T07:02:53Z
 
 [Term]
 id: FF:0000195
-name: astrocyte of the cerebellum sample
+name: human astrocyte of the cerebellum sample
 synonym: "astrocyte of the cerebellum" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002603 ! astrocyte of the cerebellum
@@ -2277,7 +2277,7 @@ creation_date: 2011-03-06T07:07:02Z
 
 [Term]
 id: FF:0000198
-name: astrocyte of spinal cord sample
+name: human astrocyte of spinal cord sample
 synonym: "astrocyte of spinal cord" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002606 ! astrocyte of the spinal cord
@@ -2299,7 +2299,7 @@ creation_date: 2011-03-06T07:17:45Z
 
 [Term]
 id: FF:0000200
-name: enteric neural crest cell sample
+name: human enteric neural crest cell sample
 synonym: "enteric neural crest cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002607 ! enteric neural crest cell
@@ -2414,7 +2414,7 @@ creation_date: 2011-03-07T06:08:50Z
 
 [Term]
 id: FF:0000211
-name: perirenal adipocyte cell sample
+name: human perirenal adipocyte cell sample
 synonym: "perirenal adipocyte cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002616 ! perirenal adipocyte cell
@@ -2425,7 +2425,7 @@ creation_date: 2011-03-14T10:22:55Z
 
 [Term]
 id: FF:0000212
-name: basophil heparinase treated sample
+name: human basophil heparinase treated sample
 synonym: "basophil heparinase treated" EXACT []
 namespace: FANTOM5
 is_a: FF:0000013 ! basophil
@@ -2443,7 +2443,7 @@ creation_date: 2011-03-14T10:31:31Z
 
 [Term]
 id: FF:0000214
-name: CD15-positive granulocyte sample
+name: human CD15-positive granulocyte sample
 synonym: "CD15-positive granulocyte" EXACT []
 namespace: FANTOM5
 def: "A granulocyte that has the activation marker CD15. CD15 is a carbohydrate and is not currently represented in the OBO domain." [GOC:tfm]
@@ -2756,7 +2756,7 @@ creation_date: 2011-03-14T11:22:57Z
 
 [Term]
 id: FF:0000245
-name: chondrocyte re-differentiated sample
+name: human chondrocyte re-differentiated sample
 synonym: "chondrocyte re-differentiated" EXACT []
 namespace: FANTOM5
 is_a: FF:0000037 ! chondrocyte
@@ -2766,7 +2766,7 @@ creation_date: 2011-03-14T11:25:25Z
 
 [Term]
 id: FF:0000246
-name: chondrocyte de-differentiated sample
+name: human chondrocyte de-differentiated sample
 synonym: "chondrocyte de-differentiated" EXACT []
 namespace: FANTOM5
 is_a: FF:0000037 ! chondrocyte
@@ -2776,7 +2776,7 @@ creation_date: 2011-03-14T11:25:27Z
 
 [Term]
 id: FF:0000247
-name: endothelial cell of umbilical vein sample
+name: human endothelial cell of umbilical vein sample
 synonym: "endothelial cell of umbilical vein" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002618 ! endothelial cell of umbilical vein
@@ -2786,7 +2786,7 @@ creation_date: 2011-03-14T11:34:21Z
 
 [Term]
 id: FF:0000248
-name: endothelial progenitor cell sample
+name: human endothelial progenitor cell sample
 synonym: "endothelial progenitor cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000115 ! endothelial cell
@@ -2798,7 +2798,7 @@ creation_date: 2011-03-14T12:23:17Z
 
 [Term]
 id: FF:0000249
-name: eosinophil- heparinase treated sample
+name: human eosinophil- heparinase treated sample
 synonym: "eosinophil- heparinase treated" EXACT []
 namespace: FANTOM5
 is_a: FF:0000054 ! eosinophil
@@ -2807,7 +2807,7 @@ creation_date: 2011-03-14T12:25:07Z
 
 [Term]
 id: FF:0000250
-name: fibroblast of skin sample
+name: human fibroblast of skin sample
 synonym: "fibroblast of skin" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002620 ! skin fibroblast
@@ -2818,7 +2818,7 @@ creation_date: 2011-03-14T12:35:16Z
 
 [Term]
 id: FF:0000251
-name: fibroblast - skin spinal muscular atrophy sample
+name: human fibroblast - skin spinal muscular atrophy sample
 synonym: "fibroblast - skin spinal muscular atrophy" EXACT []
 namespace: FANTOM5
 is_a: FF:0000250 ! fibroblast of skin
@@ -2827,7 +2827,7 @@ creation_date: 2011-03-14T12:39:03Z
 
 [Term]
 id: FF:0000252
-name: fibroblast - skin walker warburg sample
+name: human fibroblast - skin walker warburg sample
 synonym: "fibroblast - skin walker warburg" EXACT []
 namespace: FANTOM5
 is_a: FF:0000250 ! fibroblast of skin
@@ -2836,7 +2836,7 @@ creation_date: 2011-03-14T12:39:07Z
 
 [Term]
 id: FF:0000253
-name: fibroblast- skin dystrophia myotonica sample
+name: human fibroblast- skin dystrophia myotonica sample
 synonym: "fibroblast- skin dystrophia myotonica" EXACT []
 namespace: FANTOM5
 relationship: is_model_for DOID::11722 ! myotonic dystrophy
@@ -2846,7 +2846,7 @@ creation_date: 2011-03-14T12:39:11Z
 
 [Term]
 id: FF:0000254
-name: gingival epithelial cell sample
+name: human gingival epithelial cell sample
 synonym: "gingival epithelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002621 ! gingival epithelial cell
@@ -2965,7 +2965,7 @@ creation_date: 2011-03-14T01:04:10Z
 
 [Term]
 id: FF:0000266
-name: mature adipocyte sample
+name: human mature adipocyte sample
 synonym: "mature adipocyte" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000136 ! fat cell
@@ -2997,7 +2997,7 @@ creation_date: 2011-03-14T01:25:45Z
 
 [Term]
 id: FF:0000269
-name: mesenchymal precursor cell of bone marrow sample
+name: human mesenchymal precursor cell of bone marrow sample
 synonym: "mesenchymal precursor cell of bone marrow" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002540 ! mesenchymal stem cell of the bone marrow
@@ -3008,7 +3008,7 @@ creation_date: 2011-03-14T01:28:46Z
 
 [Term]
 id: FF:0000270
-name: mesenchymal precursor cell of adipose sample
+name: human mesenchymal precursor cell of adipose sample
 synonym: "mesenchymal precursor cell of adipose" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002570 ! mesenchymal stem cell of adipose
@@ -3019,7 +3019,7 @@ creation_date: 2011-03-14T01:30:22Z
 
 [Term]
 id: FF:0000271
-name: cardiac mesenchymal precursor cell sample
+name: human cardiac mesenchymal precursor cell sample
 synonym: "cardiac mesenchymal precursor cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000569 ! cardiac mesenchymal cell
@@ -3030,7 +3030,7 @@ creation_date: 2011-03-14T01:32:03Z
 
 [Term]
 id: FF:0000272
-name: ovarian cancer mesenchymal precursor cell sample
+name: human ovarian cancer mesenchymal precursor cell sample
 synonym: "ovarian cancer mesenchymal precursor cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000134 ! mesenchymal cell
@@ -3042,7 +3042,7 @@ creation_date: 2011-03-14T01:35:12Z
 
 [Term]
 id: FF:0000273
-name: mesenchymal precursor cell- ovarian cancer-left ovary sample
+name: human mesenchymal precursor cell- ovarian cancer-left ovary sample
 synonym: "mesenchymal precursor cell- ovarian cancer-left ovary" EXACT []
 namespace: FANTOM5
 is_a: FF:0000272 ! ovarian cancer mesenchymal precursor cell
@@ -3052,7 +3052,7 @@ creation_date: 2011-03-14T01:36:05Z
 
 [Term]
 id: FF:0000274
-name: mesenchymal precursor cell- ovarian cancer-metastasis sample
+name: human mesenchymal precursor cell- ovarian cancer-metastasis sample
 synonym: "mesenchymal precursor cell- ovarian cancer-metastasis" EXACT []
 namespace: FANTOM5
 is_a: FF:0000272 ! ovarian cancer mesenchymal precursor cell
@@ -3061,7 +3061,7 @@ creation_date: 2011-03-14T01:36:07Z
 
 [Term]
 id: FF:0000275
-name: mesenchymal precursor cell- ovarian cancer-right ovary sample
+name: human mesenchymal precursor cell- ovarian cancer-right ovary sample
 synonym: "mesenchymal precursor cell- ovarian cancer-right ovary" EXACT []
 namespace: FANTOM5
 is_a: FF:0000272 ! ovarian cancer mesenchymal precursor cell
@@ -3071,7 +3071,7 @@ creation_date: 2011-03-14T01:36:12Z
 
 [Term]
 id: FF:0000276
-name: amniotic membrane cell- fetal sample
+name: human amniotic membrane cell- fetal sample
 synonym: "amniotic membrane cell- fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000092 ! amniotic membrane cell
@@ -3080,7 +3080,7 @@ creation_date: 2011-03-14T01:52:15Z
 
 [Term]
 id: FF:0000277
-name: prostate stromal cell sample
+name: human prostate stromal cell sample
 synonym: "prostate stromal cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002622 ! prostate stromal cell
@@ -3091,7 +3091,7 @@ creation_date: 2011-03-14T02:12:31Z
 
 [Term]
 id: FF:0000278
-name: salivary acinar cell sample
+name: human salivary acinar cell sample
 synonym: "salivary acinar cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002623 ! acinar cell of salivary gland
@@ -3113,7 +3113,7 @@ creation_date: 2011-03-14T02:43:33Z
 
 [Term]
 id: FF:0000280
-name: tenocyte sample
+name: human tenocyte sample
 synonym: "tenocyte" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000388 ! tendon cell
@@ -3124,7 +3124,7 @@ creation_date: 2011-03-14T02:46:49Z
 
 [Term]
 id: FF:0000281
-name: whole blood sample
+name: human whole blood sample
 synonym: "whole blood" EXACT []
 namespace: FANTOM5
 is_a: FF:0010053 ! blood - adult
@@ -3166,7 +3166,7 @@ creation_date: 2011-03-14T03:00:03Z
 
 [Term]
 id: FF:0000285
-name: whole body- fetal week 8 sample
+name: human whole body- fetal week 8 sample
 synonym: "whole body- fetal week 8" EXACT []
 namespace: FANTOM5
 is_a: FF:0010000 ! human whole body-fetal
@@ -3175,7 +3175,7 @@ creation_date: 2011-03-14T03:08:49Z
 
 [Term]
 id: FF:0000286
-name: whole body- fetal week 6 sample
+name: human whole body- fetal week 6 sample
 synonym: "whole body- fetal week 6" EXACT []
 namespace: FANTOM5
 is_a: FF:0010000 ! human whole body-fetal
@@ -3184,7 +3184,7 @@ creation_date: 2011-03-14T03:08:51Z
 
 [Term]
 id: FF:0000287
-name: whole body- fetal week 7 sample
+name: human whole body- fetal week 7 sample
 synonym: "whole body- fetal week 7" EXACT []
 namespace: FANTOM5
 is_a: FF:0010000 ! human whole body-fetal
@@ -3193,7 +3193,7 @@ creation_date: 2011-03-14T03:08:55Z
 
 [Term]
 id: FF:0000288
-name: whole body- fetal week 9 sample
+name: human whole body- fetal week 9 sample
 synonym: "whole body- fetal week 9" EXACT []
 namespace: FANTOM5
 is_a: FF:0010000 ! human whole body-fetal
@@ -3202,7 +3202,7 @@ creation_date: 2011-03-14T03:09:00Z
 
 [Term]
 id: FF:0000289
-name: whole body- fetal week 10 sample
+name: human whole body- fetal week 10 sample
 synonym: "whole body- fetal week 10" EXACT []
 namespace: FANTOM5
 is_a: FF:0010000 ! human whole body-fetal
@@ -3211,7 +3211,7 @@ creation_date: 2011-03-14T03:09:04Z
 
 [Term]
 id: FF:0000290
-name: brain- fetal week 12 sample
+name: human brain- fetal week 12 sample
 synonym: "brain- fetal week 12" EXACT []
 namespace: FANTOM5
 alt_id: FF:0011298
@@ -3222,7 +3222,7 @@ creation_date: 2011-03-14T03:11:54Z
 
 [Term]
 id: FF:0000291
-name: brain- fetal week 10 sample
+name: human brain- fetal week 10 sample
 synonym: "brain- fetal week 10" EXACT []
 namespace: FANTOM5
 alt_id: FF:0011297
@@ -3568,7 +3568,7 @@ creation_date: 2011-04-22T02:17:25Z
 
 [Term]
 id: FF:0000325
-name: whole body- fetal week 12 sample
+name: human whole body- fetal week 12 sample
 synonym: "whole body- fetal week 12" EXACT []
 namespace: FANTOM5
 alt_id: FF:0011295
@@ -3579,7 +3579,7 @@ creation_date: 2011-04-22T02:57:12Z
 
 [Term]
 id: FF:0000326
-name: lung - fetal week 6 sample
+name: human lung - fetal week 6 sample
 synonym: "lung - fetal week 6" EXACT []
 namespace: FANTOM5
 alt_id: FF:0011299
@@ -3591,7 +3591,7 @@ creation_date: 2011-04-22T03:11:25Z
 
 [Term]
 id: FF:0000327
-name: liver- fetal week 6 sample
+name: human liver- fetal week 6 sample
 synonym: "liver- fetal week 6" EXACT []
 namespace: FANTOM5
 alt_id: FF:0011300
@@ -3602,7 +3602,7 @@ creation_date: 2011-04-22T03:13:27Z
 
 [Term]
 id: FF:0000328
-name: liver- fetal week 11 sample
+name: human liver- fetal week 11 sample
 synonym: "liver- fetal week 11" EXACT []
 namespace: FANTOM5
 alt_id: FF:0011302
@@ -4195,7 +4195,7 @@ creation_date: 2011-04-29T11:05:45Z
 
 [Term]
 id: FF:0000402
-name: K562 erythroblastic leukemia cell line sample
+name: human K562 erythroblastic leukemia cell line sample
 synonym: "K562 erythroblastic leukemia cell line" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -4268,7 +4268,7 @@ creation_date: 2011-08-29T11:08:41Z
 
 [Term]
 id: FF:0000410
-name: Lymphatic Endothelial cells 0min after VEGFC treatment sample
+name: human Lymphatic Endothelial cells 0min after VEGFC treatment sample
 synonym: "Lymphatic Endothelial cells 0min after VEGFC treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4279,7 +4279,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0000411
-name: Lymphatic Endothelial cells 15min after VEGFC treatment sample
+name: human Lymphatic Endothelial cells 15min after VEGFC treatment sample
 synonym: "Lymphatic Endothelial cells 15min after VEGFC treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4290,7 +4290,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0000412
-name: Lymphatic Endothelial cells 30min after VEGFC treatment sample
+name: human Lymphatic Endothelial cells 30min after VEGFC treatment sample
 synonym: "Lymphatic Endothelial cells 30min after VEGFC treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4301,7 +4301,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0000413
-name: Lymphatic Endothelial cells 45min after VEGFC treatment sample
+name: human Lymphatic Endothelial cells 45min after VEGFC treatment sample
 synonym: "Lymphatic Endothelial cells 45min after VEGFC treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4312,7 +4312,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0000414
-name: Lymphatic Endothelial cells 1hr after VEGFC treatment sample
+name: human Lymphatic Endothelial cells 1hr after VEGFC treatment sample
 synonym: "Lymphatic Endothelial cells 1hr after VEGFC treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4323,7 +4323,7 @@ is_a: FF:0000358 ! 1 hr
 
 [Term]
 id: FF:0000415
-name: Lymphatic Endothelial cells 80min  after VEGFC treatment sample
+name: human Lymphatic Endothelial cells 80min  after VEGFC treatment sample
 synonym: "Lymphatic Endothelial cells 80min  after VEGFC treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4334,7 +4334,7 @@ is_a: FF:0000351 ! 80 minutes
 
 [Term]
 id: FF:0000416
-name: Lymphatic Endothelial cells 100min after VEGFC treatment sample
+name: human Lymphatic Endothelial cells 100min after VEGFC treatment sample
 synonym: "Lymphatic Endothelial cells 100min after VEGFC treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4345,7 +4345,7 @@ is_a: FF:0000352 ! 100 minutes
 
 [Term]
 id: FF:0000417
-name: Lymphatic Endothelial cells 2h after VEGFC treatment sample
+name: human Lymphatic Endothelial cells 2h after VEGFC treatment sample
 synonym: "Lymphatic Endothelial cells 2h after VEGFC treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4356,7 +4356,7 @@ is_a: FF:0000359 ! 2 hr
 
 [Term]
 id: FF:0000418
-name: Lymphatic Endothelial cells 2.5h after VEGFC treatment sample
+name: human Lymphatic Endothelial cells 2.5h after VEGFC treatment sample
 synonym: "Lymphatic Endothelial cells 2.5h after VEGFC treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4367,7 +4367,7 @@ is_a: FF:0000354 ! 150 minutes
 
 [Term]
 id: FF:0000419
-name: Lymphatic Endothelial cells 3h after VEGFC treatment sample
+name: human Lymphatic Endothelial cells 3h after VEGFC treatment sample
 synonym: "Lymphatic Endothelial cells 3h after VEGFC treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4378,7 +4378,7 @@ is_a: FF:0000360 ! 3 hr
 
 [Term]
 id: FF:0000420
-name: Lymphatic Endothelial cells 3.5h after VEGFC treatment sample
+name: human Lymphatic Endothelial cells 3.5h after VEGFC treatment sample
 synonym: "Lymphatic Endothelial cells 3.5h after VEGFC treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4389,7 +4389,7 @@ is_a: FF:0000356 ! 210 minutes
 
 [Term]
 id: FF:0000421
-name: Lymphatic Endothelial cells 4h after VEGFC treatment sample
+name: human Lymphatic Endothelial cells 4h after VEGFC treatment sample
 synonym: "Lymphatic Endothelial cells 4h after VEGFC treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4400,7 +4400,7 @@ is_a: FF:0000361 ! 4 hr
 
 [Term]
 id: FF:0000422
-name: Lymphatic Endothelial cells 5h after VEGFC treatment sample
+name: human Lymphatic Endothelial cells 5h after VEGFC treatment sample
 synonym: "Lymphatic Endothelial cells 5h after VEGFC treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4411,7 +4411,7 @@ is_a: FF:0000362 ! 5 hr
 
 [Term]
 id: FF:0000423
-name: Lymphatic Endothelial cells 6h after VEGFC treatment sample
+name: human Lymphatic Endothelial cells 6h after VEGFC treatment sample
 synonym: "Lymphatic Endothelial cells 6h after VEGFC treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4422,7 +4422,7 @@ is_a: FF:0000363 ! 6 hr
 
 [Term]
 id: FF:0000424
-name: Lymphatic Endothelial cells 7h after VEGFC treatment sample
+name: human Lymphatic Endothelial cells 7h after VEGFC treatment sample
 synonym: "Lymphatic Endothelial cells 7h after VEGFC treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4433,7 +4433,7 @@ is_a: FF:0000364 ! 7 hr
 
 [Term]
 id: FF:0000425
-name: Lymphatic Endothelial cells 8h after VEGFC treatment sample
+name: human Lymphatic Endothelial cells 8h after VEGFC treatment sample
 synonym: "Lymphatic Endothelial cells 8h after VEGFC treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4444,7 +4444,7 @@ is_a: FF:0000365 ! 8 hr
 
 [Term]
 id: FF:0000426
-name: MCF7 breast cancer cell line 0min after EGF1 treatment sample
+name: human MCF7 breast cancer cell line 0min after EGF1 treatment sample
 synonym: "MCF7 breast cancer cell line 0min after EGF1 treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4456,7 +4456,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000427
-name: MCF7 breast cancer cell line 15min after EGF1 treatment sample
+name: human MCF7 breast cancer cell line 15min after EGF1 treatment sample
 synonym: "MCF7 breast cancer cell line 15min after EGF1 treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4468,7 +4468,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000428
-name: MCF7 breast cancer cell line 30min after EGF1 treatment sample
+name: human MCF7 breast cancer cell line 30min after EGF1 treatment sample
 synonym: "MCF7 breast cancer cell line 30min after EGF1 treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4480,7 +4480,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000429
-name: MCF7 breast cancer cell line 45min after EGF1 treatment sample
+name: human MCF7 breast cancer cell line 45min after EGF1 treatment sample
 synonym: "MCF7 breast cancer cell line 45min after EGF1 treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4492,7 +4492,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000430
-name: MCF7 breast cancer cell line 1hr after EGF1 treatment sample
+name: human MCF7 breast cancer cell line 1hr after EGF1 treatment sample
 synonym: "MCF7 breast cancer cell line 1hr after EGF1 treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4504,7 +4504,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000431
-name: MCF7 breast cancer cell line 80min  after EGF1 treatment sample
+name: human MCF7 breast cancer cell line 80min  after EGF1 treatment sample
 synonym: "MCF7 breast cancer cell line 80min  after EGF1 treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4516,7 +4516,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000432
-name: MCF7 breast cancer cell line 100min after EGF1 treatment sample
+name: human MCF7 breast cancer cell line 100min after EGF1 treatment sample
 synonym: "MCF7 breast cancer cell line 100min after EGF1 treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4528,7 +4528,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000433
-name: MCF7 breast cancer cell line 2h after EGF1 treatment sample
+name: human MCF7 breast cancer cell line 2h after EGF1 treatment sample
 synonym: "MCF7 breast cancer cell line 2h after EGF1 treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4540,7 +4540,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000434
-name: MCF7 breast cancer cell line 2.5h after EGF1 treatment sample
+name: human MCF7 breast cancer cell line 2.5h after EGF1 treatment sample
 synonym: "MCF7 breast cancer cell line 2.5h after EGF1 treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4552,7 +4552,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000435
-name: MCF7 breast cancer cell line 3h after EGF1 treatment sample
+name: human MCF7 breast cancer cell line 3h after EGF1 treatment sample
 synonym: "MCF7 breast cancer cell line 3h after EGF1 treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4564,7 +4564,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000436
-name: MCF7 breast cancer cell line 3.5h after EGF1 treatment sample
+name: human MCF7 breast cancer cell line 3.5h after EGF1 treatment sample
 synonym: "MCF7 breast cancer cell line 3.5h after EGF1 treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4576,7 +4576,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000437
-name: MCF7 breast cancer cell line 4h after EGF1 treatment sample
+name: human MCF7 breast cancer cell line 4h after EGF1 treatment sample
 synonym: "MCF7 breast cancer cell line 4h after EGF1 treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4588,7 +4588,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000438
-name: MCF7 breast cancer cell line 5h after EGF1 treatment sample
+name: human MCF7 breast cancer cell line 5h after EGF1 treatment sample
 synonym: "MCF7 breast cancer cell line 5h after EGF1 treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4600,7 +4600,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000439
-name: MCF7 breast cancer cell line 6h after EGF1 treatment sample
+name: human MCF7 breast cancer cell line 6h after EGF1 treatment sample
 synonym: "MCF7 breast cancer cell line 6h after EGF1 treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4612,7 +4612,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000440
-name: MCF7 breast cancer cell line 7h after EGF1 treatment sample
+name: human MCF7 breast cancer cell line 7h after EGF1 treatment sample
 synonym: "MCF7 breast cancer cell line 7h after EGF1 treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4624,7 +4624,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000441
-name: MCF7 breast cancer cell line 8h after EGF1 treatment sample
+name: human MCF7 breast cancer cell line 8h after EGF1 treatment sample
 synonym: "MCF7 breast cancer cell line 8h after EGF1 treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4636,7 +4636,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000442
-name: MCF7 breast cancer cell line 0min after HRG treatment sample
+name: human MCF7 breast cancer cell line 0min after HRG treatment sample
 synonym: "MCF7 breast cancer cell line 0min after HRG treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4648,7 +4648,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000443
-name: MCF7 breast cancer cell line 15min after HRG treatment sample
+name: human MCF7 breast cancer cell line 15min after HRG treatment sample
 synonym: "MCF7 breast cancer cell line 15min after HRG treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4660,7 +4660,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000444
-name: MCF7 breast cancer cell line 30min after HRG treatment sample
+name: human MCF7 breast cancer cell line 30min after HRG treatment sample
 synonym: "MCF7 breast cancer cell line 30min after HRG treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4672,7 +4672,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000445
-name: MCF7 breast cancer cell line 45min after HRG treatment sample
+name: human MCF7 breast cancer cell line 45min after HRG treatment sample
 synonym: "MCF7 breast cancer cell line 45min after HRG treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4684,7 +4684,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000446
-name: MCF7 breast cancer cell line 1hr after HRG treatment sample
+name: human MCF7 breast cancer cell line 1hr after HRG treatment sample
 synonym: "MCF7 breast cancer cell line 1hr after HRG treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4696,7 +4696,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000447
-name: MCF7 breast cancer cell line 80min  after HRG treatment sample
+name: human MCF7 breast cancer cell line 80min  after HRG treatment sample
 synonym: "MCF7 breast cancer cell line 80min  after HRG treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4708,7 +4708,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000448
-name: MCF7 breast cancer cell line 100min after HRG treatment sample
+name: human MCF7 breast cancer cell line 100min after HRG treatment sample
 synonym: "MCF7 breast cancer cell line 100min after HRG treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4720,7 +4720,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000449
-name: MCF7 breast cancer cell line 2h after HRG treatment sample
+name: human MCF7 breast cancer cell line 2h after HRG treatment sample
 synonym: "MCF7 breast cancer cell line 2h after HRG treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4732,7 +4732,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000450
-name: MCF7 breast cancer cell line 2.5h after HRG treatment sample
+name: human MCF7 breast cancer cell line 2.5h after HRG treatment sample
 synonym: "MCF7 breast cancer cell line 2.5h after HRG treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4744,7 +4744,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000451
-name: MCF7 breast cancer cell line 3h after HRG treatment sample
+name: human MCF7 breast cancer cell line 3h after HRG treatment sample
 synonym: "MCF7 breast cancer cell line 3h after HRG treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4756,7 +4756,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000452
-name: MCF7 breast cancer cell line 3.5h after HRG treatment sample
+name: human MCF7 breast cancer cell line 3.5h after HRG treatment sample
 synonym: "MCF7 breast cancer cell line 3.5h after HRG treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4768,7 +4768,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000453
-name: MCF7 breast cancer cell line 4h after HRG treatment sample
+name: human MCF7 breast cancer cell line 4h after HRG treatment sample
 synonym: "MCF7 breast cancer cell line 4h after HRG treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4780,7 +4780,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000454
-name: MCF7 breast cancer cell line 5h after HRG treatment sample
+name: human MCF7 breast cancer cell line 5h after HRG treatment sample
 synonym: "MCF7 breast cancer cell line 5h after HRG treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4792,7 +4792,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000455
-name: MCF7 breast cancer cell line 6h after HRG treatment sample
+name: human MCF7 breast cancer cell line 6h after HRG treatment sample
 synonym: "MCF7 breast cancer cell line 6h after HRG treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4804,7 +4804,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000456
-name: MCF7 breast cancer cell line 7h after HRG treatment sample
+name: human MCF7 breast cancer cell line 7h after HRG treatment sample
 synonym: "MCF7 breast cancer cell line 7h after HRG treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4816,7 +4816,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000457
-name: MCF7 breast cancer cell line 8h after HRG treatment sample
+name: human MCF7 breast cancer cell line 8h after HRG treatment sample
 synonym: "MCF7 breast cancer cell line 8h after HRG treatment" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5444,7 +5444,7 @@ is_a: FF:0000403 ! J2E erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000514
-name: K562 erythroblastic leukemia line 0min after treatment with hemin sample
+name: human K562 erythroblastic leukemia line 0min after treatment with hemin sample
 synonym: "K562 erythroblastic leukemia line 0min after treatment with hemin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5455,7 +5455,7 @@ is_a: FF:0000402 ! K562 erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000515
-name: K562 erythroblastic leukemia line 15min after treatment with hemin sample
+name: human K562 erythroblastic leukemia line 15min after treatment with hemin sample
 synonym: "K562 erythroblastic leukemia line 15min after treatment with hemin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5466,7 +5466,7 @@ is_a: FF:0000402 ! K562 erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000516
-name: K562 erythroblastic leukemia line 30min after treatment with hemin sample
+name: human K562 erythroblastic leukemia line 30min after treatment with hemin sample
 synonym: "K562 erythroblastic leukemia line 30min after treatment with hemin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5477,7 +5477,7 @@ is_a: FF:0000402 ! K562 erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000517
-name: K562 erythroblastic leukemia line 45min after treatment with hemin sample
+name: human K562 erythroblastic leukemia line 45min after treatment with hemin sample
 synonym: "K562 erythroblastic leukemia line 45min after treatment with hemin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5488,7 +5488,7 @@ is_a: FF:0000402 ! K562 erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000518
-name: K562 erythroblastic leukemia line 1hr after treatment with hemin sample
+name: human K562 erythroblastic leukemia line 1hr after treatment with hemin sample
 synonym: "K562 erythroblastic leukemia line 1hr after treatment with hemin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5499,7 +5499,7 @@ is_a: FF:0000402 ! K562 erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000519
-name: K562 erythroblastic leukemia line 1hr 20min after treatment with hemin sample
+name: human K562 erythroblastic leukemia line 1hr 20min after treatment with hemin sample
 synonym: "K562 erythroblastic leukemia line 1hr 20min after treatment with hemin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5510,7 +5510,7 @@ is_a: FF:0000402 ! K562 erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000520
-name: K562 erythroblastic leukemia line 1hr 40min after treatment with hemin sample
+name: human K562 erythroblastic leukemia line 1hr 40min after treatment with hemin sample
 synonym: "K562 erythroblastic leukemia line 1hr 40min after treatment with hemin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5521,7 +5521,7 @@ is_a: FF:0000402 ! K562 erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000521
-name: K562 erythroblastic leukemia line 2hr after treatment with hemin sample
+name: human K562 erythroblastic leukemia line 2hr after treatment with hemin sample
 synonym: "K562 erythroblastic leukemia line 2hr after treatment with hemin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5532,7 +5532,7 @@ is_a: FF:0000402 ! K562 erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000522
-name: K562 erythroblastic leukemia line 2hr 30min after treatment with hemin sample
+name: human K562 erythroblastic leukemia line 2hr 30min after treatment with hemin sample
 synonym: "K562 erythroblastic leukemia line 2hr 30min after treatment with hemin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5543,7 +5543,7 @@ is_a: FF:0000402 ! K562 erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000523
-name: K562 erythroblastic leukemia line 3hr after treatment with hemin sample
+name: human K562 erythroblastic leukemia line 3hr after treatment with hemin sample
 synonym: "K562 erythroblastic leukemia line 3hr after treatment with hemin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5554,7 +5554,7 @@ is_a: FF:0000402 ! K562 erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000524
-name: K562 erythroblastic leukemia line 3hr 30min after treatment with hemin sample
+name: human K562 erythroblastic leukemia line 3hr 30min after treatment with hemin sample
 synonym: "K562 erythroblastic leukemia line 3hr 30min after treatment with hemin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5565,7 +5565,7 @@ is_a: FF:0000402 ! K562 erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000525
-name: K562 erythroblastic leukemia line 4hr after treatment with hemin sample
+name: human K562 erythroblastic leukemia line 4hr after treatment with hemin sample
 synonym: "K562 erythroblastic leukemia line 4hr after treatment with hemin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5576,7 +5576,7 @@ is_a: FF:0000402 ! K562 erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000526
-name: K562 erythroblastic leukemia line 6hr after treatment with hemin sample
+name: human K562 erythroblastic leukemia line 6hr after treatment with hemin sample
 synonym: "K562 erythroblastic leukemia line 6hr after treatment with hemin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5587,7 +5587,7 @@ is_a: FF:0000402 ! K562 erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000527
-name: K562 erythroblastic leukemia line 12hr after treatment with hemin sample
+name: human K562 erythroblastic leukemia line 12hr after treatment with hemin sample
 synonym: "K562 erythroblastic leukemia line 12hr after treatment with hemin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5598,7 +5598,7 @@ is_a: FF:0000402 ! K562 erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000528
-name: K562 erythroblastic leukemia line 24hr after treatment with hemin sample
+name: human K562 erythroblastic leukemia line 24hr after treatment with hemin sample
 synonym: "K562 erythroblastic leukemia line 24hr after treatment with hemin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5609,7 +5609,7 @@ is_a: FF:0000402 ! K562 erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000529
-name: K562 erythroblastic leukemia line 48hr after treatment with hemin sample
+name: human K562 erythroblastic leukemia line 48hr after treatment with hemin sample
 synonym: "K562 erythroblastic leukemia line 48hr after treatment with hemin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5620,7 +5620,7 @@ is_a: FF:0000402 ! K562 erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000530
-name: K562 erythroblastic leukemia line 72hr after treatment with hemin sample
+name: human K562 erythroblastic leukemia line 72hr after treatment with hemin sample
 synonym: "K562 erythroblastic leukemia line 72hr after treatment with hemin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5631,7 +5631,7 @@ is_a: FF:0000402 ! K562 erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000531
-name: K562 erythroblastic leukemia line 96hr after treatment with hemin sample
+name: human K562 erythroblastic leukemia line 96hr after treatment with hemin sample
 synonym: "K562 erythroblastic leukemia line 96hr after treatment with hemin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5642,7 +5642,7 @@ is_a: FF:0000402 ! K562 erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000532
-name: H9 Embryoid body cells 0 days after melanocytic induction sample
+name: human H9 Embryoid body cells 0 days after melanocytic induction sample
 synonym: "H9 Embryoid body cells 0 days after melanocytic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5654,7 +5654,7 @@ is_a: FF:0000400 ! H9 embryonic stem cell line
 
 [Term]
 id: FF:0000533
-name: H9 Embryoid body cells 1 day after melanocytic induction sample
+name: human H9 Embryoid body cells 1 day after melanocytic induction sample
 synonym: "H9 Embryoid body cells 1 day after melanocytic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5666,7 +5666,7 @@ is_a: FF:0000400 ! H9 embryonic stem cell line
 
 [Term]
 id: FF:0000534
-name: H9 Embryoid body cells 3 days after melanocytic induction sample
+name: human H9 Embryoid body cells 3 days after melanocytic induction sample
 synonym: "H9 Embryoid body cells 3 days after melanocytic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5678,7 +5678,7 @@ is_a: FF:0000400 ! H9 embryonic stem cell line
 
 [Term]
 id: FF:0000535
-name: H9 Embryoid body cells 6 days after melanocytic induction sample
+name: human H9 Embryoid body cells 6 days after melanocytic induction sample
 synonym: "H9 Embryoid body cells 6 days after melanocytic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5690,7 +5690,7 @@ is_a: FF:0000400 ! H9 embryonic stem cell line
 
 [Term]
 id: FF:0000536
-name: H9 Embryoid body cells 9 days after melanocytic induction sample
+name: human H9 Embryoid body cells 9 days after melanocytic induction sample
 synonym: "H9 Embryoid body cells 9 days after melanocytic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5702,7 +5702,7 @@ is_a: FF:0000400 ! H9 embryonic stem cell line
 
 [Term]
 id: FF:0000537
-name: H9 Embryoid body cells 12 days after melanocytic induction sample
+name: human H9 Embryoid body cells 12 days after melanocytic induction sample
 synonym: "H9 Embryoid body cells 12 days after melanocytic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5714,7 +5714,7 @@ is_a: FF:0000400 ! H9 embryonic stem cell line
 
 [Term]
 id: FF:0000538
-name: H9 Embryoid body cells 15 days after melanocytic induction sample
+name: human H9 Embryoid body cells 15 days after melanocytic induction sample
 synonym: "H9 Embryoid body cells 15 days after melanocytic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5726,7 +5726,7 @@ is_a: FF:0000400 ! H9 embryonic stem cell line
 
 [Term]
 id: FF:0000539
-name: H9 Embryoid body cells 18 days after melanocytic induction sample
+name: human H9 Embryoid body cells 18 days after melanocytic induction sample
 synonym: "H9 Embryoid body cells 18 days after melanocytic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5738,7 +5738,7 @@ is_a: FF:0000400 ! H9 embryonic stem cell line
 
 [Term]
 id: FF:0000540
-name: H9 Embryoid body cells 21 days after melanocytic induction sample
+name: human H9 Embryoid body cells 21 days after melanocytic induction sample
 synonym: "H9 Embryoid body cells 21 days after melanocytic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5750,7 +5750,7 @@ is_a: FF:0000400 ! H9 embryonic stem cell line
 
 [Term]
 id: FF:0000541
-name: H9 Embryoid body cells 24 days after melanocytic induction sample
+name: human H9 Embryoid body cells 24 days after melanocytic induction sample
 synonym: "H9 Embryoid body cells 24 days after melanocytic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5762,7 +5762,7 @@ is_a: FF:0000400 ! H9 embryonic stem cell line
 
 [Term]
 id: FF:0000542
-name: H9 Embryoid body cells 27 days after melanocytic induction sample
+name: human H9 Embryoid body cells 27 days after melanocytic induction sample
 synonym: "H9 Embryoid body cells 27 days after melanocytic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5774,7 +5774,7 @@ is_a: FF:0000400 ! H9 embryonic stem cell line
 
 [Term]
 id: FF:0000543
-name: H9 Embryoid body cells 30 days after melanocytic induction sample
+name: human H9 Embryoid body cells 30 days after melanocytic induction sample
 synonym: "H9 Embryoid body cells 30 days after melanocytic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5787,7 +5787,7 @@ is_a: FF:0000400 ! H9 embryonic stem cell line
 
 [Term]
 id: FF:0000544
-name: H9 Embryoid body cells 34 days after melanocytic induction sample
+name: human H9 Embryoid body cells 34 days after melanocytic induction sample
 synonym: "H9 Embryoid body cells 34 days after melanocytic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5799,7 +5799,7 @@ is_a: FF:0000400 ! H9 embryonic stem cell line
 
 [Term]
 id: FF:0000545
-name: H9 Embryoid body cells 41 days after melanocytic induction sample
+name: human H9 Embryoid body cells 41 days after melanocytic induction sample
 synonym: "H9 Embryoid body cells 41 days after melanocytic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5811,7 +5811,7 @@ is_a: FF:0000400 ! H9 embryonic stem cell line
 
 [Term]
 id: FF:0000546
-name: Aortic Smooth Muscle cells 0min after treatment with FGF2 sample
+name: human Aortic Smooth Muscle cells 0min after treatment with FGF2 sample
 synonym: "Aortic Smooth Muscle cells 0min after treatment with FGF2" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002539 ! aortic smooth muscle cell
@@ -5823,7 +5823,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0000547
-name: Aortic Smooth Muscle cells 15min after treatment with FGF2 sample
+name: human Aortic Smooth Muscle cells 15min after treatment with FGF2 sample
 synonym: "Aortic Smooth Muscle cells 15min after treatment with FGF2" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002539 ! aortic smooth muscle cell
@@ -5835,7 +5835,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0000548
-name: Aortic Smooth Muscle cells 30min after treatment with FGF2 sample
+name: human Aortic Smooth Muscle cells 30min after treatment with FGF2 sample
 synonym: "Aortic Smooth Muscle cells 30min after treatment with FGF2" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002539 ! aortic smooth muscle cell
@@ -5847,7 +5847,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0000549
-name: Aortic Smooth Muscle cells 45min after treatment with FGF2 sample
+name: human Aortic Smooth Muscle cells 45min after treatment with FGF2 sample
 synonym: "Aortic Smooth Muscle cells 45min after treatment with FGF2" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002539 ! aortic smooth muscle cell
@@ -5859,7 +5859,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0000550
-name: Aortic Smooth Muscle cells 1hr after treatment with FGF2 sample
+name: human Aortic Smooth Muscle cells 1hr after treatment with FGF2 sample
 synonym: "Aortic Smooth Muscle cells 1hr after treatment with FGF2" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002539 ! aortic smooth muscle cell
@@ -5871,7 +5871,7 @@ is_a: FF:0000358 ! 1 hr
 
 [Term]
 id: FF:0000551
-name: Aortic Smooth Muscle cells 2hr after treatment with FGF2 sample
+name: human Aortic Smooth Muscle cells 2hr after treatment with FGF2 sample
 synonym: "Aortic Smooth Muscle cells 2hr after treatment with FGF2" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002539 ! aortic smooth muscle cell
@@ -5883,7 +5883,7 @@ is_a: FF:0000359 ! 2 hr
 
 [Term]
 id: FF:0000552
-name: Aortic Smooth Muscle cells 3hr after treatment with FGF2 sample
+name: human Aortic Smooth Muscle cells 3hr after treatment with FGF2 sample
 synonym: "Aortic Smooth Muscle cells 3hr after treatment with FGF2" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002539 ! aortic smooth muscle cell
@@ -5895,7 +5895,7 @@ is_a: FF:0000360 ! 3 hr
 
 [Term]
 id: FF:0000553
-name: Aortic Smooth Muscle cells 4hr after treatment with FGF2 sample
+name: human Aortic Smooth Muscle cells 4hr after treatment with FGF2 sample
 synonym: "Aortic Smooth Muscle cells 4hr after treatment with FGF2" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002539 ! aortic smooth muscle cell
@@ -5907,7 +5907,7 @@ is_a: FF:0000361 ! 4 hr
 
 [Term]
 id: FF:0000554
-name: Aortic Smooth Muscle cells 5hr after treatment with FGF2 sample
+name: human Aortic Smooth Muscle cells 5hr after treatment with FGF2 sample
 synonym: "Aortic Smooth Muscle cells 5hr after treatment with FGF2" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002539 ! aortic smooth muscle cell
@@ -5919,7 +5919,7 @@ is_a: FF:0000362 ! 5 hr
 
 [Term]
 id: FF:0000555
-name: Aortic Smooth Muscle cells 6hr after treatment with FGF2 sample
+name: human Aortic Smooth Muscle cells 6hr after treatment with FGF2 sample
 synonym: "Aortic Smooth Muscle cells 6hr after treatment with FGF2" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002539 ! aortic smooth muscle cell
@@ -5931,7 +5931,7 @@ is_a: FF:0000363 ! 6 hr
 
 [Term]
 id: FF:0000556
-name: Aortic Smooth Muscle cells 0min after treatment with IL1b sample
+name: human Aortic Smooth Muscle cells 0min after treatment with IL1b sample
 synonym: "Aortic Smooth Muscle cells 0min after treatment with IL1b" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002539 ! aortic smooth muscle cell
@@ -5943,7 +5943,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0000557
-name: Aortic Smooth Muscle cells 15min after treatment with IL1b sample
+name: human Aortic Smooth Muscle cells 15min after treatment with IL1b sample
 synonym: "Aortic Smooth Muscle cells 15min after treatment with IL1b" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002539 ! aortic smooth muscle cell
@@ -5955,7 +5955,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0000558
-name: Aortic Smooth Muscle cells 30min after treatment with IL1b sample
+name: human Aortic Smooth Muscle cells 30min after treatment with IL1b sample
 synonym: "Aortic Smooth Muscle cells 30min after treatment with IL1b" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002539 ! aortic smooth muscle cell
@@ -5967,7 +5967,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0000559
-name: Aortic Smooth Muscle cells 45min after treatment with IL1b sample
+name: human Aortic Smooth Muscle cells 45min after treatment with IL1b sample
 synonym: "Aortic Smooth Muscle cells 45min after treatment with IL1b" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002539 ! aortic smooth muscle cell
@@ -5979,7 +5979,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0000560
-name: Aortic Smooth Muscle cells 1hr after treatment with IL1b sample
+name: human Aortic Smooth Muscle cells 1hr after treatment with IL1b sample
 synonym: "Aortic Smooth Muscle cells 1hr after treatment with IL1b" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002539 ! aortic smooth muscle cell
@@ -5991,7 +5991,7 @@ is_a: FF:0000358 ! 1 hr
 
 [Term]
 id: FF:0000561
-name: Aortic Smooth Muscle cells 2hr after treatment with IL1b sample
+name: human Aortic Smooth Muscle cells 2hr after treatment with IL1b sample
 synonym: "Aortic Smooth Muscle cells 2hr after treatment with IL1b" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002539 ! aortic smooth muscle cell
@@ -6003,7 +6003,7 @@ is_a: FF:0000359 ! 2 hr
 
 [Term]
 id: FF:0000562
-name: Aortic Smooth Muscle cells 3hr after treatment with IL1b sample
+name: human Aortic Smooth Muscle cells 3hr after treatment with IL1b sample
 synonym: "Aortic Smooth Muscle cells 3hr after treatment with IL1b" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002539 ! aortic smooth muscle cell
@@ -6015,7 +6015,7 @@ is_a: FF:0000360 ! 3 hr
 
 [Term]
 id: FF:0000563
-name: Aortic Smooth Muscle cells 4hr after treatment with IL1b sample
+name: human Aortic Smooth Muscle cells 4hr after treatment with IL1b sample
 synonym: "Aortic Smooth Muscle cells 4hr after treatment with IL1b" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002539 ! aortic smooth muscle cell
@@ -6027,7 +6027,7 @@ is_a: FF:0000361 ! 4 hr
 
 [Term]
 id: FF:0000564
-name: Aortic Smooth Muscle cells 5hr after treatment with IL1b sample
+name: human Aortic Smooth Muscle cells 5hr after treatment with IL1b sample
 synonym: "Aortic Smooth Muscle cells 5hr after treatment with IL1b" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002539 ! aortic smooth muscle cell
@@ -6039,7 +6039,7 @@ is_a: FF:0000362 ! 5 hr
 
 [Term]
 id: FF:0000565
-name: Aortic Smooth Muscle cells 6hr after treatment with IL1b sample
+name: human Aortic Smooth Muscle cells 6hr after treatment with IL1b sample
 synonym: "Aortic Smooth Muscle cells 6hr after treatment with IL1b" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002539 ! aortic smooth muscle cell
@@ -6051,7 +6051,7 @@ is_a: FF:0000363 ! 6 hr
 
 [Term]
 id: FF:0000566
-name: Monocyte-derived macrophages 0min after LPS treatment sample
+name: human Monocyte-derived macrophages 0min after LPS treatment sample
 synonym: "Monocyte-derived macrophages 0min after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t1
@@ -6063,7 +6063,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0000567
-name: Monocyte-derived macrophages 15min after LPS treatment sample
+name: human Monocyte-derived macrophages 15min after LPS treatment sample
 synonym: "Monocyte-derived macrophages 15min after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t2
@@ -6075,7 +6075,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0000568
-name: Monocyte-derived macrophages 30min after LPS treatment sample
+name: human Monocyte-derived macrophages 30min after LPS treatment sample
 synonym: "Monocyte-derived macrophages 30min after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t3
@@ -6087,7 +6087,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0000569
-name: Monocyte-derived macrophages 45min after LPS treatment sample
+name: human Monocyte-derived macrophages 45min after LPS treatment sample
 synonym: "Monocyte-derived macrophages 45min after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t4
@@ -6099,7 +6099,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0000570
-name: Monocyte-derived macrophages 1h after LPS treatment sample
+name: human Monocyte-derived macrophages 1h after LPS treatment sample
 synonym: "Monocyte-derived macrophages 1h after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t5
@@ -6111,7 +6111,7 @@ is_a: FF:0000358 ! 1 hr
 
 [Term]
 id: FF:0000571
-name: Monocyte-derived macrophages 80min after LPS treatment sample
+name: human Monocyte-derived macrophages 80min after LPS treatment sample
 synonym: "Monocyte-derived macrophages 80min after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t6
@@ -6123,7 +6123,7 @@ is_a: FF:0000351 ! 80 minutes
 
 [Term]
 id: FF:0000572
-name: Monocyte-derived macrophages 100min after LPS treatment sample
+name: human Monocyte-derived macrophages 100min after LPS treatment sample
 synonym: "Monocyte-derived macrophages 100min after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t7
@@ -6135,7 +6135,7 @@ is_a: FF:0000352 ! 100 minutes
 
 [Term]
 id: FF:0000573
-name: Monocyte-derived macrophages 2h after LPS treatment sample
+name: human Monocyte-derived macrophages 2h after LPS treatment sample
 synonym: "Monocyte-derived macrophages 2h after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t8
@@ -6147,7 +6147,7 @@ is_a: FF:0000359 ! 2 hr
 
 [Term]
 id: FF:0000574
-name: Monocyte-derived macrophages 2.5h after LPS treatment sample
+name: human Monocyte-derived macrophages 2.5h after LPS treatment sample
 synonym: "Monocyte-derived macrophages 2.5h after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t9
@@ -6159,7 +6159,7 @@ is_a: FF:0000354 ! 150 minutes
 
 [Term]
 id: FF:0000575
-name: Monocyte-derived macrophages 3h after LPS treatment sample
+name: human Monocyte-derived macrophages 3h after LPS treatment sample
 synonym: "Monocyte-derived macrophages 3h after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t10
@@ -6171,7 +6171,7 @@ is_a: FF:0000360 ! 3 hr
 
 [Term]
 id: FF:0000576
-name: Monocyte-derived macrophages 3.5h after LPS treatment sample
+name: human Monocyte-derived macrophages 3.5h after LPS treatment sample
 synonym: "Monocyte-derived macrophages 3.5h after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t11
@@ -6183,7 +6183,7 @@ is_a: FF:0000356 ! 210 minutes
 
 [Term]
 id: FF:0000577
-name: Monocyte-derived macrophages 4h after LPS treatment sample
+name: human Monocyte-derived macrophages 4h after LPS treatment sample
 synonym: "Monocyte-derived macrophages 4h after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t12
@@ -6195,7 +6195,7 @@ is_a: FF:0000361 ! 4 hr
 
 [Term]
 id: FF:0000578
-name: Monocyte-derived macrophages 5h after LPS treatment sample
+name: human Monocyte-derived macrophages 5h after LPS treatment sample
 synonym: "Monocyte-derived macrophages 5h after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t13
@@ -6207,7 +6207,7 @@ is_a: FF:0000362 ! 5 hr
 
 [Term]
 id: FF:0000579
-name: Monocyte-derived macrophages 6h after LPS treatment sample
+name: human Monocyte-derived macrophages 6h after LPS treatment sample
 synonym: "Monocyte-derived macrophages 6h after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t14
@@ -6219,7 +6219,7 @@ is_a: FF:0000363 ! 6 hr
 
 [Term]
 id: FF:0000580
-name: Monocyte-derived macrophages 7h after LPS treatment sample
+name: human Monocyte-derived macrophages 7h after LPS treatment sample
 synonym: "Monocyte-derived macrophages 7h after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t15
@@ -6231,7 +6231,7 @@ is_a: FF:0000364 ! 7 hr
 
 [Term]
 id: FF:0000581
-name: Monocyte-derived macrophages 8h after LPS treatment sample
+name: human Monocyte-derived macrophages 8h after LPS treatment sample
 synonym: "Monocyte-derived macrophages 8h after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t16
@@ -6243,7 +6243,7 @@ is_a: FF:0000365 ! 8 hr
 
 [Term]
 id: FF:0000582
-name: Monocyte-derived macrophages 10h after LPS treatment sample
+name: human Monocyte-derived macrophages 10h after LPS treatment sample
 synonym: "Monocyte-derived macrophages 10h after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t17
@@ -6255,7 +6255,7 @@ is_a: FF:0000366 ! 10 hr
 
 [Term]
 id: FF:0000583
-name: Monocyte-derived macrophages 12h after LPS treatment sample
+name: human Monocyte-derived macrophages 12h after LPS treatment sample
 synonym: "Monocyte-derived macrophages 12h after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t18
@@ -6267,7 +6267,7 @@ is_a: FF:0000367 ! 12 hr
 
 [Term]
 id: FF:0000584
-name: Monocyte-derived macrophages 14h after LPS treatment sample
+name: human Monocyte-derived macrophages 14h after LPS treatment sample
 synonym: "Monocyte-derived macrophages 14h after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t19
@@ -6279,7 +6279,7 @@ is_a: FF:0000368 ! 14 hr
 
 [Term]
 id: FF:0000585
-name: Monocyte-derived macrophages 16h after LPS treatment sample
+name: human Monocyte-derived macrophages 16h after LPS treatment sample
 synonym: "Monocyte-derived macrophages 16h after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t20
@@ -6291,7 +6291,7 @@ is_a: FF:0000369 ! 16 hr
 
 [Term]
 id: FF:0000586
-name: Monocyte-derived macrophages 18h after LPS treatment sample
+name: human Monocyte-derived macrophages 18h after LPS treatment sample
 synonym: "Monocyte-derived macrophages 18h after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t21
@@ -6303,7 +6303,7 @@ is_a: FF:0000370 ! 18 hr
 
 [Term]
 id: FF:0000587
-name: Monocyte-derived macrophages 20h after LPS treatment sample
+name: human Monocyte-derived macrophages 20h after LPS treatment sample
 synonym: "Monocyte-derived macrophages 20h after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t22
@@ -6315,7 +6315,7 @@ is_a: FF:0000371 ! 20 hr
 
 [Term]
 id: FF:0000588
-name: Monocyte-derived macrophages 22h after LPS treatment sample
+name: human Monocyte-derived macrophages 22h after LPS treatment sample
 synonym: "Monocyte-derived macrophages 22h after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t23
@@ -6327,7 +6327,7 @@ is_a: FF:0000372 ! 22 hr
 
 [Term]
 id: FF:0000589
-name: Monocyte-derived macrophages 24h after LPS treatment sample
+name: human Monocyte-derived macrophages 24h after LPS treatment sample
 synonym: "Monocyte-derived macrophages 24h after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t24
@@ -6339,7 +6339,7 @@ is_a: FF:0000373 ! 24 hr
 
 [Term]
 id: FF:0000590
-name: Monocyte-derived macrophages 36h after LPS treatment sample
+name: human Monocyte-derived macrophages 36h after LPS treatment sample
 synonym: "Monocyte-derived macrophages 36h after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t25
@@ -6351,7 +6351,7 @@ is_a: FF:0000374 ! 36 hr
 
 [Term]
 id: FF:0000591
-name: Monocyte-derived macrophages 48h after LPS treatment sample
+name: human Monocyte-derived macrophages 48h after LPS treatment sample
 synonym: "Monocyte-derived macrophages 48h after LPS treatment" EXACT []
 namespace: FANTOM5
 comment: t26
@@ -6363,7 +6363,7 @@ is_a: FF:0000375 ! 48 hr
 
 [Term]
 id: FF:0000592
-name: H9 Embryonic Stem cells sample
+name: human H9 Embryonic Stem cells sample
 synonym: "H9 Embryonic Stem cells" EXACT []
 namespace: FANTOM5
 comment: H9
@@ -6375,7 +6375,7 @@ is_a: FF:0000400 ! H9 embryonic stem cell line
 
 [Term]
 id: FF:0000593
-name: Saos2 osteosarcoma cell line 0min after induction of calcification with ascorbate and BPG sample
+name: human Saos2 osteosarcoma cell line 0min after induction of calcification with ascorbate and BPG sample
 synonym: "Saos2 osteosarcoma cell line 0min after induction of calcification with ascorbate and BPG" EXACT []
 namespace: FANTOM5
 comment: T0
@@ -6388,7 +6388,7 @@ is_a: FF:0100971 ! SAOS-2 cell
 
 [Term]
 id: FF:0000594
-name: Saos2 osteosarcoma cell line 15min after induction of calcification with ascorbate and BPG sample
+name: human Saos2 osteosarcoma cell line 15min after induction of calcification with ascorbate and BPG sample
 synonym: "Saos2 osteosarcoma cell line 15min after induction of calcification with ascorbate and BPG" EXACT []
 namespace: FANTOM5
 comment: T1
@@ -6401,7 +6401,7 @@ is_a: FF:0100971 ! SAOS-2 cell
 
 [Term]
 id: FF:0000595
-name: Saos2 osteosarcoma cell line 30min after induction of calcification with ascorbate and BPG sample
+name: human Saos2 osteosarcoma cell line 30min after induction of calcification with ascorbate and BPG sample
 synonym: "Saos2 osteosarcoma cell line 30min after induction of calcification with ascorbate and BPG" EXACT []
 namespace: FANTOM5
 comment: T2
@@ -6414,7 +6414,7 @@ is_a: FF:0100971 ! SAOS-2 cell
 
 [Term]
 id: FF:0000596
-name: Saos2 osteosarcoma cell line 45min after induction of calcification with ascorbate and BPG sample
+name: human Saos2 osteosarcoma cell line 45min after induction of calcification with ascorbate and BPG sample
 synonym: "Saos2 osteosarcoma cell line 45min after induction of calcification with ascorbate and BPG" EXACT []
 namespace: FANTOM5
 comment: T3
@@ -6427,7 +6427,7 @@ is_a: FF:0100971 ! SAOS-2 cell
 
 [Term]
 id: FF:0000597
-name: Saos2 osteosarcoma cell line 60min after induction of calcification with ascorbate and BPG sample
+name: human Saos2 osteosarcoma cell line 60min after induction of calcification with ascorbate and BPG sample
 synonym: "Saos2 osteosarcoma cell line 60min after induction of calcification with ascorbate and BPG" EXACT []
 namespace: FANTOM5
 comment: T4
@@ -6440,7 +6440,7 @@ is_a: FF:0100971 ! SAOS-2 cell
 
 [Term]
 id: FF:0000598
-name: Saos2 osteosarcoma cell line 80min after induction of calcification with ascorbate and BPG sample
+name: human Saos2 osteosarcoma cell line 80min after induction of calcification with ascorbate and BPG sample
 synonym: "Saos2 osteosarcoma cell line 80min after induction of calcification with ascorbate and BPG" EXACT []
 namespace: FANTOM5
 comment: T5
@@ -6453,7 +6453,7 @@ is_a: FF:0100971 ! SAOS-2 cell
 
 [Term]
 id: FF:0000599
-name: Saos2 osteosarcoma cell line 100min after induction of calcification with ascorbate and BPG sample
+name: human Saos2 osteosarcoma cell line 100min after induction of calcification with ascorbate and BPG sample
 synonym: "Saos2 osteosarcoma cell line 100min after induction of calcification with ascorbate and BPG" EXACT []
 namespace: FANTOM5
 comment: T6
@@ -6466,7 +6466,7 @@ is_a: FF:0100971 ! SAOS-2 cell
 
 [Term]
 id: FF:0000600
-name: Saos2 osteosarcoma cell line 2h after induction of calcification with ascorbate and BPG sample
+name: human Saos2 osteosarcoma cell line 2h after induction of calcification with ascorbate and BPG sample
 synonym: "Saos2 osteosarcoma cell line 2h after induction of calcification with ascorbate and BPG" EXACT []
 namespace: FANTOM5
 comment: T7
@@ -6479,7 +6479,7 @@ is_a: FF:0100971 ! SAOS-2 cell
 
 [Term]
 id: FF:0000601
-name: Saos2 osteosarcoma cell line 2.5h after induction of calcification with ascorbate and BPG sample
+name: human Saos2 osteosarcoma cell line 2.5h after induction of calcification with ascorbate and BPG sample
 synonym: "Saos2 osteosarcoma cell line 2.5h after induction of calcification with ascorbate and BPG" EXACT []
 namespace: FANTOM5
 comment: T8
@@ -6492,7 +6492,7 @@ is_a: FF:0100971 ! SAOS-2 cell
 
 [Term]
 id: FF:0000602
-name: Saos2 osteosarcoma cell line 3h after induction of calcification with ascorbate and BPG sample
+name: human Saos2 osteosarcoma cell line 3h after induction of calcification with ascorbate and BPG sample
 synonym: "Saos2 osteosarcoma cell line 3h after induction of calcification with ascorbate and BPG" EXACT []
 namespace: FANTOM5
 comment: T9
@@ -6505,7 +6505,7 @@ is_a: FF:0100971 ! SAOS-2 cell
 
 [Term]
 id: FF:0000603
-name: Saos2 osteosarcoma cell line 4h after induction of calcification with ascorbate and BPG sample
+name: human Saos2 osteosarcoma cell line 4h after induction of calcification with ascorbate and BPG sample
 synonym: "Saos2 osteosarcoma cell line 4h after induction of calcification with ascorbate and BPG" EXACT []
 namespace: FANTOM5
 comment: T10
@@ -6518,7 +6518,7 @@ is_a: FF:0100971 ! SAOS-2 cell
 
 [Term]
 id: FF:0000604
-name: Saos2 osteosarcoma cell line 8h after induction of calcification with ascorbate and BPG sample
+name: human Saos2 osteosarcoma cell line 8h after induction of calcification with ascorbate and BPG sample
 synonym: "Saos2 osteosarcoma cell line 8h after induction of calcification with ascorbate and BPG" EXACT []
 namespace: FANTOM5
 comment: T11
@@ -6531,7 +6531,7 @@ is_a: FF:0100971 ! SAOS-2 cell
 
 [Term]
 id: FF:0000605
-name: Saos2 osteosarcoma cell line 24h after induction of calcification with ascorbate and BPG sample
+name: human Saos2 osteosarcoma cell line 24h after induction of calcification with ascorbate and BPG sample
 synonym: "Saos2 osteosarcoma cell line 24h after induction of calcification with ascorbate and BPG" EXACT []
 namespace: FANTOM5
 comment: T12
@@ -6544,7 +6544,7 @@ is_a: FF:0100971 ! SAOS-2 cell
 
 [Term]
 id: FF:0000606
-name: Saos2 osteosarcoma cell line 4d after induction of calcification with ascorbate and BPG sample
+name: human Saos2 osteosarcoma cell line 4d after induction of calcification with ascorbate and BPG sample
 synonym: "Saos2 osteosarcoma cell line 4d after induction of calcification with ascorbate and BPG" EXACT []
 namespace: FANTOM5
 comment: T13
@@ -6557,7 +6557,7 @@ is_a: FF:0100971 ! SAOS-2 cell
 
 [Term]
 id: FF:0000607
-name: Saos2 osteosarcoma cell line 7d after induction of calcification with ascorbate and BPG sample
+name: human Saos2 osteosarcoma cell line 7d after induction of calcification with ascorbate and BPG sample
 synonym: "Saos2 osteosarcoma cell line 7d after induction of calcification with ascorbate and BPG" EXACT []
 namespace: FANTOM5
 comment: T14
@@ -6570,7 +6570,7 @@ is_a: FF:0100971 ! SAOS-2 cell
 
 [Term]
 id: FF:0000608
-name: Saos2 osteosarcoma cell line 14d after induction of calcification with ascorbate and BPG sample
+name: human Saos2 osteosarcoma cell line 14d after induction of calcification with ascorbate and BPG sample
 synonym: "Saos2 osteosarcoma cell line 14d after induction of calcification with ascorbate and BPG" EXACT []
 namespace: FANTOM5
 comment: T15
@@ -6583,7 +6583,7 @@ is_a: FF:0100971 ! SAOS-2 cell
 
 [Term]
 id: FF:0000609
-name: Saos2 osteosarcoma cell line 21d after induction of calcification with ascorbate and BPG sample
+name: human Saos2 osteosarcoma cell line 21d after induction of calcification with ascorbate and BPG sample
 synonym: "Saos2 osteosarcoma cell line 21d after induction of calcification with ascorbate and BPG" EXACT []
 namespace: FANTOM5
 comment: T16
@@ -6596,7 +6596,7 @@ is_a: FF:0100971 ! SAOS-2 cell
 
 [Term]
 id: FF:0000610
-name: Saos2 osteosarcoma cell line 28d after induction of calcification with ascorbate and BPG sample
+name: human Saos2 osteosarcoma cell line 28d after induction of calcification with ascorbate and BPG sample
 synonym: "Saos2 osteosarcoma cell line 28d after induction of calcification with ascorbate and BPG" EXACT []
 namespace: FANTOM5
 comment: T17
@@ -6937,7 +6937,7 @@ creation_date: 2011-08-29T12:27:30Z
 
 [Term]
 id: FF:0000640
-name: Fibroblast - Aortic Adventitial, cytoplasmic fraction sample
+name: human Fibroblast - Aortic Adventitial, cytoplasmic fraction sample
 synonym: "Fibroblast - Aortic Adventitial, cytoplasmic fraction" EXACT []
 namespace: FANTOM5
 is_a: FF:0000058 ! fibroblast of the aortic adventitia
@@ -7114,7 +7114,7 @@ creation_date: 2011-08-30T09:07:58Z
 
 [Term]
 id: FF:0000659
-name: Fibroblast - skin dystrophia myotonica, cytoplasmic fraction sample
+name: human Fibroblast - skin dystrophia myotonica, cytoplasmic fraction sample
 synonym: "Fibroblast - skin dystrophia myotonica, cytoplasmic fraction" EXACT []
 namespace: FANTOM5
 is_a: FF:0000253 ! fibroblast- skin dystrophia myotonica
@@ -7124,7 +7124,7 @@ creation_date: 2011-09-06T01:45:03Z
 
 [Term]
 id: FF:0000660
-name: Fibroblast - skin normal, cytoplasmic fraction sample
+name: human Fibroblast - skin normal, cytoplasmic fraction sample
 synonym: "Fibroblast - skin normal, cytoplasmic fraction" EXACT []
 namespace: FANTOM5
 is_a: FF:0000250 ! fibroblast of skin
@@ -7145,7 +7145,7 @@ creation_date: 2011-09-06T01:53:02Z
 
 [Term]
 id: FF:0000662
-name: Fibroblast - skin spinal muscular atrophy, cytoplasmic fraction sample
+name: human Fibroblast - skin spinal muscular atrophy, cytoplasmic fraction sample
 synonym: "Fibroblast - skin spinal muscular atrophy, cytoplasmic fraction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0002091 ! biological replicate
@@ -7156,7 +7156,7 @@ creation_date: 2011-09-06T01:56:05Z
 
 [Term]
 id: FF:0000663
-name: Preadipocyte - breast, cytoplasmic fraction sample
+name: human Preadipocyte - breast, cytoplasmic fraction sample
 synonym: "Preadipocyte - breast, cytoplasmic fraction" EXACT []
 namespace: FANTOM5
 is_a: FF:0000139 ! preadipocyte of the breast
@@ -7176,7 +7176,7 @@ creation_date: 2011-09-06T02:12:13Z
 
 [Term]
 id: FF:0000665
-name: Small Airway Epithelial Cells, cytoplasmic fraction sample
+name: human Small Airway Epithelial Cells, cytoplasmic fraction sample
 synonym: "Small Airway Epithelial Cells, cytoplasmic fraction" EXACT []
 namespace: FANTOM5
 is_a: FF:0000166 ! small airway epithelial cell
@@ -7186,7 +7186,7 @@ creation_date: 2011-09-06T02:13:59Z
 
 [Term]
 id: FF:0000666
-name: Fibroblast - Aortic Adventitial, nuclear fraction sample
+name: human Fibroblast - Aortic Adventitial, nuclear fraction sample
 synonym: "Fibroblast - Aortic Adventitial, nuclear fraction" EXACT []
 namespace: FANTOM5
 is_a: FF:0000058 ! fibroblast of the aortic adventitia
@@ -7194,7 +7194,7 @@ is_a: FF:0000406 ! nuclear fraction
 
 [Term]
 id: FF:0000667
-name: Fibroblast - skin dystrophia myotonica, nuclear fraction sample
+name: human Fibroblast - skin dystrophia myotonica, nuclear fraction sample
 synonym: "Fibroblast - skin dystrophia myotonica, nuclear fraction" EXACT []
 namespace: FANTOM5
 is_a: FF:0000253 ! fibroblast- skin dystrophia myotonica
@@ -7204,7 +7204,7 @@ creation_date: 2011-09-06T01:45:03Z
 
 [Term]
 id: FF:0000668
-name: Fibroblast - skin normal, nuclear fraction sample
+name: human Fibroblast - skin normal, nuclear fraction sample
 synonym: "Fibroblast - skin normal, nuclear fraction" EXACT []
 namespace: FANTOM5
 is_a: FF:0000250 ! fibroblast of skin
@@ -7225,7 +7225,7 @@ creation_date: 2011-09-06T01:53:02Z
 
 [Term]
 id: FF:0000670
-name: Fibroblast - skin spinal muscular atrophy, nuclear fraction sample
+name: human Fibroblast - skin spinal muscular atrophy, nuclear fraction sample
 synonym: "Fibroblast - skin spinal muscular atrophy, nuclear fraction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0002091 ! biological replicate
@@ -7236,7 +7236,7 @@ creation_date: 2011-09-06T01:56:05Z
 
 [Term]
 id: FF:0000671
-name: Preadipocyte - breast, nuclear fraction sample
+name: human Preadipocyte - breast, nuclear fraction sample
 synonym: "Preadipocyte - breast, nuclear fraction" EXACT []
 namespace: FANTOM5
 is_a: FF:0000139 ! preadipocyte of the breast
@@ -7246,7 +7246,7 @@ creation_date: 2011-09-06T02:06:18Z
 
 [Term]
 id: FF:0000672
-name: Smooth Muscle Cells - Aortic, nuclear fraction sample
+name: human Smooth Muscle Cells - Aortic, nuclear fraction sample
 synonym: "Smooth Muscle Cells - Aortic, nuclear fraction" EXACT []
 namespace: FANTOM5
 is_a: FF:0000168 ! human aortic smooth muscle cell
@@ -7256,7 +7256,7 @@ creation_date: 2011-09-06T02:12:13Z
 
 [Term]
 id: FF:0000673
-name: Small Airway Epithelial Cells, nuclear fraction sample
+name: human Small Airway Epithelial Cells, nuclear fraction sample
 synonym: "Small Airway Epithelial Cells, nuclear fraction" EXACT []
 namespace: FANTOM5
 is_a: FF:0000166 ! small airway epithelial cell
@@ -7266,7 +7266,7 @@ creation_date: 2011-09-06T02:13:59Z
 
 [Term]
 id: FF:0000674
-name: Small Airway Epithelial Cells, whole cell sample
+name: human Small Airway Epithelial Cells, whole cell sample
 synonym: "Small Airway Epithelial Cells, whole cell" EXACT []
 namespace: FANTOM5
 is_a: FF:0000166 ! small airway epithelial cell
@@ -7276,7 +7276,7 @@ creation_date: 2011-09-06T02:13:59Z
 
 [Term]
 id: FF:0000675
-name: Smooth Muscle Cells - Aortic, whole cell sample
+name: human Smooth Muscle Cells - Aortic, whole cell sample
 synonym: "Smooth Muscle Cells - Aortic, whole cell" EXACT []
 namespace: FANTOM5
 is_a: FF:0000168 ! human aortic smooth muscle cell
@@ -7286,7 +7286,7 @@ creation_date: 2011-09-06T02:12:13Z
 
 [Term]
 id: FF:0000676
-name: Preadipocyte - breast, whole cell sample
+name: human Preadipocyte - breast, whole cell sample
 synonym: "Preadipocyte - breast, whole cell" EXACT []
 namespace: FANTOM5
 is_a: FF:0000139 ! preadipocyte of the breast
@@ -7296,7 +7296,7 @@ creation_date: 2011-09-06T02:06:18Z
 
 [Term]
 id: FF:0000677
-name: Fibroblast - skin spinal muscular atrophy, whole cell sample
+name: human Fibroblast - skin spinal muscular atrophy, whole cell sample
 synonym: "Fibroblast - skin spinal muscular atrophy, whole cell" EXACT []
 namespace: FANTOM5
 is_a: EFO:0002091 ! biological replicate
@@ -7317,7 +7317,7 @@ creation_date: 2011-09-06T01:53:02Z
 
 [Term]
 id: FF:0000679
-name: Fibroblast - skin normal, whole cell sample
+name: human Fibroblast - skin normal, whole cell sample
 synonym: "Fibroblast - skin normal, whole cell" EXACT []
 namespace: FANTOM5
 is_a: FF:0000250 ! fibroblast of skin
@@ -7328,7 +7328,7 @@ creation_date: 2011-09-06T01:49:04Z
 
 [Term]
 id: FF:0000680
-name: Fibroblast - skin dystrophia myotonica, whole cell sample
+name: human Fibroblast - skin dystrophia myotonica, whole cell sample
 synonym: "Fibroblast - skin dystrophia myotonica, whole cell" EXACT []
 namespace: FANTOM5
 is_a: FF:0000253 ! fibroblast- skin dystrophia myotonica
@@ -7338,7 +7338,7 @@ creation_date: 2011-09-06T01:45:03Z
 
 [Term]
 id: FF:0000681
-name: Fibroblast - Aortic Adventitial, whole cell sample
+name: human Fibroblast - Aortic Adventitial, whole cell sample
 synonym: "Fibroblast - Aortic Adventitial, whole cell" EXACT []
 namespace: FANTOM5
 is_a: FF:0000058 ! fibroblast of the aortic adventitia
@@ -7346,7 +7346,7 @@ is_a: FF:0000407 ! whole cell (cellular fractionation control)
 
 [Term]
 id: FF:0000690
-name: mesenchymal stem cells adipose derived, 0 minutes after adipogenic induction sample
+name: human mesenchymal stem cells adipose derived, 0 minutes after adipogenic induction sample
 synonym: "mesenchymal stem cells adipose derived, 0 minutes after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -7358,7 +7358,7 @@ relationship: derives_from CL:0000136 ! fat cell
 
 [Term]
 id: FF:0000691
-name: mesenchymal stem cells adipose derived, 15 minutes after adipogenic induction sample
+name: human mesenchymal stem cells adipose derived, 15 minutes after adipogenic induction sample
 synonym: "mesenchymal stem cells adipose derived, 15 minutes after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -7370,7 +7370,7 @@ relationship: derives_from CL:0000136 ! fat cell
 
 [Term]
 id: FF:0000692
-name: mesenchymal stem cells adipose derived, 30 minutes after adipogenic induction sample
+name: human mesenchymal stem cells adipose derived, 30 minutes after adipogenic induction sample
 synonym: "mesenchymal stem cells adipose derived, 30 minutes after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -7382,7 +7382,7 @@ relationship: derives_from CL:0000136 ! fat cell
 
 [Term]
 id: FF:0000693
-name: mesenchymal stem cells adipose derived, 45 minutes after adipogenic induction sample
+name: human mesenchymal stem cells adipose derived, 45 minutes after adipogenic induction sample
 synonym: "mesenchymal stem cells adipose derived, 45 minutes after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -7394,7 +7394,7 @@ relationship: derives_from CL:0000136 ! fat cell
 
 [Term]
 id: FF:0000694
-name: mesenchymal stem cells adipose derived, 60 minutes after adipogenic induction sample
+name: human mesenchymal stem cells adipose derived, 60 minutes after adipogenic induction sample
 synonym: "mesenchymal stem cells adipose derived, 60 minutes after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -7405,7 +7405,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0000695
-name: mesenchymal stem cells adipose derived, 80 minutes after adipogenic induction sample
+name: human mesenchymal stem cells adipose derived, 80 minutes after adipogenic induction sample
 synonym: "mesenchymal stem cells adipose derived, 80 minutes after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -7417,7 +7417,7 @@ relationship: derives_from CL:0000136 ! fat cell
 
 [Term]
 id: FF:0000696
-name: mesenchymal stem cells adipose derived, 100 minutes after adipogenic induction sample
+name: human mesenchymal stem cells adipose derived, 100 minutes after adipogenic induction sample
 synonym: "mesenchymal stem cells adipose derived, 100 minutes after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -7429,7 +7429,7 @@ relationship: derives_from CL:0000136 ! fat cell
 
 [Term]
 id: FF:0000697
-name: mesenchymal stem cells adipose derived, 120 minutes after adipogenic induction sample
+name: human mesenchymal stem cells adipose derived, 120 minutes after adipogenic induction sample
 synonym: "mesenchymal stem cells adipose derived, 120 minutes after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -7441,7 +7441,7 @@ relationship: derives_from CL:0000136 ! fat cell
 
 [Term]
 id: FF:0000698
-name: mesenchymal stem cells adipose derived, 150 minutes after adipogenic induction sample
+name: human mesenchymal stem cells adipose derived, 150 minutes after adipogenic induction sample
 synonym: "mesenchymal stem cells adipose derived, 150 minutes after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -7453,7 +7453,7 @@ relationship: derives_from CL:0000136 ! fat cell
 
 [Term]
 id: FF:0000699
-name: mesenchymal stem cells adipose derived, 180 minutes after adipogenic induction sample
+name: human mesenchymal stem cells adipose derived, 180 minutes after adipogenic induction sample
 synonym: "mesenchymal stem cells adipose derived, 180 minutes after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -7465,7 +7465,7 @@ relationship: derives_from CL:0000136 ! fat cell
 
 [Term]
 id: FF:0000700
-name: mesenchymal stem cells adipose derived, 12 hours after adipogenic induction sample
+name: human mesenchymal stem cells adipose derived, 12 hours after adipogenic induction sample
 synonym: "mesenchymal stem cells adipose derived, 12 hours after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -7477,7 +7477,7 @@ relationship: derives_from CL:0000136 ! fat cell
 
 [Term]
 id: FF:0000701
-name: mesenchymal stem cells adipose derived, 24 hours after adipogenic induction sample
+name: human mesenchymal stem cells adipose derived, 24 hours after adipogenic induction sample
 synonym: "mesenchymal stem cells adipose derived, 24 hours after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -7489,7 +7489,7 @@ relationship: derives_from CL:0000136 ! fat cell
 
 [Term]
 id: FF:0000702
-name: mesenchymal stem cells adipose derived, 2 days after adipogenic induction sample
+name: human mesenchymal stem cells adipose derived, 2 days after adipogenic induction sample
 synonym: "mesenchymal stem cells adipose derived, 2 days after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -7501,7 +7501,7 @@ relationship: derives_from CL:0000136 ! fat cell
 
 [Term]
 id: FF:0000703
-name: mesenchymal stem cells adipose derived, 4 days after adipogenic induction sample
+name: human mesenchymal stem cells adipose derived, 4 days after adipogenic induction sample
 synonym: "mesenchymal stem cells adipose derived, 4 days after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -7513,7 +7513,7 @@ relationship: derives_from CL:0000136 ! fat cell
 
 [Term]
 id: FF:0000704
-name: mesenchymal stem cells adipose derived, 8 days after adipogenic induction sample
+name: human mesenchymal stem cells adipose derived, 8 days after adipogenic induction sample
 synonym: "mesenchymal stem cells adipose derived, 8 days after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -7525,7 +7525,7 @@ relationship: derives_from CL:0000136 ! fat cell
 
 [Term]
 id: FF:0000705
-name: mesenchymal stem cells adipose derived, 12 days after adipogenic induction sample
+name: human mesenchymal stem cells adipose derived, 12 days after adipogenic induction sample
 synonym: "mesenchymal stem cells adipose derived, 12 days after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -7537,7 +7537,7 @@ relationship: derives_from CL:0000136 ! fat cell
 
 [Term]
 id: FF:0000706
-name: mesenchymal stem cells adipose derived, 14 days after adipogenic induction sample
+name: human mesenchymal stem cells adipose derived, 14 days after adipogenic induction sample
 synonym: "mesenchymal stem cells adipose derived, 14 days after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -7549,7 +7549,7 @@ relationship: derives_from CL:0000136 ! fat cell
 
 [Term]
 id: FF:0000707
-name: mesenchymal stem cells adipose derived, untreated control sample
+name: human mesenchymal stem cells adipose derived, untreated control sample
 synonym: "mesenchymal stem cells adipose derived, untreated control" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -7560,7 +7560,7 @@ relationship: derives_from CL:0000136 ! fat cell
 
 [Term]
 id: FF:0000710
-name: Saos2 osteosarcoma cell line timecourse control sample
+name: human Saos2 osteosarcoma cell line timecourse control sample
 synonym: "Saos2 osteosarcoma cell line timecourse control" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -7721,7 +7721,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0000731
-name: adipocyte differentiation day4 sample
+name: human adipocyte differentiation day4 sample
 synonym: "adipocyte differentiation day4" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000136 ! fat cell
@@ -7734,7 +7734,7 @@ relationship: has_quality PATO:0002099 ! differentiated
 
 [Term]
 id: FF:0000732
-name: adipocyte differentiation day8 sample
+name: human adipocyte differentiation day8 sample
 synonym: "adipocyte differentiation day8" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000136 ! fat cell
@@ -7747,7 +7747,7 @@ relationship: has_quality PATO:0002099 ! differentiated
 
 [Term]
 id: FF:0000733
-name: adipocyte differentiation day12 sample
+name: human adipocyte differentiation day12 sample
 synonym: "adipocyte differentiation day12" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000136 ! fat cell
@@ -7796,7 +7796,7 @@ is_a: FF:0000999 ! fetal tissue sample
 
 [Term]
 id: FF:0010010
-name: adipose tissue - adult sample
+name: human adipose tissue - adult sample
 synonym: "adipose tissue - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7805,7 +7805,7 @@ relationship: derives_from UBERON:0001013 ! adipose tissue
 
 [Term]
 id: FF:0010011
-name: bladder - adult sample
+name: human bladder - adult sample
 synonym: "bladder - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7814,7 +7814,7 @@ relationship: derives_from UBERON:0001255 ! urinary bladder
 
 [Term]
 id: FF:0010012
-name: brain - adult sample
+name: human brain - adult sample
 synonym: "brain - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7823,7 +7823,7 @@ relationship: derives_from UBERON:0000955 ! brain
 
 [Term]
 id: FF:0010013
-name: cervix - adult sample
+name: human cervix - adult sample
 synonym: "cervix - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7832,7 +7832,7 @@ relationship: derives_from UBERON:0000002 ! uterine cervix
 
 [Term]
 id: FF:0010014
-name: colon - adult sample
+name: human colon - adult sample
 synonym: "colon - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7841,7 +7841,7 @@ relationship: derives_from UBERON:0001155 ! colon
 
 [Term]
 id: FF:0010015
-name: esophagus - adult sample
+name: human esophagus - adult sample
 synonym: "esophagus - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7850,7 +7850,7 @@ relationship: derives_from UBERON:0001043 ! esophagus
 
 [Term]
 id: FF:0010016
-name: heart - adult sample
+name: human heart - adult sample
 synonym: "heart - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7859,7 +7859,7 @@ relationship: derives_from UBERON:0007100 ! circulatory organ
 
 [Term]
 id: FF:0010017
-name: kidney - adult sample
+name: human kidney - adult sample
 synonym: "kidney - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7868,7 +7868,7 @@ relationship: derives_from UBERON:0002113 ! kidney
 
 [Term]
 id: FF:0010018
-name: liver - adult sample
+name: human liver - adult sample
 synonym: "liver - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7877,7 +7877,7 @@ relationship: derives_from UBERON:0002107 ! liver
 
 [Term]
 id: FF:0010019
-name: lung - adult sample
+name: human lung - adult sample
 synonym: "lung - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7886,7 +7886,7 @@ relationship: derives_from UBERON:0002048 ! lung
 
 [Term]
 id: FF:0010020
-name: ovary - adult sample
+name: human ovary - adult sample
 synonym: "ovary - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7895,7 +7895,7 @@ relationship: derives_from UBERON:0000992 ! female gonad
 
 [Term]
 id: FF:0010021
-name: placenta - adult sample
+name: human placenta - adult sample
 synonym: "placenta - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7904,7 +7904,7 @@ relationship: derives_from UBERON:0001987 ! placenta
 
 [Term]
 id: FF:0010022
-name: prostate - adult sample
+name: human prostate - adult sample
 synonym: "prostate - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7913,7 +7913,7 @@ relationship: derives_from UBERON:0002367 ! prostate gland
 
 [Term]
 id: FF:0010023
-name: skeletal muscle - adult sample
+name: human skeletal muscle - adult sample
 synonym: "skeletal muscle - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7922,7 +7922,7 @@ relationship: derives_from UBERON:0001134 ! skeletal muscle tissue
 
 [Term]
 id: FF:0010024
-name: small intestine - adult sample
+name: human small intestine - adult sample
 synonym: "small intestine - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7931,7 +7931,7 @@ relationship: derives_from UBERON:0002108 ! small intestine
 
 [Term]
 id: FF:0010025
-name: spleen - adult sample
+name: human spleen - adult sample
 synonym: "spleen - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7940,7 +7940,7 @@ relationship: derives_from UBERON:0002106 ! spleen
 
 [Term]
 id: FF:0010026
-name: testis - adult sample
+name: human testis - adult sample
 synonym: "testis - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7958,7 +7958,7 @@ relationship: derives_from UBERON:0002370 ! thymus
 
 [Term]
 id: FF:0010028
-name: thyroid - adult sample
+name: human thyroid - adult sample
 synonym: "thyroid - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7967,7 +7967,7 @@ relationship: derives_from UBERON:0002046 ! thyroid gland
 
 [Term]
 id: FF:0010029
-name: trachea - adult sample
+name: human trachea - adult sample
 synonym: "trachea - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7977,7 +7977,7 @@ relationship: derives_from UBERON:0003127 ! open tracheal system trachea
 
 [Term]
 id: FF:0010030
-name: retina - adult sample
+name: human retina - adult sample
 synonym: "retina - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7986,7 +7986,7 @@ relationship: derives_from UBERON:0000966 ! retina
 
 [Term]
 id: FF:0010031
-name: temporal lobe - adult sample
+name: human temporal lobe - adult sample
 synonym: "temporal lobe - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -7995,7 +7995,7 @@ relationship: derives_from UBERON:0001871 ! temporal lobe
 
 [Term]
 id: FF:0010032
-name: postcentral gyrus - adult sample
+name: human postcentral gyrus - adult sample
 synonym: "postcentral gyrus - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8004,7 +8004,7 @@ relationship: derives_from UBERON:0002581 ! postcentral gyrus
 
 [Term]
 id: FF:0010033
-name: pons - adult sample
+name: human pons - adult sample
 synonym: "pons - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8013,7 +8013,7 @@ relationship: derives_from UBERON:0000988 ! pons
 
 [Term]
 id: FF:0010034
-name: parietal lobe - adult sample
+name: human parietal lobe - adult sample
 synonym: "parietal lobe - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8022,7 +8022,7 @@ relationship: derives_from UBERON:0001872 ! parietal lobe
 
 [Term]
 id: FF:0010035
-name: paracentral gyrus - adult sample
+name: human paracentral gyrus - adult sample
 synonym: "paracentral gyrus - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8032,7 +8032,7 @@ relationship: derives_from UBERON:0007190 ! paracentral gyrus
 
 [Term]
 id: FF:0010036
-name: occipital pole - adult sample
+name: human occipital pole - adult sample
 synonym: "occipital pole - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8041,7 +8041,7 @@ relationship: derives_from UBERON:0002902 ! occipital pole
 
 [Term]
 id: FF:0010037
-name: nucleus accumbens - adult sample
+name: human nucleus accumbens - adult sample
 synonym: "nucleus accumbens - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8050,7 +8050,7 @@ relationship: derives_from UBERON:0001882 ! nucleus accumbens
 
 [Term]
 id: FF:0010038
-name: medulla oblongata - adult sample
+name: human medulla oblongata - adult sample
 synonym: "medulla oblongata - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8059,7 +8059,7 @@ relationship: derives_from UBERON:0001896 ! medulla oblongata
 
 [Term]
 id: FF:0010039
-name: insula - adult sample
+name: human insula - adult sample
 synonym: "insula - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8068,7 +8068,7 @@ relationship: derives_from UBERON:0002022 ! insula
 
 [Term]
 id: FF:0010040
-name: frontal lobe - adult sample
+name: human frontal lobe - adult sample
 synonym: "frontal lobe - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8077,7 +8077,7 @@ relationship: derives_from UBERON:0001870 ! frontal cortex
 
 [Term]
 id: FF:0010041
-name: dura mater - adult sample
+name: human dura mater - adult sample
 synonym: "dura mater - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8086,7 +8086,7 @@ relationship: derives_from UBERON:0002363 ! dura mater
 
 [Term]
 id: FF:0010042
-name: corpus callosum - adult sample
+name: human corpus callosum - adult sample
 synonym: "corpus callosum - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8095,7 +8095,7 @@ relationship: derives_from UBERON:0002336 ! corpus callosum
 
 [Term]
 id: FF:0010043
-name: thymus - fetal sample
+name: human thymus - fetal sample
 synonym: "thymus - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8104,7 +8104,7 @@ relationship: derives_from UBERON:0002370 ! thymus
 
 [Term]
 id: FF:0010044
-name: spleen - fetal sample
+name: human spleen - fetal sample
 synonym: "spleen - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8113,7 +8113,7 @@ relationship: derives_from UBERON:0002106 ! spleen
 
 [Term]
 id: FF:0010045
-name: kidney - fetal sample
+name: human kidney - fetal sample
 synonym: "kidney - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8122,7 +8122,7 @@ relationship: derives_from UBERON:0002113 ! kidney
 
 [Term]
 id: FF:0010046
-name: heart - fetal sample
+name: human heart - fetal sample
 synonym: "heart - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8131,7 +8131,7 @@ relationship: derives_from UBERON:0000948 ! heart
 
 [Term]
 id: FF:0010047
-name: tonsil - adult sample
+name: human tonsil - adult sample
 synonym: "tonsil - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8140,7 +8140,7 @@ relationship: derives_from UBERON:0002372 ! tonsil
 
 [Term]
 id: FF:0010048
-name: smooth muscle - adult sample
+name: human smooth muscle - adult sample
 synonym: "smooth muscle - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8149,7 +8149,7 @@ relationship: derives_from UBERON:0001135 ! smooth muscle tissue
 
 [Term]
 id: FF:0010049
-name: pancreas - adult sample
+name: human pancreas - adult sample
 synonym: "pancreas - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8158,7 +8158,7 @@ relationship: derives_from UBERON:0001264 ! pancreas
 
 [Term]
 id: FF:0010052
-name: aorta - adult sample
+name: human aorta - adult sample
 synonym: "aorta - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8167,7 +8167,7 @@ relationship: derives_from UBERON:0000947 ! aorta
 
 [Term]
 id: FF:0010053
-name: blood - adult sample
+name: human blood - adult sample
 synonym: "blood - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8176,7 +8176,7 @@ relationship: derives_from UBERON:0000178 ! blood
 
 [Term]
 id: FF:0010054
-name: eye - fetal sample
+name: human eye - fetal sample
 synonym: "eye - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8185,7 +8185,7 @@ relationship: derives_from UBERON:0000970 ! eye
 
 [Term]
 id: FF:0010055
-name: uterus - fetal sample
+name: human uterus - fetal sample
 synonym: "uterus - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8194,7 +8194,7 @@ relationship: derives_from UBERON:0005795 ! embryonic uterus
 
 [Term]
 id: FF:0010056
-name: spinal cord - fetal sample
+name: human spinal cord - fetal sample
 synonym: "spinal cord - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8203,7 +8203,7 @@ relationship: derives_from UBERON:0002240 ! spinal cord
 
 [Term]
 id: FF:0010057
-name: umbilical cord - fetal sample
+name: human umbilical cord - fetal sample
 synonym: "umbilical cord - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8212,7 +8212,7 @@ relationship: derives_from UBERON:0002331 ! umbilical cord
 
 [Term]
 id: FF:0010058
-name: trachea - fetal sample
+name: human trachea - fetal sample
 synonym: "trachea - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8222,7 +8222,7 @@ relationship: derives_from UBERON:0003127 ! open tracheal system trachea
 
 [Term]
 id: FF:0010059
-name: tongue - fetal sample
+name: human tongue - fetal sample
 synonym: "tongue - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8231,7 +8231,7 @@ relationship: derives_from UBERON:0001723 ! tongue
 
 [Term]
 id: FF:0010060
-name: thyroid - fetal sample
+name: human thyroid - fetal sample
 synonym: "thyroid - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8240,7 +8240,7 @@ relationship: derives_from UBERON:0002046 ! thyroid gland
 
 [Term]
 id: FF:0010061
-name: throat - fetal sample
+name: human throat - fetal sample
 synonym: "throat - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8249,7 +8249,7 @@ relationship: derives_from UBERON:0000341 ! throat
 
 [Term]
 id: FF:0010062
-name: stomach - fetal sample
+name: human stomach - fetal sample
 synonym: "stomach - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8258,7 +8258,7 @@ relationship: derives_from UBERON:0000945 ! stomach
 
 [Term]
 id: FF:0010063 ! duodenum - fetal sample
-name: duodenum - fetal sample
+name: human duodenum - fetal sample
 synonym: "duodenum - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8267,7 +8267,7 @@ relationship: derives_from UBERON:0002114 ! duodenum
 
 [Term]
 id: FF:0010064
-name: small intestine - fetal sample
+name: human small intestine - fetal sample
 synonym: "small intestine - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8276,7 +8276,7 @@ relationship: derives_from UBERON:0002108 ! small intestine
 
 [Term]
 id: FF:0010065
-name: skin - fetal sample
+name: human skin - fetal sample
 synonym: "skin - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8285,7 +8285,7 @@ relationship: derives_from UBERON:0000014 ! zone of skin
 
 [Term]
 id: FF:0010066
-name: skeletal muscle - fetal sample
+name: human skeletal muscle - fetal sample
 synonym: "skeletal muscle - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8294,7 +8294,7 @@ relationship: derives_from UBERON:0001134 ! skeletal muscle tissue
 
 [Term]
 id: FF:0010067
-name: rectum - fetal sample
+name: human rectum - fetal sample
 synonym: "rectum - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8303,7 +8303,7 @@ relationship: derives_from UBERON:0001052 ! rectum
 
 [Term]
 id: FF:0010068
-name: lung - fetal sample
+name: human lung - fetal sample
 synonym: "lung - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8313,7 +8313,7 @@ relationship: derives_from UBERON:0000170 ! pair of lungs
 
 [Term]
 id: FF:0010069
-name: diaphragm - fetal sample
+name: human diaphragm - fetal sample
 synonym: "diaphragm - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8322,7 +8322,7 @@ relationship: derives_from UBERON:0001103 ! diaphragm
 
 [Term]
 id: FF:0010070
-name: colon - fetal sample
+name: human colon - fetal sample
 synonym: "colon - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8331,7 +8331,7 @@ relationship: derives_from UBERON:0001155 ! colon
 
 [Term]
 id: FF:0010071
-name: temporal lobe - fetal sample
+name: human temporal lobe - fetal sample
 synonym: "temporal lobe - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8340,7 +8340,7 @@ relationship: derives_from UBERON:0001871 ! temporal lobe
 
 [Term]
 id: FF:0010072
-name: parietal lobe - fetal sample
+name: human parietal lobe - fetal sample
 synonym: "parietal lobe - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8349,7 +8349,7 @@ relationship: derives_from UBERON:0001872 ! parietal lobe
 
 [Term]
 id: FF:0010073
-name: occipital lobe - fetal sample
+name: human occipital lobe - fetal sample
 synonym: "occipital lobe - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8358,7 +8358,7 @@ relationship: derives_from UBERON:0002021 ! occipital lobe
 
 [Term]
 id: FF:0010074
-name: skin - adult sample
+name: human skin - adult sample
 synonym: "skin - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8367,7 +8367,7 @@ relationship: derives_from UBERON:0000014 ! zone of skin
 
 [Term]
 id: FF:0010076
-name: occipital lobe - adult sample
+name: human occipital lobe - adult sample
 synonym: "occipital lobe - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8376,7 +8376,7 @@ relationship: derives_from UBERON:0002021 ! occipital lobe
 
 [Term]
 id: FF:0010077
-name: lymph node - adult sample
+name: human lymph node - adult sample
 synonym: "lymph node - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8385,7 +8385,7 @@ relationship: derives_from UBERON:0000029 ! lymph node
 
 [Term]
 id: FF:0010078
-name: left ventricle - adult sample
+name: human left ventricle - adult sample
 synonym: "left ventricle - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8394,7 +8394,7 @@ relationship: derives_from UBERON:0002084 ! heart left ventricle
 
 [Term]
 id: FF:0010079
-name: left atrium - adult sample
+name: human left atrium - adult sample
 synonym: "left atrium - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8403,7 +8403,7 @@ relationship: derives_from UBERON:0002079 ! left atrium
 
 [Term]
 id: FF:0010080
-name: breast - adult sample
+name: human breast - adult sample
 synonym: "breast - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8412,7 +8412,7 @@ relationship: derives_from UBERON:0000310 ! breast
 
 [Term]
 id: FF:0010081
-name: adrenal gland - adult sample
+name: human adrenal gland - adult sample
 synonym: "adrenal gland - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8421,7 +8421,7 @@ relationship: derives_from UBERON:0002369 ! adrenal gland
 
 [Term]
 id: FF:0010083
-name: cerebellum - adult sample
+name: human cerebellum - adult sample
 synonym: "cerebellum - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8430,7 +8430,7 @@ relationship: derives_from UBERON:0002037 ! cerebellum
 
 [Term]
 id: FF:0010085
-name: brain - fetal sample
+name: human brain - fetal sample
 synonym: "brain - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8439,7 +8439,7 @@ relationship: derives_from UBERON:0000955 ! brain
 
 [Term]
 id: FF:0010086
-name: liver - fetal sample
+name: human liver - fetal sample
 synonym: "liver - fetal" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8448,7 +8448,7 @@ relationship: derives_from UBERON:0002107 ! liver
 
 [Term]
 id: FF:0010087
-name: putamen - adult donor sample
+name: human putamen - adult donor sample
 synonym: "putamen - adult donor" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8457,7 +8457,7 @@ relationship: derives_from UBERON:0001874 ! putamen
 
 [Term]
 id: FF:0010093
-name: salivary gland - adult sample
+name: human salivary gland - adult sample
 synonym: "salivary gland - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8466,7 +8466,7 @@ relationship: derives_from UBERON:0001044 ! salivary gland
 
 [Term]
 id: FF:0010100
-name: uterus - adult sample
+name: human uterus - adult sample
 synonym: "uterus - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8476,7 +8476,7 @@ relationship: derives_from UBERON:0006834 ! uterus or analog
 
 [Term]
 id: FF:0010150
-name: medial temporal gyrus - adult sample
+name: human medial temporal gyrus - adult sample
 synonym: "medial temporal gyrus - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8485,7 +8485,7 @@ relationship: derives_from UBERON:0002771 ! middle temporal gyrus
 
 [Term]
 id: FF:0010151
-name: amygdala - adult donor sample
+name: human amygdala - adult donor sample
 synonym: "amygdala - adult donor" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8503,7 +8503,7 @@ relationship: derives_from UBERON:0002421 ! hippocampal formation
 
 [Term]
 id: FF:0010154
-name: thalamus - adult donor sample
+name: human thalamus - adult donor sample
 synonym: "thalamus - adult donor" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8512,7 +8512,7 @@ relationship: derives_from UBERON:0001897 ! thalamus
 
 [Term]
 id: FF:0010156
-name: medial temporal gyrus donor sample
+name: human medial temporal gyrus donor sample
 synonym: "medial temporal gyrus donor" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8521,7 +8521,7 @@ relationship: derives_from UBERON:0002771 ! middle temporal gyrus
 
 [Term]
 id: FF:0010158
-name: substantia nigra - adult donor sample
+name: human substantia nigra - adult donor sample
 synonym: "substantia nigra - adult donor" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8530,7 +8530,7 @@ relationship: derives_from UBERON:0002038 ! substantia nigra
 
 [Term]
 id: FF:0010159
-name: spinal cord - adult sample
+name: human spinal cord - adult sample
 synonym: "spinal cord - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8539,7 +8539,7 @@ relationship: derives_from UBERON:0002240 ! spinal cord
 
 [Term]
 id: FF:0010160
-name: pineal gland - adult sample
+name: human pineal gland - adult sample
 synonym: "pineal gland - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8548,7 +8548,7 @@ relationship: derives_from UBERON:0001905 ! pineal body
 
 [Term]
 id: FF:0010161
-name: globus pallidus - adult donor sample
+name: human globus pallidus - adult donor sample
 synonym: "globus pallidus - adult donor" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8557,7 +8557,7 @@ relationship: derives_from UBERON:0001875 ! globus pallidus
 
 [Term]
 id: FF:0010162
-name: pituitary gland - adult sample
+name: human pituitary gland - adult sample
 synonym: "pituitary gland - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8566,7 +8566,7 @@ relationship: derives_from UBERON:0000007 ! pituitary gland
 
 [Term]
 id: FF:0010163
-name: occipital cortex - adult donor sample
+name: human occipital cortex - adult donor sample
 synonym: "occipital cortex - adult donor" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8575,7 +8575,7 @@ relationship: derives_from UBERON:0002021 ! occipital lobe
 
 [Term]
 id: FF:0010164
-name: caudate nucleus - adult donor sample
+name: human caudate nucleus - adult donor sample
 synonym: "caudate nucleus - adult donor" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8584,7 +8584,7 @@ relationship: derives_from UBERON:0001873 ! caudate nucleus
 
 [Term]
 id: FF:0010166
-name: cerebellum - adult donor sample
+name: human cerebellum - adult donor sample
 synonym: "cerebellum - adult donor" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8616,7 +8616,7 @@ is_obsolete: true
 
 [Term]
 id: FF:0010188
-name: cerebral meninges - adult sample
+name: human cerebral meninges - adult sample
 synonym: "cerebral meninges - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8625,7 +8625,7 @@ relationship: derives_from UBERON:0002360 ! meninx
 
 [Term]
 id: FF:0010189
-name: appendix - adult sample
+name: human appendix - adult sample
 synonym: "appendix - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8634,7 +8634,7 @@ relationship: derives_from UBERON:0001154 ! appendix
 
 [Term]
 id: FF:0010190
-name: artery - adult sample
+name: human artery - adult sample
 synonym: "artery - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8643,7 +8643,7 @@ relationship: derives_from UBERON:0001637 ! artery
 
 [Term]
 id: FF:0010191
-name: vein - adult sample
+name: human vein - adult sample
 synonym: "vein - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8652,7 +8652,7 @@ relationship: derives_from UBERON:0001638 ! vein
 
 [Term]
 id: FF:0010192
-name: bone marrow - adult sample
+name: human bone marrow - adult sample
 synonym: "bone marrow - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8661,7 +8661,7 @@ relationship: derives_from UBERON:0002371 ! bone marrow
 
 [Term]
 id: FF:0010193
-name: diencephalon - adult sample
+name: human diencephalon - adult sample
 synonym: "diencephalon - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8670,7 +8670,7 @@ relationship: derives_from UBERON:0001894 ! diencephalon
 
 [Term]
 id: FF:0010195
-name: olfactory region - adult sample
+name: human olfactory region - adult sample
 synonym: "olfactory region - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8679,7 +8679,7 @@ relationship: derives_from UBERON:0003112 ! olfactory region
 
 [Term]
 id: FF:0010196
-name: ductus deferens - adult sample
+name: human ductus deferens - adult sample
 synonym: "ductus deferens - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8688,7 +8688,7 @@ relationship: derives_from UBERON:0001000 ! vas deferens
 
 [Term]
 id: FF:0010198
-name: gall bladder - adult sample
+name: human gall bladder - adult sample
 synonym: "gall bladder - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8697,7 +8697,7 @@ relationship: derives_from UBERON:0002110 ! gallbladder
 
 [Term]
 id: FF:0010199
-name: parotid gland - adult sample
+name: human parotid gland - adult sample
 synonym: "parotid gland - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8706,7 +8706,7 @@ relationship: derives_from UBERON:0001831 ! parotid gland
 
 [Term]
 id: FF:0010200
-name: penis - adult sample
+name: human penis - adult sample
 synonym: "penis - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8715,7 +8715,7 @@ relationship: derives_from UBERON:0000989 ! penis
 
 [Term]
 id: FF:0010201
-name: seminal vesicle - adult sample
+name: human seminal vesicle - adult sample
 synonym: "seminal vesicle - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8724,7 +8724,7 @@ relationship: derives_from UBERON:0000998 ! seminal vesicle
 
 [Term]
 id: FF:0010202
-name: submaxillary gland - adult sample
+name: human submaxillary gland - adult sample
 synonym: "submaxillary gland - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8733,7 +8733,7 @@ relationship: derives_from UBERON:0001736 ! submandibular gland
 
 [Term]
 id: FF:0010203
-name: tongue - adult sample
+name: human tongue - adult sample
 synonym: "tongue - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8742,7 +8742,7 @@ relationship: derives_from UBERON:0001723 ! tongue
 
 [Term]
 id: FF:0010204
-name: vagina - adult sample
+name: human vagina - adult sample
 synonym: "vagina - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8751,7 +8751,7 @@ relationship: derives_from UBERON:0000996 ! vagina
 
 [Term]
 id: FF:0010205
-name: heart, mitral valve - adult sample
+name: human heart, mitral valve - adult sample
 synonym: "heart, mitral valve - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8760,7 +8760,7 @@ relationship: derives_from UBERON:0002135 ! mitral valve
 
 [Term]
 id: FF:0010206
-name: heart, pulmonic valve - adult sample
+name: human heart, pulmonic valve - adult sample
 synonym: "heart, pulmonic valve - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8769,7 +8769,7 @@ relationship: derives_from UBERON:0002146 ! pulmonary valve
 
 [Term]
 id: FF:0010207
-name: heart, tricuspid valve - adult sample
+name: human heart, tricuspid valve - adult sample
 synonym: "heart, tricuspid valve - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8778,7 +8778,7 @@ relationship: derives_from UBERON:0002134 ! tricuspid valve
 
 [Term]
 id: FF:0010208
-name: rectum - adult sample
+name: human rectum - adult sample
 synonym: "rectum - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8787,7 +8787,7 @@ relationship: derives_from UBERON:0001052 ! rectum
 
 [Term]
 id: FF:0010209
-name: throat - adult sample
+name: human throat - adult sample
 synonym: "throat - adult" EXACT []
 namespace: FANTOM5
 is_a: FF:0000210 ! human sample
@@ -8796,7 +8796,7 @@ relationship: derives_from UBERON:0000341 ! throat
 
 [Term]
 id: FF:0011100
-name: CD14-CD16-positive Monocytes sample
+name: human CD14-CD16-positive Monocytes sample
 synonym: "CD14-CD16-positive Monocytes" EXACT []
 relationship: derives_from CL:0002396 ! CD14-low, CD16-positive monocyte
 is_a: FF:0000002 ! in vivo cell sample
@@ -8804,7 +8804,7 @@ is_a: FF:0000210 ! human sample
 
 [Term]
 id: FF:0011101
-name: CD14-positive monocytes - mock treated sample
+name: human CD14-positive monocytes - mock treated sample
 synonym: "CD14-positive monocytes - mock treated" EXACT []
 relationship: derives_from CL:0002057 ! CD14-positive, CD16-negative classical monocyte
 is_a: EFO:0001746 ! development or differentiation design
@@ -8815,7 +8815,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0011102
-name: CD14-positive monocytes - treated with B-glucan sample
+name: human CD14-positive monocytes - treated with B-glucan sample
 synonym: "CD14-positive monocytes - treated with B-glucan" EXACT []
 relationship: derives_from CL:0002057 ! CD14-positive, CD16-negative classical monocyte
 is_a: EFO:0001746 ! development or differentiation design
@@ -8826,7 +8826,7 @@ is_a: FF:0000630 ! beta-glucan treatment
 
 [Term]
 id: FF:0011103
-name: CD14-positive monocytes - treated with BCG sample
+name: human CD14-positive monocytes - treated with BCG sample
 synonym: "CD14-positive monocytes - treated with BCG" EXACT []
 relationship: derives_from CL:0002057 ! CD14-positive, CD16-negative classical monocyte
 is_a: EFO:0001746 ! development or differentiation design
@@ -8837,7 +8837,7 @@ is_a: FF:0000628 ! Bacillus Calmette-Guerin treatment
 
 [Term]
 id: FF:0011104
-name: CD14-positive monocytes - treated with Candida sample
+name: human CD14-positive monocytes - treated with Candida sample
 synonym: "CD14-positive monocytes - treated with Candida" EXACT []
 relationship: derives_from CL:0002057 ! CD14-positive, CD16-negative classical monocyte
 is_a: EFO:0001746 ! development or differentiation design
@@ -8848,7 +8848,7 @@ is_a: FF:0000635 ! Candida treatment
 
 [Term]
 id: FF:0011105
-name: CD14-positive monocytes - treated with Cryptococcus sample
+name: human CD14-positive monocytes - treated with Cryptococcus sample
 synonym: "CD14-positive monocytes - treated with Cryptococcus" EXACT []
 relationship: derives_from CL:0002057 ! CD14-positive, CD16-negative classical monocyte
 is_a: EFO:0001746 ! development or differentiation design
@@ -8859,7 +8859,7 @@ is_a: FF:0000634 ! Cryptococcus treatment
 
 [Term]
 id: FF:0011106
-name: CD14-positive monocytes - treated with Group A streptococci sample
+name: human CD14-positive monocytes - treated with Group A streptococci sample
 synonym: "CD14-positive monocytes - treated with Group A streptococci" EXACT []
 relationship: derives_from CL:0002057 ! CD14-positive, CD16-negative classical monocyte
 is_a: EFO:0001746 ! development or differentiation design
@@ -8870,7 +8870,7 @@ is_a: FF:0000632 ! group A streptococci treatment
 
 [Term]
 id: FF:0011108
-name: CD14-positive monocytes - treated with lipopolysaccharide sample
+name: human CD14-positive monocytes - treated with lipopolysaccharide sample
 synonym: "CD14-positive monocytes - treated with lipopolysaccharide" EXACT []
 relationship: derives_from CL:0002057 ! CD14-positive, CD16-negative classical monocyte
 is_a: EFO:0001746 ! development or differentiation design
@@ -8881,7 +8881,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0011109
-name: CD14-positive monocytes - treated with Salmonella sample
+name: human CD14-positive monocytes - treated with Salmonella sample
 synonym: "CD14-positive monocytes - treated with Salmonella" EXACT []
 relationship: derives_from CL:0002057 ! CD14-positive, CD16-negative classical monocyte
 is_a: EFO:0001746 ! development or differentiation design
@@ -8892,7 +8892,7 @@ is_a: FF:0000633 ! Salmonella treatment
 
 [Term]
 id: FF:0011111
-name: CD14-positiveCD16- Monocytes sample
+name: human CD14-positiveCD16- Monocytes sample
 synonym: "CD14-positiveCD16- Monocytes" EXACT []
 relationship: derives_from CL:0002057 ! CD14-positive, CD16-negative classical monocyte
 is_a: FF:0000002 ! in vivo cell sample
@@ -8900,7 +8900,7 @@ is_a: FF:0000210 ! human sample
 
 [Term]
 id: FF:0011112
-name: CD14-positiveCD16-positive Monocytes sample
+name: human CD14-positiveCD16-positive Monocytes sample
 synonym: "CD14-positiveCD16-positive Monocytes" EXACT []
 relationship: derives_from CL:0002397 ! CD14-positive, CD16-positive monocyte
 is_a: FF:0000002 ! in vivo cell sample
@@ -8920,7 +8920,7 @@ is_a: FF:0000627 ! RANK ligand treatment
 
 [Term]
 id: FF:0011121
-name: CD4-positiveCD25-CD45RA- naive conventional T cells expanded sample
+name: human CD4-positiveCD25-CD45RA- naive conventional T cells expanded sample
 synonym: "CD4-positiveCD25-CD45RA- naive conventional T cells expanded" EXACT []
 relationship: derives_from CL:0000895 ! naive thymus-derived CD4-positive, alpha-beta T cell
 is_a: EFO:0001746 ! development or differentiation design
@@ -8931,7 +8931,7 @@ is_a: FF:0000409 ! T cell expansion
 
 [Term]
 id: FF:0011122
-name: CD4-positiveCD25-CD45RA- naive conventional T cells sample
+name: human CD4-positiveCD25-CD45RA- naive conventional T cells sample
 synonym: "CD4-positiveCD25-CD45RA- naive conventional T cells" EXACT []
 relationship: derives_from CL:0000895 ! naive thymus-derived CD4-positive, alpha-beta T cell
 is_a: FF:0000002 ! in vivo cell sample
@@ -8939,7 +8939,7 @@ is_a: FF:0000210 ! human sample
 
 [Term]
 id: FF:0011127
-name: CD4-positiveCD25-positiveCD45RA- naive regulatory T cells expanded sample
+name: human CD4-positiveCD25-positiveCD45RA- naive regulatory T cells expanded sample
 synonym: "CD4-positiveCD25-positiveCD45RA- naive regulatory T cells expanded" EXACT []
 relationship: derives_from CL:0002677 ! naive regulatory T cell
 is_a: EFO:0001746 ! development or differentiation design
@@ -8950,7 +8950,7 @@ is_a: FF:0000409 ! T cell expansion
 
 [Term]
 id: FF:0011128
-name: CD4-positiveCD25-positiveCD45RA- naive regulatory T cells sample
+name: human CD4-positiveCD25-positiveCD45RA- naive regulatory T cells sample
 synonym: "CD4-positiveCD25-positiveCD45RA- naive regulatory T cells" EXACT []
 relationship: derives_from CL:0002677 ! naive regulatory T cell
 is_a: FF:0000002 ! in vivo cell sample
@@ -8967,7 +8967,7 @@ is_a: FF:0000103 ! mouse sample
 
 [Term]
 id: FF:0011132
-name: Hep-2 cells mock treated sample
+name: human Hep-2 cells mock treated sample
 synonym: "Hep-2 cells mock treated" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000210 ! human sample
@@ -8977,7 +8977,7 @@ is_a: FF:0104978 ! HEp-2 cell
 
 [Term]
 id: FF:0011133
-name: Hep-2 cells treated with Streptococci strain 5448 sample
+name: human Hep-2 cells treated with Streptococci strain 5448 sample
 synonym: "Hep-2 cells treated with Streptococci strain 5448" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000210 ! human sample
@@ -8987,7 +8987,7 @@ is_a: FF:0104978 ! HEp-2 cell
 
 [Term]
 id: FF:0011134
-name: Hep-2 cells treated with Streptococci strain JRS4 sample
+name: human Hep-2 cells treated with Streptococci strain JRS4 sample
 synonym: "Hep-2 cells treated with Streptococci strain JRS4" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000210 ! human sample
@@ -8997,7 +8997,7 @@ is_a: FF:0104978 ! HEp-2 cell
 
 [Term]
 id: FF:0011135
-name: immature langerhans cells sample
+name: human immature langerhans cells sample
 synonym: "immature langerhans cells" EXACT []
 relationship: derives_from CL:0001016 ! immature CD1a-positive Langerhans cell
 is_a: FF:0000002 ! in vivo cell sample
@@ -9005,7 +9005,7 @@ is_a: FF:0000210 ! human sample
 
 [Term]
 id: FF:0011136
-name: migratory langerhans cells sample
+name: human migratory langerhans cells sample
 synonym: "migratory langerhans cells" EXACT []
 relationship: derives_from CL:0000453 ! Langerhans cell
 is_a: FF:0000002 ! in vivo cell sample
@@ -9057,7 +9057,7 @@ is_a: FF:0000103 ! mouse sample
 
 [Term]
 id: FF:0011141
-name: Neurons sample
+name: human Neurons sample
 synonym: "Neurons" EXACT []
 is_a: FF:0000348 ! human neuron samples
 
@@ -9093,7 +9093,7 @@ relationship: derives_from UBERON:0000013 ! sympathetic nervous system
 
 [Term]
 id: FF:0011147
-name: achilles tendon sample
+name: human achilles tendon sample
 synonym: "achilles tendon" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9101,7 +9101,7 @@ relationship: derives_from UBERON:0003701 ! calcaneal tendon
 
 [Term]
 id: FF:0011148
-name: arachnoid mater sample
+name: human arachnoid mater sample
 synonym: "arachnoid mater" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9117,13 +9117,13 @@ is_a: FF:0000103 ! mouse sample
 
 [Term]
 id: FF:0011150
-name: cerebellum- adult sample
+name: human cerebellum- adult sample
 synonym: "cerebellum- adult" EXACT []
 is_a: FF:0010083 ! cerebellum - adult
 
 [Term]
 id: FF:0011151
-name: cerebrospinal fluid sample
+name: human cerebrospinal fluid sample
 synonym: "cerebrospinal fluid" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9131,7 +9131,7 @@ relationship: derives_from UBERON:0001359 ! cerebrospinal fluid
 
 [Term]
 id: FF:0011152
-name: cruciate ligament sample
+name: human cruciate ligament sample
 synonym: "cruciate ligament" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9139,7 +9139,7 @@ relationship: derives_from UBERON:0006659 ! cruciate ligament of knee
 
 [Term]
 id: FF:0011153
-name: eye - muscle inferior rectus sample
+name: human eye - muscle inferior rectus sample
 synonym: "eye - muscle inferior rectus" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9147,7 +9147,7 @@ relationship: derives_from UBERON:0006322 ! inferior rectus extraocular muscle
 
 [Term]
 id: FF:0011154
-name: eye - muscle lateral sample
+name: human eye - muscle lateral sample
 synonym: "eye - muscle lateral" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9155,7 +9155,7 @@ relationship: derives_from UBERON:0004277 ! eye muscle
 
 [Term]
 id: FF:0011155
-name: eye - muscle medial sample
+name: human eye - muscle medial sample
 synonym: "eye - muscle medial" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9163,7 +9163,7 @@ relationship: derives_from UBERON:0004277 ! eye muscle
 
 [Term]
 id: FF:0011156
-name: eye - muscle superior sample
+name: human eye - muscle superior sample
 synonym: "eye - muscle superior" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9171,7 +9171,7 @@ relationship: derives_from UBERON:0004277 ! eye muscle
 
 [Term]
 id: FF:0011157
-name: eye - vitreous humor sample
+name: human eye - vitreous humor sample
 synonym: "eye - vitreous humor" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9188,7 +9188,7 @@ is_a: FF:0000103 ! mouse sample
 
 [Term]
 id: FF:0011160
-name: mesothelium sample
+name: human mesothelium sample
 synonym: "mesothelium" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9203,13 +9203,13 @@ is_a: FF:0000103 ! mouse sample
 
 [Term]
 id: FF:0011163
-name: nasal epithelial cells sample
+name: human nasal epithelial cells sample
 synonym: "nasal epithelial cells" EXACT []
 is_a: FF:0104976 ! nasal epithelial cell
 
 [Term]
 id: FF:0011164
-name: olfactory epithelium sample
+name: human olfactory epithelium sample
 synonym: "olfactory epithelium" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9217,7 +9217,7 @@ relationship: derives_from UBERON:0001997 ! olfactory epithelium
 
 [Term]
 id: FF:0011165
-name: omentum sample
+name: human omentum sample
 synonym: "omentum" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9225,7 +9225,7 @@ relationship: derives_from UBERON:0003688 ! omentum
 
 [Term]
 id: FF:0011166
-name: optic nerve sample
+name: human optic nerve sample
 synonym: "optic nerve" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9233,7 +9233,7 @@ relationship: derives_from UBERON:0000941 ! cranial nerve II
 
 [Term]
 id: FF:0011167
-name: Parathyroid sample
+name: human Parathyroid sample
 synonym: "Parathyroid" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9241,7 +9241,7 @@ relationship: derives_from UBERON:0001132 ! parathyroid gland
 
 [Term]
 id: FF:0011168
-name: pia mater sample
+name: human pia mater sample
 synonym: "pia mater" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9249,7 +9249,7 @@ relationship: derives_from UBERON:0002361 ! pia mater
 
 [Term]
 id: FF:0011169
-name: Reticulocytes sample
+name: human Reticulocytes sample
 synonym: "Reticulocytes" EXACT []
 relationship: derives_from CL:0000558 ! reticulocyte
 is_a: FF:0000210 ! human sample
@@ -9257,7 +9257,7 @@ is_a: FF:0000998 ! adult tissue sample
 
 [Term]
 id: FF:0011170
-name: sciatic nerve sample
+name: human sciatic nerve sample
 synonym: "sciatic nerve" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9265,14 +9265,14 @@ relationship: derives_from UBERON:0001322 ! sciatic nerve
 
 [Term]
 id: FF:0011171
-name: serous adenocarcinoma cell line:SK-OV-3-R sample
+name: human serous adenocarcinoma cell line:SK-OV-3-R sample
 synonym: "serous adenocarcinoma cell line:SK-OV-3-R" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0103803 ! serous adenocarcinoma cell line
 
 [Term]
 id: FF:0011172
-name: skeletal muscle - lateralis muscle sample
+name: human skeletal muscle - lateralis muscle sample
 synonym: "skeletal muscle - lateralis muscle" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9280,7 +9280,7 @@ relationship: derives_from UBERON:0001379 ! vastus lateralis
 
 [Term]
 id: FF:0011173
-name: skeletal muscle - soleus muscle sample
+name: human skeletal muscle - soleus muscle sample
 synonym: "skeletal muscle - soleus muscle" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9289,7 +9289,7 @@ relationship: derives_from UBERON:0001389 ! soleus
 
 [Term]
 id: FF:0011174
-name: Skin - armpit hair follicle sample
+name: human Skin - armpit hair follicle sample
 synonym: "Skin - armpit hair follicle" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9302,7 +9302,7 @@ relationship: derives_from UBERON:0007029 ! surface
 
 [Term]
 id: FF:0011175
-name: Skin - armpit sweat gland rich sample
+name: human Skin - armpit sweat gland rich sample
 synonym: "Skin - armpit sweat gland rich" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9310,7 +9310,7 @@ relationship: derives_from UBERON:0002419 ! skin gland
 
 [Term]
 id: FF:0011176
-name: Skin - cornified area on sole of foot sample
+name: human Skin - cornified area on sole of foot sample
 synonym: "Skin - cornified area on sole of foot" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9318,7 +9318,7 @@ relationship: derives_from UBERON:0001513 ! skin of foot
 
 [Term]
 id: FF:0011177
-name: Skin - palm sample
+name: human Skin - palm sample
 synonym: "Skin - palm" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9327,7 +9327,7 @@ relationship: derives_from UBERON:0008878 ! palmar part of hand
 
 [Term]
 id: FF:0011178
-name: Skin - torso sample
+name: human Skin - torso sample
 synonym: "Skin - torso" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9340,14 +9340,14 @@ relationship: derives_from UBERON:0007029 ! surface
 
 [Term]
 id: FF:0011179
-name: Smooth Muscle Cells - Bronchial sample
+name: human Smooth Muscle Cells - Bronchial sample
 synonym: "Smooth Muscle Cells - Bronchial" EXACT []
 is_a: FF:0000179 ! bronchial smooth muscle cell
 is_a: FF:0000998 ! adult tissue sample
 
 [Term]
 id: FF:0011180
-name: Ureter sample
+name: human Ureter sample
 synonym: "Ureter" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9355,7 +9355,7 @@ relationship: derives_from UBERON:0000056 ! ureter
 
 [Term]
 id: FF:0011181
-name: Urethra sample
+name: human Urethra sample
 synonym: "Urethra" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -9637,7 +9637,7 @@ is_a: FF:0000645 ! tracheal ciliated cell differentiation
 
 [Term]
 id: FF:0011214
-name: Monocyte-derived macrophages 0h after mock infection sample
+name: human Monocyte-derived macrophages 0h after mock infection sample
 synonym: "Monocyte-derived macrophages 0h after mock infection" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000086 ! macrophage
@@ -9647,7 +9647,7 @@ is_a: FF:0000648 ! mock infection
 
 [Term]
 id: FF:0011215
-name: Monocyte-derived macrophages 0h after udorn influenza infection sample
+name: human Monocyte-derived macrophages 0h after udorn influenza infection sample
 synonym: "Monocyte-derived macrophages 0h after udorn influenza infection" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000086 ! macrophage
@@ -9657,7 +9657,7 @@ is_a: FF:0000647 ! udorn influenza infection
 
 [Term]
 id: FF:0011216
-name: Monocyte-derived macrophages 2h after udorn influenza infection sample
+name: human Monocyte-derived macrophages 2h after udorn influenza infection sample
 synonym: "Monocyte-derived macrophages 2h after udorn influenza infection" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000086 ! macrophage
@@ -9667,7 +9667,7 @@ is_a: FF:0000647 ! udorn influenza infection
 
 [Term]
 id: FF:0011217
-name: Monocyte-derived macrophages 7h after udorn influenza infection sample
+name: human Monocyte-derived macrophages 7h after udorn influenza infection sample
 synonym: "Monocyte-derived macrophages 7h after udorn influenza infection" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000086 ! macrophage
@@ -9677,7 +9677,7 @@ is_a: FF:0000647 ! udorn influenza infection
 
 [Term]
 id: FF:0011218
-name: Monocyte-derived macrophages 24h after udorn influenza infection sample
+name: human Monocyte-derived macrophages 24h after udorn influenza infection sample
 synonym: "Monocyte-derived macrophages 24h after udorn influenza infection" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000086 ! macrophage
@@ -9687,7 +9687,7 @@ is_a: FF:0000647 ! udorn influenza infection
 
 [Term]
 id: FF:0011219
-name: Monocyte-derived macrophages 24h after mock infection sample
+name: human Monocyte-derived macrophages 24h after mock infection sample
 synonym: "Monocyte-derived macrophages 24h after mock infection" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000086 ! macrophage
@@ -9697,7 +9697,7 @@ is_a: FF:0000648 ! mock infection
 
 [Term]
 id: FF:0011220
-name: ES cells differentiated towards cardiomyocyte- day1 sample
+name: human ES cells differentiated towards cardiomyocyte- day1 sample
 synonym: "ES cells differentiated towards cardiomyocyte- day1" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000210 ! human sample
@@ -9708,7 +9708,7 @@ is_a: FF:0101581 ! embryonic stem cell line
 
 [Term]
 id: FF:0011221
-name: ES cells differentiated towards cardiomyocyte- day2 sample
+name: human ES cells differentiated towards cardiomyocyte- day2 sample
 synonym: "ES cells differentiated towards cardiomyocyte- day2" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000210 ! human sample
@@ -9719,7 +9719,7 @@ is_a: FF:0101581 ! embryonic stem cell line
 
 [Term]
 id: FF:0011222
-name: ES cells differentiated towards cardiomyocyte- day3 sample
+name: human ES cells differentiated towards cardiomyocyte- day3 sample
 synonym: "ES cells differentiated towards cardiomyocyte- day3" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000210 ! human sample
@@ -9730,7 +9730,7 @@ is_a: FF:0101581 ! embryonic stem cell line
 
 [Term]
 id: FF:0011223
-name: ES cells differentiated towards cardiomyocyte- day4 sample
+name: human ES cells differentiated towards cardiomyocyte- day4 sample
 synonym: "ES cells differentiated towards cardiomyocyte- day4" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000210 ! human sample
@@ -9741,7 +9741,7 @@ is_a: FF:0101581 ! embryonic stem cell line
 
 [Term]
 id: FF:0011224
-name: ES cells differentiated towards cardiomyocyte- day5 sample
+name: human ES cells differentiated towards cardiomyocyte- day5 sample
 synonym: "ES cells differentiated towards cardiomyocyte- day5" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000210 ! human sample
@@ -9752,7 +9752,7 @@ is_a: FF:0101581 ! embryonic stem cell line
 
 [Term]
 id: FF:0011225
-name: ES cells differentiated towards cardiomyocyte- day6 sample
+name: human ES cells differentiated towards cardiomyocyte- day6 sample
 synonym: "ES cells differentiated towards cardiomyocyte- day6" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000210 ! human sample
@@ -9763,7 +9763,7 @@ is_a: FF:0101581 ! embryonic stem cell line
 
 [Term]
 id: FF:0011226
-name: ES cells differentiated towards cardiomyocyte- day7 sample
+name: human ES cells differentiated towards cardiomyocyte- day7 sample
 synonym: "ES cells differentiated towards cardiomyocyte- day7" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000210 ! human sample
@@ -9774,7 +9774,7 @@ is_a: FF:0101581 ! embryonic stem cell line
 
 [Term]
 id: FF:0011227
-name: ES cells differentiated towards cardiomyocyte- day8 sample
+name: human ES cells differentiated towards cardiomyocyte- day8 sample
 synonym: "ES cells differentiated towards cardiomyocyte- day8" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000210 ! human sample
@@ -9785,7 +9785,7 @@ is_a: FF:0101581 ! embryonic stem cell line
 
 [Term]
 id: FF:0011228
-name: ES cells differentiated towards cardiomyocyte- day9 sample
+name: human ES cells differentiated towards cardiomyocyte- day9 sample
 synonym: "ES cells differentiated towards cardiomyocyte- day9" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000210 ! human sample
@@ -9796,7 +9796,7 @@ is_a: FF:0101581 ! embryonic stem cell line
 
 [Term]
 id: FF:0011229
-name: ES cells differentiated towards cardiomyocyte- day10 sample
+name: human ES cells differentiated towards cardiomyocyte- day10 sample
 synonym: "ES cells differentiated towards cardiomyocyte- day10" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000210 ! human sample
@@ -9807,7 +9807,7 @@ is_a: FF:0101581 ! embryonic stem cell line
 
 [Term]
 id: FF:0011230
-name: ES cells differentiated towards cardiomyocyte- day11 sample
+name: human ES cells differentiated towards cardiomyocyte- day11 sample
 synonym: "ES cells differentiated towards cardiomyocyte- day11" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000210 ! human sample
@@ -9818,7 +9818,7 @@ is_a: FF:0101581 ! embryonic stem cell line
 
 [Term]
 id: FF:0011231
-name: ES cells differentiated towards cardiomyocyte- day13 sample
+name: human ES cells differentiated towards cardiomyocyte- day13 sample
 synonym: "ES cells differentiated towards cardiomyocyte- day13" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000210 ! human sample
@@ -10090,13 +10090,13 @@ relationship: derives_from UBERON:0001264 ! pancreas
 
 [Term]
 id: FF:0011259
-name: whole body- fetal week 08 sample
+name: human whole body- fetal week 08 sample
 synonym: "whole body- fetal week 08" EXACT []
 is_a: FF:0000281 ! whole blood
 
 [Term]
 id: FF:0011261
-name: lung- fetal week 12 sample
+name: human lung- fetal week 12 sample
 synonym: "lung- fetal week 12" EXACT []
 is_a: FF:0010068 ! lung - fetal
 
@@ -10314,25 +10314,25 @@ relationship: derives_from UBERON:0001894 ! diencephalon
 
 [Term]
 id: FF:0011292
-name: whole body- fetal week 06 sample
+name: human whole body- fetal week 06 sample
 synonym: "whole body- fetal week 06" EXACT []
 is_a: FF:0000286 ! whole body- fetal week 6
 
 [Term]
 id: FF:0011293
-name: whole body- fetal week 07 sample
+name: human whole body- fetal week 07 sample
 synonym: "whole body- fetal week 07" EXACT []
 is_a: FF:0000287 ! whole body- fetal week 7
 
 [Term]
 id: FF:0011294
-name: whole body- fetal week 09 sample
+name: human whole body- fetal week 09 sample
 synonym: "whole body- fetal week 09" EXACT []
 is_a: FF:0000288 ! whole body- fetal week 9
 
 [Term]
 id: FF:0011296
-name: heart fetal week 6 sample
+name: human heart fetal week 6 sample
 synonym: "heart fetal week 6" EXACT []
 alt_id: FF:0011260
 synonym: "heart- fetal week 06" EXACT []
@@ -11603,7 +11603,7 @@ relationship: derives_from UBERON:0001343 ! seminiferous tubule of testis
 
 [Term]
 id: FF:0011472
-name: epitheloid carcinoma cell line: HelaS3 ENCODE sample
+name: human epitheloid carcinoma cell line: HelaS3 ENCODE sample
 synonym: "epitheloid carcinoma cell line: HelaS3 ENCODE" EXACT []
 comment: Note - NOT a subclass of CL:0002150 epitheloid macrophage
 is_a: FF:0000210 ! human sample
@@ -11723,7 +11723,7 @@ relationship: derives_from UBERON:0002107 ! liver
 
 [Term]
 id: FF:0011487
-name: locus coeruleus- adult sample
+name: human locus coeruleus- adult sample
 synonym: "locus coeruleus- adult" EXACT []
 is_a: FF:0000210 ! human sample
 is_a: FF:0000998 ! adult tissue sample
@@ -11810,7 +11810,7 @@ relationship: derives_from UBERON:0000945 ! stomach
 
 [Term]
 id: FF:0011499
-name: UH-3 sample
+name: human UH-3 sample
 synonym: "UH-3" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000005 ! primary cell line sample
@@ -11818,7 +11818,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0011500
-name: UH-2 sample
+name: human UH-2 sample
 synonym: "UH-2" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000004 ! tissue sample
@@ -11827,7 +11827,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0011501
-name: UH-1 sample
+name: human UH-1 sample
 synonym: "UH-1" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000003 ! cell line sample
@@ -11836,7 +11836,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0011502
-name: ES cells differentiated towards cardiomyocyte- day12 sample
+name: human ES cells differentiated towards cardiomyocyte- day12 sample
 synonym: "ES cells differentiated towards cardiomyocyte- day12" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000210 ! human sample
@@ -14743,7 +14743,7 @@ is_a: FF:0100104 ! lymphoma cell line
 
 [Term]
 id: FF:0104975
-name: myotube cell sample
+name: human myotube cell sample
 synonym: "myotube cell" EXACT []
 namespace: FANTOM5
 def: "Skeletal muscle cells derived from myotubules." [GOC:tfm]
@@ -14754,7 +14754,7 @@ creation_date: 2011-06-15T12:38:23Z
 
 [Term]
 id: FF:0104976
-name: nasal epithelial cell sample
+name: human nasal epithelial cell sample
 synonym: "nasal epithelial cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002167 ! olfactory epithelial cell
@@ -15473,7 +15473,7 @@ is_a: FF:0010062 ! stomach - fetal
 
 [Term]
 id: FF:0010071-101H9
-name: temporal lobe, fetal, donor1, rep1
+name: human temporal lobe, fetal, donor1, rep1
 namespace: FANTOM5
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0010071 ! temporal lobe - fetal
