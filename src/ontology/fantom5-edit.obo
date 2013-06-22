@@ -952,7 +952,7 @@ creation_date: 2011-03-01T04:58:07Z
 
 [Term]
 id: FF:0000079
-name: Lgr5-positive intestinal epithelial stem cell sample
+name: mouse Lgr5-positive intestinal epithelial stem cell sample
 synonym: "Lgr5-positive intestinal epithelial stem cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002250 ! intestinal crypt stem cell
@@ -2857,7 +2857,7 @@ creation_date: 2011-03-14T12:47:55Z
 
 [Term]
 id: FF:0000255
-name: inner hair stem cell sample
+name: mouse inner hair stem cell sample
 synonym: "inner hair stem cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000034 ! stem cell
@@ -2945,7 +2945,7 @@ creation_date: 2011-03-14T01:00:37Z
 
 [Term]
 id: FF:0000264
-name: inner hair cell sample
+name: mouse inner hair cell sample
 synonym: "inner hair cell" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000589 ! cochlear inner hair cell
@@ -2956,7 +2956,7 @@ creation_date: 2011-03-14T01:02:55Z
 
 [Term]
 id: FF:0000265
-name: Atoh-positive inner hair cell sample
+name: mouse Atoh-positive inner hair cell sample
 synonym: "Atoh-positive inner hair cell" EXACT []
 namespace: FANTOM5
 is_a: FF:0000264 ! inner hair cell
@@ -3102,7 +3102,7 @@ creation_date: 2011-03-14T02:24:28Z
 
 [Term]
 id: FF:0000279
-name: Sox2-positive supporting cell- organ of corti sample
+name: mouse Sox2-positive supporting cell- organ of corti sample
 synonym: "Sox2-positive supporting cell- organ of corti" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0002490 ! organ of Corti supporting cell
@@ -3243,7 +3243,7 @@ creation_date: 2011-04-22T10:35:19Z
 
 [Term]
 id: FF:0000293
-name: embryonic day 13 sample
+name: mouse embryonic day 13 sample
 synonym: "embryonic day 13" EXACT []
 namespace: FANTOM5
 synonym: "E13" EXACT []
@@ -3254,7 +3254,7 @@ creation_date: 2011-04-22T10:42:49Z
 
 [Term]
 id: FF:0000294
-name: embryonic day 11 sample
+name: mouse embryonic day 11 sample
 synonym: "embryonic day 11" EXACT []
 namespace: FANTOM5
 synonym: "E11" EXACT []
@@ -3264,7 +3264,7 @@ creation_date: 2011-04-22T10:41:02Z
 
 [Term]
 id: FF:0000295
-name: embryonic day 12 sample
+name: mouse embryonic day 12 sample
 synonym: "embryonic day 12" EXACT []
 namespace: FANTOM5
 synonym: "E12" EXACT []
@@ -3275,7 +3275,7 @@ creation_date: 2011-04-22T10:42:02Z
 
 [Term]
 id: FF:0000296
-name: embryonic day 14 sample
+name: mouse embryonic day 14 sample
 synonym: "embryonic day 14" EXACT []
 namespace: FANTOM5
 synonym: "E14" EXACT []
@@ -3286,7 +3286,7 @@ creation_date: 2011-04-22T10:43:11Z
 
 [Term]
 id: FF:0000297
-name: embryonic day 14.5 sample
+name: mouse embryonic day 14.5 sample
 synonym: "embryonic day 14.5" EXACT []
 namespace: FANTOM5
 synonym: "E14.5" EXACT []
@@ -3297,7 +3297,7 @@ creation_date: 2011-04-22T10:43:37Z
 
 [Term]
 id: FF:0000298
-name: embryonic day 15 sample
+name: mouse embryonic day 15 sample
 synonym: "embryonic day 15" EXACT []
 namespace: FANTOM5
 synonym: "E15" EXACT []
@@ -3308,7 +3308,7 @@ creation_date: 2011-04-22T10:43:57Z
 
 [Term]
 id: FF:0000299
-name: embryonic day 16 sample
+name: mouse embryonic day 16 sample
 synonym: "embryonic day 16" EXACT []
 namespace: FANTOM5
 synonym: "E16" EXACT []
@@ -3319,7 +3319,7 @@ creation_date: 2011-04-22T10:44:14Z
 
 [Term]
 id: FF:0000300
-name: embryonic day 17 sample
+name: mouse embryonic day 17 sample
 synonym: "embryonic day 17" EXACT []
 namespace: FANTOM5
 synonym: "E17" EXACT []
@@ -3330,7 +3330,7 @@ creation_date: 2011-04-22T10:44:36Z
 
 [Term]
 id: FF:0000301
-name: embryonic day 17.5 sample
+name: mouse embryonic day 17.5 sample
 synonym: "embryonic day 17.5" EXACT []
 namespace: FANTOM5
 synonym: "E17.5" EXACT []
@@ -3341,7 +3341,7 @@ creation_date: 2011-04-22T10:44:55Z
 
 [Term]
 id: FF:0000302
-name: embryonic day 18 sample
+name: mouse embryonic day 18 sample
 synonym: "embryonic day 18" EXACT []
 namespace: FANTOM5
 synonym: "E18" EXACT []
@@ -3362,7 +3362,7 @@ creation_date: 2011-04-22T10:46:12Z
 
 [Term]
 id: FF:0000304
-name: neonate N0 sample
+name: mouse neonate N0 sample
 synonym: "neonate N0" EXACT []
 namespace: FANTOM5
 is_a: FF:0000303 ! neonate sample - mouse
@@ -3372,7 +3372,7 @@ creation_date: 2011-04-22T10:47:38Z
 
 [Term]
 id: FF:0000305
-name: neonate N10 sample
+name: mouse neonate N10 sample
 synonym: "neonate N10" EXACT []
 namespace: FANTOM5
 is_a: FF:0000303 ! neonate sample - mouse
@@ -3382,7 +3382,7 @@ creation_date: 2011-04-22T10:48:03Z
 
 [Term]
 id: FF:0000306
-name: neonate N16 sample
+name: mouse neonate N16 sample
 synonym: "neonate N16" EXACT []
 namespace: FANTOM5
 is_a: FF:0000303 ! neonate sample - mouse
@@ -3392,7 +3392,7 @@ creation_date: 2011-04-22T10:48:30Z
 
 [Term]
 id: FF:0000307
-name: neonate N2 sample
+name: mouse neonate N2 sample
 synonym: "neonate N2" EXACT []
 namespace: FANTOM5
 is_a: FF:0000303 ! neonate sample - mouse
@@ -3402,7 +3402,7 @@ creation_date: 2011-04-22T10:48:55Z
 
 [Term]
 id: FF:0000308
-name: neonate N20 sample
+name: mouse neonate N20 sample
 synonym: "neonate N20" EXACT []
 namespace: FANTOM5
 is_a: FF:0000303 ! neonate sample - mouse
@@ -3412,7 +3412,7 @@ creation_date: 2011-04-22T10:49:24Z
 
 [Term]
 id: FF:0000309
-name: neonate N25 sample
+name: mouse neonate N25 sample
 synonym: "neonate N25" EXACT []
 namespace: FANTOM5
 is_a: FF:0000303 ! neonate sample - mouse
@@ -3422,7 +3422,7 @@ creation_date: 2011-04-22T10:50:02Z
 
 [Term]
 id: FF:0000310
-name: neonate N30 sample
+name: mouse neonate N30 sample
 synonym: "neonate N30" EXACT []
 namespace: FANTOM5
 is_a: FF:0000303 ! neonate sample - mouse
@@ -3432,7 +3432,7 @@ creation_date: 2011-04-22T10:50:54Z
 
 [Term]
 id: FF:0000311
-name: neonate N3 sample
+name: mouse neonate N3 sample
 synonym: "neonate N3" EXACT []
 namespace: FANTOM5
 is_a: FF:0000303 ! neonate sample - mouse
@@ -3442,7 +3442,7 @@ creation_date: 2011-04-22T10:51:28Z
 
 [Term]
 id: FF:0000312
-name: neonate N6 sample
+name: mouse neonate N6 sample
 synonym: "neonate N6" EXACT []
 namespace: FANTOM5
 is_a: FF:0000303 ! neonate sample - mouse
@@ -3452,7 +3452,7 @@ creation_date: 2011-04-22T10:52:20Z
 
 [Term]
 id: FF:0000313
-name: neonate N7 sample
+name: mouse neonate N7 sample
 synonym: "neonate N7" EXACT []
 namespace: FANTOM5
 is_a: FF:0000303 ! neonate sample - mouse
@@ -3462,7 +3462,7 @@ creation_date: 2011-04-22T10:52:38Z
 
 [Term]
 id: FF:0000314
-name: neonate N9 sample
+name: mouse neonate N9 sample
 synonym: "neonate N9" EXACT []
 namespace: FANTOM5
 is_a: FF:0000303 ! neonate sample - mouse
@@ -3472,7 +3472,7 @@ creation_date: 2011-04-22T10:52:58Z
 
 [Term]
 id: FF:0000315
-name: neonate N60-70 sample
+name: mouse neonate N60-70 sample
 synonym: "neonate N60-70" EXACT []
 namespace: FANTOM5
 is_a: FF:0000303 ! neonate sample - mouse
@@ -3483,7 +3483,7 @@ creation_date: 2011-04-22T10:53:31Z
 
 [Term]
 id: FF:0000316
-name: neonate N15 sample
+name: mouse neonate N15 sample
 synonym: "neonate N15" EXACT []
 namespace: FANTOM5
 is_a: FF:0000303 ! neonate sample - mouse
@@ -4207,7 +4207,7 @@ creation_date: 2011-04-29T11:06:52Z
 
 [Term]
 id: FF:0000403
-name: J2E erythroblastic leukemia cell line sample
+name: mouse J2E erythroblastic leukemia cell line sample
 synonym: "J2E erythroblastic leukemia cell line" EXACT []
 namespace: FANTOM5
 is_a: FF:0000103 ! mouse sample
@@ -4217,7 +4217,7 @@ creation_date: 2011-04-29T11:06:58Z
 
 [Term]
 id: FF:0000404
-name: mesenchymal stem cell line: ST2 sample
+name: mouse mesenchymal stem cell line: ST2 sample
 synonym: "mesenchymal stem cell line: ST2" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000134 ! mesenchymal cell
@@ -4828,7 +4828,7 @@ is_a: FF:0100093 ! MCF-7 cell
 
 [Term]
 id: FF:0000458
-name: ST2 Mesenchymal stem cells, cells 15 min  after adipogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 15 min  after adipogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 15 min  after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4839,7 +4839,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000459
-name: ST2 Mesenchymal stem cells, cells 30 min  after adipogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 30 min  after adipogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 30 min  after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4850,7 +4850,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000460
-name: ST2 Mesenchymal stem cells, cells 1hr  after adipogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 1hr  after adipogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 1hr  after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4861,7 +4861,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000461
-name: ST2 Mesenchymal stem cells, cells 2hr  after adipogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 2hr  after adipogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 2hr  after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4872,7 +4872,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000462
-name: ST2 Mesenchymal stem cells, cells 3hr after adipogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 3hr after adipogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 3hr after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4883,7 +4883,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000463
-name: ST2 Mesenchymal stem cells, cells 6hr after adipogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 6hr after adipogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 6hr after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4894,7 +4894,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000464
-name: ST2 Mesenchymal stem cells, cells 12hr after adipogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 12hr after adipogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 12hr after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4905,7 +4905,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000465
-name: ST2 Mesenchymal stem cells, cells 18hr after adipogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 18hr after adipogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 18hr after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4916,7 +4916,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000466
-name: ST2 Mesenchymal stem cells, cells 24hr after adipogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 24hr after adipogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 24hr after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4927,7 +4927,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000467
-name: ST2 Mesenchymal stem cells, cells 36hr after adipogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 36hr after adipogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 36hr after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4938,7 +4938,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000468
-name: ST2 Mesenchymal stem cells, cells 48hr after adipogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 48hr after adipogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 48hr after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4949,7 +4949,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000469
-name: ST2 Mesenchymal stem cells, cells 72hr after adipogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 72hr after adipogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 72hr after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4960,7 +4960,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000470
-name: ST2 Mesenchymal stem cells, cells 96hr after adipogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 96hr after adipogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 96hr after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4971,7 +4971,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000471
-name: ST2 Mesenchymal stem cells, cells 120hr after adipogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 120hr after adipogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 120hr after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4982,7 +4982,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000472
-name: ST2 Mesenchymal stem cells, cells 144hr after adipogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 144hr after adipogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 144hr after adipogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -4993,7 +4993,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000473
-name: ST2 Mesenchymal stem cells, cells 15 min after osteogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 15 min after osteogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 15 min after osteogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5004,7 +5004,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000474
-name: ST2 Mesenchymal stem cells, cells 30 minafter osteogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 30 minafter osteogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 30 minafter osteogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5015,7 +5015,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000475
-name: ST2 Mesenchymal stem cells, cells 1hr after osteogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 1hr after osteogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 1hr after osteogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5026,7 +5026,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000476
-name: ST2 Mesenchymal stem cells, cells 2hr after osteogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 2hr after osteogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 2hr after osteogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5037,7 +5037,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000477
-name: ST2 Mesenchymal stem cells, cells 3hr after osteogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 3hr after osteogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 3hr after osteogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5048,7 +5048,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000478
-name: ST2 Mesenchymal stem cells, cells 6hr after osteogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 6hr after osteogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 6hr after osteogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5059,7 +5059,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000479
-name: ST2 Mesenchymal stem cells, cells 12hr after osteogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 12hr after osteogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 12hr after osteogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5070,7 +5070,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000480
-name: ST2 Mesenchymal stem cells, cells 18hr after osteogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 18hr after osteogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 18hr after osteogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5081,7 +5081,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000481
-name: ST2 Mesenchymal stem cells, cells 24hr after osteogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 24hr after osteogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 24hr after osteogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5092,7 +5092,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000482
-name: ST2 Mesenchymal stem cells, cells 36hr after osteogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 36hr after osteogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 36hr after osteogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5103,7 +5103,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000483
-name: ST2 Mesenchymal stem cells, cells 48hr after osteogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 48hr after osteogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 48hr after osteogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5114,7 +5114,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000484
-name: ST2 Mesenchymal stem cells, cells 72hr after osteogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 72hr after osteogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 72hr after osteogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5125,7 +5125,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000485
-name: ST2 Mesenchymal stem cells, cells 96hr after osteogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 96hr after osteogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 96hr after osteogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5136,7 +5136,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000486
-name: ST2 Mesenchymal stem cells, cells 120hr after osteogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 120hr after osteogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 120hr after osteogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5147,7 +5147,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000487
-name: ST2 Mesenchymal stem cells, cells 144hr after osteogenic induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 144hr after osteogenic induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 144hr after osteogenic induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5158,7 +5158,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000488
-name: ST2 Mesenchymal stem cells, cells 0hr after medium change , without induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 0hr after medium change , without induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 0hr after medium change , without induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5169,7 +5169,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000489
-name: ST2 Mesenchymal stem cells, cells 1hr after medium change , without induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 1hr after medium change , without induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 1hr after medium change , without induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5180,7 +5180,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000490
-name: ST2 Mesenchymal stem cells, cells 6hr after medium change , without induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 6hr after medium change , without induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 6hr after medium change , without induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5191,7 +5191,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000491
-name: ST2 Mesenchymal stem cells, cells 12hr after medium change , without induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 12hr after medium change , without induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 12hr after medium change , without induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5202,7 +5202,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000492
-name: ST2 Mesenchymal stem cells, cells 24hr after medium change , without induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 24hr after medium change , without induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 24hr after medium change , without induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5213,7 +5213,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000493
-name: ST2 Mesenchymal stem cells, cells 48hr after medium change , without induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 48hr after medium change , without induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 48hr after medium change , without induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5224,7 +5224,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000494
-name: ST2 Mesenchymal stem cells, cells 72hr after medium change , without induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 72hr after medium change , without induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 72hr after medium change , without induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5235,7 +5235,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000495
-name: ST2 Mesenchymal stem cells, cells 96hr after medium change , without induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 96hr after medium change , without induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 96hr after medium change , without induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5246,7 +5246,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000496
-name: ST2 Mesenchymal stem cells, cells 120hr after medium change , without induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 120hr after medium change , without induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 120hr after medium change , without induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5257,7 +5257,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000497
-name: ST2 Mesenchymal stem cells, cells 144hr after medium change , without induction sample
+name: mouse ST2 Mesenchymal stem cells, cells 144hr after medium change , without induction sample
 synonym: "ST2 Mesenchymal stem cells, cells 144hr after medium change , without induction" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5268,7 +5268,7 @@ is_a: FF:0000404 ! mesenchymal stem cell line: ST2
 
 [Term]
 id: FF:0000498
-name: J2E erythroblastic leukemia line 0min after treatment with erythropoietin sample
+name: mouse J2E erythroblastic leukemia line 0min after treatment with erythropoietin sample
 synonym: "J2E erythroblastic leukemia line 0min after treatment with erythropoietin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5279,7 +5279,7 @@ is_a: FF:0000403 ! J2E erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000499
-name: J2E erythroblastic leukemia line 15min after treatment with erythropoietin sample
+name: mouse J2E erythroblastic leukemia line 15min after treatment with erythropoietin sample
 synonym: "J2E erythroblastic leukemia line 15min after treatment with erythropoietin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5290,7 +5290,7 @@ is_a: FF:0000403 ! J2E erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000500
-name: J2E erythroblastic leukemia line 30min after treatment with erythropoietin sample
+name: mouse J2E erythroblastic leukemia line 30min after treatment with erythropoietin sample
 synonym: "J2E erythroblastic leukemia line 30min after treatment with erythropoietin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5301,7 +5301,7 @@ is_a: FF:0000403 ! J2E erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000501
-name: J2E erythroblastic leukemia line 45min after treatment with erythropoietin sample
+name: mouse J2E erythroblastic leukemia line 45min after treatment with erythropoietin sample
 synonym: "J2E erythroblastic leukemia line 45min after treatment with erythropoietin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5312,7 +5312,7 @@ is_a: FF:0000403 ! J2E erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000502
-name: J2E erythroblastic leukemia line 1hr after treatment with erythropoietin sample
+name: mouse J2E erythroblastic leukemia line 1hr after treatment with erythropoietin sample
 synonym: "J2E erythroblastic leukemia line 1hr after treatment with erythropoietin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5323,7 +5323,7 @@ is_a: FF:0000403 ! J2E erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000503
-name: J2E erythroblastic leukemia line 1hr 20min after treatment with erythropoietin sample
+name: mouse J2E erythroblastic leukemia line 1hr 20min after treatment with erythropoietin sample
 synonym: "J2E erythroblastic leukemia line 1hr 20min after treatment with erythropoietin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5334,7 +5334,7 @@ is_a: FF:0000403 ! J2E erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000504
-name: J2E erythroblastic leukemia line 1hr 40min after treatment with erythropoietin sample
+name: mouse J2E erythroblastic leukemia line 1hr 40min after treatment with erythropoietin sample
 synonym: "J2E erythroblastic leukemia line 1hr 40min after treatment with erythropoietin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5345,7 +5345,7 @@ is_a: FF:0000403 ! J2E erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000505
-name: J2E erythroblastic leukemia line 2hr after treatment with erythropoietin sample
+name: mouse J2E erythroblastic leukemia line 2hr after treatment with erythropoietin sample
 synonym: "J2E erythroblastic leukemia line 2hr after treatment with erythropoietin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5356,7 +5356,7 @@ is_a: FF:0000403 ! J2E erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000506
-name: J2E erythroblastic leukemia line 2hr 30min after treatment with erythropoietin sample
+name: mouse J2E erythroblastic leukemia line 2hr 30min after treatment with erythropoietin sample
 synonym: "J2E erythroblastic leukemia line 2hr 30min after treatment with erythropoietin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5367,7 +5367,7 @@ is_a: FF:0000403 ! J2E erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000507
-name: J2E erythroblastic leukemia line 3hr after treatment with erythropoietin sample
+name: mouse J2E erythroblastic leukemia line 3hr after treatment with erythropoietin sample
 synonym: "J2E erythroblastic leukemia line 3hr after treatment with erythropoietin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5378,7 +5378,7 @@ is_a: FF:0000403 ! J2E erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000508
-name: J2E erythroblastic leukemia line 3hr 30min after treatment with erythropoietin sample
+name: mouse J2E erythroblastic leukemia line 3hr 30min after treatment with erythropoietin sample
 synonym: "J2E erythroblastic leukemia line 3hr 30min after treatment with erythropoietin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5389,7 +5389,7 @@ is_a: FF:0000403 ! J2E erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000509
-name: J2E erythroblastic leukemia line 4hr after treatment with erythropoietin sample
+name: mouse J2E erythroblastic leukemia line 4hr after treatment with erythropoietin sample
 synonym: "J2E erythroblastic leukemia line 4hr after treatment with erythropoietin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5400,7 +5400,7 @@ is_a: FF:0000403 ! J2E erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000510
-name: J2E erythroblastic leukemia line 6hr after treatment with erythropoietin sample
+name: mouse J2E erythroblastic leukemia line 6hr after treatment with erythropoietin sample
 synonym: "J2E erythroblastic leukemia line 6hr after treatment with erythropoietin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5411,7 +5411,7 @@ is_a: FF:0000403 ! J2E erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000511
-name: J2E erythroblastic leukemia line 12hr after treatment with erythropoietin sample
+name: mouse J2E erythroblastic leukemia line 12hr after treatment with erythropoietin sample
 synonym: "J2E erythroblastic leukemia line 12hr after treatment with erythropoietin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5422,7 +5422,7 @@ is_a: FF:0000403 ! J2E erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000512
-name: J2E erythroblastic leukemia line 24hr after treatment with erythropoietin sample
+name: mouse J2E erythroblastic leukemia line 24hr after treatment with erythropoietin sample
 synonym: "J2E erythroblastic leukemia line 24hr after treatment with erythropoietin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -5433,7 +5433,7 @@ is_a: FF:0000403 ! J2E erythroblastic leukemia cell line
 
 [Term]
 id: FF:0000513
-name: J2E erythroblastic leukemia line 48hr after treatment with erythropoietin sample
+name: mouse J2E erythroblastic leukemia line 48hr after treatment with erythropoietin sample
 synonym: "J2E erythroblastic leukemia line 48hr after treatment with erythropoietin" EXACT []
 namespace: FANTOM5
 is_a: EFO:0001746 ! development or differentiation design
@@ -6609,7 +6609,7 @@ is_a: FF:0100971 ! SAOS-2 cell
 
 [Term]
 id: FF:0000611
-name: EBF KO HPCs induced to T cell 0.5h sample
+name: mouse EBF KO HPCs induced to T cell 0.5h sample
 synonym: "EBF KO HPCs induced to T cell 0.5h" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000084 ! T cell
@@ -6622,7 +6622,7 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0000612
-name: EBF KO HPCs induced to T cell 1h sample
+name: mouse EBF KO HPCs induced to T cell 1h sample
 synonym: "EBF KO HPCs induced to T cell 1h" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000084 ! T cell
@@ -6635,7 +6635,7 @@ is_a: FF:0000358 ! 1 hr
 
 [Term]
 id: FF:0000613
-name: EBF KO HPCs induced to T cell 2h sample
+name: mouse EBF KO HPCs induced to T cell 2h sample
 synonym: "EBF KO HPCs induced to T cell 2h" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000084 ! T cell
@@ -6648,7 +6648,7 @@ is_a: FF:0000359 ! 2 hr
 
 [Term]
 id: FF:0000614
-name: EBF KO HPCs induced to T cell 4h sample
+name: mouse EBF KO HPCs induced to T cell 4h sample
 synonym: "EBF KO HPCs induced to T cell 4h" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000084 ! T cell
@@ -6661,7 +6661,7 @@ is_a: FF:0000361 ! 4 hr
 
 [Term]
 id: FF:0000615
-name: EBF KO HPCs induced to T cell 6h sample
+name: mouse EBF KO HPCs induced to T cell 6h sample
 synonym: "EBF KO HPCs induced to T cell 6h" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000084 ! T cell
@@ -6674,7 +6674,7 @@ is_a: FF:0000363 ! 6 hr
 
 [Term]
 id: FF:0000616
-name: EBF KO HPCs induced to T cell 8h sample
+name: mouse EBF KO HPCs induced to T cell 8h sample
 synonym: "EBF KO HPCs induced to T cell 8h" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000084 ! T cell
@@ -6687,7 +6687,7 @@ is_a: FF:0000365 ! 8 hr
 
 [Term]
 id: FF:0000617
-name: EBF KO HPCs induced to T cell 10h sample
+name: mouse EBF KO HPCs induced to T cell 10h sample
 synonym: "EBF KO HPCs induced to T cell 10h" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000084 ! T cell
@@ -6700,7 +6700,7 @@ is_a: FF:0000366 ! 10 hr
 
 [Term]
 id: FF:0000618
-name: EBF KO HPCs induced to T cell 12h sample
+name: mouse EBF KO HPCs induced to T cell 12h sample
 synonym: "EBF KO HPCs induced to T cell 12h" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000084 ! T cell
@@ -6713,7 +6713,7 @@ is_a: FF:0000367 ! 12 hr
 
 [Term]
 id: FF:0000619
-name: EBF KO HPCs induced to T cell 24h sample
+name: mouse EBF KO HPCs induced to T cell 24h sample
 synonym: "EBF KO HPCs induced to T cell 24h" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000084 ! T cell
@@ -6726,7 +6726,7 @@ is_a: FF:0000373 ! 24 hr
 
 [Term]
 id: FF:0000620
-name: EBF KO HPCs induced to T cell 48h sample
+name: mouse EBF KO HPCs induced to T cell 48h sample
 synonym: "EBF KO HPCs induced to T cell 48h" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000084 ! T cell
@@ -6739,7 +6739,7 @@ is_a: FF:0000375 ! 48 hr
 
 [Term]
 id: FF:0000621
-name: EBF KO HPCs induced to T cell 72h sample
+name: mouse EBF KO HPCs induced to T cell 72h sample
 synonym: "EBF KO HPCs induced to T cell 72h" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000084 ! T cell
@@ -6752,7 +6752,7 @@ is_a: FF:0000376 ! 72 hr
 
 [Term]
 id: FF:0000622
-name: EBF KO HPCs induced to T cell 96h sample
+name: mouse EBF KO HPCs induced to T cell 96h sample
 synonym: "EBF KO HPCs induced to T cell 96h" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000084 ! T cell
@@ -6765,7 +6765,7 @@ is_a: FF:0000377 ! 96 hr
 
 [Term]
 id: FF:0000623
-name: EBF KO HPCs induced to T cell 120h sample
+name: mouse EBF KO HPCs induced to T cell 120h sample
 synonym: "EBF KO HPCs induced to T cell 120h" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000837 ! hematopoietic multipotent progenitor cell
@@ -6777,7 +6777,7 @@ is_a: FF:0000378 ! 120 hr
 
 [Term]
 id: FF:0000624
-name: EBF KO HPCs induced to T cell 144h sample
+name: mouse EBF KO HPCs induced to T cell 144h sample
 synonym: "EBF KO HPCs induced to T cell 144h" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000084 ! T cell
@@ -6947,7 +6947,7 @@ creation_date: 2011-09-06T01:42:06Z
 
 [Term]
 id: FF:0000641
-name: trophoblast stem cell line B1 sample
+name: mouse trophoblast stem cell line B1 sample
 synonym: "trophoblast stem cell line B1" EXACT []
 namespace: FANTOM5
 is_a: FF:0000103 ! mouse sample
@@ -6957,7 +6957,7 @@ creation_date: 2011-08-29T02:03:56Z
 
 [Term]
 id: FF:0000642
-name: trophoblast stem cell line Rybp sample
+name: mouse trophoblast stem cell line Rybp sample
 synonym: "trophoblast stem cell line Rybp" EXACT []
 namespace: FANTOM5
 is_a: FF:0000103 ! mouse sample
@@ -6967,7 +6967,7 @@ creation_date: 2011-08-29T02:04:02Z
 
 [Term]
 id: FF:0000643
-name: trophoblast stem cell line R1AB sample
+name: mouse trophoblast stem cell line R1AB sample
 synonym: "trophoblast stem cell line R1AB" EXACT []
 namespace: FANTOM5
 is_a: FF:0000103 ! mouse sample
@@ -7697,7 +7697,7 @@ is_a: FF:0000396 ! 28 days
 
 [Term]
 id: FF:0000729
-name: EBF KO HPCs induced to T cell 0h sample
+name: mouse EBF KO HPCs induced to T cell 0h sample
 synonym: "EBF KO HPCs induced to T cell 0h" EXACT []
 namespace: FANTOM5
 relationship: derives_from CL:0000084 ! T cell
@@ -7760,7 +7760,7 @@ relationship: has_quality PATO:0002099 ! differentiated
 
 [Term]
 id: FF:0000734
-name: neonate N1 sample
+name: mouse neonate N1 sample
 synonym: "neonate N1" EXACT []
 namespace: FANTOM5
 is_a: FF:0000303 ! neonate sample - mouse
@@ -8908,7 +8908,7 @@ is_a: FF:0000210 ! human sample
 
 [Term]
 id: FF:0011113
-name: CD326-positive enterocyte isolated from mice- treated with RANKL- day03 sample
+name: mouse CD326-positive enterocyte isolated from mice- treated with RANKL- day03 sample
 synonym: "CD326-positive enterocyte isolated from mice- treated with RANKL- day03" EXACT []
 relationship: derives_from CL:0000584 ! enterocyte
 is_a: EFO:0001746 ! development or differentiation design
@@ -8958,7 +8958,7 @@ is_a: FF:0000210 ! human sample
 
 [Term]
 id: FF:0011131
-name: CD41-positive megakaryocyte cancer sample
+name: mouse CD41-positive megakaryocyte cancer sample
 synonym: "CD41-positive megakaryocyte cancer" EXACT []
 relationship: derives_from CL:0002027 ! CD9-positive, CD41-positive megakaryocyte cell
 relationship: is_model_for DOID:162 ! cancer
@@ -9013,7 +9013,7 @@ is_a: FF:0000210 ! human sample
 
 [Term]
 id: FF:0011137
-name: natural helper cells- IL2 treated sample
+name: mouse natural helper cells- IL2 treated sample
 synonym: "natural helper cells- IL2 treated" EXACT []
 relationship: derives_from CL:0002679 ! natural helper lymphocyte
 is_a: EFO:0001746 ! development or differentiation design
@@ -9025,7 +9025,7 @@ is_a: FF:0000636 ! IL-2 treatment
 
 [Term]
 id: FF:0011138
-name: natural helper cells- IL33 treated- 01hr sample
+name: mouse natural helper cells- IL33 treated- 01hr sample
 synonym: "natural helper cells- IL33 treated- 01hr" EXACT []
 relationship: derives_from CL:0002679 ! natural helper lymphocyte
 is_a: EFO:0001746 ! development or differentiation design
@@ -9037,7 +9037,7 @@ is_a: FF:0000637 ! IL-33 treatment
 
 [Term]
 id: FF:0011139
-name: natural helper cells- IL33 treated- day02 sample
+name: mouse natural helper cells- IL33 treated- day02 sample
 synonym: "natural helper cells- IL33 treated- day02" EXACT []
 relationship: derives_from CL:0002679 ! natural helper lymphocyte
 is_a: EFO:0001746 ! development or differentiation design
@@ -9049,7 +9049,7 @@ is_a: FF:0000637 ! IL-33 treatment
 
 [Term]
 id: FF:0011140
-name: natural helper cells- naive sample
+name: mouse natural helper cells- naive sample
 synonym: "natural helper cells- naive" EXACT []
 relationship: derives_from CL:0002679 ! natural helper lymphocyte
 is_a: FF:0000002 ! in vivo cell sample
@@ -9063,7 +9063,7 @@ is_a: FF:0000348 ! human neuron samples
 
 [Term]
 id: FF:0011142
-name: neurospheres - enteric neuron derived sample
+name: mouse neurospheres - enteric neuron derived sample
 synonym: "neurospheres - enteric neuron derived" EXACT []
 relationship: derives_from CL:0000107 ! autonomic neuron
 is_a: FF:0000002 ! in vivo cell sample
@@ -9073,7 +9073,7 @@ relationship: derives_from UBERON:0002005 ! enteric nervous system
 
 [Term]
 id: FF:0011143
-name: neurospheres - parasympathetic neuron derived sample
+name: mouse neurospheres - parasympathetic neuron derived sample
 synonym: "neurospheres - parasympathetic neuron derived" EXACT []
 relationship: derives_from CL:0000107 ! autonomic neuron
 is_a: FF:0000002 ! in vivo cell sample
@@ -9083,7 +9083,7 @@ relationship: derives_from UBERON:0000011 ! parasympathetic nervous system
 
 [Term]
 id: FF:0011144
-name: neurospheres - sympathetic neuron derived sample
+name: mouse neurospheres - sympathetic neuron derived sample
 synonym: "neurospheres - sympathetic neuron derived" EXACT []
 relationship: derives_from CL:0000107 ! autonomic neuron
 is_a: FF:0000002 ! in vivo cell sample
@@ -9109,7 +9109,7 @@ relationship: derives_from UBERON:0002362 ! arachnoid mater
 
 [Term]
 id: FF:0011149
-name: CD326-positive enterocyte sample
+name: mouse CD326-positive enterocyte sample
 synonym: "CD326-positive enterocyte" EXACT []
 relationship: derives_from CL:0000584 ! enterocyte
 is_a: FF:0000002 ! in vivo cell sample
@@ -9180,7 +9180,7 @@ relationship: derives_from UBERON:0001797 ! vitreous humor
 
 [Term]
 id: FF:0011159
-name: GP2-positive M cell sample
+name: mouse GP2-positive M cell sample
 synonym: "GP2-positive M cell" EXACT []
 relationship: derives_from CL:0000682 ! M cell
 is_a: FF:0000002 ! in vivo cell sample
@@ -9363,91 +9363,91 @@ relationship: derives_from UBERON:0000057 ! urethra
 
 [Term]
 id: FF:0011182
-name: cerebellum- embryo E11 sample
+name: mouse cerebellum- embryo E11 sample
 synonym: "cerebellum- embryo E11" EXACT []
 is_a: FF:0000294 ! embryonic day 11
 relationship: derives_from UBERON:0002037 ! cerebellum
 
 [Term]
 id: FF:0011183
-name: cerebellum- embryo E12 sample
+name: mouse cerebellum- embryo E12 sample
 synonym: "cerebellum- embryo E12" EXACT []
 is_a: FF:0000295 ! embryonic day 12
 relationship: derives_from UBERON:0002037 ! cerebellum
 
 [Term]
 id: FF:0011184
-name: cerebellum- embryo E13 sample
+name: mouse cerebellum- embryo E13 sample
 synonym: "cerebellum- embryo E13" EXACT []
 is_a: FF:0000293 ! embryonic day 13
 relationship: derives_from UBERON:0002037 ! cerebellum
 
 [Term]
 id: FF:0011185
-name: cerebellum- embryo E14 sample
+name: mouse cerebellum- embryo E14 sample
 synonym: "cerebellum- embryo E14" EXACT []
 is_a: FF:0000296 ! embryonic day 14
 relationship: derives_from UBERON:0002037 ! cerebellum
 
 [Term]
 id: FF:0011186
-name: cerebellum- embryo E15 sample
+name: mouse cerebellum- embryo E15 sample
 synonym: "cerebellum- embryo E15" EXACT []
 is_a: FF:0000298 ! embryonic day 15
 relationship: derives_from UBERON:0002037 ! cerebellum
 
 [Term]
 id: FF:0011187
-name: cerebellum- embryo E16 sample
+name: mouse cerebellum- embryo E16 sample
 synonym: "cerebellum- embryo E16" EXACT []
 is_a: FF:0000299 ! embryonic day 16
 relationship: derives_from UBERON:0002037 ! cerebellum
 
 [Term]
 id: FF:0011188
-name: cerebellum- embryo E17 sample
+name: mouse cerebellum- embryo E17 sample
 synonym: "cerebellum- embryo E17" EXACT []
 is_a: FF:0000300 ! embryonic day 17
 relationship: derives_from UBERON:0002037 ! cerebellum
 
 [Term]
 id: FF:0011189
-name: cerebellum- embryo E18 sample
+name: mouse cerebellum- embryo E18 sample
 synonym: "cerebellum- embryo E18" EXACT []
 is_a: FF:0000302 ! embryonic day 18
 relationship: derives_from UBERON:0002037 ! cerebellum
 
 [Term]
 id: FF:0011190
-name: cerebellum- neonate N00 sample
+name: mouse cerebellum- neonate N00 sample
 synonym: "cerebellum- neonate N00" EXACT []
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0002037 ! cerebellum
 
 [Term]
 id: FF:0011191
-name: cerebellum- neonate N03 sample
+name: mouse cerebellum- neonate N03 sample
 synonym: "cerebellum- neonate N03" EXACT []
 is_a: FF:0000311 ! neonate N3
 relationship: derives_from UBERON:0002037 ! cerebellum
 
 [Term]
 id: FF:0011192
-name: cerebellum- neonate N06 sample
+name: mouse cerebellum- neonate N06 sample
 synonym: "cerebellum- neonate N06" EXACT []
 is_a: FF:0000312 ! neonate N6
 relationship: derives_from UBERON:0002037 ! cerebellum
 
 [Term]
 id: FF:0011193
-name: cerebellum- neonate N09 sample
+name: mouse cerebellum- neonate N09 sample
 synonym: "cerebellum- neonate N09" EXACT []
 is_a: FF:0000314 ! neonate N9
 relationship: derives_from UBERON:0002037 ! cerebellum
 
 [Term]
 id: FF:0011194
-name: trophoblast stem cell line R1AB differentiation- day00 sample
+name: mouse trophoblast stem cell line R1AB differentiation- day00 sample
 synonym: "trophoblast stem cell line R1AB differentiation- day00" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -9457,7 +9457,7 @@ is_a: FF:0000644 ! trophoblast cell line differentiation
 
 [Term]
 id: FF:0011196
-name: trophoblast stem cell line R1AB differentiation- day02 sample
+name: mouse trophoblast stem cell line R1AB differentiation- day02 sample
 synonym: "trophoblast stem cell line R1AB differentiation- day02" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -9467,7 +9467,7 @@ is_a: FF:0000644 ! trophoblast cell line differentiation
 
 [Term]
 id: FF:0011197
-name: trophoblast stem cell line R1AB differentiation- day03 sample
+name: mouse trophoblast stem cell line R1AB differentiation- day03 sample
 synonym: "trophoblast stem cell line R1AB differentiation- day03" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -9477,7 +9477,7 @@ is_a: FF:0000644 ! trophoblast cell line differentiation
 
 [Term]
 id: FF:0011198
-name: trophoblast stem cell line R1AB differentiation- day04 sample
+name: mouse trophoblast stem cell line R1AB differentiation- day04 sample
 synonym: "trophoblast stem cell line R1AB differentiation- day04" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -9487,7 +9487,7 @@ is_a: FF:0000644 ! trophoblast cell line differentiation
 
 [Term]
 id: FF:0011199
-name: trophoblast stem cell line R1AB differentiation- day05 sample
+name: mouse trophoblast stem cell line R1AB differentiation- day05 sample
 synonym: "trophoblast stem cell line R1AB differentiation- day05" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -9497,7 +9497,7 @@ is_a: FF:0000646 ! 5 days
 
 [Term]
 id: FF:0011200
-name: trophoblast stem cell line R1AB differentiation- day06 sample
+name: mouse trophoblast stem cell line R1AB differentiation- day06 sample
 synonym: "trophoblast stem cell line R1AB differentiation- day06" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -9507,7 +9507,7 @@ is_a: FF:0000644 ! trophoblast cell line differentiation
 
 [Term]
 id: FF:0011201
-name: trophoblast stem cell line Rybp differentiation- day00 sample
+name: mouse trophoblast stem cell line Rybp differentiation- day00 sample
 synonym: "trophoblast stem cell line Rybp differentiation- day00" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -9517,7 +9517,7 @@ is_a: FF:0000644 ! trophoblast cell line differentiation
 
 [Term]
 id: FF:0011202
-name: trophoblast stem cell line Rybp differentiation- day01 sample
+name: mouse trophoblast stem cell line Rybp differentiation- day01 sample
 synonym: "trophoblast stem cell line Rybp differentiation- day01" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -9527,7 +9527,7 @@ is_a: FF:0000644 ! trophoblast cell line differentiation
 
 [Term]
 id: FF:0011203
-name: trophoblast stem cell line Rybp differentiation- day02 sample
+name: mouse trophoblast stem cell line Rybp differentiation- day02 sample
 synonym: "trophoblast stem cell line Rybp differentiation- day02" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -9537,7 +9537,7 @@ is_a: FF:0000644 ! trophoblast cell line differentiation
 
 [Term]
 id: FF:0011204
-name: trophoblast stem cell line Rybp differentiation- day03 sample
+name: mouse trophoblast stem cell line Rybp differentiation- day03 sample
 synonym: "trophoblast stem cell line Rybp differentiation- day03" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -9547,7 +9547,7 @@ is_a: FF:0000644 ! trophoblast cell line differentiation
 
 [Term]
 id: FF:0011205
-name: trophoblast stem cell line Rybp differentiation- day04 sample
+name: mouse trophoblast stem cell line Rybp differentiation- day04 sample
 synonym: "trophoblast stem cell line Rybp differentiation- day04" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -9557,7 +9557,7 @@ is_a: FF:0000644 ! trophoblast cell line differentiation
 
 [Term]
 id: FF:0011206
-name: trophoblast stem cell line Rybp differentiation- day05 sample
+name: mouse trophoblast stem cell line Rybp differentiation- day05 sample
 synonym: "trophoblast stem cell line Rybp differentiation- day05" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -9567,7 +9567,7 @@ is_a: FF:0000646 ! 5 days
 
 [Term]
 id: FF:0011207
-name: trophoblast stem cell line Rybp differentiation- day06 sample
+name: mouse trophoblast stem cell line Rybp differentiation- day06 sample
 synonym: "trophoblast stem cell line Rybp differentiation- day06" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -9577,7 +9577,7 @@ is_a: FF:0000644 ! trophoblast cell line differentiation
 
 [Term]
 id: FF:0011208
-name: trophoblast stem cell line B1 differentiation- day01 sample
+name: mouse trophoblast stem cell line B1 differentiation- day01 sample
 synonym: "trophoblast stem cell line B1 differentiation- day01" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -9587,7 +9587,7 @@ is_a: FF:0000644 ! trophoblast cell line differentiation
 
 [Term]
 id: FF:0011209
-name: trophoblast stem cell line B1 differentiation- day02 sample
+name: mouse trophoblast stem cell line B1 differentiation- day02 sample
 synonym: "trophoblast stem cell line B1 differentiation- day02" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -9597,7 +9597,7 @@ is_a: FF:0000644 ! trophoblast cell line differentiation
 
 [Term]
 id: FF:0011210
-name: trophoblast stem cell line B1 differentiation- day03 sample
+name: mouse trophoblast stem cell line B1 differentiation- day03 sample
 synonym: "trophoblast stem cell line B1 differentiation- day03" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -9607,7 +9607,7 @@ is_a: FF:0000644 ! trophoblast cell line differentiation
 
 [Term]
 id: FF:0011211
-name: trophoblast stem cell line B1 differentiation- day04 sample
+name: mouse trophoblast stem cell line B1 differentiation- day04 sample
 synonym: "trophoblast stem cell line B1 differentiation- day04" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -9617,7 +9617,7 @@ is_a: FF:0000644 ! trophoblast cell line differentiation
 
 [Term]
 id: FF:0011212
-name: trophoblast stem cell line B1 differentiation- day05 sample
+name: mouse trophoblast stem cell line B1 differentiation- day05 sample
 synonym: "trophoblast stem cell line B1 differentiation- day05" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -9627,7 +9627,7 @@ is_a: FF:0000646 ! 5 days
 
 [Term]
 id: FF:0011213
-name: trophoblast stem cell line B1 differentiation- day06 sample
+name: mouse trophoblast stem cell line B1 differentiation- day06 sample
 synonym: "trophoblast stem cell line B1 differentiation- day06" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -9829,7 +9829,7 @@ is_a: FF:0101581 ! embryonic stem cell line
 
 [Term]
 id: FF:0011232
-name: tracheal ciliated cells differentiation after 0hr sample
+name: mouse tracheal ciliated cells differentiation after 0hr sample
 synonym: "tracheal ciliated cells differentiation after 0hr" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000103 ! mouse sample
@@ -9840,7 +9840,7 @@ is_a: FF:0000652 ! tracheal ciliated cell line
 
 [Term]
 id: FF:0011233
-name: tracheal ciliated cells differentiation after 4hr sample
+name: mouse tracheal ciliated cells differentiation after 4hr sample
 synonym: "tracheal ciliated cells differentiation after 4hr" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000103 ! mouse sample
@@ -9851,7 +9851,7 @@ is_a: FF:0000652 ! tracheal ciliated cell line
 
 [Term]
 id: FF:0011234
-name: tracheal ciliated cells differentiation after 8hr sample
+name: mouse tracheal ciliated cells differentiation after 8hr sample
 synonym: "tracheal ciliated cells differentiation after 8hr" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000103 ! mouse sample
@@ -9862,7 +9862,7 @@ is_a: FF:0000652 ! tracheal ciliated cell line
 
 [Term]
 id: FF:0011235
-name: tracheal ciliated cells differentiation after 12hr sample
+name: mouse tracheal ciliated cells differentiation after 12hr sample
 synonym: "tracheal ciliated cells differentiation after 12hr" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000103 ! mouse sample
@@ -9873,7 +9873,7 @@ is_a: FF:0000652 ! tracheal ciliated cell line
 
 [Term]
 id: FF:0011236
-name: tracheal ciliated cells differentiation after 16hr sample
+name: mouse tracheal ciliated cells differentiation after 16hr sample
 synonym: "tracheal ciliated cells differentiation after 16hr" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000103 ! mouse sample
@@ -9884,7 +9884,7 @@ is_a: FF:0000652 ! tracheal ciliated cell line
 
 [Term]
 id: FF:0011237
-name: tracheal ciliated cells differentiation after 20hr sample
+name: mouse tracheal ciliated cells differentiation after 20hr sample
 synonym: "tracheal ciliated cells differentiation after 20hr" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000103 ! mouse sample
@@ -9895,7 +9895,7 @@ is_a: FF:0000652 ! tracheal ciliated cell line
 
 [Term]
 id: FF:0011238
-name: tracheal ciliated cells differentiation after 24hr sample
+name: mouse tracheal ciliated cells differentiation after 24hr sample
 synonym: "tracheal ciliated cells differentiation after 24hr" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000103 ! mouse sample
@@ -9906,7 +9906,7 @@ is_a: FF:0000652 ! tracheal ciliated cell line
 
 [Term]
 id: FF:0011239
-name: tracheal ciliated cells differentiation after 30hr sample
+name: mouse tracheal ciliated cells differentiation after 30hr sample
 synonym: "tracheal ciliated cells differentiation after 30hr" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000103 ! mouse sample
@@ -9917,7 +9917,7 @@ is_a: FF:0000653 ! 30 hr
 
 [Term]
 id: FF:0011240
-name: tracheal ciliated cells differentiation after 36hr sample
+name: mouse tracheal ciliated cells differentiation after 36hr sample
 synonym: "tracheal ciliated cells differentiation after 36hr" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000103 ! mouse sample
@@ -9928,7 +9928,7 @@ is_a: FF:0000652 ! tracheal ciliated cell line
 
 [Term]
 id: FF:0011241
-name: tracheal ciliated cells differentiation after 42hr sample
+name: mouse tracheal ciliated cells differentiation after 42hr sample
 synonym: "tracheal ciliated cells differentiation after 42hr" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000103 ! mouse sample
@@ -9939,7 +9939,7 @@ is_a: FF:0000654 ! 42 hr
 
 [Term]
 id: FF:0011242
-name: tracheal ciliated cells differentiation after 48hr sample
+name: mouse tracheal ciliated cells differentiation after 48hr sample
 synonym: "tracheal ciliated cells differentiation after 48hr" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000103 ! mouse sample
@@ -9950,7 +9950,7 @@ is_a: FF:0000652 ! tracheal ciliated cell line
 
 [Term]
 id: FF:0011243
-name: tracheal ciliated cells differentiation after 54hr sample
+name: mouse tracheal ciliated cells differentiation after 54hr sample
 synonym: "tracheal ciliated cells differentiation after 54hr" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000103 ! mouse sample
@@ -9961,7 +9961,7 @@ is_a: FF:0000655 ! 54 hr
 
 [Term]
 id: FF:0011244
-name: tracheal ciliated cells differentiation after 60hr sample
+name: mouse tracheal ciliated cells differentiation after 60hr sample
 synonym: "tracheal ciliated cells differentiation after 60hr" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000103 ! mouse sample
@@ -9972,7 +9972,7 @@ is_a: FF:0000656 ! 60 hr
 
 [Term]
 id: FF:0011245
-name: tracheal ciliated cells differentiation after 66hr sample
+name: mouse tracheal ciliated cells differentiation after 66hr sample
 synonym: "tracheal ciliated cells differentiation after 66hr" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000103 ! mouse sample
@@ -9983,7 +9983,7 @@ is_a: FF:0000657 ! 66 hr
 
 [Term]
 id: FF:0011246
-name: tracheal ciliated cells differentiation after 72hr sample
+name: mouse tracheal ciliated cells differentiation after 72hr sample
 synonym: "tracheal ciliated cells differentiation after 72hr" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000103 ! mouse sample
@@ -9994,7 +9994,7 @@ is_a: FF:0000652 ! tracheal ciliated cell line
 
 [Term]
 id: FF:0011247
-name: tracheal ciliated cells differentiation after 84hr sample
+name: mouse tracheal ciliated cells differentiation after 84hr sample
 synonym: "tracheal ciliated cells differentiation after 84hr" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000103 ! mouse sample
@@ -10005,7 +10005,7 @@ is_a: FF:0000658 ! 84 hr
 
 [Term]
 id: FF:0011248
-name: tracheal ciliated cells differentiation after 96hr sample
+name: mouse tracheal ciliated cells differentiation after 96hr sample
 synonym: "tracheal ciliated cells differentiation after 96hr" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000103 ! mouse sample
@@ -10016,7 +10016,7 @@ is_a: FF:0000652 ! tracheal ciliated cell line
 
 [Term]
 id: FF:0011249
-name: tracheal ciliated cells differentiation after 120hr sample
+name: mouse tracheal ciliated cells differentiation after 120hr sample
 synonym: "tracheal ciliated cells differentiation after 120hr" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000103 ! mouse sample
@@ -10027,63 +10027,63 @@ is_a: FF:0000652 ! tracheal ciliated cell line
 
 [Term]
 id: FF:0011250
-name: cerebellum- neonate N30 sample
+name: mouse cerebellum- neonate N30 sample
 synonym: "cerebellum- neonate N30" EXACT []
 is_a: FF:0000310 ! neonate N30
 relationship: derives_from UBERON:0002037 ! cerebellum
 
 [Term]
 id: FF:0011251
-name: pancreas- neonate N01 sample
+name: mouse pancreas- neonate N01 sample
 synonym: "pancreas- neonate N01" EXACT []
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0001264 ! pancreas
 
 [Term]
 id: FF:0011252
-name: eyeball- neonate N01 sample
+name: mouse eyeball- neonate N01 sample
 synonym: "eyeball- neonate N01" EXACT []
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0000019 ! camera-type eye
 
 [Term]
 id: FF:0011253
-name: pancreas- embryo E18 sample
+name: mouse pancreas- embryo E18 sample
 synonym: "pancreas- embryo E18" EXACT []
 is_a: FF:0000302 ! embryonic day 18
 relationship: derives_from UBERON:0001264 ! pancreas
 
 [Term]
 id: FF:0011254
-name: pancreas- neonate N02 sample
+name: mouse pancreas- neonate N02 sample
 synonym: "pancreas- neonate N02" EXACT []
 is_a: FF:0000307 ! neonate N2
 relationship: derives_from UBERON:0001264 ! pancreas
 
 [Term]
 id: FF:0011255
-name: pancreas- neonate N30 sample
+name: mouse pancreas- neonate N30 sample
 synonym: "pancreas- neonate N30" EXACT []
 is_a: FF:0000310 ! neonate N30
 relationship: derives_from UBERON:0001264 ! pancreas
 
 [Term]
 id: FF:0011256
-name: pancreas- neonate N25 sample
+name: mouse pancreas- neonate N25 sample
 synonym: "pancreas- neonate N25" EXACT []
 is_a: FF:0000309 ! neonate N25
 relationship: derives_from UBERON:0001264 ! pancreas
 
 [Term]
 id: FF:0011257
-name: pancreas- embryo E15 sample
+name: mouse pancreas- embryo E15 sample
 synonym: "pancreas- embryo E15" EXACT []
 is_a: FF:0000298 ! embryonic day 15
 relationship: derives_from UBERON:0001264 ! pancreas
 
 [Term]
 id: FF:0011258
-name: pancreas- embryo E17 sample
+name: mouse pancreas- embryo E17 sample
 synonym: "pancreas- embryo E17" EXACT []
 is_a: FF:0000300 ! embryonic day 17
 relationship: derives_from UBERON:0001264 ! pancreas
@@ -10102,91 +10102,91 @@ is_a: FF:0010068 ! lung - fetal
 
 [Term]
 id: FF:0011262
-name: pancreas- embryo E14 sample
+name: mouse pancreas- embryo E14 sample
 synonym: "pancreas- embryo E14" EXACT []
 is_a: FF:0000296 ! embryonic day 14
 relationship: derives_from UBERON:0001264 ! pancreas
 
 [Term]
 id: FF:0011263
-name: pancreas- embryo E16 sample
+name: mouse pancreas- embryo E16 sample
 synonym: "pancreas- embryo E16" EXACT []
 is_a: FF:0000299 ! embryonic day 16
 relationship: derives_from UBERON:0001264 ! pancreas
 
 [Term]
 id: FF:0011264
-name: eyeball- neonate N00 sample
+name: mouse eyeball- neonate N00 sample
 synonym: "eyeball- neonate N00" EXACT []
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0000019 ! camera-type eye
 
 [Term]
 id: FF:0011265
-name: intestine- neonate N00 sample
+name: mouse intestine- neonate N00 sample
 synonym: "intestine- neonate N00" EXACT []
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0000160 ! intestine
 
 [Term]
 id: FF:0011266
-name: pancreas- neonate N00 sample
+name: mouse pancreas- neonate N00 sample
 synonym: "pancreas- neonate N00" EXACT []
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0001264 ! pancreas
 
 [Term]
 id: FF:0011267
-name: pancreas- neonate N16 sample
+name: mouse pancreas- neonate N16 sample
 synonym: "pancreas- neonate N16" EXACT []
 is_a: FF:0000306 ! neonate N16
 relationship: derives_from UBERON:0001264 ! pancreas
 
 [Term]
 id: FF:0011268
-name: visual cortex from wildtype- neonate N15 sample
+name: mouse visual cortex from wildtype- neonate N15 sample
 synonym: "visual cortex from wildtype- neonate N15" EXACT []
 is_a: FF:0000316 ! neonate N15
 relationship: derives_from UBERON:0000411 ! visual cortex
 
 [Term]
 id: FF:0011269
-name: visual cortex from wildtype- neonate N30 sample
+name: mouse visual cortex from wildtype- neonate N30 sample
 synonym: "visual cortex from wildtype- neonate N30" EXACT []
 is_a: FF:0000310 ! neonate N30
 relationship: derives_from UBERON:0000411 ! visual cortex
 
 [Term]
 id: FF:0011270
-name: visual cortex from wildtype- neonate N60-70 sample
+name: mouse visual cortex from wildtype- neonate N60-70 sample
 synonym: "visual cortex from wildtype- neonate N60-70" EXACT []
 is_a: FF:0000315 ! neonate N60-70
 relationship: derives_from UBERON:0000411 ! visual cortex
 
 [Term]
 id: FF:0011271
-name: visual cortex from Mecp knockout- neonate N15 sample
+name: mouse visual cortex from Mecp knockout- neonate N15 sample
 synonym: "visual cortex from Mecp knockout- neonate N15" EXACT []
 is_a: FF:0000316 ! neonate N15
 relationship: derives_from UBERON:0000411 ! visual cortex
 
 [Term]
 id: FF:0011272
-name: visual cortex from Mecp knockout- neonate N30 sample
+name: mouse visual cortex from Mecp knockout- neonate N30 sample
 synonym: "visual cortex from Mecp knockout- neonate N30" EXACT []
 is_a: FF:0000310 ! neonate N30
 relationship: derives_from UBERON:0000411 ! visual cortex
 
 [Term]
 id: FF:0011273
-name: visual cortex from Mecp knockout- neonate N60-70 sample
+name: mouse visual cortex from Mecp knockout- neonate N60-70 sample
 synonym: "visual cortex from Mecp knockout- neonate N60-70" EXACT []
 is_a: FF:0000315 ! neonate N60-70
 relationship: derives_from UBERON:0000411 ! visual cortex
 
 [Term]
 id: FF:0011274
-name: Ileum epithelium sample
+name: mouse Ileum epithelium sample
 synonym: "Ileum epithelium" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10196,7 +10196,7 @@ relationship: derives_from UBERON:0002116 ! ileum
 
 [Term]
 id: FF:0011275
-name: trophoblast stem cell line B1 differentiation- day00 sample
+name: mouse trophoblast stem cell line B1 differentiation- day00 sample
 synonym: "trophoblast stem cell line B1 differentiation- day00" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -10214,42 +10214,42 @@ relationship: derives_from UBERON:0002037 ! cerebellum
 
 [Term]
 id: FF:0011277
-name: forelimb- embryo E17 sample
+name: mouse forelimb- embryo E17 sample
 synonym: "forelimb- embryo E17" EXACT []
 is_a: FF:0000300 ! embryonic day 17
 relationship: derives_from UBERON:0002102 ! forelimb
 
 [Term]
 id: FF:0011278
-name: forelimb- embryo E18 sample
+name: mouse forelimb- embryo E18 sample
 synonym: "forelimb- embryo E18" EXACT []
 is_a: FF:0000302 ! embryonic day 18
 relationship: derives_from UBERON:0002102 ! forelimb
 
 [Term]
 id: FF:0011280
-name: thymus- neonate N02 sample
+name: mouse thymus- neonate N02 sample
 synonym: "thymus- neonate N02" EXACT []
 is_a: FF:0000307 ! neonate N2
 relationship: derives_from UBERON:0002370 ! thymus
 
 [Term]
 id: FF:0011281
-name: eyeball- neonate N02 sample
+name: mouse eyeball- neonate N02 sample
 synonym: "eyeball- neonate N02" EXACT []
 is_a: FF:0000307 ! neonate N2
 relationship: derives_from UBERON:0000019 ! camera-type eye
 
 [Term]
 id: FF:0011282
-name: gonad- embryo E13 sample
+name: mouse gonad- embryo E13 sample
 synonym: "gonad- embryo E13" EXACT []
 is_a: FF:0000293 ! embryonic day 13
 relationship: derives_from UBERON:0000991 ! gonad
 
 [Term]
 id: FF:0011283
-name: corpora quadrigemina- adult sample
+name: mouse corpora quadrigemina- adult sample
 synonym: "corpora quadrigemina- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10257,7 +10257,7 @@ relationship: derives_from UBERON:0002259 ! corpora quadrigemina
 
 [Term]
 id: FF:0011284
-name: medulla oblongata- adult sample
+name: mouse medulla oblongata- adult sample
 synonym: "medulla oblongata- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10265,7 +10265,7 @@ relationship: derives_from UBERON:0001896 ! medulla oblongata
 
 [Term]
 id: FF:0011285
-name: intestine- adult sample
+name: mouse intestine- adult sample
 synonym: "intestine- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10273,7 +10273,7 @@ relationship: derives_from UBERON:0000160 ! intestine
 
 [Term]
 id: FF:0011286
-name: olfactory brain- adult sample
+name: mouse olfactory brain- adult sample
 synonym: "olfactory brain- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10287,7 +10287,7 @@ relationship: derives_from UBERON:0000922 ! embryo
 
 [Term]
 id: FF:0011288
-name: corpus striatum- adult sample
+name: mouse corpus striatum- adult sample
 synonym: "corpus striatum- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10306,7 +10306,7 @@ relationship: derives_from UBERON:0001301 ! epididymis
 
 [Term]
 id: FF:0011291
-name: diencephalon- adult sample
+name: mouse diencephalon- adult sample
 synonym: "diencephalon- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10340,7 +10340,7 @@ is_a: FF:0010046 ! heart - fetal
 
 [Term]
 id: FF:0011303
-name: pituitary gland- adult sample
+name: mouse pituitary gland- adult sample
 synonym: "pituitary gland- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10348,14 +10348,14 @@ relationship: derives_from UBERON:0000007 ! pituitary gland
 
 [Term]
 id: FF:0011304
-name: thymus- neonate N03 sample
+name: mouse thymus- neonate N03 sample
 synonym: "thymus- neonate N03" EXACT []
 is_a: FF:0000311 ! neonate N3
 relationship: derives_from UBERON:0002370 ! thymus
 
 [Term]
 id: FF:0011305
-name: spinal cord- adult sample
+name: mouse spinal cord- adult sample
 synonym: "spinal cord- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10363,7 +10363,7 @@ relationship: derives_from UBERON:0002240 ! spinal cord
 
 [Term]
 id: FF:0011306
-name: spleen- adult sample
+name: mouse spleen- adult sample
 synonym: "spleen- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10379,7 +10379,7 @@ relationship: derives_from UBERON:0002048 ! lung
 
 [Term]
 id: FF:0011308
-name: skin- adult sample
+name: mouse skin- adult sample
 synonym: "skin- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10387,7 +10387,7 @@ relationship: derives_from UBERON:0000014 ! zone of skin
 
 [Term]
 id: FF:0011309
-name: eyeball- adult sample
+name: mouse eyeball- adult sample
 synonym: "eyeball- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10395,7 +10395,7 @@ relationship: derives_from UBERON:0000019 ! camera-type eye
 
 [Term]
 id: FF:0011310
-name: tongue- adult sample
+name: mouse tongue- adult sample
 synonym: "tongue- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10403,13 +10403,13 @@ relationship: derives_from UBERON:0001723 ! tongue
 
 [Term]
 id: FF:0011311
-name: whole body- embryo E11 sample
+name: mouse whole body- embryo E11 sample
 synonym: "whole body- embryo E11" EXACT []
 is_a: FF:0000294 ! embryonic day 11
 
 [Term]
 id: FF:0011312
-name: stomach- adult sample
+name: mouse stomach- adult sample
 synonym: "stomach- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10417,21 +10417,21 @@ relationship: derives_from UBERON:0000945 ! stomach
 
 [Term]
 id: FF:0011313
-name: heart- embryo E11 sample
+name: mouse heart- embryo E11 sample
 synonym: "heart- embryo E11" EXACT []
 is_a: FF:0000294 ! embryonic day 11
 relationship: derives_from UBERON:0000948 ! heart
 
 [Term]
 id: FF:0011314
-name: forelimb- embryo E11 sample
+name: mouse forelimb- embryo E11 sample
 synonym: "forelimb- embryo E11" EXACT []
 is_a: FF:0000294 ! embryonic day 11
 relationship: derives_from UBERON:0002102 ! forelimb
 
 [Term]
 id: FF:0011315
-name: pancreas- adult sample
+name: mouse pancreas- adult sample
 synonym: "pancreas- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10439,28 +10439,28 @@ relationship: derives_from UBERON:0001264 ! pancreas
 
 [Term]
 id: FF:0011316
-name: eyeball- embryo E12 sample
+name: mouse eyeball- embryo E12 sample
 synonym: "eyeball- embryo E12" EXACT []
 is_a: FF:0000295 ! embryonic day 12
 relationship: derives_from UBERON:0000019 ! camera-type eye
 
 [Term]
 id: FF:0011317
-name: pituitary gland- embryo E12 sample
+name: mouse pituitary gland- embryo E12 sample
 synonym: "pituitary gland- embryo E12" EXACT []
 is_a: FF:0000295 ! embryonic day 12
 relationship: derives_from UBERON:0000007 ! pituitary gland
 
 [Term]
 id: FF:0011318
-name: heart- embryo E12 sample
+name: mouse heart- embryo E12 sample
 synonym: "heart- embryo E12" EXACT []
 is_a: FF:0000295 ! embryonic day 12
 relationship: derives_from UBERON:0000948 ! heart
 
 [Term]
 id: FF:0011319
-name: lung- embryo E12 sample
+name: mouse lung- embryo E12 sample
 synonym: "lung- embryo E12" EXACT []
 is_a: FF:0000295 ! embryonic day 12
 relationship: derives_from UBERON:0002048 ! lung
@@ -10468,28 +10468,28 @@ relationship: derives_from UBERON:0000310 ! breast
 
 [Term]
 id: FF:0011320
-name: liver- embryo E12 sample
+name: mouse liver- embryo E12 sample
 synonym: "liver- embryo E12" EXACT []
 is_a: FF:0000295 ! embryonic day 12
 relationship: derives_from UBERON:0002107 ! liver
 
 [Term]
 id: FF:0011321
-name: stomach- embryo E12 sample
+name: mouse stomach- embryo E12 sample
 synonym: "stomach- embryo E12" EXACT []
 is_a: FF:0000295 ! embryonic day 12
 relationship: derives_from UBERON:0000945 ! stomach
 
 [Term]
 id: FF:0011322
-name: forelimb- embryo E12 sample
+name: mouse forelimb- embryo E12 sample
 synonym: "forelimb- embryo E12" EXACT []
 is_a: FF:0000295 ! embryonic day 12
 relationship: derives_from UBERON:0002102 ! forelimb
 
 [Term]
 id: FF:0011323
-name: colon- adult sample
+name: mouse colon- adult sample
 synonym: "colon- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10497,7 +10497,7 @@ relationship: derives_from UBERON:0001155 ! colon
 
 [Term]
 id: FF:0011324
-name: cecum - adult sample
+name: mouse cecum - adult sample
 synonym: "cecum - adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10505,34 +10505,34 @@ relationship: derives_from UBERON:0001153 ! caecum
 
 [Term]
 id: FF:0011325
-name: pituitary gland- embryo E13 sample
+name: mouse pituitary gland- embryo E13 sample
 synonym: "pituitary gland- embryo E13" EXACT []
 is_a: FF:0000293 ! embryonic day 13
 relationship: derives_from UBERON:0000007 ! pituitary gland
 
 [Term]
 id: FF:0011326
-name: whole body- embryo E13 sample
+name: mouse whole body- embryo E13 sample
 synonym: "whole body- embryo E13" EXACT []
 is_a: FF:0000293 ! embryonic day 13
 
 [Term]
 id: FF:0011327
-name: heart- embryo E13 sample
+name: mouse heart- embryo E13 sample
 synonym: "heart- embryo E13" EXACT []
 is_a: FF:0000293 ! embryonic day 13
 relationship: derives_from UBERON:0000948 ! heart
 
 [Term]
 id: FF:0011328
-name: liver- embryo E13 sample
+name: mouse liver- embryo E13 sample
 synonym: "liver- embryo E13" EXACT []
 is_a: FF:0000293 ! embryonic day 13
 relationship: derives_from UBERON:0002107 ! liver
 
 [Term]
 id: FF:0011329
-name: thymus- adult sample
+name: mouse thymus- adult sample
 synonym: "thymus- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10540,62 +10540,62 @@ relationship: derives_from UBERON:0002370 ! thymus
 
 [Term]
 id: FF:0011330
-name: intestine- embryo E13 sample
+name: mouse intestine- embryo E13 sample
 synonym: "intestine- embryo E13" EXACT []
 is_a: FF:0000293 ! embryonic day 13
 relationship: derives_from UBERON:0000160 ! intestine
 
 [Term]
 id: FF:0011331
-name: forelimb- embryo E13 sample
+name: mouse forelimb- embryo E13 sample
 synonym: "forelimb- embryo E13" EXACT []
 is_a: FF:0000293 ! embryonic day 13
 relationship: derives_from UBERON:0002102 ! forelimb
 
 [Term]
 id: FF:0011332
-name: testis- embryo E13 sample
+name: mouse testis- embryo E13 sample
 synonym: "testis- embryo E13" EXACT []
 is_a: FF:0000293 ! embryonic day 13
 relationship: derives_from UBERON:0000473 ! testis
 
 [Term]
 id: FF:0011333
-name: whole body- embryo E14 sample
+name: mouse whole body- embryo E14 sample
 synonym: "whole body- embryo E14" EXACT []
 is_a: FF:0000296 ! embryonic day 14
 
 [Term]
 id: FF:0011334
-name: pituitary gland- embryo E14 sample
+name: mouse pituitary gland- embryo E14 sample
 synonym: "pituitary gland- embryo E14" EXACT []
 is_a: FF:0000296 ! embryonic day 14
 relationship: derives_from UBERON:0000007 ! pituitary gland
 
 [Term]
 id: FF:0011335
-name: eyeball- embryo E14 sample
+name: mouse eyeball- embryo E14 sample
 synonym: "eyeball- embryo E14" EXACT []
 is_a: FF:0000296 ! embryonic day 14
 relationship: derives_from UBERON:0000019 ! camera-type eye
 
 [Term]
 id: FF:0011336
-name: thymus- embryo E14 sample
+name: mouse thymus- embryo E14 sample
 synonym: "thymus- embryo E14" EXACT []
 is_a: FF:0000296 ! embryonic day 14
 relationship: derives_from UBERON:0002370 ! thymus
 
 [Term]
 id: FF:0011337
-name: heart- embryo E14 sample
+name: mouse heart- embryo E14 sample
 synonym: "heart- embryo E14" EXACT []
 is_a: FF:0000296 ! embryonic day 14
 relationship: derives_from UBERON:0000948 ! heart
 
 [Term]
 id: FF:0011338
-name: lung- embryo E14 sample
+name: mouse lung- embryo E14 sample
 synonym: "lung- embryo E14" EXACT []
 is_a: FF:0000296 ! embryonic day 14
 relationship: derives_from UBERON:0002048 ! lung
@@ -10603,69 +10603,69 @@ relationship: derives_from UBERON:0000310 ! breast
 
 [Term]
 id: FF:0011339
-name: adrenal gland - embryo E14 sample
+name: mouse adrenal gland - embryo E14 sample
 synonym: "adrenal gland - embryo E14" EXACT []
 is_a: FF:0000296 ! embryonic day 14
 relationship: derives_from UBERON:0002369 ! adrenal gland
 
 [Term]
 id: FF:0011340
-name: liver- embryo E14 sample
+name: mouse liver- embryo E14 sample
 synonym: "liver- embryo E14" EXACT []
 is_a: FF:0000296 ! embryonic day 14
 relationship: derives_from UBERON:0002107 ! liver
 
 [Term]
 id: FF:0011341
-name: kidney- embryo E14 sample
+name: mouse kidney- embryo E14 sample
 synonym: "kidney- embryo E14" EXACT []
 is_a: FF:0000296 ! embryonic day 14
 relationship: derives_from UBERON:0002113 ! kidney
 
 [Term]
 id: FF:0011342
-name: forelimb- embryo E14 sample
+name: mouse forelimb- embryo E14 sample
 synonym: "forelimb- embryo E14" EXACT []
 is_a: FF:0000296 ! embryonic day 14
 relationship: derives_from UBERON:0002102 ! forelimb
 
 [Term]
 id: FF:0011343
-name: whole body- embryo E14.5 sample
+name: mouse whole body- embryo E14.5 sample
 synonym: "whole body- embryo E14.5" EXACT []
 is_a: FF:0000296 ! embryonic day 14
 
 [Term]
 id: FF:0011344
-name: eyeball- embryo E15 sample
+name: mouse eyeball- embryo E15 sample
 synonym: "eyeball- embryo E15" EXACT []
 is_a: FF:0000298 ! embryonic day 15
 relationship: derives_from UBERON:0000019 ! camera-type eye
 
 [Term]
 id: FF:0011345
-name: pituitary gland- embryo E15 sample
+name: mouse pituitary gland- embryo E15 sample
 synonym: "pituitary gland- embryo E15" EXACT []
 is_a: FF:0000298 ! embryonic day 15
 relationship: derives_from UBERON:0000007 ! pituitary gland
 
 [Term]
 id: FF:0011346
-name: thymus- embryo E15 sample
+name: mouse thymus- embryo E15 sample
 synonym: "thymus- embryo E15" EXACT []
 is_a: FF:0000298 ! embryonic day 15
 relationship: derives_from UBERON:0002370 ! thymus
 
 [Term]
 id: FF:0011347
-name: heart- embryo E15 sample
+name: mouse heart- embryo E15 sample
 synonym: "heart- embryo E15" EXACT []
 is_a: FF:0000298 ! embryonic day 15
 relationship: derives_from UBERON:0000948 ! heart
 
 [Term]
 id: FF:0011348
-name: lung- embryo E15 sample
+name: mouse lung- embryo E15 sample
 synonym: "lung- embryo E15" EXACT []
 is_a: FF:0000298 ! embryonic day 15
 relationship: derives_from UBERON:0002048 ! lung
@@ -10673,62 +10673,62 @@ relationship: derives_from UBERON:0000310 ! breast
 
 [Term]
 id: FF:0011349
-name: liver- embryo E15 sample
+name: mouse liver- embryo E15 sample
 synonym: "liver- embryo E15" EXACT []
 is_a: FF:0000298 ! embryonic day 15
 relationship: derives_from UBERON:0002107 ! liver
 
 [Term]
 id: FF:0011350
-name: kidney- embryo E15 sample
+name: mouse kidney- embryo E15 sample
 synonym: "kidney- embryo E15" EXACT []
 is_a: FF:0000298 ! embryonic day 15
 relationship: derives_from UBERON:0002113 ! kidney
 
 [Term]
 id: FF:0011351
-name: forelimb- embryo E15 sample
+name: mouse forelimb- embryo E15 sample
 synonym: "forelimb- embryo E15" EXACT []
 is_a: FF:0000298 ! embryonic day 15
 relationship: derives_from UBERON:0002102 ! forelimb
 
 [Term]
 id: FF:0011352
-name: testis- embryo E15 sample
+name: mouse testis- embryo E15 sample
 synonym: "testis- embryo E15" EXACT []
 is_a: FF:0000298 ! embryonic day 15
 relationship: derives_from UBERON:0000473 ! testis
 
 [Term]
 id: FF:0011353
-name: pituitary gland- embryo E16 sample
+name: mouse pituitary gland- embryo E16 sample
 synonym: "pituitary gland- embryo E16" EXACT []
 is_a: FF:0000299 ! embryonic day 16
 relationship: derives_from UBERON:0000007 ! pituitary gland
 
 [Term]
 id: FF:0011354
-name: whole body- embryo E16 sample
+name: mouse whole body- embryo E16 sample
 synonym: "whole body- embryo E16" EXACT []
 is_a: FF:0000299 ! embryonic day 16
 
 [Term]
 id: FF:0011355
-name: thymus- embryo E16 sample
+name: mouse thymus- embryo E16 sample
 synonym: "thymus- embryo E16" EXACT []
 is_a: FF:0000299 ! embryonic day 16
 relationship: derives_from UBERON:0002370 ! thymus
 
 [Term]
 id: FF:0011356
-name: heart- embryo E16 sample
+name: mouse heart- embryo E16 sample
 synonym: "heart- embryo E16" EXACT []
 is_a: FF:0000299 ! embryonic day 16
 relationship: derives_from UBERON:0000948 ! heart
 
 [Term]
 id: FF:0011357
-name: lung- embryo E16 sample
+name: mouse lung- embryo E16 sample
 synonym: "lung- embryo E16" EXACT []
 is_a: FF:0000299 ! embryonic day 16
 relationship: derives_from UBERON:0002048 ! lung
@@ -10736,7 +10736,7 @@ relationship: derives_from UBERON:0000310 ! breast
 
 [Term]
 id: FF:0011358
-name: stomach- embryo E16 sample
+name: mouse stomach- embryo E16 sample
 synonym: "stomach- embryo E16" EXACT []
 is_a: FF:0000299 ! embryonic day 16
 relationship: derives_from UBERON:0000945 ! stomach
@@ -10751,62 +10751,62 @@ relationship: derives_from UBERON:0000947 ! aorta
 
 [Term]
 id: FF:0011360
-name: spleen- embryo E16 sample
+name: mouse spleen- embryo E16 sample
 synonym: "spleen- embryo E16" EXACT []
 is_a: FF:0000299 ! embryonic day 16
 relationship: derives_from UBERON:0002106 ! spleen
 
 [Term]
 id: FF:0011361
-name: liver- embryo E16 sample
+name: mouse liver- embryo E16 sample
 synonym: "liver- embryo E16" EXACT []
 is_a: FF:0000299 ! embryonic day 16
 relationship: derives_from UBERON:0002107 ! liver
 
 [Term]
 id: FF:0011362
-name: intestine- embryo E16 sample
+name: mouse intestine- embryo E16 sample
 synonym: "intestine- embryo E16" EXACT []
 is_a: FF:0000299 ! embryonic day 16
 relationship: derives_from UBERON:0000160 ! intestine
 
 [Term]
 id: FF:0011363
-name: kidney- embryo E16 sample
+name: mouse kidney- embryo E16 sample
 synonym: "kidney- embryo E16" EXACT []
 is_a: FF:0000299 ! embryonic day 16
 relationship: derives_from UBERON:0002113 ! kidney
 
 [Term]
 id: FF:0011364
-name: testis- embryo E16 sample
+name: mouse testis- embryo E16 sample
 synonym: "testis- embryo E16" EXACT []
 is_a: FF:0000299 ! embryonic day 16
 relationship: derives_from UBERON:0000473 ! testis
 
 [Term]
 id: FF:0011365
-name: whole body- embryo E17 sample
+name: mouse whole body- embryo E17 sample
 synonym: "whole body- embryo E17" EXACT []
 is_a: FF:0000300 ! embryonic day 17
 
 [Term]
 id: FF:0011366
-name: thymus- embryo E17 sample
+name: mouse thymus- embryo E17 sample
 synonym: "thymus- embryo E17" EXACT []
 is_a: FF:0000300 ! embryonic day 17
 relationship: derives_from UBERON:0002370 ! thymus
 
 [Term]
 id: FF:0011367
-name: heart- embryo E17 sample
+name: mouse heart- embryo E17 sample
 synonym: "heart- embryo E17" EXACT []
 is_a: FF:0000300 ! embryonic day 17
 relationship: derives_from UBERON:0000948 ! heart
 
 [Term]
 id: FF:0011368
-name: lung- embryo E17 sample
+name: mouse lung- embryo E17 sample
 synonym: "lung- embryo E17" EXACT []
 is_a: FF:0000300 ! embryonic day 17
 relationship: derives_from UBERON:0002048 ! lung
@@ -10814,28 +10814,28 @@ relationship: derives_from UBERON:0000310 ! breast
 
 [Term]
 id: FF:0011369
-name: liver- embryo E17 sample
+name: mouse liver- embryo E17 sample
 synonym: "liver- embryo E17" EXACT []
 is_a: FF:0000300 ! embryonic day 17
 relationship: derives_from UBERON:0002107 ! liver
 
 [Term]
 id: FF:0011370
-name: intestine- embryo E17 sample
+name: mouse intestine- embryo E17 sample
 synonym: "intestine- embryo E17" EXACT []
 is_a: FF:0000300 ! embryonic day 17
 relationship: derives_from UBERON:0000160 ! intestine
 
 [Term]
 id: FF:0011371
-name: kidney- embryo E17 sample
+name: mouse kidney- embryo E17 sample
 synonym: "kidney- embryo E17" EXACT []
 is_a: FF:0000300 ! embryonic day 17
 relationship: derives_from UBERON:0002113 ! kidney
 
 [Term]
 id: FF:0011372
-name: testis- embryo E17 sample
+name: mouse testis- embryo E17 sample
 synonym: "testis- embryo E17" EXACT []
 is_a: FF:0000300 ! embryonic day 17
 relationship: derives_from UBERON:0000473 ! testis
@@ -10850,47 +10850,47 @@ relationship: derives_from UBERON:0002369 ! adrenal gland
 
 [Term]
 id: FF:0011374
-name: whole body- embryo E17.5 sample
+name: mouse whole body- embryo E17.5 sample
 synonym: "whole body- embryo E17.5" EXACT []
 is_a: FF:0000301 ! embryonic day 17.5
 
 [Term]
 id: FF:0011375
-name: whole body- embryo E18 sample
+name: mouse whole body- embryo E18 sample
 synonym: "whole body- embryo E18" EXACT []
 is_a: FF:0000302 ! embryonic day 18
 
 [Term]
 id: FF:0011376
-name: liver- embryo E18 sample
+name: mouse liver- embryo E18 sample
 synonym: "liver- embryo E18" EXACT []
 is_a: FF:0000302 ! embryonic day 18
 relationship: derives_from UBERON:0002107 ! liver
 
 [Term]
 id: FF:0011377
-name: testis- embryo E18 sample
+name: mouse testis- embryo E18 sample
 synonym: "testis- embryo E18" EXACT []
 is_a: FF:0000302 ! embryonic day 18
 relationship: derives_from UBERON:0000473 ! testis
 
 [Term]
 id: FF:0011378
-name: ovary- embryo E18 sample
+name: mouse ovary- embryo E18 sample
 synonym: "ovary- embryo E18" EXACT []
 is_a: FF:0000302 ! embryonic day 18
 relationship: derives_from UBERON:0000992 ! female gonad
 
 [Term]
 id: FF:0011379
-name: liver- adult pregnant day01 sample
+name: mouse liver- adult pregnant day01 sample
 synonym: "liver- adult pregnant day01" EXACT []
 is_a: FF:0000318 ! mouse pregnant day 1
 relationship: derives_from UBERON:0002107 ! liver
 
 [Term]
 id: FF:0011380
-name: vesicular gland- adult sample
+name: mouse vesicular gland- adult sample
 synonym: "vesicular gland- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10899,14 +10899,14 @@ relationship: derives_from UBERON:0000998 ! seminal vesicle
 
 [Term]
 id: FF:0011381
-name: placenta- adult pregnant day10 sample
+name: mouse placenta- adult pregnant day10 sample
 synonym: "placenta- adult pregnant day10" EXACT []
 is_a: FF:0000320 ! mouse pregnant day 10
 relationship: derives_from UBERON:0001987 ! placenta
 
 [Term]
 id: FF:0011383
-name: testis- adult sample
+name: mouse testis- adult sample
 synonym: "testis- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10914,28 +10914,28 @@ relationship: derives_from UBERON:0000473 ! testis
 
 [Term]
 id: FF:0011384
-name: placenta- adult pregnant day17 sample
+name: mouse placenta- adult pregnant day17 sample
 synonym: "placenta- adult pregnant day17" EXACT []
 is_a: FF:0000321 ! mouse pregnant day 17
 relationship: derives_from UBERON:0001987 ! placenta
 
 [Term]
 id: FF:0011386
-name: amnion - adult pregnant day17.5 sample
+name: mouse amnion - adult pregnant day17.5 sample
 synonym: "amnion - adult pregnant day17.5" EXACT []
 is_a: FF:0000322 ! mouse pregnant day 17.5
 relationship: derives_from UBERON:0000305 ! amnion
 
 [Term]
 id: FF:0011387
-name: mammary gland- adult pregnant day19 sample
+name: mouse mammary gland- adult pregnant day19 sample
 synonym: "mammary gland- adult pregnant day19" EXACT []
 is_a: FF:0000323 ! mouse pregnant day 18
 relationship: derives_from UBERON:0001911 ! mammary gland
 
 [Term]
 id: FF:0011388
-name: submandibular gland- adult sample
+name: mouse submandibular gland- adult sample
 synonym: "submandibular gland- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -10943,7 +10943,7 @@ relationship: derives_from UBERON:0001736 ! submandibular gland
 
 [Term]
 id: FF:0011389
-name: uterus- adult pregnant day19 sample
+name: mouse uterus- adult pregnant day19 sample
 synonym: "uterus- adult pregnant day19" EXACT []
 is_a: FF:0000323 ! mouse pregnant day 18
 relationship: derives_from UBERON:0000995 ! uterus
@@ -10951,21 +10951,21 @@ relationship: derives_from UBERON:0006834 ! uterus or analog
 
 [Term]
 id: FF:0011390
-name: mammary gland- adult lactating day02 sample
+name: mouse mammary gland- adult lactating day02 sample
 synonym: "mammary gland- adult lactating day02" EXACT []
 is_a: FF:0000324 ! mouse lactating sample
 relationship: derives_from UBERON:0001911 ! mammary gland
 
 [Term]
 id: FF:0011391
-name: hippocampus- neonate N00 sample
+name: mouse hippocampus- neonate N00 sample
 synonym: "hippocampus- neonate N00" EXACT []
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0001954 ! Ammon's horn
 
 [Term]
 id: FF:0011392
-name: corpus striatum- neonate N00 sample
+name: mouse corpus striatum- neonate N00 sample
 synonym: "corpus striatum- neonate N00" EXACT []
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0000369 ! corpus striatum
@@ -10973,14 +10973,14 @@ relationship: derives_from UBERON:0002435 ! striatum
 
 [Term]
 id: FF:0011393
-name: heart- neonate N00 sample
+name: mouse heart- neonate N00 sample
 synonym: "heart- neonate N00" EXACT []
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0000948 ! heart
 
 [Term]
 id: FF:0011394
-name: lung- neonate N00 sample
+name: mouse lung- neonate N00 sample
 synonym: "lung- neonate N00" EXACT []
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0002048 ! lung
@@ -10988,56 +10988,56 @@ relationship: derives_from UBERON:0000170 ! pair of lungs
 
 [Term]
 id: FF:0011395
-name: liver- neonate N00 sample
+name: mouse liver- neonate N00 sample
 synonym: "liver- neonate N00" EXACT []
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0002107 ! liver
 
 [Term]
 id: FF:0011396
-name: kidney- neonate N00 sample
+name: mouse kidney- neonate N00 sample
 synonym: "kidney- neonate N00" EXACT []
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0002113 ! kidney
 
 [Term]
 id: FF:0011397
-name: skin- neonate N00 sample
+name: mouse skin- neonate N00 sample
 synonym: "skin- neonate N00" EXACT []
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0000014 ! zone of skin
 
 [Term]
 id: FF:0011398
-name: whole body- neonate N00 sample
+name: mouse whole body- neonate N00 sample
 synonym: "whole body- neonate N00" EXACT []
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0000468 ! multi-cellular organism
 
 [Term]
 id: FF:0011399
-name: whole body- neonate N01 sample
+name: mouse whole body- neonate N01 sample
 synonym: "whole body- neonate N01" EXACT []
 is_a: FF:0000734 ! neonate N1
 relationship: derives_from UBERON:0000468 ! multi-cellular organism
 
 [Term]
 id: FF:0011400
-name: skin- neonate N03 sample
+name: mouse skin- neonate N03 sample
 synonym: "skin- neonate N03" EXACT []
 is_a: FF:0000311 ! neonate N3
 relationship: derives_from UBERON:0000014 ! zone of skin
 
 [Term]
 id: FF:0011401
-name: thymus- neonate N06 sample
+name: mouse thymus- neonate N06 sample
 synonym: "thymus- neonate N06" EXACT []
 is_a: FF:0000312 ! neonate N6
 relationship: derives_from UBERON:0002370 ! thymus
 
 [Term]
 id: FF:0011402
-name: lung- neonate N06 sample
+name: mouse lung- neonate N06 sample
 synonym: "lung- neonate N06" EXACT []
 is_a: FF:0000312 ! neonate N6
 relationship: derives_from UBERON:0002048 ! lung
@@ -11045,42 +11045,42 @@ relationship: derives_from UBERON:0000170 ! pair of lungs
 
 [Term]
 id: FF:0011403
-name: liver- neonate N06 sample
+name: mouse liver- neonate N06 sample
 synonym: "liver- neonate N06" EXACT []
 is_a: FF:0000312 ! neonate N6
 relationship: derives_from UBERON:0002107 ! liver
 
 [Term]
 id: FF:0011404
-name: intestine- neonate N06 sample
+name: mouse intestine- neonate N06 sample
 synonym: "intestine- neonate N06" EXACT []
 is_a: FF:0000312 ! neonate N6
 relationship: derives_from UBERON:0000160 ! intestine
 
 [Term]
 id: FF:0011405
-name: whole body- neonate N06 sample
+name: mouse whole body- neonate N06 sample
 synonym: "whole body- neonate N06" EXACT []
 is_a: FF:0000312 ! neonate N6
 relationship: derives_from UBERON:0000468 ! multi-cellular organism
 
 [Term]
 id: FF:0011406
-name: skin- neonate N06 sample
+name: mouse skin- neonate N06 sample
 synonym: "skin- neonate N06" EXACT []
 is_a: FF:0000312 ! neonate N6
 relationship: derives_from UBERON:0000014 ! zone of skin
 
 [Term]
 id: FF:0011407
-name: thymus- neonate N07 sample
+name: mouse thymus- neonate N07 sample
 synonym: "thymus- neonate N07" EXACT []
 is_a: FF:0000313 ! neonate N7
 relationship: derives_from UBERON:0002370 ! thymus
 
 [Term]
 id: FF:0011408
-name: lung- neonate N07 sample
+name: mouse lung- neonate N07 sample
 synonym: "lung- neonate N07" EXACT []
 is_a: FF:0000313 ! neonate N7
 relationship: derives_from UBERON:0002048 ! lung
@@ -11088,49 +11088,49 @@ relationship: derives_from UBERON:0000170 ! pair of lungs
 
 [Term]
 id: FF:0011409
-name: liver- neonate N07 sample
+name: mouse liver- neonate N07 sample
 synonym: "liver- neonate N07" EXACT []
 is_a: FF:0000313 ! neonate N7
 relationship: derives_from UBERON:0002107 ! liver
 
 [Term]
 id: FF:0011410
-name: stomach- neonate N07 sample
+name: mouse stomach- neonate N07 sample
 synonym: "stomach- neonate N07" EXACT []
 is_a: FF:0000313 ! neonate N7
 relationship: derives_from UBERON:0000945 ! stomach
 
 [Term]
 id: FF:0011411
-name: intestine- neonate N07 sample
+name: mouse intestine- neonate N07 sample
 synonym: "intestine- neonate N07" EXACT []
 is_a: FF:0000313 ! neonate N7
 relationship: derives_from UBERON:0000160 ! intestine
 
 [Term]
 id: FF:0011412
-name: testis- neonate N07 sample
+name: mouse testis- neonate N07 sample
 synonym: "testis- neonate N07" EXACT []
 is_a: FF:0000313 ! neonate N7
 relationship: derives_from UBERON:0000473 ! testis
 
 [Term]
 id: FF:0011413
-name: thymus- neonate N10 sample
+name: mouse thymus- neonate N10 sample
 synonym: "thymus- neonate N10" EXACT []
 is_a: FF:0000305 ! neonate N10
 relationship: derives_from UBERON:0002370 ! thymus
 
 [Term]
 id: FF:0011414
-name: heart- neonate N10 sample
+name: mouse heart- neonate N10 sample
 synonym: "heart- neonate N10" EXACT []
 is_a: FF:0000305 ! neonate N10
 relationship: derives_from UBERON:0000948 ! heart
 
 [Term]
 id: FF:0011415
-name: lung- neonate N10 sample
+name: mouse lung- neonate N10 sample
 synonym: "lung- neonate N10" EXACT []
 is_a: FF:0000305 ! neonate N10
 relationship: derives_from UBERON:0002048 ! lung
@@ -11138,139 +11138,139 @@ relationship: derives_from UBERON:0000170 ! pair of lungs
 
 [Term]
 id: FF:0011416
-name: liver- neonate N10 sample
+name: mouse liver- neonate N10 sample
 synonym: "liver- neonate N10" EXACT []
 is_a: FF:0000305 ! neonate N10
 relationship: derives_from UBERON:0002107 ! liver
 
 [Term]
 id: FF:0011417
-name: spleen- neonate N10 sample
+name: mouse spleen- neonate N10 sample
 synonym: "spleen- neonate N10" EXACT []
 is_a: FF:0000305 ! neonate N10
 relationship: derives_from UBERON:0002106 ! spleen
 
 [Term]
 id: FF:0011418
-name: intestine- neonate N10 sample
+name: mouse intestine- neonate N10 sample
 synonym: "intestine- neonate N10" EXACT []
 is_a: FF:0000305 ! neonate N10
 relationship: derives_from UBERON:0000160 ! intestine
 
 [Term]
 id: FF:0011419
-name: kidney- neonate N10 sample
+name: mouse kidney- neonate N10 sample
 synonym: "kidney- neonate N10" EXACT []
 is_a: FF:0000305 ! neonate N10
 relationship: derives_from UBERON:0002113 ! kidney
 
 [Term]
 id: FF:0011420
-name: whole body- neonate N10 sample
+name: mouse whole body- neonate N10 sample
 synonym: "whole body- neonate N10" EXACT []
 is_a: FF:0000305 ! neonate N10
 relationship: derives_from UBERON:0000468 ! multi-cellular organism
 
 [Term]
 id: FF:0011421
-name: skin- neonate N10 sample
+name: mouse skin- neonate N10 sample
 synonym: "skin- neonate N10" EXACT []
 is_a: FF:0000305 ! neonate N10
 relationship: derives_from UBERON:0000014 ! zone of skin
 
 [Term]
 id: FF:0011422
-name: testis- neonate N10 sample
+name: mouse testis- neonate N10 sample
 synonym: "testis- neonate N10" EXACT []
 is_a: FF:0000305 ! neonate N10
 relationship: derives_from UBERON:0000473 ! testis
 
 [Term]
 id: FF:0011423
-name: eyeball- neonate N16 sample
+name: mouse eyeball- neonate N16 sample
 synonym: "eyeball- neonate N16" EXACT []
 is_a: FF:0000306 ! neonate N16
 relationship: derives_from UBERON:0000019 ! camera-type eye
 
 [Term]
 id: FF:0011424
-name: heart- neonate N16 sample
+name: mouse heart- neonate N16 sample
 synonym: "heart- neonate N16" EXACT []
 is_a: FF:0000306 ! neonate N16
 relationship: derives_from UBERON:0000948 ! heart
 
 [Term]
 id: FF:0011425
-name: small intestine- neonate N16 sample
+name: mouse small intestine- neonate N16 sample
 synonym: "small intestine- neonate N16" EXACT []
 is_a: FF:0000306 ! neonate N16
 relationship: derives_from UBERON:0002108 ! small intestine
 
 [Term]
 id: FF:0011426
-name: thymus- neonate N20 sample
+name: mouse thymus- neonate N20 sample
 synonym: "thymus- neonate N20" EXACT []
 is_a: FF:0000308 ! neonate N20
 relationship: derives_from UBERON:0002370 ! thymus
 
 [Term]
 id: FF:0011427
-name: heart- neonate N20 sample
+name: mouse heart- neonate N20 sample
 synonym: "heart- neonate N20" EXACT []
 is_a: FF:0000308 ! neonate N20
 relationship: derives_from UBERON:0000948 ! heart
 
 [Term]
 id: FF:0011428
-name: lung- neonate N20 sample
+name: mouse lung- neonate N20 sample
 synonym: "lung- neonate N20" EXACT []
 is_a: FF:0000308 ! neonate N20
 relationship: derives_from UBERON:0002048 ! lung
 
 [Term]
 id: FF:0011429
-name: liver- neonate N20 sample
+name: mouse liver- neonate N20 sample
 synonym: "liver- neonate N20" EXACT []
 is_a: FF:0000308 ! neonate N20
 relationship: derives_from UBERON:0002107 ! liver
 
 [Term]
 id: FF:0011430
-name: spleen- neonate N20 sample
+name: mouse spleen- neonate N20 sample
 synonym: "spleen- neonate N20" EXACT []
 is_a: FF:0000308 ! neonate N20
 relationship: derives_from UBERON:0002106 ! spleen
 
 [Term]
 id: FF:0011431
-name: intestine- neonate N20 sample
+name: mouse intestine- neonate N20 sample
 synonym: "intestine- neonate N20" EXACT []
 is_a: FF:0000308 ! neonate N20
 relationship: derives_from UBERON:0000160 ! intestine
 
 [Term]
 id: FF:0011432
-name: kidney- neonate N20 sample
+name: mouse kidney- neonate N20 sample
 synonym: "kidney- neonate N20" EXACT []
 is_a: FF:0000308 ! neonate N20
 relationship: derives_from UBERON:0002113 ! kidney
 
 [Term]
 id: FF:0011433
-name: testis- neonate N20 sample
+name: mouse testis- neonate N20 sample
 synonym: "testis- neonate N20" EXACT []
 is_a: FF:0000308 ! neonate N20
 relationship: derives_from UBERON:0000473 ! testis
 
 [Term]
 id: FF:0011434
-name: whole body- embryo E12 sample
+name: mouse whole body- embryo E12 sample
 synonym: "whole body- embryo E12" EXACT []
 is_a: FF:0000295 ! embryonic day 12
 
 [Term]
 id: FF:0011435
-name: prostate- adult sample
+name: mouse prostate- adult sample
 synonym: "prostate- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -11278,7 +11278,7 @@ relationship: derives_from UBERON:0002367 ! prostate gland
 
 [Term]
 id: FF:0011436
-name: intestinal mucosa- adult sample
+name: mouse intestinal mucosa- adult sample
 synonym: "intestinal mucosa- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -11286,7 +11286,7 @@ relationship: derives_from UBERON:0001242 ! intestinal mucosa
 
 [Term]
 id: FF:0011437
-name: urinary bladder- adult sample
+name: mouse urinary bladder- adult sample
 synonym: "urinary bladder- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -11302,7 +11302,7 @@ relationship: derives_from UBERON:0000996 ! vagina
 
 [Term]
 id: FF:0011439
-name: ovary- adult sample
+name: mouse ovary- adult sample
 synonym: "ovary- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -11310,7 +11310,7 @@ relationship: derives_from UBERON:0000992 ! female gonad
 
 [Term]
 id: FF:0011440
-name: uterus- adult sample
+name: mouse uterus- adult sample
 synonym: "uterus- adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -11318,14 +11318,14 @@ relationship: derives_from UBERON:0000995 ! uterus
 
 [Term]
 id: FF:0011441
-name: intestine- embryo E15 sample
+name: mouse intestine- embryo E15 sample
 synonym: "intestine- embryo E15" EXACT []
 is_a: FF:0000298 ! embryonic day 15
 relationship: derives_from UBERON:0000160 ! intestine
 
 [Term]
 id: FF:0011442
-name: oviduct- adult pregnant day01 sample
+name: mouse oviduct- adult pregnant day01 sample
 synonym: "oviduct- adult pregnant day01" EXACT []
 is_a: FF:0000318 ! mouse pregnant day 1
 relationship: derives_from UBERON:0000993 ! oviduct
@@ -11528,21 +11528,21 @@ is_a: FF:0000103 ! mouse sample
 
 [Term]
 id: FF:0011462
-name: bone- os femoris - neonate N16 sample
+name: mouse bone- os femoris - neonate N16 sample
 synonym: "bone- os femoris - neonate N16" EXACT []
 is_a: FF:0000306 ! neonate N16
 relationship: derives_from UBERON:0000981 ! femur
 
 [Term]
 id: FF:0011463
-name: bone- os femoris - neonate N2 sample
+name: mouse bone- os femoris - neonate N2 sample
 synonym: "bone- os femoris - neonate N2" EXACT []
 is_a: FF:0000307 ! neonate N2
 relationship: derives_from UBERON:0000981 ! femur
 
 [Term]
 id: FF:0011464
-name: bone- os femoris - adult sample
+name: mouse bone- os femoris - adult sample
 synonym: "bone- os femoris - adult" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -11550,28 +11550,28 @@ relationship: derives_from UBERON:0000981 ! femur
 
 [Term]
 id: FF:0011465
-name: medulla oblongata- neonate N30 sample
+name: mouse medulla oblongata- neonate N30 sample
 synonym: "medulla oblongata- neonate N30" EXACT []
 is_a: FF:0000310 ! neonate N30
 relationship: derives_from UBERON:0001896 ! medulla oblongata
 
 [Term]
 id: FF:0011466
-name: adrenal gland - neonate N25 sample
+name: mouse adrenal gland - neonate N25 sample
 synonym: "adrenal gland - neonate N25" EXACT []
 is_a: FF:0000309 ! neonate N25
 relationship: derives_from UBERON:0002369 ! adrenal gland
 
 [Term]
 id: FF:0011467
-name: bone- os femoris - neonate N20 sample
+name: mouse bone- os femoris - neonate N20 sample
 synonym: "bone- os femoris - neonate N20" EXACT []
 is_a: FF:0000308 ! neonate N20
 relationship: derives_from UBERON:0000981 ! femur
 
 [Term]
 id: FF:0011468
-name: CD41-positive megakaryocyte control sample
+name: mouse CD41-positive megakaryocyte control sample
 synonym: "CD41-positive megakaryocyte control" EXACT []
 relationship: derives_from CL:0000556 ! megakaryocyte
 is_a: FF:0000002 ! in vivo cell sample
@@ -11580,7 +11580,7 @@ is_a: FF:0000343 ! control treatment
 
 [Term]
 id: FF:0011469
-name: cortex- neonate N30 sample
+name: mouse cortex- neonate N30 sample
 synonym: "cortex- neonate N30" EXACT []
 is_a: FF:0000310 ! neonate N30
 relationship: derives_from UBERON:0001851 ! cortex
@@ -11588,14 +11588,14 @@ relationship: derives_from UBERON:0005889 ! zygote cortex
 
 [Term]
 id: FF:0011470
-name: diencephalon- neonate N30 sample
+name: mouse diencephalon- neonate N30 sample
 synonym: "diencephalon- neonate N30" EXACT []
 is_a: FF:0000310 ! neonate N30
 relationship: derives_from UBERON:0001894 ! diencephalon
 
 [Term]
 id: FF:0011471
-name: epididymis and seminiferous tubule- neonate N30 sample
+name: mouse epididymis and seminiferous tubule- neonate N30 sample
 synonym: "epididymis and seminiferous tubule- neonate N30" EXACT []
 is_a: FF:0000310 ! neonate N30
 relationship: derives_from UBERON:0001301 ! epididymis
@@ -11611,7 +11611,7 @@ is_a: FF:0100297 ! carcinoma cell line
 
 [Term]
 id: FF:0011473
-name: Follicle Associated Epithelium sample
+name: mouse Follicle Associated Epithelium sample
 synonym: "Follicle Associated Epithelium" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000998 ! adult tissue sample
@@ -11619,28 +11619,28 @@ relationship: derives_from UBERON:0001962 ! gut-associated lymphoid tissue
 
 [Term]
 id: FF:0011474
-name: heart- neonate N03 sample
+name: mouse heart- neonate N03 sample
 synonym: "heart- neonate N03" EXACT []
 is_a: FF:0000311 ! neonate N3
 relationship: derives_from UBERON:0000948 ! heart
 
 [Term]
 id: FF:0011475
-name: heart- neonate N25 sample
+name: mouse heart- neonate N25 sample
 synonym: "heart- neonate N25" EXACT []
 is_a: FF:0000309 ! neonate N25
 relationship: derives_from UBERON:0000948 ! heart
 
 [Term]
 id: FF:0011476
-name: heart- neonate N30 sample
+name: mouse heart- neonate N30 sample
 synonym: "heart- neonate N30" EXACT []
 is_a: FF:0000310 ! neonate N30
 relationship: derives_from UBERON:0000948 ! heart
 
 [Term]
 id: FF:0011477
-name: Ileum epithelium 1h after RANKL sample
+name: mouse Ileum epithelium 1h after RANKL sample
 synonym: "Ileum epithelium 1h after RANKL" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000358 ! 1 hr
@@ -11652,7 +11652,7 @@ relationship: derives_from UBERON:0002116 ! ileum
 
 [Term]
 id: FF:0011478
-name: Ileum epithelium 3days after RANKL sample
+name: mouse Ileum epithelium 3days after RANKL sample
 synonym: "Ileum epithelium 3days after RANKL" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000383 ! 3 days
@@ -11663,7 +11663,7 @@ relationship: derives_from UBERON:0000483 ! epithelium
 
 [Term]
 id: FF:0011479
-name: Ileum epithelium 3h after RANKL sample
+name: mouse Ileum epithelium 3h after RANKL sample
 synonym: "Ileum epithelium 3h after RANKL" EXACT []
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000360 ! 3 hr
@@ -11674,49 +11674,49 @@ relationship: derives_from UBERON:0000483 ! epithelium
 
 [Term]
 id: FF:0011480
-name: intestine- neonate N25 sample
+name: mouse intestine- neonate N25 sample
 synonym: "intestine- neonate N25" EXACT []
 is_a: FF:0000309 ! neonate N25
 relationship: derives_from UBERON:0000160 ! intestine
 
 [Term]
 id: FF:0011481
-name: intestine- neonate N30 sample
+name: mouse intestine- neonate N30 sample
 synonym: "intestine- neonate N30" EXACT []
 is_a: FF:0000310 ! neonate N30
 relationship: derives_from UBERON:0000160 ! intestine
 
 [Term]
 id: FF:0011482
-name: kidney- neonate N25 sample
+name: mouse kidney- neonate N25 sample
 synonym: "kidney- neonate N25" EXACT []
 is_a: FF:0000309 ! neonate N25
 relationship: derives_from UBERON:0002113 ! kidney
 
 [Term]
 id: FF:0011483
-name: kidney- neonate N30 sample
+name: mouse kidney- neonate N30 sample
 synonym: "kidney- neonate N30" EXACT []
 is_a: FF:0000310 ! neonate N30
 relationship: derives_from UBERON:0002113 ! kidney
 
 [Term]
 id: FF:0011484
-name: liver- neonate N03 sample
+name: mouse liver- neonate N03 sample
 synonym: "liver- neonate N03" EXACT []
 is_a: FF:0000311 ! neonate N3
 relationship: derives_from UBERON:0002107 ! liver
 
 [Term]
 id: FF:0011485
-name: liver- neonate N25 sample
+name: mouse liver- neonate N25 sample
 synonym: "liver- neonate N25" EXACT []
 is_a: FF:0000309 ! neonate N25
 relationship: derives_from UBERON:0002107 ! liver
 
 [Term]
 id: FF:0011486
-name: liver- neonate N30 sample
+name: mouse liver- neonate N30 sample
 synonym: "liver- neonate N30" EXACT []
 is_a: FF:0000310 ! neonate N30
 relationship: derives_from UBERON:0002107 ! liver
@@ -11731,7 +11731,7 @@ relationship: derives_from UBERON:0002148 ! locus ceruleus
 
 [Term]
 id: FF:0011488
-name: lung- neonate N25 sample
+name: mouse lung- neonate N25 sample
 synonym: "lung- neonate N25" EXACT []
 is_a: FF:0000309 ! neonate N25
 relationship: derives_from UBERON:0002048 ! lung
@@ -11739,7 +11739,7 @@ relationship: derives_from UBERON:0000170 ! pair of lungs
 
 [Term]
 id: FF:0011489
-name: lung- neonate N30 sample
+name: mouse lung- neonate N30 sample
 synonym: "lung- neonate N30" EXACT []
 is_a: FF:0000310 ! neonate N30
 relationship: derives_from UBERON:0002048 ! lung
@@ -11747,63 +11747,63 @@ relationship: derives_from UBERON:0000170 ! pair of lungs
 
 [Term]
 id: FF:0011490
-name: muscle - biceps femoris- neonate N30 sample
+name: mouse muscle - biceps femoris- neonate N30 sample
 synonym: "muscle - biceps femoris- neonate N30" EXACT []
 is_a: FF:0000310 ! neonate N30
 relationship: derives_from UBERON:0001374 ! biceps femoris
 
 [Term]
 id: FF:0011491
-name: spleen- neonate N25 sample
+name: mouse spleen- neonate N25 sample
 synonym: "spleen- neonate N25" EXACT []
 is_a: FF:0000309 ! neonate N25
 relationship: derives_from UBERON:0002106 ! spleen
 
 [Term]
 id: FF:0011492
-name: stomach- embryo E17 sample
+name: mouse stomach- embryo E17 sample
 synonym: "stomach- embryo E17" EXACT []
 is_a: FF:0000300 ! embryonic day 17
 relationship: derives_from UBERON:0000945 ! stomach
 
 [Term]
 id: FF:0011493
-name: stomach- neonate N25 sample
+name: mouse stomach- neonate N25 sample
 synonym: "stomach- neonate N25" EXACT []
 is_a: FF:0000309 ! neonate N25
 relationship: derives_from UBERON:0000945 ! stomach
 
 [Term]
 id: FF:0011494
-name: stomach- neonate N30 sample
+name: mouse stomach- neonate N30 sample
 synonym: "stomach- neonate N30" EXACT []
 is_a: FF:0000310 ! neonate N30
 relationship: derives_from UBERON:0000945 ! stomach
 
 [Term]
 id: FF:0011495
-name: testis- neonate N30 sample
+name: mouse testis- neonate N30 sample
 synonym: "testis- neonate N30" EXACT []
 is_a: FF:0000310 ! neonate N30
 relationship: derives_from UBERON:0000473 ! testis
 
 [Term]
 id: FF:0011496
-name: thymus- neonate N25 sample
+name: mouse thymus- neonate N25 sample
 synonym: "thymus- neonate N25" EXACT []
 is_a: FF:0000309 ! neonate N25
 relationship: derives_from UBERON:0002370 ! thymus
 
 [Term]
 id: FF:0011497
-name: thymus- neonate N30 sample
+name: mouse thymus- neonate N30 sample
 synonym: "thymus- neonate N30" EXACT []
 is_a: FF:0000310 ! neonate N30
 relationship: derives_from UBERON:0002370 ! thymus
 
 [Term]
 id: FF:0011498
-name: stomach, neonate N03 sample
+name: mouse stomach, neonate N03 sample
 synonym: "stomach, neonate N03" EXACT []
 is_a: FF:0000311 ! neonate N3
 relationship: derives_from UBERON:0000945 ! stomach
@@ -11847,7 +11847,7 @@ is_a: FF:0101581 ! embryonic stem cell line
 
 [Term]
 id: FF:0011503
-name: trophoblast stem cell line R1AB differentiation- day01 sample
+name: mouse trophoblast stem cell line R1AB differentiation- day01 sample
 synonym: "trophoblast stem cell line R1AB differentiation- day01" EXACT []
 is_a: EFO:0001746 ! development or differentiation design
 is_a: FF:0000350 ! experimentally modified sample
@@ -11857,21 +11857,21 @@ is_a: FF:0000644 ! trophoblast cell line differentiation
 
 [Term]
 id: FF:0011504
-name: intestine- neonate N01 sample
+name: mouse intestine- neonate N01 sample
 synonym: "intestine- neonate N01" EXACT []
 is_a: FF:0000734 ! neonate N1
 relationship: derives_from UBERON:0000160 ! intestine
 
 [Term]
 id: FF:0011505
-name: adrenal gland - neonate N00 sample
+name: mouse adrenal gland - neonate N00 sample
 synonym: "adrenal gland - neonate N00" EXACT []
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0002369 ! adrenal gland
 
 [Term]
 id: FF:0011506
-name: epididymis and seminiferous tubule- neonate N00 sample
+name: mouse epididymis and seminiferous tubule- neonate N00 sample
 synonym: "epididymis and seminiferous tubule- neonate N00" EXACT []
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0001301 ! epididymis
@@ -11879,14 +11879,14 @@ relationship: derives_from UBERON:0001343 ! seminiferous tubule of testis
 
 [Term]
 id: FF:0011507
-name: pituitary gland- neonate N00 sample
+name: mouse pituitary gland- neonate N00 sample
 synonym: "pituitary gland- neonate N00" EXACT []
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0000007 ! pituitary gland
 
 [Term]
 id: FF:0011508
-name: TSt-4/DLL1 feeder cells sample
+name: mouse TSt-4/DLL1 feeder cells sample
 synonym: "TSt-4/DLL1 feeder cells" EXACT []
 relationship: derives_from CL:0002293 ! epithelial cell of thymus
 is_a: EFO:0001746 ! development or differentiation design
@@ -11897,35 +11897,35 @@ is_a: FF:0000350 ! experimentally modified sample
 
 [Term]
 id: FF:0011509
-name: testis- neonate N00 sample
+name: mouse testis- neonate N00 sample
 synonym: "testis- neonate N00" EXACT []
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0000473 ! testis
 
 [Term]
 id: FF:0011510
-name: ovary, neonate N00 sample
+name: mouse ovary, neonate N00 sample
 synonym: "ovary, neonate N00" EXACT []
 is_a: FF:0000304 ! neonate N0
 relationship: derives_from UBERON:0000992 ! female gonad
 
 [Term]
 id: FF:0011511
-name: intestine- embryo E18 sample
+name: mouse intestine- embryo E18 sample
 synonym: "intestine- embryo E18" EXACT []
 is_a: FF:0000302 ! embryonic day 18
 relationship: derives_from UBERON:0000160 ! intestine
 
 [Term]
 id: FF:0011512
-name: kidney- embryo E18 sample
+name: mouse kidney- embryo E18 sample
 synonym: "kidney- embryo E18" EXACT []
 is_a: FF:0000302 ! embryonic day 18
 relationship: derives_from UBERON:0002113 ! kidney
 
 [Term]
 id: FF:0011513
-name: lung- embryo E18 sample
+name: mouse lung- embryo E18 sample
 synonym: "lung- embryo E18" EXACT []
 is_a: FF:0000302 ! embryonic day 18
 relationship: derives_from UBERON:0002048 ! lung
@@ -11933,28 +11933,28 @@ relationship: derives_from UBERON:0000170 ! pair of lungs
 
 [Term]
 id: FF:0011514
-name: stomach- embryo E18 sample
+name: mouse stomach- embryo E18 sample
 synonym: "stomach- embryo E18" EXACT []
 is_a: FF:0000302 ! embryonic day 18
 relationship: derives_from UBERON:0000945 ! stomach
 
 [Term]
 id: FF:0011515
-name: heart- embryo E18 sample
+name: mouse heart- embryo E18 sample
 synonym: "heart- embryo E18" EXACT []
 is_a: FF:0000302 ! embryonic day 18
 relationship: derives_from UBERON:0000948 ! heart
 
 [Term]
 id: FF:0011516
-name: thymus- embryo E18 sample
+name: mouse thymus- embryo E18 sample
 synonym: "thymus- embryo E18" EXACT []
 is_a: FF:0000302 ! embryonic day 18
 relationship: derives_from UBERON:0002370 ! thymus
 
 [Term]
 id: FF:0011517
-name: spleen-, embryo E18 sample
+name: mouse spleen-, embryo E18 sample
 synonym: "spleen-, embryo E18" EXACT []
 is_a: FF:0000302 ! embryonic day 18
 relationship: derives_from UBERON:0002106 ! spleen
@@ -11968,7 +11968,7 @@ relationship: derives_from UBERON:0002369 ! adrenal gland
 
 [Term]
 id: FF:0011519
-name: pituitary gland- embryo E17 sample
+name: mouse pituitary gland- embryo E17 sample
 synonym: "pituitary gland- embryo E17" EXACT []
 is_a: FF:0000300 ! embryonic day 17
 relationship: derives_from UBERON:0000007 ! pituitary gland
@@ -11982,28 +11982,28 @@ relationship: derives_from UBERON:0002369 ! adrenal gland
 
 [Term]
 id: FF:0011521
-name: eyeball- embryo E17 sample
+name: mouse eyeball- embryo E17 sample
 synonym: "eyeball- embryo E17" EXACT []
 is_a: FF:0000300 ! embryonic day 17
 relationship: derives_from UBERON:0000019 ! camera-type eye
 
 [Term]
 id: FF:0011522
-name: adrenal gland - embryo E16 sample
+name: mouse adrenal gland - embryo E16 sample
 synonym: "adrenal gland - embryo E16" EXACT []
 is_a: FF:0000299 ! embryonic day 16
 relationship: derives_from UBERON:0002369 ! adrenal gland
 
 [Term]
 id: FF:0011523
-name: stomach- embryo E15 sample
+name: mouse stomach- embryo E15 sample
 synonym: "stomach- embryo E15" EXACT []
 is_a: FF:0000298 ! embryonic day 15
 relationship: derives_from UBERON:0000945 ! stomach
 
 [Term]
 id: FF:0011524
-name: natural helper cells- IL2 treated, day15 sample
+name: mouse natural helper cells- IL2 treated, day15 sample
 synonym: "natural helper cells- IL2 treated, day15" EXACT []
 relationship: derives_from CL:0002679 ! natural helper lymphocyte
 is_a: EFO:0001746 ! development or differentiation design
@@ -14891,14 +14891,14 @@ relationship: derives_from CL:0000798 ! gamma-delta T cell
 
 [Term]
 id: FF:0200024
-name: embryonic day 8.5 sample
+name: mouse embryonic day 8.5 sample
 synonym: "embryonic day 8.5" EXACT []
 synonym: "E8.5" EXACT []
 is_a: FF:0000292 ! embryonic day sample - mouse
 
 [Term]
 id: FF:0200026
-name: mesoderm, embryonic day 8.5 sample
+name: mouse mesoderm, embryonic day 8.5 sample
 synonym: "mesoderm, embryonic day 8.5" EXACT []
 synonym: "mesoderm E8.5" EXACT []
 is_a: FF:0200024 ! embryonic day 8.5
