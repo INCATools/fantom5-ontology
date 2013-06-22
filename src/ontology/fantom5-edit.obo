@@ -38213,7 +38213,7 @@ is_a: FF:0200013 ! partial hepatectomy
 
 [Term]
 id: FF:13625-146H7
-ame: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr00min, biol_rep1
+name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 00hr00min, biol_rep1
 is_a: FF:0000210 ! human sample
 is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha
 
