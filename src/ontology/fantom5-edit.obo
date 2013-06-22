@@ -935,8 +935,8 @@ id: FF:0000077
 name: hepatic stellate cell sample
 namespace: FANTOM5
 synonym: "hepatic stellate cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-relationship: derives_from CL:0000632 ! hepatic stellate cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: derives_from CL:0000632 ! hepatic stellate cell
 created_by: tmeehan
 creation_date: 2011-03-01T04:56:48Z
 
@@ -945,9 +945,9 @@ id: FF:0000078
 name: human hepatocyte sample
 namespace: FANTOM5
 synonym: "human hepatocyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000182 ! hepatocyte
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000182 ! hepatocyte
 created_by: tmeehan
 creation_date: 2011-03-01T04:58:07Z
 
@@ -959,6 +959,7 @@ synonym: "Lgr5-positive intestinal epithelial stem cell" EXACT []
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000103 ! mouse sample
 relationship: derives_from CL:0002250 ! intestinal crypt stem cell
+relationsgip: has_part PR:000001592 ! leucine-rich repeat-containing G-protein coupled receptor 5
 created_by: tmeehan
 creation_date: 2011-03-01T05:24:32Z
 
@@ -967,9 +968,9 @@ id: FF:0000080
 name: human intestinal epithelial cell sample
 namespace: FANTOM5
 synonym: "intestinal epithelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002563 ! intestinal epithelial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002563 ! intestinal epithelial cell
 created_by: tmeehan
 creation_date: 2011-03-01T05:10:11Z
 
@@ -978,9 +979,9 @@ id: FF:0000081
 name: human iris pigment epithelial cell sample
 namespace: FANTOM5
 synonym: "iris pigment epithelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002565 ! iris pigment epithelial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002565 ! iris pigment epithelial cell
 created_by: tmeehan
 creation_date: 2011-03-01T05:32:21Z
 
@@ -989,9 +990,9 @@ id: FF:0000082
 name: human epidermal keratinocyte sample
 namespace: FANTOM5
 synonym: "epidermal keratinocyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000312 ! keratinocyte
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000312 ! keratinocyte
 created_by: tmeehan
 creation_date: 2011-03-01T05:34:30Z
 
@@ -1000,10 +1001,9 @@ id: FF:0000083
 name: human oral mucosa keratinocyte sample
 namespace: FANTOM5
 synonym: "oral mucosa keratinocyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002170 ! keratinized cell of the oral mucosa
-relationship: derives_from CL:0002251 ! epithelial cell of alimentary canal
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002170 ! keratinized cell of the oral mucosa
 relationship: derives_from UBERON:0003729 ! mouth mucosa
 created_by: tmeehan
 creation_date: 2011-03-01T05:37:39Z
@@ -1013,9 +1013,9 @@ id: FF:0000084
 name: human keratocyte sample
 namespace: FANTOM5
 synonym: "keratocyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002363 ! keratocyte
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002363 ! keratocyte
 created_by: tmeehan
 creation_date: 2011-03-01T05:43:39Z
 
@@ -1024,9 +1024,9 @@ id: FF:0000085
 name: human lens epithelial cell sample
 namespace: FANTOM5
 synonym: "lens epithelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002224 ! lens epithelial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002224 ! lens epithelial cell
 created_by: tmeehan
 creation_date: 2011-03-01T05:47:39Z
 
@@ -1035,9 +1035,9 @@ id: FF:0000086
 name: human macrophage sample
 namespace: FANTOM5
 synonym: "macrophage" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000235 ! macrophage
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000235 ! macrophage
 created_by: tmeehan
 creation_date: 2011-03-01T05:49:14Z
 
@@ -1046,9 +1046,9 @@ id: FF:0000087
 name: human Malassez derived epithelial cell sample
 namespace: FANTOM5
 synonym: "Malassez derived epithelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002166 ! epithelial cell of Malassez
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002166 ! epithelial cell of Malassez
 created_by: tmeehan
 creation_date: 2011-03-01T05:52:32Z
 
@@ -1057,9 +1057,9 @@ id: FF:0000088
 name: human mammary epithelial cell sample
 namespace: FANTOM5
 synonym: "mammary epithelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002327 ! mammary epithelial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002327 ! mammary epithelial cell
 created_by: tmeehan
 creation_date: 2011-03-01T05:54:55Z
 
@@ -1068,9 +1068,9 @@ id: FF:0000089
 name: human dark melanocyte sample
 namespace: FANTOM5
 synonym: "dark melanocyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002566 ! dark melanocyte
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002566 ! dark melanocyte
 created_by: tmeehan
 creation_date: 2011-03-01T06:01:45Z
 
@@ -1079,9 +1079,9 @@ id: FF:0000090
 name: human light melanocyte sample
 namespace: FANTOM5
 synonym: "light melanocyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002567 ! light melanocyte
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002567 ! light melanocyte
 created_by: tmeehan
 creation_date: 2011-03-01T06:02:18Z
 
@@ -1090,9 +1090,9 @@ id: FF:0000091
 name: human leptomeningeal cell sample
 namespace: FANTOM5
 synonym: "leptomeningeal cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000708 ! leptomeningeal cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000708 ! leptomeningeal cell
 created_by: tmeehan
 creation_date: 2011-03-01T09:48:52Z
 
@@ -1101,9 +1101,9 @@ id: FF:0000092
 name: human amniotic membrane cell sample
 namespace: FANTOM5
 synonym: "amniotic membrane cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002537 ! amnion mesenchymal stem cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002537 ! amnion mesenchymal stem cell
 created_by: tmeehan
 creation_date: 2011-03-01T10:38:52Z
 
@@ -1112,9 +1112,9 @@ id: FF:0000093
 name: human vertebral mesenchymal stem cell sample
 namespace: FANTOM5
 synonym: "vertebral mesenchymal stem cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002572 ! vertebral mesenchymal stem cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002572 ! vertebral mesenchymal stem cell
 created_by: tmeehan
 creation_date: 2011-03-01T10:39:51Z
 
@@ -1135,8 +1135,8 @@ id: FF:0000095
 name: human mesenchymal stem cell of Wharton's jelly sample
 namespace: FANTOM5
 synonym: "mesenchymal stem cell of Wharton's jelly" EXACT []
-is_a: FF:0000094 ! human mesenchymal stem cell of umbilical cord-Sciencell sample
-relationship: derives_from CL:0002568 ! mesenchymal stem cell of Wharton's jelly
+intersection_of: FF:0000094 ! human mesenchymal stem cell of umbilical cord-Sciencell sample
+intersection_of: derives_from CL:0002568 ! mesenchymal stem cell of Wharton's jelly
 created_by: tmeehan
 creation_date: 2011-03-01T10:45:21Z
 
@@ -1145,9 +1145,9 @@ id: FF:0000096
 name: human mesenchymal stem cell of adipose sample
 namespace: FANTOM5
 synonym: "mesenchymal stem cell of adipose" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002570 ! mesenchymal stem cell of adipose
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002570 ! mesenchymal stem cell of adipose
 created_by: tmeehan
 creation_date: 2011-03-01T10:46:34Z
 
@@ -1156,9 +1156,9 @@ id: FF:0000097
 name: human mesenchymal stem cell of bone marrow sample
 namespace: FANTOM5
 synonym: "human mesenchymal stem cell of bone marrow" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002540 ! mesenchymal stem cell of the bone marrow
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002540 ! mesenchymal stem cell of the bone marrow
 created_by: tmeehan
 
 [Term]
@@ -1166,9 +1166,9 @@ id: FF:0000098
 name: human hepatic mesenchymal stem cell sample
 namespace: FANTOM5
 synonym: "hepatic mesenchymal stem cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002571 ! hepatic mesenchymal stem cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002571 ! hepatic mesenchymal stem cell
 created_by: tmeehan
 creation_date: 2011-03-01T10:48:42Z
 
@@ -1177,9 +1177,9 @@ id: FF:0000099
 name: human mesothelial cell sample
 namespace: FANTOM5
 synonym: "mesothelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000077 ! mesothelial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000077 ! mesothelial cell
 created_by: tmeehan
 creation_date: 2011-03-01T10:53:55Z
 
@@ -1188,9 +1188,9 @@ id: FF:0000100
 name: human microglial cell sample
 namespace: FANTOM5
 synonym: "microglial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000129 ! microglial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000129 ! microglial cell
 created_by: tmeehan
 creation_date: 2011-03-01T10:55:43Z
 
@@ -1231,9 +1231,9 @@ id: FF:0000104
 name: mouse aortic smooth muscle cell sample
 namespace: FANTOM5
 synonym: "mouse aortic smooth muscle cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000103 ! mouse sample
-relationship: derives_from CL:0002539 ! aortic smooth muscle cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000103 ! mouse sample
+intersection_of: derives_from CL:0002539 ! aortic smooth muscle cell
 created_by: tmeehan
 creation_date: 2011-03-02T11:26:30Z
 
@@ -1242,9 +1242,9 @@ id: FF:0000105
 name: mouse astrocyte sample
 namespace: FANTOM5
 synonym: "mouse astrocyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000103 ! mouse sample
-relationship: derives_from CL:0000127 ! astrocyte
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000103 ! mouse sample
+intersection_of: derives_from CL:0000127 ! astrocyte
 created_by: tmeehan
 creation_date: 2011-03-02T12:26:20Z
 
@@ -1253,9 +1253,9 @@ id: FF:0000106
 name: mouse cardiac myocyte sample
 namespace: FANTOM5
 synonym: "mouse cardiac myocyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000103 ! mouse sample
-relationship: derives_from CL:0000746 ! cardiac myocyte
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000103 ! mouse sample
+intersection_of: derives_from CL:0000746 ! cardiac myocyte
 created_by: tmeehan
 creation_date: 2011-03-02T12:27:51Z
 
@@ -1265,9 +1265,9 @@ name: mouse embryonic fibroblast sample
 namespace: FANTOM5
 def: "A cell type derived from culturing early stage mouse embryos. Not clear if this cell type exists in vivo, so for now will reference higher level fibroblasts." [GOC:tfm]
 synonym: "mouse embryonic fibroblast" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000103 ! mouse sample
-relationship: derives_from CL:0000057 ! fibroblast
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000103 ! mouse sample
+intersection_of: derives_from CL:0000057 ! fibroblast
 created_by: tmeehan
 creation_date: 2011-03-02T12:37:04Z
 
@@ -1276,9 +1276,9 @@ id: FF:0000108
 name: mouse granule cell sample
 namespace: FANTOM5
 synonym: "mouse granule cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000103 ! mouse sample
-relationship: derives_from CL:0000120 ! granule cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000103 ! mouse sample
+intersection_of: derives_from CL:0000120 ! granule cell
 created_by: tmeehan
 creation_date: 2011-03-02T12:40:43Z
 
@@ -1287,9 +1287,9 @@ id: FF:0000109
 name: mouse hepatocyte sample
 namespace: FANTOM5
 synonym: "mouse hepatocyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000103 ! mouse sample
-relationship: derives_from CL:0000182 ! hepatocyte
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000103 ! mouse sample
+intersection_of: derives_from CL:0000182 ! hepatocyte
 created_by: tmeehan
 creation_date: 2011-03-02T12:43:21Z
 
@@ -1298,9 +1298,9 @@ id: FF:0000110
 name: mouse fibroblast of lymphatic vessel sample
 namespace: FANTOM5
 synonym: "mouse fibroblast of lymphatic vessel" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000103 ! mouse sample
-relationship: derives_from CL:0002554 ! fibroblast of lymphatic vessel
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000103 ! mouse sample
+intersection_of: derives_from CL:0002554 ! fibroblast of lymphatic vessel
 created_by: tmeehan
 creation_date: 2011-03-02T12:45:25Z
 
@@ -1309,9 +1309,9 @@ id: FF:0000111
 name: mouse leptomeningeal cell sample
 namespace: FANTOM5
 synonym: "mouse leptomeningeal cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000103 ! mouse sample
-relationship: derives_from CL:0000708 ! leptomeningeal cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000103 ! mouse sample
+intersection_of: derives_from CL:0000708 ! leptomeningeal cell
 created_by: tmeehan
 creation_date: 2011-03-02T12:51:15Z
 
@@ -1320,9 +1320,9 @@ id: FF:0000112
 name: mouse mesenchymal stem cell of bone marrow sample
 namespace: FANTOM5
 synonym: "mouse mesenchymal stem cell of bone marrow" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000103 ! mouse sample
-relationship: derives_from CL:0002540 ! mesenchymal stem cell of the bone marrow
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000103 ! mouse sample
+intersection_of: derives_from CL:0002540 ! mesenchymal stem cell of the bone marrow
 created_by: tmeehan
 creation_date: 2011-03-02T12:53:20Z
 
@@ -1331,9 +1331,9 @@ id: FF:0000113
 name: mouse microglial cell sample
 namespace: FANTOM5
 synonym: "mouse microglial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000103 ! mouse sample
-relationship: derives_from CL:0000129 ! microglial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000103 ! mouse sample
+intersection_of: derives_from CL:0000129 ! microglial cell
 created_by: tmeehan
 creation_date: 2011-03-02T12:55:38Z
 
@@ -1342,10 +1342,10 @@ id: FF:0000114
 name: mouse pituitary cell sample
 namespace: FANTOM5
 synonym: "mouse pituitary cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000103 ! mouse sample
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000103 ! mouse sample
+intersection_of: derives_from UBERON:0000007 ! pituitary gland
 relationship: derives_from CL:0000637 ! chromophil cell of anterior pituitary gland
-relationship: derives_from UBERON:0000007 ! pituitary gland
 created_by: tmeehan
 creation_date: 2011-03-02T01:14:15Z
 
@@ -1354,9 +1354,9 @@ id: FF:0000115
 name: mouse kidney epithelial cell sample
 namespace: FANTOM5
 synonym: "mouse kidney epithelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000103 ! mouse sample
-relationship: derives_from CL:0002518 ! kidney epithelial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000103 ! mouse sample
+intersection_of: derives_from CL:0002518 ! kidney epithelial cell
 created_by: tmeehan
 creation_date: 2011-03-02T01:16:33Z
 
@@ -1365,11 +1365,9 @@ id: FF:0000116
 name: mouse Schwann cell sample
 namespace: FANTOM5
 synonym: "mouse Schwann cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000103 ! mouse sample
-relationship: derives_from CL:0000218 ! myelinating Schwann cell
-relationship: derives_from CL:0000692 ! terminal Schwann cell
-relationship: derives_from CL:0002377 ! immature Schwann cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000103 ! mouse sample
+intersection_of: derives_from CL:0002573 ! Schwann cell
 created_by: tmeehan
 creation_date: 2011-03-02T01:28:43Z
 
@@ -1380,10 +1378,9 @@ namespace: FANTOM5
 def: "A mesenchymal stem cell of umibilical cord blood provided by CET(Thermoscientific HMpC-500)." [GOC:tfm]
 synonym: "mesenchymal stem cell of umbilical cord blood" EXACT []
 synonym: "Multipotent Cord Blood Unrestricted Somatic Stem Cell" RELATED []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000081 ! blood cell
-relationship: derives_from CL:0002569 ! mesenchymal stem cell of umbilical cord
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002569 ! mesenchymal stem cell of umbilical cord
 created_by: tmeehan
 creation_date: 2011-03-02T01:43:28Z
 
@@ -1393,9 +1390,9 @@ name: human cardiac myocyte sample
 namespace: FANTOM5
 def: "Cardiac myocyte sample provided by Sciencell(6205)." [GOC:tfm]
 synonym: "cardiac myocyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000746 ! cardiac myocyte
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000746 ! cardiac myocyte
 created_by: tmeehan
 creation_date: 2011-03-02T01:47:35Z
 
@@ -1404,9 +1401,9 @@ id: FF:0000119
 name: human natural killer cell sample
 namespace: FANTOM5
 synonym: "natural killer cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000623 ! natural killer cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000623 ! natural killer cell
 created_by: tmeehan
 creation_date: 2011-03-02T02:00:55Z
 
@@ -1415,10 +1412,9 @@ id: FF:0000120
 name: human neural stem cell sample
 namespace: FANTOM5
 synonym: "neural stem cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000047 ! neuronal stem cell
-relationship: derives_from CL:0002319 ! neural cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000047 ! neuronal stem cell
 created_by: tmeehan
 creation_date: 2011-03-02T02:02:49Z
 
@@ -1427,10 +1423,9 @@ id: FF:0000121
 name: human central nervous system neuron sample
 namespace: FANTOM5
 synonym: "central nervous system neuron" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000117 ! CNS neuron (sensu Vertebrata)
-relationship: derives_from UBERON:0001017 ! central nervous system
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000117 ! CNS neuron (sensu Vertebrata)
 created_by: tmeehan
 creation_date: 2011-03-02T02:04:50Z
 
@@ -1439,9 +1434,9 @@ id: FF:0000122
 name: human neutrophil sample
 namespace: FANTOM5
 synonym: "neutrophil" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000775 ! neutrophil
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000775 ! neutrophil
 created_by: tmeehan
 creation_date: 2011-03-02T02:05:59Z
 
@@ -1450,9 +1445,9 @@ id: FF:0000123
 name: human nucleus pulposus cell of intervertebral disc sample
 namespace: FANTOM5
 synonym: "nucleus pulposus cell of intervertebral disc" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002564 ! nucleus pulposus cell of intervertebral disc
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002564 ! nucleus pulposus cell of intervertebral disc
 created_by: tmeehan
 creation_date: 2011-03-02T02:10:21Z
 
@@ -1461,9 +1456,9 @@ id: FF:0000124
 name: human oligodendrocyte sample
 namespace: FANTOM5
 synonym: "oligodendrocyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000128 ! oligodendrocyte
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000128 ! oligodendrocyte
 created_by: tmeehan
 creation_date: 2011-03-02T02:19:33Z
 
@@ -1472,10 +1467,9 @@ id: FF:0000125
 name: human oligodendrocyte precursor sample
 namespace: FANTOM5
 synonym: "oligodendrocyte precursor" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000128 ! oligodendrocyte
-relationship: derives_from CL:0002453 ! oligodendrocyte precursor cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002453 ! oligodendrocyte precursor cell
 created_by: tmeehan
 creation_date: 2011-03-02T02:20:52Z
 
@@ -1517,9 +1511,9 @@ id: FF:0000129
 name: human pancreatic beta cell sample
 namespace: FANTOM5
 synonym: "pancreatic beta cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000169 ! type B pancreatic cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000169 ! type B pancreatic cell
 created_by: tmeehan
 creation_date: 2011-03-02T02:34:47Z
 
@@ -1528,9 +1522,9 @@ id: FF:0000130
 name: human pancreatic epithelial cell sample
 namespace: FANTOM5
 synonym: "pancreatic epithelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000083 ! exocrine pancreas cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000083 ! epithelial cell of pancreas
 created_by: tmeehan
 creation_date: 2011-03-02T02:36:36Z
 
@@ -1539,9 +1533,9 @@ id: FF:0000131
 name: human paneth cell sample
 namespace: FANTOM5
 synonym: "paneth cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:1000343 ! paneth cell of epithelium of small intestine
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000510 ! paneth cell
 created_by: tmeehan
 creation_date: 2011-03-02T02:46:14Z
 
@@ -1550,9 +1544,9 @@ id: FF:0000132
 name: human parasympathetic ganglia sample
 namespace: FANTOM5
 synonym: "parasympathetic ganglia" EXACT []
-is_a: FF:0000210 ! human sample
-is_a: FF:0000998 ! adult tissue sample
-relationship: derives_from UBERON:0001808 ! parasympathetic ganglion
+intersection_of: FF:0000210 ! human sample
+intersection_of: FF:0000998 ! adult tissue sample
+intersection_of: derives_from UBERON:0001808 ! parasympathetic ganglion
 created_by: tmeehan
 creation_date: 2011-03-02T02:49:16Z
 
@@ -1561,9 +1555,10 @@ id: FF:0000133
 name: human pericyte sample
 namespace: FANTOM5
 synonym: "pericyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002575 ! central nervous system pericyte
+synonym: "human CNS pericyte sample" EXACT []
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002575 ! central nervous system pericyte
 created_by: tmeehan
 creation_date: 2011-03-02T02:56:30Z
 
@@ -1572,9 +1567,9 @@ id: FF:0000134
 name: human perineural cell sample
 namespace: FANTOM5
 synonym: "perineural cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002576 ! perineural cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002576 ! perineural cell
 created_by: tmeehan
 creation_date: 2011-03-02T03:09:21Z
 
@@ -1583,11 +1578,10 @@ id: FF:0000135
 name: human peripheral blood mononuclear cell sample
 namespace: FANTOM5
 synonym: "peripheral blood mononuclear cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000080 ! circulating cell
-relationship: derives_from CL:0000842 ! mononuclear cell
-relationship: derives_from UBERON:0000178 ! blood
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000842 ! mononuclear cell
+intersection_of: derives_from UBERON:0000178 ! blood
 created_by: tmeehan
 
 [Term]
@@ -1595,9 +1589,9 @@ id: FF:0000136
 name: human placental epithelial cell sample
 namespace: FANTOM5
 synonym: "placental epithelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002577 ! placental epithelial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002577 ! placental epithelial cell
 created_by: tmeehan
 creation_date: 2011-03-02T03:27:18Z
 
@@ -1606,9 +1600,9 @@ id: FF:0000137
 name: human preadipocyte sample
 namespace: FANTOM5
 synonym: "preadipocyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002334 ! preadipocyte
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002334 ! preadipocyte
 created_by: tmeehan
 creation_date: 2011-03-03T04:43:36Z
 
@@ -1617,8 +1611,8 @@ id: FF:0000138
 name: human mesenteric preadipocyte sample
 namespace: FANTOM5
 synonym: "mesenteric preadipocyte" EXACT []
-is_a: FF:0000137 ! human preadipocyte sample
-relationship: derives_from CL:0002578 ! mesenteric preadipocyte
+intersection_of: FF:0000137 ! human preadipocyte sample
+intersection_of: derives_from CL:0002578 ! mesenteric preadipocyte
 created_by: tmeehan
 creation_date: 2011-03-03T04:44:24Z
 
@@ -1627,8 +1621,8 @@ id: FF:0000139
 name: human preadipocyte of the breast sample
 namespace: FANTOM5
 synonym: "preadipocyte of the breast" EXACT []
-is_a: FF:0000137 ! human preadipocyte sample
-relationship: derives_from CL:0002580 ! preadipocyte of the breast
+intersection_of: FF:0000137 ! human preadipocyte sample
+intersection_of: derives_from CL:0002580 ! preadipocyte of the breast
 created_by: tmeehan
 creation_date: 2011-03-03T04:45:07Z
 
@@ -1637,8 +1631,8 @@ id: FF:0000140
 name: human omentum preadipocyte sample
 namespace: FANTOM5
 synonym: "omentum preadipocyte" EXACT []
-is_a: FF:0000137 ! human preadipocyte sample
-relationship: derives_from CL:0002579 ! omentum preadipocyte
+intersection_of: FF:0000137 ! human preadipocyte sample
+intersection_of: derives_from CL:0002579 ! omentum preadipocyte
 created_by: tmeehan
 creation_date: 2011-03-03T04:48:08Z
 
@@ -1647,8 +1641,8 @@ id: FF:0000141
 name: human perirenal preadipocyte sample
 namespace: FANTOM5
 synonym: "perirenal preadipocyte" EXACT []
-is_a: FF:0000137 ! human preadipocyte sample
-relationship: derives_from CL:0002581 ! perirenal preadipocyte
+intersection_of: FF:0000137 ! human preadipocyte sample
+intersection_of: derives_from CL:0002581 ! perirenal preadipocyte
 created_by: tmeehan
 creation_date: 2011-03-03T04:49:22Z
 
@@ -1657,8 +1651,8 @@ id: FF:0000142
 name: human subcutaneous preadipocyte sample
 namespace: FANTOM5
 synonym: "subcutaneous preadipocyte" EXACT []
-is_a: FF:0000137 ! human preadipocyte sample
-relationship: derives_from CL:0002583 ! subcutaneous preadipocyte
+intersection_of: FF:0000137 ! human preadipocyte sample
+intersection_of: derives_from CL:0002583 ! subcutaneous preadipocyte
 created_by: tmeehan
 creation_date: 2011-03-03T04:51:51Z
 
@@ -1667,8 +1661,8 @@ id: FF:0000143
 name: human visceral preadipocyte sample
 namespace: FANTOM5
 synonym: "visceral preadipocyte" EXACT []
-is_a: FF:0000137 ! human preadipocyte sample
-relationship: derives_from CL:0002582 ! visceral preadipocyte
+intersection_of: FF:0000137 ! human preadipocyte sample
+intersection_of: derives_from CL:0002582 ! visceral preadipocyte
 created_by: tmeehan
 creation_date: 2011-03-03T04:52:44Z
 
@@ -1677,10 +1671,10 @@ id: FF:0000144
 name: human promyelocyte/myelocyte sample
 namespace: FANTOM5
 synonym: "promyelocyte/myelocyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000836 ! promyelocyte
-relationship: derives_from CL:0002193 ! myelocyte
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000836 ! promyelocyte
+intersection_of: derives_from CL:0002193 ! myelocyte
 created_by: tmeehan
 creation_date: 2011-03-03T04:54:49Z
 
@@ -1689,9 +1683,9 @@ id: FF:0000145
 name: human prostate epithelial cell sample
 namespace: FANTOM5
 synonym: "prostate epithelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002231 ! epithelial cell of prostate
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002231 ! epithelial cell of prostate
 created_by: tmeehan
 creation_date: 2011-03-03T04:57:13Z
 
@@ -1700,9 +1694,9 @@ id: FF:0000146
 name: human stromal cell of pancreas sample
 namespace: FANTOM5
 synonym: "stromal cell of pancreas" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002574 ! stromal cell of pancreas
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002574 ! stromal cell of pancreas
 created_by: tmeehan
 creation_date: 2011-03-03T05:00:19Z
 
@@ -1723,9 +1717,9 @@ id: FF:0000148
 name: rat aortic smooth muscle cell sample
 namespace: FANTOM5
 synonym: "rat aortic smooth muscle cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000147 ! rat sample
-relationship: derives_from CL:0002539 ! aortic smooth muscle cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000147 ! rat sample
+intersection_of: derives_from CL:0002539 ! aortic smooth muscle cell
 created_by: tmeehan
 creation_date: 2011-03-03T05:04:27Z
 
@@ -1734,9 +1728,9 @@ id: FF:0000149
 name: rat mesenchymal bone cell sample
 namespace: FANTOM5
 synonym: "rat mesenchymal bone cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000147 ! rat sample
-relationship: derives_from CL:0002540 ! mesenchymal stem cell of the bone marrow
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000147 ! rat sample
+intersection_of: derives_from CL:0002540 ! mesenchymal stem cell of the bone marrow
 created_by: tmeehan
 creation_date: 2011-03-03T05:04:30Z
 
@@ -1745,9 +1739,9 @@ id: FF:0000150
 name: rat hepatocyte sample
 namespace: FANTOM5
 synonym: "rat hepatocyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000147 ! rat sample
-relationship: derives_from CL:0000182 ! hepatocyte
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000147 ! rat sample
+intersection_of: derives_from CL:0000182 ! hepatocyte
 created_by: tmeehan
 creation_date: 2011-03-03T05:04:35Z
 
@@ -1757,9 +1751,9 @@ name: human renal epithelial cell sample
 namespace: FANTOM5
 comment: renal tubule epithelial cell.
 synonym: "renal epithelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:1000494 ! epithelial cell of renal tubule
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:1000494 ! epithelial cell of renal tubule
 created_by: tmeehan
 creation_date: 2011-03-06T01:55:02Z
 
@@ -1768,8 +1762,8 @@ id: FF:0000152
 name: human renal cortical epithelial cell sample
 namespace: FANTOM5
 synonym: "renal cortical epithelial cell" EXACT []
-is_a: FF:0000151 ! human renal epithelial cell sample
-relationship: derives_from CL:0002584 ! renal cortical epithelial cell
+intersection_of: FF:0000151 ! human renal epithelial cell sample
+intersection_of: derives_from CL:0002584 ! renal cortical epithelial cell
 created_by: tmeehan
 creation_date: 2011-03-06T01:55:12Z
 
@@ -1778,9 +1772,9 @@ id: FF:0000153
 name: human renal glomerular endothelial cell sample
 namespace: FANTOM5
 synonym: "renal glomerular endothelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002188 ! glomerular endothelial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002188 ! glomerular endothelial cell
 created_by: tmeehan
 creation_date: 2011-03-06T02:01:14Z
 
@@ -1789,11 +1783,9 @@ id: FF:0000154
 name: human renal mesangial cell sample
 namespace: FANTOM5
 synonym: "renal mesangial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002173 ! extraglomerular mesangial cell
-relationship: derives_from CL:1000494 ! epithelial cell of renal tubule
-relationship: derives_from CL:1000746 ! glomerular cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000650 ! mesangial cell
 created_by: tmeehan
 creation_date: 2011-03-06T02:03:33Z
 
@@ -1802,8 +1794,8 @@ id: FF:0000155
 name: human renal proximal tubular epithelial cell sample
 namespace: FANTOM5
 synonym: "renal proximal tubular epithelial cell" EXACT []
-is_a: FF:0000151 ! human renal epithelial cell sample
-relationship: derives_from CL:0002306 ! epithelial cell of proximal tubule
+intersection_of: FF:0000151 ! human renal epithelial cell sample
+intersection_of: derives_from CL:0002306 ! epithelial cell of proximal tubule
 created_by: tmeehan
 creation_date: 2011-03-06T02:05:33Z
 
@@ -1812,9 +1804,9 @@ id: FF:0000156
 name: human adipocyte of breast sample
 namespace: FANTOM5
 synonym: "adipocyte of breast" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002617 ! adipocyte of breast
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002617 ! adipocyte of breast
 created_by: tmeehan
 creation_date: 2011-03-14T10:22:52Z
 
@@ -1823,9 +1815,9 @@ id: FF:0000157
 name: human retinal endothelial cell sample
 namespace: FANTOM5
 synonym: "retinal endothelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002585 ! retinal blood vessel endothelial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002585 ! retinal blood vessel endothelial cell
 created_by: tmeehan
 creation_date: 2011-03-06T03:30:28Z
 
@@ -1834,9 +1826,9 @@ id: FF:0000158
 name: human retinal pigment epithelial cell sample
 namespace: FANTOM5
 synonym: "retinal pigment epithelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002586 ! retinal pigment epithelial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002586 ! retinal pigment epithelial cell
 created_by: tmeehan
 creation_date: 2011-03-06T03:41:18Z
 
@@ -1845,11 +1837,9 @@ id: FF:0000159
 name: human Schwann cell sample
 namespace: FANTOM5
 synonym: "Schwann cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000218 ! myelinating Schwann cell
-relationship: derives_from CL:0000692 ! terminal Schwann cell
-relationship: derives_from CL:0002377 ! immature Schwann cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002573 ! Schwann cell
 created_by: tmeehan
 creation_date: 2011-03-06T03:43:07Z
 
@@ -1858,9 +1848,9 @@ id: FF:0000160
 name: human sebocyte sample
 namespace: FANTOM5
 synonym: "sebocyte" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002140 ! acinar cell of sebaceous gland
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002140 ! acinar cell of sebaceous gland
 created_by: tmeehan
 creation_date: 2011-03-06T03:49:21Z
 
@@ -1869,9 +1859,9 @@ id: FF:0000161
 name: human sertoli cell sample
 namespace: FANTOM5
 synonym: "sertoli cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000216 ! Sertoli cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000216 ! Sertoli cell
 created_by: tmeehan
 creation_date: 2011-03-06T03:55:43Z
 
@@ -1880,9 +1870,9 @@ id: FF:0000162
 name: human skeletal muscle cell sample
 namespace: FANTOM5
 synonym: "skeletal muscle cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000188 ! skeletal muscle cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000188 ! skeletal muscle cell
 created_by: tmeehan
 creation_date: 2011-03-06T03:57:22Z
 
@@ -1891,9 +1881,9 @@ id: FF:0000163
 name: human myotubule derived from skeletal muscle cells sample
 namespace: FANTOM5
 synonym: "myotubule derived from skeletal muscle cells" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002372 ! myotube
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002372 ! myotube
 created_by: tmeehan
 creation_date: 2011-03-06T03:58:36Z
 
@@ -1913,9 +1903,9 @@ id: FF:0000165
 name: human skeletal muscle satellite cell sample
 namespace: FANTOM5
 synonym: "skeletal muscle satellite cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000594 ! skeletal muscle satellite cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000594 ! skeletal muscle satellite cell
 created_by: tmeehan
 creation_date: 2011-03-06T04:01:43Z
 
@@ -1924,9 +1914,9 @@ id: FF:0000166
 name: human small airway epithelial cell sample
 namespace: FANTOM5
 synonym: "small airway epithelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002368 ! respiratory epithelial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002368 ! respiratory epithelial cell
 created_by: tmeehan
 creation_date: 2011-03-06T04:30:04Z
 
@@ -1936,8 +1926,8 @@ name: smooth muscle cell sample
 namespace: FANTOM5
 def: "A sample containing materials from a smooth muscle cell." [GOC:tfm]
 synonym: "smooth muscle cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-relationship: derives_from CL:0000192 ! smooth muscle cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: derives_from CL:0000192 ! smooth muscle cell
 created_by: tmeehan
 creation_date: 2011-03-06T05:27:03Z
 
@@ -1946,9 +1936,9 @@ id: FF:0000168
 name: human aortic smooth muscle cell sample
 namespace: FANTOM5
 synonym: "human aortic smooth muscle cell" EXACT []
-is_a: FF:0000167 ! smooth muscle cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002539 ! aortic smooth muscle cell
+intersection_of: FF:0000167 ! smooth muscle cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002539 ! aortic smooth muscle cell
 created_by: tmeehan
 creation_date: 2011-03-06T05:28:23Z
 
@@ -1957,9 +1947,9 @@ id: FF:0000169
 name: human smooth muscle cell of the brachiocephalic vasculature sample
 namespace: FANTOM5
 synonym: "smooth muscle cell of the brachiocephalic vasculature" EXACT []
-is_a: FF:0000167 ! smooth muscle cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002589 ! smooth muscle cell of the brachiocephalic vasculature
+intersection_of: FF:0000167 ! smooth muscle cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002589 ! smooth muscle cell of the brachiocephalic vasculature
 created_by: tmeehan
 creation_date: 2011-03-06T05:30:24Z
 
@@ -1968,9 +1958,9 @@ id: FF:0000170
 name: human smooth muscle cell of the brain vasculature sample
 namespace: FANTOM5
 synonym: "smooth muscle cell of the brain vasculature" EXACT []
-is_a: FF:0000167 ! smooth muscle cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002590 ! smooth muscle cell of the brain vasculature
+intersection_of: FF:0000167 ! smooth muscle cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002590 ! smooth muscle cell of the brain vasculature
 created_by: tmeehan
 creation_date: 2011-03-06T05:31:31Z
 
@@ -1979,9 +1969,9 @@ id: FF:0000171
 name: human smooth muscle cell of the carotid artery sample
 namespace: FANTOM5
 synonym: "smooth muscle cell of the carotid artery" EXACT []
-is_a: FF:0000167 ! smooth muscle cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002596 ! smooth muscle cell of the carotid artery
+intersection_of: FF:0000167 ! smooth muscle cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002596 ! smooth muscle cell of the carotid artery
 created_by: tmeehan
 creation_date: 2011-03-06T05:32:25Z
 
@@ -1990,9 +1980,9 @@ id: FF:0000172
 name: human smooth muscle cell of coronary artery sample
 namespace: FANTOM5
 synonym: "smooth muscle cell of coronary artery" EXACT []
-is_a: FF:0000167 ! smooth muscle cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002592 ! smooth muscle cell of the coronary artery
+intersection_of: FF:0000167 ! smooth muscle cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002592 ! smooth muscle cell of the coronary artery
 created_by: tmeehan
 creation_date: 2011-03-06T05:33:55Z
 
@@ -2001,9 +1991,9 @@ id: FF:0000173
 name: human smooth muscle cell of the internal thoracic artery sample
 namespace: FANTOM5
 synonym: "smooth muscle cell of the internal thoracic artery" EXACT []
-is_a: FF:0000167 ! smooth muscle cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002593 ! smooth muscle cell of the internal thoracic artery
+intersection_of: FF:0000167 ! smooth muscle cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002593 ! smooth muscle cell of the internal thoracic artery
 created_by: tmeehan
 creation_date: 2011-03-06T05:35:23Z
 
@@ -2012,9 +2002,9 @@ id: FF:0000174
 name: human smooth muscle cell of pulmonary artery sample
 namespace: FANTOM5
 synonym: "smooth muscle cell of pulmonary artery" EXACT []
-is_a: FF:0000167 ! smooth muscle cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002591 ! smooth muscle cell of the pulmonary artery
+intersection_of: FF:0000167 ! smooth muscle cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002591 ! smooth muscle cell of the pulmonary artery
 created_by: tmeehan
 creation_date: 2011-03-06T05:36:34Z
 
@@ -2023,9 +2013,9 @@ id: FF:0000175
 name: human smooth muscle cell of subclavian artery sample
 namespace: FANTOM5
 synonym: "smooth muscle cell of subclavian artery" EXACT []
-is_a: FF:0000167 ! smooth muscle cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002595 ! smooth muscle cell of the subclavian artery
+intersection_of: FF:0000167 ! smooth muscle cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002595 ! smooth muscle cell of the subclavian artery
 created_by: tmeehan
 creation_date: 2011-03-06T05:37:22Z
 
@@ -2034,9 +2024,8 @@ id: FF:0000176
 name: human smooth muscle cell of umbilical artery sample
 namespace: FANTOM5
 synonym: "smooth muscle cell of umbilical artery" EXACT []
-is_a: FF:0000167 ! smooth muscle cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002594 ! smooth muscle cell of the umbilical artery
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002594 ! smooth muscle cell of the umbilical artery
 created_by: tmeehan
 creation_date: 2011-03-06T05:38:46Z
 
@@ -2045,10 +2034,8 @@ id: FF:0000177
 name: human smooth muscle cell of umbilical vein sample
 namespace: FANTOM5
 synonym: "smooth muscle cell of umbilical vein" EXACT []
-is_a: FF:0000167 ! smooth muscle cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002588 ! smooth muscle cell of the umbilical vein
-relationship: derives_from UBERON:0002066 ! umbilical vein
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002588 ! smooth muscle cell of the umbilical vein
 created_by: tmeehan
 creation_date: 2011-03-06T05:39:38Z
 
@@ -2057,9 +2044,8 @@ id: FF:0000178
 name: human smooth muscle cell of bladder sample
 namespace: FANTOM5
 synonym: "smooth muscle cell of bladder" EXACT []
-is_a: FF:0000167 ! smooth muscle cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002597 ! smooth muscle cell of bladder
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002597 ! smooth muscle cell of bladder
 created_by: tmeehan
 creation_date: 2011-03-06T05:55:33Z
 
@@ -2068,9 +2054,8 @@ id: FF:0000179
 name: human bronchial smooth muscle cell sample
 namespace: FANTOM5
 synonym: "bronchial smooth muscle cell" EXACT []
-is_a: FF:0000167 ! smooth muscle cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002598 ! bronchial smooth muscle cell
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002598 ! bronchial smooth muscle cell
 created_by: tmeehan
 creation_date: 2011-03-06T05:56:49Z
 
@@ -2079,9 +2064,8 @@ id: FF:0000180
 name: human smooth muscle cell of intestine sample
 namespace: FANTOM5
 synonym: "smooth muscle cell of intestine" EXACT []
-is_a: FF:0000167 ! smooth muscle cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002504 ! enteric smooth muscle cell
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002504 ! enteric smooth muscle cell
 created_by: tmeehan
 creation_date: 2011-03-06T06:00:43Z
 
@@ -2090,10 +2074,8 @@ id: FF:0000181
 name: human smooth muscle of colon sample
 namespace: FANTOM5
 synonym: "smooth muscle of colon" EXACT []
-is_a: FF:0000180 ! human smooth muscle cell of intestine sample
-relationship: derives_from CL:1000280 ! smooth muscle cell of colon
-relationship: derives_from UBERON:0001135 ! smooth muscle tissue
-relationship: derives_from UBERON:0001155 ! colon
+intersection_of: FF:0000180 ! human smooth muscle cell of intestine sample
+intersection_of: derives_from CL:1000280 ! smooth muscle cell of colon
 created_by: tmeehan
 creation_date: 2011-03-06T06:02:00Z
 
@@ -2102,9 +2084,9 @@ id: FF:0000182
 name: human esophageal smooth muscle cell sample
 namespace: FANTOM5
 synonym: "esophageal smooth muscle cell" EXACT []
-is_a: FF:0000167 ! smooth muscle cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002599 ! smooth muscle cell of the esophagus
+intersection_of: FF:0000167 ! smooth muscle cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002599 ! smooth muscle cell of the esophagus
 created_by: tmeehan
 creation_date: 2011-03-06T06:03:48Z
 
@@ -2113,9 +2095,9 @@ id: FF:0000183
 name: human smooth muscle cell of prostate sample
 namespace: FANTOM5
 synonym: "smooth muscle cell of prostate" EXACT []
-is_a: FF:0000167 ! smooth muscle cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:1000487 ! smooth muscle cell of prostate
+intersection_of: FF:0000167 ! smooth muscle cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:1000487 ! smooth muscle cell of prostate
 created_by: tmeehan
 creation_date: 2011-03-06T06:05:23Z
 
@@ -2124,9 +2106,9 @@ id: FF:0000184
 name: human smooth muscle cell of trachea sample
 namespace: FANTOM5
 synonym: "smooth muscle cell of trachea" EXACT []
-is_a: FF:0000167 ! smooth muscle cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002600 ! smooth muscle cell of trachea
+intersection_of: FF:0000167 ! smooth muscle cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002600 ! smooth muscle cell of trachea
 created_by: tmeehan
 creation_date: 2011-03-06T06:08:14Z
 
@@ -2135,20 +2117,20 @@ id: FF:0000185
 name: human uterine smooth muscle cell sample
 namespace: FANTOM5
 synonym: "uterine smooth muscle cell" EXACT []
-is_a: FF:0000167 ! smooth muscle cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002601 ! uterine smooth muscle cell
+intersection_of: FF:0000167 ! smooth muscle cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002601 ! uterine smooth muscle cell
 created_by: tmeehan
 creation_date: 2011-03-06T06:09:28Z
 
 [Term]
 id: FF:0000186
-name: human sympathetic ganglia sample
+name: human adult sympathetic ganglia sample
 namespace: FANTOM5
 synonym: "sympathetic ganglia" EXACT []
-is_a: FF:0000210 ! human sample
-is_a: FF:0000998 ! adult tissue sample
-relationship: derives_from UBERON:0000045 ! ganglion
+intersection_of: FF:0000210 ! human sample
+intersection_of: FF:0000998 ! adult tissue sample
+intersection_of: derives_from UBERON:0001806 ! sympathetic ganglion
 created_by: tmeehan
 creation_date: 2011-03-06T06:13:44Z
 
@@ -2157,9 +2139,9 @@ id: FF:0000187
 name: human synovial cell sample
 namespace: FANTOM5
 synonym: "synovial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000214 ! synovial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000214 ! synovial cell
 created_by: tmeehan
 creation_date: 2011-03-06T06:16:08Z
 
@@ -2169,9 +2151,9 @@ name: human trabecular meshwork cell sample
 namespace: FANTOM5
 def: "A cell of the trabecular meshwork." [GOC:tfm]
 synonym: "trabecular meshwork cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002367 ! trabecular meshwork cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002367 ! trabecular meshwork cell
 created_by: tmeehan
 creation_date: 2011-03-06T06:20:41Z
 
@@ -2180,9 +2162,9 @@ id: FF:0000189
 name: human tracheal epithelial cell sample
 namespace: FANTOM5
 synonym: "tracheal epithelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000307 ! tracheal epithelial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000307 ! tracheal epithelial cell
 created_by: tmeehan
 creation_date: 2011-03-06T06:22:52Z
 
@@ -2191,9 +2173,9 @@ id: FF:0000190
 name: human trophoblast sample
 namespace: FANTOM5
 synonym: "trophoblast" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000351 ! trophoblast cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000351 ! trophoblast cell
 relationship: derives_from UBERON:0000088 ! trophoblast
 created_by: tmeehan
 creation_date: 2011-03-06T06:25:17Z
@@ -2203,9 +2185,9 @@ id: FF:0000191
 name: human urothelial cell sample
 namespace: FANTOM5
 synonym: "urothelial cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0000731 ! urothelial cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0000731 ! urothelial cell
 created_by: tmeehan
 creation_date: 2011-03-06T06:33:38Z
 
@@ -2214,9 +2196,9 @@ id: FF:0000192
 name: human anulus pulposus cell sample
 namespace: FANTOM5
 synonym: "anulus pulposus cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002602 ! annulus pulposus cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002602 ! annulus pulposus cell
 created_by: tmeehan
 creation_date: 2011-03-06T06:54:21Z
 
@@ -2225,9 +2207,9 @@ id: FF:0000193
 name: human astrocyte of the hippocampus sample
 namespace: FANTOM5
 synonym: "astrocyte of the hippocampus" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002604 ! astrocyte of the hippocampus
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002604 ! astrocyte of the hippocampus
 created_by: tmeehan
 creation_date: 2011-03-06T07:02:51Z
 
@@ -2236,9 +2218,9 @@ id: FF:0000194
 name: human astrocyte of the cerebral cortex sample
 namespace: FANTOM5
 synonym: "astrocyte of the cerebral cortex" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002605 ! astrocyte of the cerebral cortex
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002605 ! astrocyte of the cerebral cortex
 created_by: tmeehan
 creation_date: 2011-03-06T07:02:53Z
 
@@ -2247,9 +2229,9 @@ id: FF:0000195
 name: human astrocyte of the cerebellum sample
 namespace: FANTOM5
 synonym: "astrocyte of the cerebellum" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002603 ! astrocyte of the cerebellum
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002603 ! astrocyte of the cerebellum
 created_by: tmeehan
 creation_date: 2011-03-06T07:02:56Z
 
@@ -2258,9 +2240,8 @@ id: FF:0000196
 name: mouse astrocyte of cerebellum sample
 namespace: FANTOM5
 synonym: "mouse astrocyte of cerebellum" EXACT []
-is_a: FF:0000105 ! mouse astrocyte sample
-relationship: derives_from CL:0002603 ! astrocyte of the cerebellum
-relationship: derives_from UBERON:0002037 ! cerebellum
+intersection_of: FF:0000105 ! mouse astrocyte sample
+intersection_of: derives_from CL:0002603 ! astrocyte of the cerebellum
 created_by: tmeehan
 creation_date: 2011-03-06T07:06:59Z
 
@@ -2269,10 +2250,8 @@ id: FF:0000197
 name: mouse astrocyte of hippocampus sample
 namespace: FANTOM5
 synonym: "mouse astrocyte of hippocampus" EXACT []
-is_a: FF:0000105 ! mouse astrocyte sample
-relationship: derives_from CL:0002604 ! astrocyte of the hippocampus
-relationship: derives_from UBERON:0001954 ! Ammon's horn
-relationship: derives_from UBERON:0002421 ! hippocampal formation
+intersection_of: FF:0000105 ! mouse astrocyte sample
+intersection_of: derives_from CL:0002604 ! astrocyte of the hippocampus
 created_by: tmeehan
 creation_date: 2011-03-06T07:07:02Z
 
@@ -2281,10 +2260,9 @@ id: FF:0000198
 name: human astrocyte of spinal cord sample
 namespace: FANTOM5
 synonym: "astrocyte of spinal cord" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002606 ! astrocyte of the spinal cord
-relationship: derives_from UBERON:0002240 ! spinal cord
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002606 ! astrocyte of the spinal cord
 created_by: tmeehan
 creation_date: 2011-03-06T07:13:25Z
 
@@ -2293,8 +2271,8 @@ id: FF:0000199
 name: cerebellar granule cell sample
 namespace: FANTOM5
 synonym: "cerebellar granule cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-relationship: derives_from CL:0001031 ! cerebellar granule cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: derives_from CL:0001031 ! cerebellar granule cell
 created_by: tmeehan
 creation_date: 2011-03-06T07:17:45Z
 
@@ -2303,9 +2281,9 @@ id: FF:0000200
 name: human enteric neural crest cell sample
 namespace: FANTOM5
 synonym: "enteric neural crest cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002607 ! enteric neural crest cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002607 ! enteric neural crest cell
 created_by: tmeehan
 creation_date: 2011-03-06T07:27:35Z
 
@@ -2314,8 +2292,8 @@ id: FF:0000201
 name: hippocampal neuron sample
 namespace: FANTOM5
 synonym: "hippocampal neuron" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-relationship: derives_from CL:0002608 ! hippocampal neuron
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: derives_from CL:0002608 ! hippocampal neuron
 created_by: tmeehan
 creation_date: 2011-03-06T07:33:09Z
 
@@ -2325,7 +2303,8 @@ name: mouse hippocampal neuron sample
 namespace: FANTOM5
 synonym: "mouse hippocampal neuron" EXACT []
 is_a: FF:0000201 ! hippocampal neuron sample
-is_a: FF:0000203 ! mouse neuron samples
+intersection_of: FF:0000203 ! mouse neuron samples
+intersection_of: derives_from CL:0002608 ! hippocampal neuron
 created_by: tmeehan
 creation_date: 2011-03-06T07:35:03Z
 
@@ -2334,9 +2313,9 @@ id: FF:0000203
 name: mouse neuron samples
 namespace: FANTOM5
 synonym: "mouse neuron" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000103 ! mouse sample
-relationship: derives_from CL:0000540 ! neuron
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000103 ! mouse sample
+intersection_of: derives_from CL:0000540 ! neuron
 created_by: tmeehan
 creation_date: 2011-03-06T07:51:54Z
 
@@ -2345,8 +2324,8 @@ id: FF:0000204
 name: cortical mouse neuron sample
 namespace: FANTOM5
 synonym: "cortical mouse neuron" EXACT []
-is_a: FF:0000203 ! mouse neuron samples
-relationship: derives_from CL:0002609 ! neuron of cerebral cortex
+intersection_of: FF:0000203 ! mouse neuron samples
+intersection_of: derives_from CL:0002609 ! neuron of cerebral cortex
 created_by: tmeehan
 creation_date: 2011-03-06T07:52:35Z
 
@@ -2355,8 +2334,8 @@ id: FF:0000205
 name: mouse raphe nuclei neuron sample
 namespace: FANTOM5
 synonym: "mouse raphe nuclei neuron" EXACT []
-is_a: FF:0000203 ! mouse neuron samples
-relationship: derives_from CL:0002610 ! raphe nuclei neuron
+intersection_of: FF:0000203 ! mouse neuron samples
+intersection_of: derives_from CL:0002610 ! raphe nuclei neuron
 created_by: tmeehan
 creation_date: 2011-03-06T07:54:00Z
 
@@ -2365,8 +2344,8 @@ id: FF:0000206
 name: mouse neuron of the dorsal spinal cord sample
 namespace: FANTOM5
 synonym: "mouse neuron of the dorsal spinal cord" EXACT []
-is_a: FF:0000203 ! mouse neuron samples
-relationship: derives_from CL:0002611 ! neuron of the dorsal spinal cord
+intersection_of: FF:0000203 ! mouse neuron samples
+intersection_of: derives_from CL:0002611 ! neuron of the dorsal spinal cord
 created_by: tmeehan
 creation_date: 2011-03-06T07:55:55Z
 
@@ -2375,8 +2354,8 @@ id: FF:0000207
 name: mouse neuron of the ventral spinal cord sample
 namespace: FANTOM5
 synonym: "mouse neuron of the ventral spinal cord" EXACT []
-is_a: FF:0000203 ! mouse neuron samples
-relationship: derives_from CL:0002612 ! neuron of the ventral spinal cord
+intersection_of: FF:0000203 ! mouse neuron samples
+intersection_of: derives_from CL:0002612 ! neuron of the ventral spinal cord
 created_by: tmeehan
 creation_date: 2011-03-06T07:56:52Z
 
@@ -2385,8 +2364,8 @@ id: FF:0000208
 name: mouse neuron of the substantia nigra sample
 namespace: FANTOM5
 synonym: "mouse neuron of the substantia nigra" EXACT []
-is_a: FF:0000203 ! mouse neuron samples
-relationship: derives_from CL:0002614 ! neuron of the substantia nigra
+intersection_of: FF:0000203 ! mouse neuron samples
+intersection_of: derives_from CL:0002614 ! neuron of the substantia nigra
 created_by: tmeehan
 creation_date: 2011-03-06T07:58:19Z
 
@@ -2395,8 +2374,8 @@ id: FF:0000209
 name: mouse striatal neuron sample
 namespace: FANTOM5
 synonym: "mouse striatal neuron" EXACT []
-is_a: FF:0000203 ! mouse neuron samples
-relationship: derives_from CL:0002613 ! striatum neuron
+intersection_of: FF:0000203 ! mouse neuron samples
+intersection_of: derives_from CL:0002613 ! striatum neuron
 created_by: tmeehan
 creation_date: 2011-03-06T07:58:24Z
 
@@ -2418,9 +2397,9 @@ id: FF:0000211
 name: human perirenal adipocyte cell sample
 namespace: FANTOM5
 synonym: "perirenal adipocyte cell" EXACT []
-is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0000210 ! human sample
-relationship: derives_from CL:0002616 ! perirenal adipocyte cell
+intersection_of: FF:0000002 ! in vivo cell sample
+intersection_of: FF:0000210 ! human sample
+intersection_of: derives_from CL:0002616 ! perirenal adipocyte cell
 created_by: tmeehan
 creation_date: 2011-03-14T10:22:55Z
 
@@ -2428,6 +2407,7 @@ creation_date: 2011-03-14T10:22:55Z
 id: FF:0000212
 name: human basophil heparinase treated sample
 namespace: FANTOM5
+comment: todo - heparinase
 synonym: "basophil heparinase treated" EXACT []
 is_a: FF:0000013 ! human basophil sample
 created_by: tmeehan
@@ -2468,8 +2448,8 @@ id: FF:0000216
 name: chicken extraembryonic sample
 namespace: FANTOM5
 synonym: "chicken extraembryonic" EXACT []
-is_a: FF:0000242 ! chicken developmental series sample
-relationship: derives_from UBERON:0005292 ! extraembryonic tissue
+intersection_of: FF:0000242 ! chicken developmental series sample
+intersection_of: derives_from UBERON:0005292 ! extraembryonic tissue
 created_by: tmeehan
 creation_date: 2011-03-14T10:49:18Z
 
@@ -2490,8 +2470,6 @@ name: chicken embryo extraembryonic tissue day7 HH32 sample
 namespace: FANTOM5
 synonym: "chicken embryo extraembryonic tissue day7 HH32" EXACT []
 is_a: FF:0000216 ! chicken extraembryonic sample
-relationship: derives_from UBERON:0000478 ! extraembryonic structure
-relationship: derives_from UBERON:0000922 ! embryo
 relationship: derives_from UBERON:0005292 ! extraembryonic tissue
 created_by: tmeehan
 creation_date: 2011-03-14T10:52:07Z
@@ -2502,8 +2480,6 @@ name: chicken embryo extraembryonic tissue day15 HH41 sample
 namespace: FANTOM5
 synonym: "chicken embryo extraembryonic tissue day15 HH41" EXACT []
 is_a: FF:0000216 ! chicken extraembryonic sample
-relationship: derives_from UBERON:0000478 ! extraembryonic structure
-relationship: derives_from UBERON:0000922 ! embryo
 relationship: derives_from UBERON:0005292 ! extraembryonic tissue
 created_by: tmeehan
 creation_date: 2011-03-14T10:52:09Z
