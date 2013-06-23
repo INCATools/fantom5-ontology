@@ -2,104 +2,15 @@ format-version: 1.2
 date: 19:02:2012 20:16
 data-version: 019_01
 saved-by: cjm
-subsetdef: abnormal_slim ""
-subsetdef: absent_slim ""
-subsetdef: attribute_slim ""
-subsetdef: cell_quality ""
-subsetdef: defined_by_ordinal_series ""
-subsetdef: developmental_classification ""
-subsetdef: disjointness_axiom_removed ""
-subsetdef: disposition_slim ""
-subsetdef: dubious_grouping ""
-subsetdef: early_development ""
-subsetdef: emapa_ehdaa2 ""
-subsetdef: functional_classification ""
-subsetdef: GOLD "GOLD"
-subsetdef: goslim_aspergillus ""
-subsetdef: goslim_candida ""
-subsetdef: goslim_generic ""
-subsetdef: goslim_goa ""
-subsetdef: goslim_pir ""
-subsetdef: goslim_plant ""
-subsetdef: goslim_pombe ""
-subsetdef: goslim_yeast ""
-subsetdef: gosubset_prok ""
-subsetdef: gram-negative_bacterial_infectious_disease ""
-subsetdef: gram-positive_bacterial_infectious_disease "gram-positive bacterial infectious disease"
-subsetdef: grouping_class ""
-subsetdef: high_level_annotation_qc ""
-subsetdef: inconsistent_with_fma ""
-subsetdef: inherited_grouping_class ""
-subsetdef: major_organ ""
-subsetdef: metazoa_core ""
-subsetdef: mf_needs_review ""
-subsetdef: organ_slim ""
-subsetdef: phenotype_rcn "A subset specifically created for the 2012 Phenotype RCN meeting. Includes some human-specific terms that may eventually be removed when they are adequately represented with part of relationships in FMA"
-subsetdef: relational_slim ""
-subsetdef: scalar_slim ""
-subsetdef: sexually_transmitted_infectious_disease "sexually transmitted infectious disease"
-subsetdef: tick-borne_infectious_disease "tick-borne infectious disease"
-subsetdef: uberon_slim ""
-subsetdef: unvetted ""
-subsetdef: upper_level ""
-subsetdef: upper_ontology_conflict ""
-subsetdef: value_slim ""
-subsetdef: vertebrate_core ""
-subsetdef: zoonotic_infectious_disease "zoonotic infectious disease"
 subsetdef: encode "Initial set used by ENCODE"
-synonymtypedef: ATTRIBUTION_REQUIRED ""
-synonymtypedef: BRAND_NAME ""
-synonymtypedef: DEVELOPMENTAL "developmental term"
-synonymtypedef: DUBIOUS ""
-synonymtypedef: FORMULA ""
-synonymtypedef: GE "LANGUAGE GERMAN"
-synonymtypedef: HOMOLOGY ""
-synonymtypedef: InChI ""
-synonymtypedef: InChIKey ""
-synonymtypedef: INCONSISTENT ""
-synonymtypedef: INN ""
-synonymtypedef: IUPAC_NAME ""
-synonymtypedef: PLURAL ""
-synonymtypedef: PRO-short-label ""
-synonymtypedef: PSI-MOD-label ""
-synonymtypedef: SCI "SCIENTIFIC NAME"
-synonymtypedef: SENSU ""
-synonymtypedef: SMILES ""
-synonymtypedef: systematic_synonym ""
-default-namespace: uberon
-idspace: BFO http://purl.obolibrary.org/obo/BFO_
-idspace: NIF_GrossAnatomy http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-GrossAnatomy.owl#
-idspace: Wikipedia http://en.wikipedia.org/wiki/
+default-namespace: FANTOM
+idspace: efo http://www.ebi.ac.uk/efo/EFO_
 remark: cvs version: $Revision: 1.00 $
-treat-xrefs-as-equivalent: BILA
-treat-xrefs-as-equivalent: BSPO
-treat-xrefs-as-equivalent: CARO
-treat-xrefs-as-equivalent: GO
-treat-xrefs-as-equivalent: NIF_GrossAnatomy
-treat-xrefs-as-equivalent: OG
-treat-xrefs-as-equivalent: VAO
-treat-xrefs-as-reverse-genus-differentia: AAO part_of NCBITaxon:8292
-treat-xrefs-as-reverse-genus-differentia: FBbt part_of NCBITaxon:7227
-treat-xrefs-as-reverse-genus-differentia: FMA part_of NCBITaxon:9606
-treat-xrefs-as-reverse-genus-differentia: HAO part_of NCBITaxon:7399
-treat-xrefs-as-reverse-genus-differentia: MA part_of NCBITaxon:10088
-treat-xrefs-as-reverse-genus-differentia: MFO part_of NCBITaxon:8089
-treat-xrefs-as-reverse-genus-differentia: ncithesaurus part_of NCBITaxon:40674
-treat-xrefs-as-reverse-genus-differentia: SPD part_of NCBITaxon:6893
-treat-xrefs-as-reverse-genus-differentia: TADS part_of NCBITaxon:6939
-treat-xrefs-as-reverse-genus-differentia: TAO part_of NCBITaxon:32443
-treat-xrefs-as-reverse-genus-differentia: TGMA part_of NCBITaxon:44484
-treat-xrefs-as-reverse-genus-differentia: WBbt part_of NCBITaxon:6237
-treat-xrefs-as-reverse-genus-differentia: XAO part_of NCBITaxon:8353
-treat-xrefs-as-reverse-genus-differentia: ZFA part_of NCBITaxon:7954
-treat-xrefs-as-has-subclass: EHDAA
-treat-xrefs-as-has-subclass: EHDAA2
-treat-xrefs-as-has-subclass: EMAPA
 ontology: ff
 
 [Term]
 id: FF:0000001
-name: FANTOM5 Sample sample
+name: sample
 namespace: FANTOM5
 def: "Root Term for the FANTOM5 sample ontology. Should only be viewed by FANTOM5 consortium members until one year after data freeze (~June 2012)." [GOC:tfm]
 synonym: "FANTOM5 Sample" EXACT []
@@ -272,7 +183,8 @@ def: "A sample consisting of material from a canine." [GOC:tfm]
 synonym: "canine" EXACT []
 synonym: "canine" RELATED []
 synonym: "dog" RELATED []
-is_a: FF:0000101 ! sample by species
+intersection_of: FF:0000101 ! sample by species
+intersection_of: derives_from NCBITaxon:9611 ! Canis
 disjoint_from: FF:0000032 ! chicken sample
 disjoint_from: FF:0000103 ! mouse sample
 disjoint_from: FF:0000147 ! rat sample
@@ -361,7 +273,8 @@ namespace: FANTOM5
 synonym: "CD14-positive monocyte" EXACT []
 intersection_of: FF:0000002 ! in vivo cell sample
 intersection_of: FF:0000210 ! human sample
-intersection_of: derives_from CL:0002397 ! CD14-positive, CD16-positive monocyte
+intersection_of: derives_from CL:0000576 ! monocyte
+intersection_of: has_plasma_membrane_part PR:000001889 ! CD14 molecule
 created_by: tmeehan
 creation_date: 2011-02-28T02:08:08Z
 
@@ -447,7 +360,8 @@ namespace: FANTOM5
 def: "A sample consisting of material from a chicken." [GOC:tfm]
 synonym: "chicken" EXACT []
 synonym: "chicken" RELATED []
-is_a: FF:0000101 ! sample by species
+intersection_of: FF:0000101 ! sample by species
+intersection_of: derives_from NCBITaxon:9031 ! Gallus gallus
 disjoint_from: FF:0000103 ! mouse sample
 disjoint_from: FF:0000147 ! rat sample
 disjoint_from: FF:0000210 ! human sample
@@ -558,12 +472,7 @@ creation_date: 2011-02-28T03:19:57Z
 id: FF:0000042
 name: human pancreatic stromal cell sample
 namespace: FANTOM5
-synonym: "pancreatic stromal cell" EXACT []
-intersection_of: FF:0000002 ! in vivo cell sample
-intersection_of: FF:0000210 ! human sample
-intersection_of: derives_from CL:0002574 ! stromal cell of pancreas
-created_by: tmeehan
-creation_date: 2011-03-02T02:43:26Z
+is_obsolete: true
 
 [Term]
 id: FF:0000043
@@ -674,12 +583,7 @@ creation_date: 2011-02-28T04:16:43Z
 id: FF:0000053
 name: human blood vessel endothelial progenitor cell sample
 namespace: FANTOM5
-synonym: "blood vessel endothelial progenitor cell" EXACT []
-intersection_of: FF:0000002 ! in vivo cell sample
-intersection_of: FF:0000210 ! human sample
-intersection_of: derives_from CL:0002619 ! adult endothelial progenitor cell
-created_by: tmeehan
-creation_date: 2011-02-28T04:25:02Z
+is_obsolete: true
 
 [Term]
 id: FF:0000054
@@ -959,7 +863,7 @@ synonym: "Lgr5-positive intestinal epithelial stem cell" EXACT []
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000103 ! mouse sample
 relationship: derives_from CL:0002250 ! intestinal crypt stem cell
-relationsgip: has_part PR:000001592 ! leucine-rich repeat-containing G-protein coupled receptor 5
+relationship: has_part PR:000001592 ! leucine-rich repeat-containing G-protein coupled receptor 5
 created_by: tmeehan
 creation_date: 2011-03-01T05:24:32Z
 
@@ -1152,6 +1056,12 @@ created_by: tmeehan
 creation_date: 2011-03-01T10:46:34Z
 
 [Term]
+id: FF:0000270
+name: human mesenchymal precursor cell of adipose sample
+is_obsolete: true
+replaced_by: FF:0000096
+
+[Term]
 id: FF:0000097
 name: human mesenchymal stem cell of bone marrow sample
 namespace: FANTOM5
@@ -1220,7 +1130,8 @@ def: "A sample consisting of material from a mouse." [GOC:tfm]
 synonym: "mouse" EXACT []
 synonym: "mouse" RELATED []
 synonym: "mus" RELATED []
-is_a: FF:0000101 ! sample by species
+intersection_of: FF:0000101 ! sample by species
+intersection_of: derives_from NCBITaxon:10090 ! Mus musculus
 disjoint_from: FF:0000147 ! rat sample
 disjoint_from: FF:0000210 ! human sample
 created_by: tmeehan
@@ -1707,7 +1618,8 @@ namespace: FANTOM5
 synonym: "rat" EXACT []
 synonym: "rat" RELATED []
 synonym: "rattus" RELATED []
-is_a: FF:0000101 ! sample by species
+intersection_of: FF:0000101 ! sample by species
+intersection_of: derives_from NCBITaxon:10114 ! Rattus
 disjoint_from: FF:0000210 ! human sample
 created_by: tmeehan
 creation_date: 2011-03-03T05:02:06Z
@@ -1880,12 +1792,7 @@ creation_date: 2011-03-06T03:57:22Z
 id: FF:0000163
 name: human myotubule derived from skeletal muscle cells sample
 namespace: FANTOM5
-synonym: "myotubule derived from skeletal muscle cells" EXACT []
-intersection_of: FF:0000002 ! in vivo cell sample
-intersection_of: FF:0000210 ! human sample
-intersection_of: derives_from CL:0002372 ! myotube
-created_by: tmeehan
-creation_date: 2011-03-06T03:58:36Z
+is_obsolete: true
 
 [Term]
 id: FF:0000164
@@ -2387,7 +2294,8 @@ def: "A sample consisting of material from a human." [GOC:tfm]
 synonym: "human" EXACT []
 synonym: "homo sapiens" RELATED []
 synonym: "human" RELATED []
-is_a: FF:0000101 ! sample by species
+intersection_of: FF:0000101 ! sample by species
+intersection_of: derives_from NCBITaxon:9606 ! Homo sapiens
 disjoint_from: FF:0000103 ! mouse sample
 created_by: tmeehan
 creation_date: 2011-03-07T06:08:50Z
@@ -2819,7 +2727,7 @@ name: human fibroblast- skin dystrophia myotonica sample
 namespace: FANTOM5
 synonym: "fibroblast- skin dystrophia myotonica" EXACT []
 intersection_of: FF:0000250 ! human fibroblast of skin sample
-intersection_of: is_model_for DOID::11722 ! myotonic dystrophy
+intersection_of: is_model_for DOID:11722 ! myotonic dystrophy
 created_by: tmeehan
 creation_date: 2011-03-14T12:39:11Z
 
@@ -2979,22 +2887,11 @@ id: FF:0000269
 name: human mesenchymal precursor cell of bone marrow sample
 namespace: FANTOM5
 synonym: "mesenchymal precursor cell of bone marrow" EXACT []
-intersection_of: FF:0000002 ! in vivo cell sample
-intersection_of: FF:0000210 ! human sample
-intersection_of: derives_from CL:0002540 ! mesenchymal stem cell of the bone marrow
+is_a: FF:0000002 ! in vivo cell sample
+is_a: FF:0000210 ! human sample
+relationship: derives_from CL:0002540 ! mesenchymal stem cell of the bone marrow
 created_by: tmeehan
 creation_date: 2011-03-14T01:28:46Z
-
-[Term]
-id: FF:0000270
-name: human mesenchymal precursor cell of adipose sample
-namespace: FANTOM5
-synonym: "mesenchymal precursor cell of adipose" EXACT []
-intersection_of: FF:0000002 ! in vivo cell sample
-intersection_of: FF:0000210 ! human sample
-intersection_of: derives_from CL:0002570 ! mesenchymal stem cell of adipose
-created_by: tmeehan
-creation_date: 2011-03-14T01:30:22Z
 
 [Term]
 id: FF:0000271
@@ -3227,6 +3124,7 @@ namespace: FANTOM5
 synonym: "embryonic day 13" EXACT []
 synonym: "E13" EXACT []
 is_a: FF:0000292 ! embryonic day sample - mouse
+is_a: FF:0300110 ! 13 days sample
 relationship: preceded_by FF:0000295 ! mouse embryonic day 12 sample
 created_by: tmeehan
 creation_date: 2011-04-22T10:42:49Z
@@ -4088,6 +3986,13 @@ id: FF:0000389
 name: 12 days sample
 namespace: FANTOM5
 synonym: "12 days" EXACT []
+is_a: UO:0000033 ! day
+
+[Term]
+id: FF:0300110 ! 13 days sample
+name: 13 days sample
+namespace: FANTOM5
+synonym: "13 days" EXACT []
 is_a: UO:0000033 ! day
 
 [Term]
@@ -8535,9 +8440,9 @@ id: FF:0010156
 name: human medial temporal gyrus donor sample
 namespace: FANTOM5
 synonym: "medial temporal gyrus donor" EXACT []
-intersection_of: FF:0000210 ! human sample
-intersection_of: FF:0000998 ! adult tissue sample
-intersection_of: derives_from UBERON:0002771 ! middle temporal gyrus
+is_a: FF:0000210 ! human sample
+is_a: FF:0000998 ! adult tissue sample
+relationship: derives_from UBERON:0002771 ! middle temporal gyrus
 
 [Term]
 id: FF:0010158
@@ -8589,9 +8494,8 @@ id: FF:0010163
 name: human occipital cortex - adult donor sample
 namespace: FANTOM5
 synonym: "occipital cortex - adult donor" EXACT []
-intersection_of: FF:0000210 ! human sample
-intersection_of: FF:0000998 ! adult tissue sample
-intersection_of: derives_from UBERON:0002021 ! occipital lobe
+is_obsolete: true
+replaced_by: FF:0010076 ! human occipital lobe
 
 [Term]
 id: FF:0010164
@@ -8605,11 +8509,8 @@ intersection_of: derives_from UBERON:0001873 ! caudate nucleus
 [Term]
 id: FF:0010166
 name: human cerebellum - adult donor sample
-namespace: FANTOM5
-synonym: "cerebellum - adult donor" EXACT []
-intersection_of: FF:0000210 ! human sample
-intersection_of: FF:0000998 ! adult tissue sample
-intersection_of: derives_from UBERON:0002037 ! cerebellum
+is_obsolete: true
+replaced_by: FF:0010083 ! 'human cerebellum - adult sample'
 
 [Term]
 id: FF:0010184
@@ -8922,10 +8823,8 @@ intersection_of: derives_from CL:0002057 ! CD14-positive, CD16-negative classica
 [Term]
 id: FF:0011112
 name: human CD14-positiveCD16-positive Monocytes sample
-synonym: "CD14-positiveCD16-positive Monocytes" EXACT []
-intersection_of: FF:0000002 ! in vivo cell sample
-intersection_of: FF:0000210 ! human sample
-intersection_of: derives_from CL:0002397 ! CD14-positive, CD16-positive monocyte
+is_obsolete: true
+replaced_by: FF:0011100
 
 [Term]
 id: FF:0011113
@@ -8938,6 +8837,12 @@ intersection_of: FF:0000350 ! experimentally modified sample
 intersection_of: FF:0000383 ! 3 days sample
 intersection_of: FF:0000627 ! RANK ligand treatment sample
 intersection_of: derives_from CL:0000584 ! enterocyte
+
+[Term]
+id: FF:0011445
+name: CD326-positive+ enterocyte isolated from mice- treated with RANKL- day03 sample
+is_obsolete: true
+replaced_by: FF:0011113
 
 [Term]
 id: FF:0011121
@@ -9347,7 +9252,7 @@ name: human Skin - palm sample
 synonym: "Skin - palm" EXACT []
 intersection_of: FF:0000210 ! human sample
 intersection_of: FF:0000998 ! adult tissue sample
-intersection_of: derives_from BERON:0013777 ! skin of palm of manus
+intersection_of: derives_from UBERON:0013777 ! skin of palm of manus
 
 [Term]
 id: FF:0011178
@@ -9843,7 +9748,7 @@ synonym: "ES cells differentiated towards cardiomyocyte- day13" EXACT []
 intersection_of: EFO:0001746 ! development or differentiation design
 intersection_of: FF:0000210 ! human sample
 intersection_of: FF:0000350 ! experimentally modified sample
-intersection_of: FF:0000389 ! 12 days sample
+intersection_of: FF:0300110 ! 13 days sample
 intersection_of: FF:0000651 ! cardiomyocyte differentiation treatment sample
 intersection_of: FF:0101581 ! embryonic stem cell line sample
 
@@ -10316,7 +10221,9 @@ intersection_of: derives_from UBERON:0005366 ! olfactory lobe
 id: FF:0011287
 name: mouse fibroblast cell line: CRL-1658 NIH/3T3 sample
 synonym: "mouse fibroblast cell line: CRL-1658 NIH/3T3" EXACT []
-relationship: derives_from UBERON:0000922 ! embryo
+is_a: EFO:0002091 ! biological replicate
+is_a: FF:0000003 ! cell line sample
+is_a: FF:0000103 ! mouse sample
 
 [Term]
 id: FF:0011288
@@ -11377,18 +11284,6 @@ intersection_of: FF:0000631 ! trehalose dimycolate (TDM) treatment sample
 intersection_of: derives_from CL:0002057 ! CD14-positive, CD16-negative classical monocyte
 
 [Term]
-id: FF:0011445
-name: CD326-positive+ enterocyte isolated from mice- treated with RANKL- day03 sample
-synonym: "CD326-positive+ enterocyte isolated from mice- treated with RANKL- day03" EXACT []
-intersection_of: EFO:0001746 ! development or differentiation design
-intersection_of: FF:0000002 ! in vivo cell sample
-intersection_of: FF:0000103 ! mouse sample
-intersection_of: FF:0000350 ! experimentally modified sample
-intersection_of: FF:0000383 ! 3 days sample
-intersection_of: FF:0000627 ! RANK ligand treatment sample
-intersection_of: derives_from CL:0000584 ! enterocyte
-
-[Term]
 id: FF:0011446
 name: CD4-positiveCD25-CD44- naive conventional T cells stimulated with alphaCD3_CD28 - 06hr- (C57BL_6J) sample
 synonym: "CD4-positiveCD25-CD44- naive conventional T cells stimulated with alphaCD3_CD28 - 06hr- (C57BL_6J)" EXACT []
@@ -12267,13 +12162,7 @@ intersection_of: is_model_for DOID:1612 ! breast cancer
 [Term]
 id: FF:0100372
 name: bone cancer cell sample
-namespace: FANTOM5
-def: "Cancer cell of the skeleton. Cancers that begin in bone are rare but it is not unusual for cancers to spread (metastasize) to bone from other parts of the body. This is not called bone cancer, but is named for the organ or tissue in which the cancer begins." [Online Medical Dictionary:http://cancerweb.ncl.ac.uk/]
-synonym: "bone cancer cell" EXACT []
-xref: BTO:0000372 ! bone cancer cell
-intersection_of: FF:0000102 ! sample by type
-intersection_of: is_model_for DOID:184 ! bone cancer
-relationship: derives_from CL:0000137 ! osteocyte
+is_obsolete: true
 
 [Term]
 id: FF:0100383
@@ -12594,7 +12483,7 @@ namespace: FANTOM5
 synonym: "gastric cancer cell line" EXACT []
 xref: BTO:0000787 ! gastric cancer cell line
 intersection_of: FF:0000003 ! cell line sample
-intersection_of: is_model_for DOID:3119 ! gastrointestinal system cancer
+intersection_of: is_model_for DOID:10534 ! stomach cancer
 relationship: derives_from UBERON:0000945 ! stomach
 
 [Term]
@@ -12710,7 +12599,7 @@ synonym: "Burkitt lymphoma cell line" EXACT []
 synonym: "Burkitt's lymphoma cell line" RELATED []
 xref: BTO:0000889 ! Burkitt lymphoma cell line
 intersection_of: FF:0100104 ! lymphoma cell line sample
-intersection_of: derives_from CL:0000945 ! lymphocyte of B lineage
+intersection_of: is_model_for DOID:8584 ! Burkitt's lymphoma
 
 [Term]
 id: FF:0100898
@@ -12775,7 +12664,7 @@ synonym: "giant cell tumor cell of bone" RELATED []
 xref: BTO:0000969 ! osteoclastoma cell
 intersection_of: FF:0100583 ! bone marrow cancer cell sample
 intersection_of: is_model_for DOID:4305 ! bone giant cell tumor
-relationship: derives_from CL:0000092 ! osteoclast
+intersection_of: derives_from CL:0000092 ! osteoclast
 
 [Term]
 id: FF:0100971
@@ -13196,8 +13085,6 @@ synonym: "CRC cell line" RELATED []
 xref: BTO:0001616 ! colorectal cancer cell line
 intersection_of: FF:0000003 ! cell line sample
 intersection_of: is_model_for DOID:9256 ! colorectal cancer
-is_a: FF:0100797 ! colonic cancer cell line sample
-is_a: FF:0101532 ! rectal cancer cell line sample
 
 [Term]
 id: FF:0101620
@@ -14394,8 +14281,6 @@ def: "Human fibrous histiocytoma cell line, established from a 29 years old male
 synonym: "giant cell tumor cell line" EXACT []
 synonym: "GCT cell" RELATED []
 xref: BTO:0003766 ! giant cell tumor cell line
-is_a: FF:0100969 ! osteoclastoma cell sample
-is_a: FF:0103765 ! dermatofibroma cell line sample
 intersection_of: FF:0000003 ! cell line sample
 intersection_of: is_model_for DOID:200 ! giant cell tumor
 
@@ -14804,14 +14689,15 @@ relationship: derives_from UBERON:0001737 ! larynx
 id: FF:0200001
 name: macrophage, TB infection sample
 synonym: "macrophage, TB infection" EXACT []
-is_a: EFO:0000774 ! tuberculosis
+is_a: EFO:0000544 ! infection
 relationship: derives_from CL:0000235 ! macrophage
+relationship: is_model_for DOID:399 ! tuberculosis
 
 [Term]
 id: FF:0200002
 name: olfactory epithelial cell sample
 synonym: "olfactory epithelial cell" EXACT []
-intersection_of: FF:0000003 ! cell line sample
+intersection_of: FF:0000002 ! in vivo cell sample
 intersection_of: derives_from CL:0002167 ! olfactory epithelial cell
 
 [Term]
@@ -14868,9 +14754,15 @@ is_a: FF:0200010 ! rinderpest infection sample
 [Term]
 id: FF:0200010
 name: rinderpest infection sample
+def: "A viral infectious disease that results_in infection in cattle, has_material_basis_in Rinderpest virus, which is transmitted_by direct contact with an infected animal, or transmitted_by ingestion of contaminated water. The infection has_symptom fever, has_symptom nasal and eye discharge, and results_in_formation_of erosions in the mouth, the lining of the nose and the genital tract." [url:http://en.wikipedia.org/wiki/Rinderpest]
+synonym: "cattle plague" EXACT []
+synonym: "steppe murrain" EXACT []
 synonym: "rinderpest infection" EXACT []
 is_a: EFO:0000544 ! infection
-is_a: FFD:4104 ! rinderpest
+xref: MSH:D012301
+xref: SNOMEDCT_2010_1_31:40440002
+xref: UMLS:C0035637
+relationship: is_model_for DOID:0050117 ! disease by infectious agent
 
 [Term]
 id: FF:0200011
@@ -14936,9 +14828,10 @@ intersection_of: derives_from UBERON:0000926 ! mesoderm
 
 [Term]
 id: FF:0200027
-name: (pre) hematopoietic stem cell,aorta-gonad-mesonephros (AGM) region derived sample
+name: mouse (pre) hematopoietic stem cell,aorta-gonad-mesonephros (AGM) region derived sample
 comment: we group pre-HSC and HSC here
 synonym: "(pre) hematopoietic stem cell,aorta-gonad-mesonephros (AGM) region derived" EXACT []
+is_a: FF:0000103 ! mouse sample
 relationship: derives_from CL:0000037 ! hematopoietic stem cell
 relationship: derives_from UBERON:0000080 ! mesonephros
 
@@ -16148,7 +16041,7 @@ name: occipital cortex, adult, donor10252
 namespace: FANTOM5
 is_a: EFO:0002091 ! biological replicate
 is_a: FF:0000002 ! in vivo cell sample
-is_a: FF:0010163 ! human occipital cortex - adult donor sample
+is_a: FF:0010076 ! human occipital lobe
 
 [Term]
 id: FF:10164-103B2
@@ -16214,7 +16107,7 @@ id: FF:10172-103C1
 name: occipital cortex, adult- library
 namespace: FANTOM5
 is_a: EFO:0002091 ! biological replicate
-is_a: FF:0010163 ! human occipital cortex - adult donor sample
+is_a: FF:0010076 ! human occipital lobe - adult sample
 
 [Term]
 id: FF:10173-103C2
@@ -17385,7 +17278,6 @@ relationship: derives_from UBERON:0000411 ! visual cortex
 [Term]
 id: FF:10352-105E1
 name: medial frontal gyrus, newborn, donor10223
-is_a: EFO:0001372 ! neonate
 is_a: FF:0000004 ! tissue sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0002702 ! middle frontal gyrus
@@ -17394,7 +17286,6 @@ relationship: exists_at UBERON:0007221 ! neonate stage
 [Term]
 id: FF:10353-105E2
 name: medial temporal gyrus, newborn, donor10223
-is_a: EFO:0001372 ! neonate
 is_a: FF:0000004 ! tissue sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0002771 ! middle temporal gyrus
@@ -17403,7 +17294,6 @@ relationship: exists_at UBERON:0007221 ! neonate stage
 [Term]
 id: FF:10354-105E3
 name: caudate nucleus, newborn, donor10223
-is_a: EFO:0001372 ! neonate
 is_a: FF:0000004 ! tissue sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0001873 ! caudate nucleus
@@ -17412,7 +17302,6 @@ relationship: exists_at UBERON:0007221 ! neonate stage
 [Term]
 id: FF:10355-105E4
 name: occipital cortex, newborn, donor10223
-is_a: EFO:0001372 ! neonate
 is_a: FF:0000004 ! tissue sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0002021 ! occipital lobe
@@ -17421,7 +17310,6 @@ relationship: exists_at UBERON:0007221 ! neonate stage
 [Term]
 id: FF:10356-105E5
 name: parietal lobe, newborn, donor10223
-is_a: EFO:0001372 ! neonate
 is_a: FF:0000004 ! tissue sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0001872 ! parietal lobe
@@ -17430,7 +17318,6 @@ relationship: exists_at UBERON:0007221 ! neonate stage
 [Term]
 id: FF:10357-105E6
 name: cerebellum, newborn, donor10223
-is_a: EFO:0001372 ! neonate
 is_a: FF:0000004 ! tissue sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0002037 ! cerebellum
@@ -17439,7 +17326,6 @@ relationship: exists_at UBERON:0007221 ! neonate stage
 [Term]
 id: FF:10358-105E7
 name: substantia nigra, newborn, donor10223
-is_a: EFO:0001372 ! neonate
 is_a: FF:0000004 ! tissue sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0002038 ! substantia nigra
@@ -17448,7 +17334,6 @@ relationship: exists_at UBERON:0007221 ! neonate stage
 [Term]
 id: FF:10359-105E8
 name: spinal cord, newborn, donor10223
-is_a: EFO:0001372 ! neonate
 is_a: FF:0000004 ! tissue sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0002240 ! spinal cord
@@ -17457,7 +17342,6 @@ relationship: exists_at UBERON:0007221 ! neonate stage
 [Term]
 id: FF:10360-105E9
 name: amygdala, newborn, donor10223
-is_a: EFO:0001372 ! neonate
 is_a: FF:0000004 ! tissue sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0001876 ! amygdala
@@ -17466,7 +17350,6 @@ relationship: exists_at UBERON:0007221 ! neonate stage
 [Term]
 id: FF:10361-105F1
 name: medulla oblongata, newborn, donor10223
-is_a: EFO:0001372 ! neonate
 is_a: FF:0000004 ! tissue sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0001896 ! medulla oblongata
@@ -17475,7 +17358,6 @@ relationship: exists_at UBERON:0007221 ! neonate stage
 [Term]
 id: FF:10362-105F2
 name: locus coeruleus, newborn, donor10223
-is_a: EFO:0001372 ! neonate
 is_a: FF:0000004 ! tissue sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0002148 ! locus ceruleus
@@ -17484,7 +17366,6 @@ relationship: exists_at UBERON:0007221 ! neonate stage
 [Term]
 id: FF:10363-105F3
 name: hippocampus, newborn, donor10223
-is_a: EFO:0001372 ! neonate
 is_a: FF:0000004 ! tissue sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0001954 ! Ammon's horn
@@ -17493,7 +17374,6 @@ relationship: exists_at UBERON:0007221 ! neonate stage
 [Term]
 id: FF:10364-105F4
 name: globus pallidus, newborn, donor10223
-is_a: EFO:0001372 ! neonate
 is_a: FF:0000004 ! tissue sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0001875 ! globus pallidus
@@ -17502,7 +17382,6 @@ relationship: exists_at UBERON:0007221 ! neonate stage
 [Term]
 id: FF:10365-105F5
 name: putamen, newborn, donor10223
-is_a: EFO:0001372 ! neonate
 is_a: FF:0000004 ! tissue sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0001874 ! putamen
@@ -17511,7 +17390,6 @@ relationship: exists_at UBERON:0007221 ! neonate stage
 [Term]
 id: FF:10366-105F6
 name: thalamus, newborn, donor10223
-is_a: EFO:0001372 ! neonate
 is_a: FF:0000004 ! tissue sample
 is_a: FF:0000210 ! human sample
 relationship: derives_from UBERON:0001897 ! thalamus
@@ -21742,7 +21620,6 @@ id: FF:11249-116E7
 name: Pancreatic stromal cells, donor1
 namespace: FANTOM5
 is_a: EFO:0002091 ! biological replicate
-is_a: FF:0000042 ! human pancreatic stromal cell sample
 is_a: FF:0000146 ! human stromal cell of pancreas sample
 
 [Term]
@@ -25224,21 +25101,21 @@ id: FF:11747-123G1
 name: mesenchymal precursor cell - adipose, donor1
 namespace: FANTOM5
 is_a: EFO:0002091 ! biological replicate
-is_a: FF:0000270 ! human mesenchymal precursor cell of adipose sample
+is_a: FF:0000096 ! human mesenchymal precursor cell of adipose sample
 
 [Term]
 id: FF:11748-123G2
 name: mesenchymal precursor cell - adipose, donor2
 namespace: FANTOM5
 is_a: EFO:0002091 ! biological replicate
-is_a: FF:0000270 ! human mesenchymal precursor cell of adipose sample
+is_a: FF:0000096 ! human mesenchymal precursor cell of adipose sample
 
 [Term]
 id: FF:11749-123G3
 name: mesenchymal precursor cell - adipose, donor3
 namespace: FANTOM5
 is_a: EFO:0002091 ! biological replicate
-is_a: FF:0000270 ! human mesenchymal precursor cell of adipose sample
+is_a: FF:0000096 ! human mesenchymal precursor cell of adipose sample
 
 [Term]
 id: FF:11750-123G4
@@ -25473,7 +25350,7 @@ is_a: FF:0011111 ! human CD14-positiveCD16- Monocytes sample
 id: FF:11789-124B7
 name: CD14-positiveCD16-positive Monocytes, donor1
 is_a: EFO:0002091 ! biological replicate
-is_a: FF:0011112 ! human CD14-positiveCD16-positive Monocytes sample
+is_a: FF:0011100 ! human CD14-positiveCD16-positive Monocytes sample
 
 [Term]
 id: FF:11790-124B8
@@ -25561,7 +25438,7 @@ is_a: FF:0011100 ! human CD14-CD16-positive Monocytes sample
 id: FF:11801-124D1
 name: CD14-positiveCD16-positive Monocytes, donor2
 is_a: EFO:0002091 ! biological replicate
-is_a: FF:0011112 ! human CD14-positiveCD16-positive Monocytes sample
+is_a: FF:0011100 ! human CD14-positiveCD16-positive Monocytes sample
 
 [Term]
 id: FF:11803-124D3
@@ -25867,13 +25744,13 @@ is_a: FF:0011113 ! mouse CD326-positive enterocyte isolated from mice- treated w
 id: FF:11852-124I7
 name: CD326-positive+ enterocyte isolated from mice, treated with RANKL, day03, pool1
 is_a: EFO:0002091 ! biological replicate
-is_a: FF:0011445 ! CD326-positive+ enterocyte isolated from mice- treated with RANKL- day03 sample
+is_a: FF:0011113 ! CD326-positive+ enterocyte isolated from mice- treated with RANKL- day03 sample
 
 [Term]
 id: FF:11853-124I8
 name: CD326-positive+ enterocyte isolated from mice, treated with RANKL, day03, pool2
 is_a: EFO:0002091 ! biological replicate
-is_a: FF:0011445 ! CD326-positive+ enterocyte isolated from mice- treated with RANKL- day03 sample
+is_a: FF:0011113 ! CD326-positive+ enterocyte isolated from mice- treated with RANKL- day03 sample
 
 [Term]
 id: FF:11854-124I9
@@ -26238,7 +26115,7 @@ is_a: FF:0011100 ! human CD14-CD16-positive Monocytes sample
 id: FF:11912-125G4
 name: CD14-positiveCD16-positive Monocytes, donor3
 is_a: EFO:0002091 ! biological replicate
-is_a: FF:0011112 ! human CD14-positiveCD16-positive Monocytes sample
+is_a: FF:0011100 ! human CD14-positiveCD16-positive Monocytes sample
 
 [Term]
 id: FF:11913-125G5
@@ -26456,11 +26333,11 @@ is_a: FF:0011454 ! CD4-positiveCD25-positive regulatory T cells (C57BL_6J) sampl
 [Term]
 id: FF:11946-126B2
 name: CD4+CD25+ regulatory T cells, PMA and ionomycin stimulation, 02hr, pool1 (BalbcA)
-is_a: EFO:0003239 ! ionomycin
 is_a: FF:0000002 ! in vivo cell sample
 is_a: FF:0000103 ! mouse sample
 is_a: FF:0000359 ! 2 hr sample
 relationship: derives_from CL:0000815 ! regulatory T cell
+relationship: treated_with CHEBI:63954  ! ionomycin
 
 [Term]
 id: FF:11947-126B3
@@ -39867,22 +39744,15 @@ name: ARPE-19 EMT induced with TGF-beta and TNF-alpha, 05hr00min, biol_rep2
 is_a: FF:0000210 ! human sample
 is_a: FF:0300100 ! ARPE-19 EMT induced with TGF-beta and TNF-alpha sample
 
-[Term]
-id: FFD:4104
-name: rinderpest
-namespace: disease_ontology
-def: "A viral infectious disease that results_in infection in cattle, has_material_basis_in Rinderpest virus, which is transmitted_by direct contact with an infected animal, or transmitted_by ingestion of contaminated water. The infection has_symptom fever, has_symptom nasal and eye discharge, and results_in_formation_of erosions in the mouth, the lining of the nose and the genital tract." [url:http://en.wikipedia.org/wiki/Rinderpest]
-synonym: "cattle plague" EXACT []
-synonym: "steppe murrain" EXACT []
-xref: MSH:D012301
-xref: SNOMEDCT_2010_1_31:40440002
-xref: UMLS:C0035637
-relationship: is_model_for DOID:0050117 ! disease by infectious agent
-
 [Typedef]
 id: part_of
 name: part_of
 xref: BFO:0000050
+
+[Typedef]
+id: has_part
+name: has_part
+xref: BFO:0000051
 
 [Typedef]
 id: develops_from
@@ -39910,3 +39780,6 @@ id: is_model_for
 name: is_model_for
 xref: http://www.ebi.ac.uk/cellline/is_model_for
 
+[Typedef]
+id: treated_with
+name: treated_with
