@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ff/cl_import.owl" uri="cl_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ff/uberon_import.owl" uri="uberon_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ff/pato_import.owl" uri="pato_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ff/efo_import.owl" uri="efo_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ff/uo_import.owl" uri="cl_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ff/pr_import.owl" uri="pr_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ff/doid_import.owl" uri="doid_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ff/chebi_import.owl" uri="chebi_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ff/ncbitaxon_import.owl" uri="ncbitaxon_import.owl"/>
+
+
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ff/efo-core.owl" uri="../../external/efo-core.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/uberon.owl" uri="../../external/uberon/uberon.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/uberon/basic.owl" uri="../../external/uberon/trunk/basic.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/cl-basic.owl" uri="../../external/cl/cl-basic.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/cl.owl" uri="../../external/cl/cl.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pato.owl" uri="../../external/pato.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ro.owl" uri="../../external/external/obo-relations/ro-edit.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/chebi.owl" uri="../../external/chebi.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/bio-chebi.owl" uri="../../external/go/extensions/bio-chebi.owl"/>
+    <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
+    </group>
+</catalog>
