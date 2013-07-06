@@ -11,7 +11,7 @@ USECAT = --catalog-xml catalog-v001.xml
 
 IMPORTS = cl_import.owl uberon_import.owl doid_import.owl pato_import.owl uo_import.owl efo_import.owl pr_import.owl chebi_import.owl ncbitaxon_import.owl
 
-all: fantom5.obo
+all: ff.obo
 
 quickcheck: fantom5-edit.obo 
 	owltools $< --run-reasoner -r elk -u 
@@ -58,4 +58,19 @@ build/ff.obo: build/ff.owl
 	owltools $< -o -f obo --no-check $@
 
 ff.obo: build/ff.obo 
-	cp $< $@
+	perl -npe 's/ontology: ff/ontology: ff-merged/' $< >  $@
+
+
+## SUBSET
+
+phase1-seed.obo: fantom5-edit.obo 
+	obo-grep.pl -r 'subset: phase1' fantom5-edit.obo > $@.tmp && mv $@.tmp $@
+
+ff-phase1.obo: phase1-seed.obo ff.obo
+	owltools $(USECAT) $< ff.obo --add-imports-from-supports --extract-module -s $(OBO)/ff.owl -n $(OBO)/ff/ff-phase1.owl -c --merge-import-closure -o -f obo --no-check $@
+#ff-phase1.obo: ff.obo
+#	blip ontol-query -i $< -query "class(X),entity_partition(X,phase1),concat_atom([_,_],-,X),bf_parentRT(X,ID)" -to obo > $@
+
+ff-phase1.owl: ff-phase1.obo
+	obolib-obo2owl $< -o $@
+

@@ -174,14 +174,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ff/efo-core#MaterialEntity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/has_flag"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EFO_0004118"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ff/efo-core#participates_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EFO_0002694"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ff/efo-core#participates_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EFO_0002694"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/has_flag"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EFO_0004118"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>

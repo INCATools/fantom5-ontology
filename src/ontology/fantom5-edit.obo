@@ -9210,9 +9210,7 @@ is_a: FF:0103803 ! serous adenocarcinoma cell line sample
 id: FF:0011172
 name: human skeletal muscle - lateralis muscle sample
 synonym: "skeletal muscle - lateralis muscle" EXACT []
-intersection_of: FF:0000210 ! human sample
-intersection_of: FF:0000998 ! adult tissue sample
-intersection_of: derives_from UBERON:0001379 ! vastus lateralis
+is_obsolete: true
 
 [Term]
 id: FF:0011173
@@ -10349,7 +10347,8 @@ intersection_of: derives_from UBERON:0001723 ! tongue
 id: FF:0011311
 name: mouse whole body- embryo E11 sample
 synonym: "whole body- embryo E11" EXACT []
-is_a: FF:0000294 ! mouse embryonic day 11 sample
+intersection_of: FF:0000294 ! mouse embryonic day 11 sample
+intersection_of: FF:0300111 ! mouse whole body sample
 
 [Term]
 id: FF:0011312
@@ -10457,7 +10456,8 @@ intersection_of: derives_from UBERON:0000007 ! pituitary gland
 id: FF:0011326
 name: mouse whole body- embryo E13 sample
 synonym: "whole body- embryo E13" EXACT []
-is_a: FF:0000293 ! mouse embryonic day 13 sample
+intersection_of: FF:0000293 ! mouse embryonic day 13 sample
+intersection_of: FF:0300111 ! mouse whole body sample
 
 [Term]
 id: FF:0011327
@@ -10506,7 +10506,8 @@ intersection_of: derives_from UBERON:0000473 ! testis
 id: FF:0011333
 name: mouse whole body- embryo E14 sample
 synonym: "whole body- embryo E14" EXACT []
-is_a: FF:0000296 ! mouse embryonic day 14 sample
+intersection_of: FF:0300111 ! mouse whole body sample
+intersection_of: FF:0000296 ! mouse embryonic day 14 sample
 
 [Term]
 id: FF:0011334
@@ -10575,7 +10576,8 @@ intersection_of: derives_from UBERON:0002102 ! forelimb
 id: FF:0011343
 name: mouse whole body- embryo E14.5 sample
 synonym: "whole body- embryo E14.5" EXACT []
-is_a: FF:0000296 ! mouse embryonic day 14 sample
+intersection_of: FF:0300111 ! mouse whole body sample
+intersection_of: FF:0000297 ! mouse embryonic day 14.5 sample
 
 [Term]
 id: FF:0011344
@@ -10651,7 +10653,8 @@ intersection_of: derives_from UBERON:0000007 ! pituitary gland
 id: FF:0011354
 name: mouse whole body- embryo E16 sample
 synonym: "whole body- embryo E16" EXACT []
-is_a: FF:0000299 ! mouse embryonic day 16 sample
+intersection_of: FF:0300111 ! mouse whole body sample
+intersection_of: FF:0000299 ! mouse embryonic day 16 sample
 
 [Term]
 id: FF:0011355
@@ -10728,7 +10731,8 @@ intersection_of: derives_from UBERON:0000473 ! testis
 id: FF:0011365
 name: mouse whole body- embryo E17 sample
 synonym: "whole body- embryo E17" EXACT []
-is_a: FF:0000300 ! mouse embryonic day 17 sample
+intersection_of: FF:0300111 ! mouse whole body sample
+intersection_of: FF:0000300 ! mouse embryonic day 17 sample
 
 [Term]
 id: FF:0011366
@@ -10791,13 +10795,15 @@ intersection_of: derives_from UBERON:0002369 ! adrenal gland
 id: FF:0011374
 name: mouse whole body- embryo E17.5 sample
 synonym: "whole body- embryo E17.5" EXACT []
-is_a: FF:0000301 ! mouse embryonic day 17.5 sample
+intersection_of: FF:0300111 ! mouse whole body sample
+intersection_of: FF:0000301 ! mouse embryonic day 17.5 sample
 
 [Term]
 id: FF:0011375
 name: mouse whole body- embryo E18 sample
 synonym: "whole body- embryo E18" EXACT []
-is_a: FF:0000302 ! mouse embryonic day 18 sample
+intersection_of: FF:0300111 ! mouse whole body sample
+intersection_of: FF:0000302 ! mouse embryonic day 18 sample
 
 [Term]
 id: FF:0011376
@@ -10870,6 +10876,12 @@ name: mouse mammary gland- adult pregnant day19 sample
 synonym: "mammary gland- adult pregnant day19" EXACT []
 intersection_of: FF:0300108 ! mouse pregnant day 19 sample
 intersection_of: derives_from UBERON:0001911 ! mammary gland
+
+[Term]
+id: FF:0300111 ! mouse whole body sample
+name: mouse whole body sample
+is_a: FF:0000103 ! mouse sample
+relationship: derives_from UBERON:0000468 ! multi-cellular organism
 
 [Term]
 id: FF:0011388
@@ -10947,14 +10959,14 @@ id: FF:0011398
 name: mouse whole body- neonate N00 sample
 synonym: "whole body- neonate N00" EXACT []
 intersection_of: FF:0000304 ! mouse neonate N0 sample
-intersection_of: derives_from UBERON:0000468 ! multi-cellular organism
+intersection_of: FF:0300111 ! mouse whole body sample
 
 [Term]
 id: FF:0011399
 name: mouse whole body- neonate N01 sample
 synonym: "whole body- neonate N01" EXACT []
 intersection_of: FF:0000734 ! mouse neonate N1 sample
-intersection_of: derives_from UBERON:0000468 ! multi-cellular organism
+intersection_of: FF:0300111 ! mouse whole body sample
 
 [Term]
 id: FF:0011400
@@ -10996,8 +11008,8 @@ id: FF:0011405
 name: mouse whole body- neonate N06 sample
 synonym: "whole body- neonate N06" EXACT []
 comment: todo - whole body
-is_a: FF:0000312 ! mouse neonate N6 sample
-relationship: derives_from UBERON:0000468 ! multi-cellular organism
+intersection_of: FF:0300111 ! mouse whole body sample
+intersection_of: FF:0000312 ! mouse neonate N6 sample
 
 [Term]
 id: FF:0011406
@@ -11101,8 +11113,8 @@ intersection_of: derives_from UBERON:0002113 ! kidney
 id: FF:0011420
 name: mouse whole body- neonate N10 sample
 synonym: "whole body- neonate N10" EXACT []
+intersection_of: FF:0300111 ! mouse whole body sample
 intersection_of: FF:0000305 ! mouse neonate N10 sample
-intersection_of: derives_from UBERON:0000468 ! multi-cellular organism
 
 [Term]
 id: FF:0011421
@@ -11199,7 +11211,8 @@ intersection_of: derives_from UBERON:0000473 ! testis
 id: FF:0011434
 name: mouse whole body- embryo E12 sample
 synonym: "whole body- embryo E12" EXACT []
-is_a: FF:0000295 ! mouse embryonic day 12 sample
+intersection_of: FF:0300111 ! mouse whole body sample
+intersection_of: FF:0000295 ! mouse embryonic day 12 sample
 
 [Term]
 id: FF:0011435
@@ -17250,8 +17263,7 @@ is_a: FF:0011170 ! human sciatic nerve sample
 [Term]
 id: FF:10281-104F2
 name: skeletal muscle - lateralis muscle, donor1
-is_a: EFO:0002091 ! biological replicate
-is_a: FF:0011172 ! human skeletal muscle - lateralis muscle sample
+is_obsolete: true
 
 [Term]
 id: FF:10282-104F3
@@ -17438,8 +17450,7 @@ is_a: FF:0011170 ! human sciatic nerve sample
 [Term]
 id: FF:10309-104I3
 name: skeletal muscle - lateralis muscle -, donor2
-is_a: EFO:0002091 ! biological replicate
-is_a: FF:0011172 ! human skeletal muscle - lateralis muscle sample
+is_obsolete: true
 
 [Term]
 id: FF:10310-104I4
@@ -17608,8 +17619,7 @@ is_a: FF:0011170 ! human sciatic nerve sample
 [Term]
 id: FF:10337-105C4
 name: skeletal muscle - lateralis muscle -, donor3
-is_a: EFO:0002091 ! biological replicate
-is_a: FF:0011172 ! human skeletal muscle - lateralis muscle sample
+is_obsolete: true
 
 [Term]
 id: FF:10338-105C5
