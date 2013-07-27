@@ -3,7 +3,7 @@ subsetdef: encode "Initial set used by ENCODE"
 subsetdef: phase1 "freeze phase 1.1"
 subsetdef: update022 "samples present in UPDATE022"
 ontology: ff-phase1
-data-version: 2013-07-26
+data-version: 2013-07-17
 
 [Term]
 id: CL:0000000
