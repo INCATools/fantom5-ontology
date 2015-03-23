@@ -38,15 +38,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_0050155 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050155">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensory system disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_863"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_0050161 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050161">
@@ -137,15 +128,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_0050700 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050700">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiomyopathy</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_114"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_0050737 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050737">
@@ -167,8 +149,8 @@
     <!-- http://purl.obolibrary.org/obo/DOID_0050743 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050743">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature T-cell and NK-cell neoplasm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature T-cell and NK-cell lymphoma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060060"/>
     </owl:Class>
     
 
@@ -182,11 +164,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_0050828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050828">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">artery disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_178"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_0060058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060058">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2531"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060060">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-Hodgkin lymphoma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060058"/>
     </owl:Class>
     
 
@@ -290,15 +290,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_0060124 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060124">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skeletal system cancer</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060100"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_0060158 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060158">
@@ -344,15 +335,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_10165 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10165">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endocrine pancreas cancer</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1799"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_10283 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10283">
@@ -393,7 +375,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1040">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic lymphocytic leukemia</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1036"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1037"/>
     </owl:Class>
     
@@ -438,7 +419,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_11722 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11722">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myotonic dystrophy</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myotonic dystrophy type 1</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_450"/>
     </owl:Class>
     
@@ -448,7 +429,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1176">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchial disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_850"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050161"/>
     </owl:Class>
     
 
@@ -494,15 +475,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1240">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukemia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2531"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_1242 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1242">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">globe disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1492"/>
     </owl:Class>
     
 
@@ -565,7 +537,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1325">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchus cancer</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1324"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050615"/>
     </owl:Class>
     
 
@@ -574,6 +546,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_13359">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ehlers-Danlos syndrome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_854"/>
     </owl:Class>
     
@@ -628,7 +601,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_14447">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gonadal dysgenesis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0080014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1924"/>
     </owl:Class>
     
 
@@ -647,15 +620,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1485">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cystic fibrosis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050737"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_1492 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1492">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye and adnexa disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050155"/>
     </owl:Class>
     
 
@@ -700,7 +664,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_169">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuroendocrine tumor</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_171"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
     </owl:Class>
     
 
@@ -727,7 +691,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_171">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuroectodermal tumor</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3095"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3093"/>
     </owl:Class>
     
 
@@ -737,6 +701,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1749">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">squamous cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_305"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_178">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1287"/>
     </owl:Class>
     
 
@@ -763,7 +736,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1798">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreatic endocrine carcinoma</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_10165"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1799"/>
     </owl:Class>
     
 
@@ -781,7 +754,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_184">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone cancer</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060124"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_201"/>
     </owl:Class>
     
 
@@ -800,6 +773,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1909">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">melanoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050687"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1924 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1924">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypogonadism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2277"/>
     </owl:Class>
     
 
@@ -890,6 +872,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_225">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">syndrome</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_2277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2277">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gonadal disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_28"/>
     </owl:Class>
     
 
@@ -1021,6 +1012,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_28 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_28">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endocrine system disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_2841 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2841">
@@ -1106,7 +1106,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_3068 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3068">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glioblastoma</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glioblastoma multiforme</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3069"/>
     </owl:Class>
     
@@ -1205,7 +1205,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_3165 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3165">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin benign  neoplasm</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin benign neoplasm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060121"/>
     </owl:Class>
     
@@ -1296,7 +1296,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3347">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteosarcoma</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_201"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_184"/>
     </owl:Class>
     
 
@@ -1323,7 +1323,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3369">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripheral primitive neuroectodermal tumor</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1192"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_184"/>
     </owl:Class>
     
 
@@ -1346,11 +1346,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_3394 -->
+    <!-- http://purl.obolibrary.org/obo/DOID_3393 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3394">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ischemic heart disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3978"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3393">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coronary artery disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050828"/>
     </owl:Class>
     
 
@@ -1458,7 +1458,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3672">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhabdoid cancer</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_688"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3675"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3675 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3675">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood kidney neoplasm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_263"/>
     </owl:Class>
     
 
@@ -1484,7 +1493,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_3904 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3904">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchogenic carcinoma</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchus carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1325"/>
     </owl:Class>
     
@@ -1549,15 +1558,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3963">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thyroid carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1781"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_3978 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3978">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extrinsic cardiomyopathy</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050700"/>
     </owl:Class>
     
 
@@ -1705,16 +1705,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_440 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_440">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuromuscular disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_423"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_870"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_4418 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4418">
@@ -1764,7 +1754,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_450">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myotonic disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_423"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_9884"/>
     </owl:Class>
     
 
@@ -1792,7 +1782,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4645">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retinal cancer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2174"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_5679"/>
     </owl:Class>
     
 
@@ -1878,15 +1867,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_5614 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5614">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1242"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_5662 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5662">
@@ -1905,15 +1885,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_5679 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5679">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retinal disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_5614"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_5688 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5688">
@@ -1927,7 +1898,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5844">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myocardial infarction</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3394"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3393"/>
     </owl:Class>
     
 
@@ -2032,15 +2003,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_688 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_688">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonal cancer</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2994"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_7 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_7">
@@ -2062,8 +2024,8 @@
     <!-- http://purl.obolibrary.org/obo/DOID_707 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_707">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-cell lymphocytic neoplasm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-cell lymphoma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060060"/>
     </owl:Class>
     
 
@@ -2152,7 +2114,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_8584 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8584">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkitt&apos;s lymphoma</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkitt lymphoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_706"/>
     </owl:Class>
     
@@ -2212,15 +2174,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_870 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_870">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuropathy</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_863"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_8761 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8761">
@@ -2254,15 +2207,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9119">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute myeloid leukemia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_8692"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_913 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_913">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atrophic muscular disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_440"/>
     </owl:Class>
     
 
@@ -2325,7 +2269,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9884">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscular dystrophy</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_423"/>
     </owl:Class>
     
 
@@ -2340,5 +2284,5 @@
 
 
 
-<!-- Generated by the OWL API (version 0.2.1-SNAPSHOT) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 0.2.2-SNAPSHOT) http://owlapi.sourceforge.net -->
 
