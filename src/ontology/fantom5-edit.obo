@@ -26442,11 +26442,11 @@ is_a: FF:0000180 ! human smooth muscle cell of intestine sample
 
 [Term]
 id: FF:11590-120G6
-name: Renal Glomerular Endothelial Cells, donor2
+name: Alveolar Epithelial Cells, donor2
 namespace: FANTOM5
-comment: Previously: Alveolar Epithelial Cells, donor2
+comment: Previously: Renal Glomerular Endothelial Cells, donor2 (re-swapped)
 is_a: EFO:0002091 ! biological replicate
-is_a: FF:0000153 ! human renal glomerular endothelial cell sample
+is_a: FF:0000012 ! human alveolar epithelial cell sample
 subset: phase1
 subset: update022
 subset: phase2
