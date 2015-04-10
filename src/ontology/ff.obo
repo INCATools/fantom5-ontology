@@ -11,7 +11,7 @@ remark: cvs version: $Revision: 1.00 $
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ff/chebi_import.owl>))) [Axioms: 395 Logical Axioms: 169]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ff/cl_import.owl>))) [Axioms: 17816 Logical Axioms: 10953]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ff/doid_import.owl>))) [Axioms: 757 Logical Axioms: 255]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ff/efo_import.owl>))) [Axioms: 666 Logical Axioms: 272]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ff/efo_import.owl>))) [Axioms: 669 Logical Axioms: 273]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ff/ncbitaxon_import.owl>))) [Axioms: 173 Logical Axioms: 57]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ff/pato_import.owl>))) [Axioms: 23 Logical Axioms: 7]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ff/pr_import.owl>))) [Axioms: 44 Logical Axioms: 14]
@@ -60439,7 +60439,6 @@ is_a: NCBITaxon:39107 ! Murinae
 id: NCBITaxon:10090
 name: Mus musculus
 is_a: NCBITaxon:862507 ! Mus <mouse, subgenus>
-is_a: NCBITaxon_10088 ! Mus
 
 [Term]
 id: NCBITaxon:10114
@@ -60485,6 +60484,7 @@ is_a: NCBITaxon:9604 ! Hominidae
 id: NCBITaxon:2759
 name: Eukaryota
 is_a: NCBITaxon:131567 ! cellular organisms
+is_a: OBI:0100026 ! organism
 
 [Term]
 id: NCBITaxon:314145
@@ -60680,7 +60680,6 @@ is_a: NCBITaxon:9072 ! Phasianinae
 id: NCBITaxon:9031
 name: Gallus gallus
 is_a: NCBITaxon:9030 ! Gallus
-is_a: NCBITaxon_2759 ! Eukaryota
 
 [Term]
 id: NCBITaxon:9072
@@ -60716,7 +60715,6 @@ is_a: NCBITaxon:207598 ! Homininae
 id: NCBITaxon:9606
 name: Homo sapiens
 is_a: NCBITaxon:9605 ! Homo
-is_a: NCBITaxon_2759 ! Eukaryota
 
 [Term]
 id: NCBITaxon:9608
@@ -60732,16 +60730,6 @@ is_a: NCBITaxon:9608 ! Canidae
 id: NCBITaxon:9989
 name: Rodentia
 is_a: NCBITaxon:314147 ! Glires
-
-[Term]
-id: NCBITaxon_10088
-name: Mus
-is_a: NCBITaxon_2759 ! Eukaryota
-
-[Term]
-id: NCBITaxon_2759
-name: Eukaryota
-is_a: OBI:0100026 ! organism
 
 [Term]
 id: OBI:0000272
