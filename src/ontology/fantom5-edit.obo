@@ -1758,6 +1758,7 @@ creation_date: 2011-03-06T05:37:22Z
 id: FF:0000176
 name: human smooth muscle cell of umbilical artery sample
 synonym: "smooth muscle cell of umbilical artery" EXACT []
+intersection_of: FF:0000002 ! in vivo cell sample
 intersection_of: FF:0000210 ! human sample
 intersection_of: derives_from CL:0002594 ! smooth muscle cell of the umbilical artery
 created_by: tmeehan
@@ -1786,6 +1787,7 @@ id: FF:0000179
 name: human bronchial smooth muscle cell sample
 synonym: "bronchial smooth muscle cell" EXACT []
 intersection_of: FF:0000210 ! human sample
+intersection_of: FF:0000002 ! in vivo cell sample
 intersection_of: derives_from CL:0002598 ! bronchial smooth muscle cell
 created_by: tmeehan
 creation_date: 2011-03-06T05:56:49Z
@@ -1803,6 +1805,7 @@ creation_date: 2011-03-06T06:00:43Z
 id: FF:0000181
 name: human smooth muscle of colon sample
 synonym: "smooth muscle of colon" EXACT []
+intersection_of: FF:0000002 ! in vivo cell sample
 intersection_of: FF:0000180 ! human smooth muscle cell of intestine sample
 intersection_of: derives_from CL:1000280 ! smooth muscle cell of colon
 created_by: tmeehan
